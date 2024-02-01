@@ -27,7 +27,7 @@ features:
     details: 一个使用 Cuberite_dfgg 作为服务端的1.12.2创造服务器
     link: https://www.dfggmc.top/
   - icon:
-      src: /ZUYMC.png
+      src: /ZUYMC.webp
     title: ZUYMC服务器
     details: ZUYMCS是一个1.20.50的生存建筑公益服务器，在这里你可以独自生存冒险，也可以与其他玩家一同探索奥秘，更可以发挥自己的肝力与脑力创造一个又一个独一无二的建筑。
     link: https://zl.cn.eu.org/
