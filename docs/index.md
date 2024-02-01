@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 服务器集体宣传组织
-  tagline: Minecraft服务器集体宣传组织
+  tagline: Minecraft服务器集体宣传组织 (MSCPO)
   image:
     src: /logo.png
     alt: 服务器集体宣传组织
