@@ -13,7 +13,7 @@ export default {
             { text: "首页", link: "/" },
         ],
         socialLinks: [
-            { icon: "github", link: "https://gitee.com/geeksdidi" },
+            { icon: "github", link: "https://github.com/MSCPO" },
             { icon: "twitter", link: "..." },
         ],
     },
