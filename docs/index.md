@@ -22,7 +22,7 @@ features:
     details: 我们虽然没有高配置的服务器，但我们有梦想，我们有希望，我们有对Minecraft的热爱！
     link: https://maserver.netlify.app/
   - icon:
-      src: /DFGG_Logo.jpg
+      src: /DFGG_Logo.png
     title: DFGG服务器
     details: 一个使用 Cuberite_dfgg 作为服务端的1.12.2创造服务器
     link: https://www.dfggmc.top/
