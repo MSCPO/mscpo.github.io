@@ -36,7 +36,7 @@ features:
     linkText: ZUYMC服务器 官方网站
   - icon:
       src: https://www.wslst.xyz/static/picture/sUds6x.png
-    title: ZUYMC服务器
+    title: 落雪 生存服务器
     details:   这是一个温馨和谐的服务器，提供了稳定流畅的体验
     link: https://www.wslst.xyz/
     linkText: 落雪欢迎您
