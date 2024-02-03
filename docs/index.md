@@ -34,4 +34,10 @@ features:
     details: ZUYMCS是一个1.20.50的生存建筑公益服务器，在这里你可以独自生存冒险，也可以与其他玩家一同探索奥秘，更可以发挥自己的肝力与脑力创造一个又一个独一无二的建筑。
     link: https://zl.cn.eu.org/
     linkText: ZUYMC服务器 官方网站
+  - icon:
+      src: https://www.wslst.xyz/static/picture/sUds6x.png
+    title: ZUYMC服务器
+    details:   这是一个温馨和谐的服务器，提供了稳定流畅的体验
+    link: https://www.wslst.xyz/
+    linkText: 落雪欢迎您
 ---

@@ -9,6 +9,7 @@
     "preview": "vitepress serve docs"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
     "vitepress": "^1.0.0-rc.40",
     "vue": "^3.3.11"
   },
