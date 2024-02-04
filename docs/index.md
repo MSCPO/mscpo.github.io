@@ -43,7 +43,7 @@ features:
   - icon:
       src: /DFGG_Logo.png
     title: dfsb服务器
-    details: 一个使用 Cuberite_dfgg 作为服务端的1.12.2创造服务器
+    details: DFGG旗下的一个空岛服务器
     link: https://dfsb.pages.dev/
     linkText: dfsb服务器 官方网站
 ---
