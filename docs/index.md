@@ -40,4 +40,10 @@ features:
     details:   这是一个温馨和谐的服务器，提供了稳定流畅的体验
     link: https://www.wslst.xyz/
     linkText: 落雪欢迎您
+  - icon:
+      src: /DFGG_Logo.png
+    title: dfsb服务器
+    details: 一个使用 Cuberite_dfgg 作为服务端的1.12.2创造服务器
+    link: https://dfsb.pages.dev/
+    linkText: dfsb服务器 官方网站
 ---
