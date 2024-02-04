@@ -24,10 +24,10 @@ features:
     linkText: M&A互助公社 官方网站
   - icon:
       src: /DFGG_Logo.png
-    title: DFGG服务器
+    title: dfgg服务器
     details: 一个使用 Cuberite_dfgg 作为服务端的1.12.2创造服务器
     link: https://www.dfggmc.top/
-    linkText: DFGG服务器 官方网站
+    linkText: dfgg服务器 官方网站
   - icon:
       src: /ZUYMC.webp
     title: ZUYMC服务器

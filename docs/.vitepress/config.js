@@ -14,7 +14,6 @@ export default {
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
-            { icon: "twitter", link: "..." },
         ],
     },
 };
