@@ -35,7 +35,7 @@ features:
     link: https://zl.cn.eu.org/
     linkText: ZUYMC服务器 官方网站
   - icon:
-      src: https://www.wslst.xyz/static/picture/sUds6x.png
+      src: https://www.wslst.xyz/static/picture/jntm.png
     title: 落雪 生存服务器
     details:   这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
     link: https://www.wslst.xyz/
