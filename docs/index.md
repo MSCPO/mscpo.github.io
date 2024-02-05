@@ -37,9 +37,9 @@ features:
   - icon:
       src: https://www.wslst.xyz/static/picture/sUds6x.png
     title: 落雪 生存服务器
-    details:   这是一个温馨和谐的服务器，提供了稳定流畅的体验
+    details:   这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
     link: https://www.wslst.xyz/
-    linkText: 落雪欢迎您
+    linkText: MLX落雪欢迎您
   - icon:
       src: /DFGG_Logo.png
     title: dfsb服务器
