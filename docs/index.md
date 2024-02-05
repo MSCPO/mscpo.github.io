@@ -25,7 +25,7 @@ features:
   - icon:
       src: /DFGG_Logo.png
     title: dfgg服务器
-    details: 一个使用 Cuberite_dfgg 作为服务端的1.12.2创造服务器
+    details: 一个在创造模式下使用建筑作为游戏玩法的Java1.12.2服务器,期待您的加入！
     link: https://www.dfggmc.top/
     linkText: dfgg服务器 官方网站
   - icon:
@@ -43,7 +43,7 @@ features:
   - icon:
       src: /DFGG_Logo.png
     title: dfsb服务器
-    details: DFGG旗下的一个空岛服务器
+    details: 一个我的世界1.12.2空岛生存服务器,您可以在这里享受到纯净的空岛体验。
     link: https://dfsb.pages.dev/
     linkText: dfsb服务器 官方网站
 ---
