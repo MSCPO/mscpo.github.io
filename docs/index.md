@@ -18,7 +18,7 @@ hero:
 features:
   - icon:
       src: https://maserver.netlify.app/images/favicon.ico
-    title: M&A互助公社
+    title: M&A互助公社 服务器
     details: 我们虽然没有高配置的服务器，但我们有梦想，我们有希望，我们有对Minecraft的热爱！
     link: https://maserver.netlify.app/
     linkText: M&A互助公社 官方网站
@@ -46,4 +46,11 @@ features:
     details: 一个我的世界1.12.2空岛生存服务器,您可以在这里享受到纯净的空岛体验。
     link: https://dfsb.pages.dev/
     linkText: dfsb服务器 官方网站
+
+  - icon:
+      src: /logo2.png
+    title: 又或是什么也不知道的小白
+    details: Minecraft服务器集体宣传组织 (MSCPO) 生了~ 不管你是PVP大佬，还是服主
+    link: https://dfsb.pages.dev/
+    linkText: 加入集宣组织
 ---
