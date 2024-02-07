@@ -51,6 +51,6 @@ features:
       src: /logo2.png
     title: 又或是什么也不知道的小白
     details: Minecraft服务器集体宣传组织 (MSCPO) 生了~ 不管你是PVP大佬，还是服主
-    link: https://dfsb.pages.dev/
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
     linkText: 加入集宣组织
 ---
