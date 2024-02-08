@@ -48,7 +48,7 @@ features:
     linkText: dfsb服务器 官方网站
   - icon:
       src: [https://s.namemc.com/i/b4b60a9ce217743c.png
-    title: [CHL] 1.20.1沉浸生存服
+    title: CHL 1.20.1沉浸生存服
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
     link: https://qm.qq.com/q/OzSHmLSZSU
     linkText: 加入服务器！
