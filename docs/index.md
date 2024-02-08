@@ -51,7 +51,7 @@ features:
     title: CHL 1.20.1沉浸生存服
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
     link: https://qm.qq.com/q/OzSHmLSZSU
-    linkText: 加入服务器！
+    linkText: 加入CHL服务器！
 
   - icon:
       src: /logo2.png
