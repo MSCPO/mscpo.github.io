@@ -35,7 +35,7 @@ features:
     link: https://zl.cn.eu.org/
     linkText: ZUYMC服务器 官方网站
   - icon:
-      src: https://www.wslst.xyz/static/picture/jntm.png
+      src: /MLX.png
     title: 落雪 生存服务器
     details:   这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
     link: https://www.wslst.xyz/
@@ -47,7 +47,7 @@ features:
     link: https://dfsb.pages.dev/
     linkText: dfsb服务器 官方网站
   - icon:
-      src: https://s.namemc.com/i/b4b60a9ce217743c.png
+      src: /CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
     link: https://qm.qq.com/q/OzSHmLSZSU
