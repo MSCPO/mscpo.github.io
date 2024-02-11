@@ -53,9 +53,9 @@ features:
     link: https://qm.qq.com/q/OzSHmLSZSU
     linkText: 加入CHL服务器！
   - icon:
-      src: /MAOServer.png
+      src: /CatServer.jpg
     title: 共产猫服 社会模拟
-    details: 玩法:社会模拟 生存 集体建设
+    details: 一个永不失联的1.20.1生电地毯端服务器，坚持社会主义道路、专业人士云集、永久开服、长期备份、绝不收费，高社会福利。你还在等什么？
     link: https://qm.qq.com/q/rmwEXZeP1S
     linkText: 加入共产猫服！
 
