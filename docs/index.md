@@ -18,7 +18,7 @@ hero:
 features:
   - icon:
       src: https://maserver.netlify.app/images/favicon.ico
-    title: M&A互助公社 服务器
+    title: M&A互助公社 社会模拟
     details: 我们虽然没有高配置的服务器，但我们有梦想，我们有希望，我们有对Minecraft的热爱！
     link: https://maserver.netlify.app/
     linkText: M&A互助公社 官方网站
@@ -52,6 +52,12 @@ features:
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
     link: https://qm.qq.com/q/OzSHmLSZSU
     linkText: 加入CHL服务器！
+  - icon:
+      src: /MAOServer.png
+    title: 共产猫服 社会模拟
+    details: 玩法:社会模拟 生存 集体建设
+    link: https://qm.qq.com/q/rmwEXZeP1S
+    linkText: 加入共产猫服！
 
   - icon:
       src: /logo2.png
