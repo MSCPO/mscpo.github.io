@@ -52,6 +52,12 @@ features:
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
     link: https://qm.qq.com/q/OzSHmLSZSU
     linkText: 加入CHL服务器！
+  - icon:
+      src: /Corbo.png
+    title: Corbo 服务器
+    details: Fabric 1.20.1 生电服务器
+    link: https://qm.qq.com/q/yRYID13zJS
+    linkText: 加入Corbo服务器！
 
   - icon:
       src: /logo2.png
