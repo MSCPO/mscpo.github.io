@@ -56,8 +56,8 @@ features:
       src: /CatServer.jpg
     title: 共产猫服 社会模拟
     details: 一个永不失联的1.20.1生电地毯端服务器，坚持社会主义道路、专业人士云集、永久开服、长期备份、绝不收费，高社会福利。你还在等什么？
-    link: https://www.wjx.top/vm/rIIduGW.aspx#
-    linkText: 加入共产猫服！
+    link: https://www.wjx.top/vm/mw7msTr.aspx#
+    linkText: 申请加入共产猫服！
 
   - icon:
       src: /logo2.png
