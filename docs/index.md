@@ -50,7 +50,7 @@ features:
       src: /CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
-    link: https://qm.qq.com/q/OzSHmLSZSU
+    link: https://chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
       src: /Corbo.png
