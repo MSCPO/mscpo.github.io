@@ -18,10 +18,10 @@ hero:
 features:
   - icon:
       src: https://maserver.netlify.app/images/favicon.ico
-    title: M&A互助公社 社会模拟
-    details: 我们虽然没有高配置的服务器，但我们有梦想，我们有希望，我们有对Minecraft的热爱！
-    link: https://maserver.netlify.app/
-    linkText: M&A互助公社 官方网站
+    title: MA-CAT社会主义联盟 服务器集群
+    details: 目前联盟下有两台服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
+    link: https://mc.mscaome.top/
+    linkText: 加入联盟服务器！
   - icon:
       src: /DFGG_Logo.png
     title: dfgg服务器
@@ -46,18 +46,6 @@ features:
     details: 一个我的世界1.12.2空岛生存服务器,您可以在这里享受到纯净的空岛体验。
     link: https://dfsb.pages.dev/
     linkText: dfsb服务器 官方网站
-  - icon:
-      src: /CHLcraft.png
-    title: CHLcraft 1.20.1沉浸生存服
-    details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
-    link: https://qm.qq.com/q/OzSHmLSZSU
-    linkText: 加入CHL服务器！
-  - icon:
-      src: /CatServer.jpg
-    title: 共产猫服 社会模拟
-    details: 一个永不失联的1.20.1生电地毯端服务器，坚持社会主义道路、专业人士云集、永久开服、长期备份、绝不收费，高社会福利。你还在等什么？
-    link: https://www.wjx.top/vm/mw7msTr.aspx#
-    linkText: 申请加入共产猫服！
 
   - icon:
       src: /logo2.png
