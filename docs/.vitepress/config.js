@@ -11,7 +11,7 @@ export default {
         description: '一个Minecraft服务器集体宣传组织',//Minecraft Server Collective Promotion Organization
         nav: [
             { text: "首页", link: "/" },
-            { text: "须知", link: "/" },
+            { text: "须知", link: "/rules/" },
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
