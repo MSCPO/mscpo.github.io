@@ -56,7 +56,7 @@ features:
       src: /Corbo.png
     title: Corbo 服务器
     details: Fabric 1.20.1 生电服务器 搭配一系列优化mod让您的生电之旅布满丝滑般的体验！
-    link: https://qm.qq.com/q/yRYID13zJS
+    link: https://corbo-github-com.pages.dev/
     linkText: 加入Corbo服务器！
 
   - icon:
