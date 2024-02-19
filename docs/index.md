@@ -58,6 +58,12 @@ features:
     details: Fabric 1.20.1 生电服务器 搭配一系列优化mod让您的生电之旅布满丝滑般的体验！
     link: https://corbo-github-com.pages.dev/
     linkText: 加入Corbo服务器！
+  - icon:
+      src: /AncientBC.png
+    title: AncientBC
+    details: 这里是一个超友好的Minecraft服务器社区！在原版基础添加更多玩法和地形，不影响生电，无圈地，无论是玩家互动，养老，建筑，生电都是没有问题哒！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=r4Iu4wC53j0UUxxa5ANc0qIu_hYtk4vn&authKey=FSsA4Kh4BHqJlH8MzKieRS%2Fv4cp3rJHDF5sp1mSpALYVctxdP5IBCQpDEz1ZwHSD&noverify=0&group_code=681032398
+    linkText: 加入AncientBC！
 
   - icon:
       src: /logo2.png
