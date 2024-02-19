@@ -42,10 +42,10 @@ features:
     linkText: MLX落雪欢迎您
   - icon:
       src: /DFGG_Logo.png
-    title: dfsk服务器
-    details: 一个我的世界1.12.2空岛生存服务器,您可以在这里享受到纯净的空岛体验。
-    link: https://dfsk.dfggmc.top/
-    linkText: dfsk服务器 官方网站
+    title: 繁星之梦服务器
+    details: Minecraft1.8.x-1.14.x插件生存服务器。
+    link: https://fxzm.eu.org/
+    linkText: 繁星之梦服务器 官方网站
   - icon:
       src: /CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
