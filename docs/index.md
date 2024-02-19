@@ -41,7 +41,7 @@ features:
     link: https://www.wslst.xyz/
     linkText: MLX落雪欢迎您
   - icon:
-      src: /DFGG_Logo.png
+      src: /fxzm.png
     title: 繁星之梦服务器
     details: Minecraft1.8.x-1.14.x插件生存服务器。
     link: https://fxzm.eu.org/
