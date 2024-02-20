@@ -64,6 +64,12 @@ features:
     details: 这里是一个超友好的Minecraft服务器社区！在原版基础添加更多玩法和地形，不影响生电，无圈地，无论是玩家互动，养老，建筑，生电都是没有问题哒！
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=r4Iu4wC53j0UUxxa5ANc0qIu_hYtk4vn&authKey=FSsA4Kh4BHqJlH8MzKieRS%2Fv4cp3rJHDF5sp1mSpALYVctxdP5IBCQpDEz1ZwHSD&noverify=0&group_code=681032398
     linkText: 加入AncientBC！
+  - icon:
+      src: /HeDanTown.png
+    title: 何淡小镇 HeDanTown  纯净生存
+    details: 我们没有多余的插件,没有乱七八糟的玩法,这是一个纯粹生存的世界,快加入我们一起玩吧！
+    link: https://tempmc.framer.website/
+    linkText: 加入何淡小镇！
 
   - icon:
       src: /logo2.png
