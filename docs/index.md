@@ -68,7 +68,7 @@ features:
       src: /HeDanTown.png
     title: 何淡小镇
     details: 我们没有多余的插件,没有乱七八糟的玩法,这是一个纯粹生存的世界,快加入我们一起玩吧！
-    link: https://tempmc.framer.website/
+    link: https://fhy1234.framer.media/TNTown
     linkText: 加入何淡小镇！
 
   - icon:
