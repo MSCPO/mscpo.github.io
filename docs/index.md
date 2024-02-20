@@ -66,7 +66,7 @@ features:
     linkText: 加入AncientBC！
   - icon:
       src: /HeDanTown.png
-    title: 何淡小镇 HeDanTown  纯净生存
+    title: 何淡小镇
     details: 我们没有多余的插件,没有乱七八糟的玩法,这是一个纯粹生存的世界,快加入我们一起玩吧！
     link: https://tempmc.framer.website/
     linkText: 加入何淡小镇！
