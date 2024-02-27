@@ -70,6 +70,13 @@ features:
     details: 我们没有多余的插件,没有乱七八糟的玩法,这是一个纯粹生存的世界,快加入我们一起玩吧！
     link: https://fhy1234.framer.media/TNTown
     linkText: 加入何淡小镇！
+  - icon:
+      src: /Aurora.png
+    title: 极光 服务器
+    details: JAVA-灾难生存 一个朴实的生存服务器
+    link: /
+    linkText: 极光服务器！
+
 
   - icon:
       src: /logo2.png
