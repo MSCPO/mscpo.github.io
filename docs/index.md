@@ -75,7 +75,7 @@ features:
     title: 极光 服务器
     details: JAVA-灾难生存 一个朴实的生存服务器
     link: /
-    linkText: 极光服务器！
+    linkText: 加入极光服务器！
 
 
   - icon:
