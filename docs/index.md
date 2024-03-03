@@ -54,10 +54,10 @@ features:
     linkText: 加入CHLcraft！
   - icon:
       src: /Corbo.png
-    title: Corbo 服务器
-    details: Fabric 1.20.1 生电服务器 搭配一系列优化mod让您的生电之旅布满丝滑般的体验！
+    title: Yorase 服务器
+    details: Yorase服务器是一个Carpet+MTR服.其中,还包括了优化模组,根本不用担心玩家上学和睡觉!
     link: https://corbo-github-com.pages.dev/
-    linkText: 加入Corbo服务器！
+    linkText: 加入Yorase服务器！
   - icon:
       src: /AncientBC.png
     title: AncientBC
