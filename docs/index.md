@@ -56,7 +56,7 @@ features:
       src: /Yorase.png
     title: Yorase 服务器
     details: Yorase服务器是一个Carpet+MTR服.其中,还包括了优化模组,根本不用担心玩家上学和睡觉!
-    link: https://corbo-github-com.pages.dev/
+    link: https://qm.qq.com/q/ymk9oCbL8c
     linkText: 加入Yorase服务器！
   - icon:
       src: /AncientBC.png
