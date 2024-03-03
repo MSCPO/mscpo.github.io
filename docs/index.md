@@ -53,7 +53,7 @@ features:
     link: https://chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /Corbo.png
+      src: /Yorase.png
     title: Yorase 服务器
     details: Yorase服务器是一个Carpet+MTR服.其中,还包括了优化模组,根本不用担心玩家上学和睡觉!
     link: https://corbo-github-com.pages.dev/
