@@ -53,11 +53,11 @@ features:
     link: https://chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /Yorase.png
+      src: /NewYorase.png
     title: Yorase 服务器
-    details: Yorase服务器是一个Carpet+MTR服.其中,还包括了优化模组,根本不用担心玩家上学和睡觉!
+    details: 一个Fabric1.20.1生存服,搭配地铁部分,让玩家更容易到达其他地方获取资源!
     link: https://qm.qq.com/q/ymk9oCbL8c
-    linkText: 加入Yorase服务器！
+    linkText: 加入Yorase！
   - icon:
       src: /AncientBC.png
     title: AncientBC
