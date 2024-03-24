@@ -56,8 +56,8 @@ features:
       src: /NewYorase.png
     title: Yorase 服务器
     details: 一个Fabric1.20.1生存服,搭配地铁部分,让玩家更容易到达其他地方获取资源!
-    link: https://qm.qq.com/q/ymk9oCbL8c
-    linkText: 加入Yorase！
+    link: https://yorasemc.framer.ai/
+    linkText: Yorase服务器 官方网站
   - icon:
       src: /AncientBC.png
     title: AncientBC
