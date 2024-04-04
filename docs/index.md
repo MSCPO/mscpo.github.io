@@ -53,11 +53,11 @@ features:
     link: https://chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /NewYorase.png
-    title: Yorase 服务器
-    details: 一个Fabric1.20.1生存服,搭配地铁部分,让玩家更容易到达其他地方获取资源!
-    link: https://yorasemc.framer.ai/
-    linkText: Yorase服务器 官方网站
+      src: /HaiCloud.png
+    title: HaiCloud 服务器
+    details: HaiCloud, 成立于2024年1月31日, 目标是:做好一个纯生存服务器! (前身为Yorase)
+    link: https://haic.framer.ai/
+    linkText: HaiCloud服务器 官方网站
   - icon:
       src: /AncientBC.png
     title: AncientBC
