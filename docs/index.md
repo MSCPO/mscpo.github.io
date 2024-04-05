@@ -53,7 +53,7 @@ features:
     link: https://chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /HaiCloud.png
+      src: /HaiCloud_2.png
     title: HaiCloud 服务器
     details: HaiCloud, 成立于2024年1月31日, 目标是:做好一个纯生存服务器! (前身为Yorase)
     link: https://haic.framer.ai/
