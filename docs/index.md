@@ -24,10 +24,10 @@ features:
     linkText: 加入共产猫服！
   - icon:
       src: /DFGG_Logo.png
-    title: dfgg服务器
-    details: 一个在创造模式下使用建筑作为游戏玩法的Java1.12.2服务器,期待您的加入！
+    title: 花风服务器(原dfgg服务器)
+    details: 一个有3种玩法的多世界多玩法服务器
     link: https://www.dfggmc.top/
-    linkText: dfgg服务器 官方网站
+    linkText: 花风服务器 官方网站
   - icon:
       src: /ZUYMC.webp
     title: ZUYMC服务器
