@@ -17,11 +17,11 @@ hero:
 
 features:
   - icon:
-      src: /CatServer.jpg
-    title: 共产猫服 社会模拟
-    details: 玩法:社会模拟 生存 集体建设
+      src: https://maserver.netlify.app/images/favicon.ico
+    title: MA-CAT社会主义联盟 服务器集群
+    details: 目前联盟下有两台生电服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
     link: https://mc.mscaome.top/
-    linkText: 加入共产猫服！
+    linkText: 加入联盟服务器！
   - icon:
       src: /DFGG_Logo.png
     title: 花风服务器(原dfgg服务器)
