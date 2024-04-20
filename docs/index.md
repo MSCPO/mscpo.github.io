@@ -1,13 +1,13 @@
 ---
 layout: home
 
-hero:
+features:
   name: 服务器集体宣传组织
   tagline: Minecraft服务器集体宣传组织 (MSCPO)
-  image:
+icon:
     src: /logo.png
     alt: 服务器集体宣传组织
-  actions:
+details:
     - theme: brand
       text: 加入我们
       link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
@@ -22,10 +22,10 @@ features:
     details: 目前联盟下有两台生电服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
     link: https://mc.mscaome.top/
     linkText: 加入联盟服务器！
-  - icon:
+- icon:
       src: /DFGG_Logo.png
     title: 花风服务器(原dfgg服务器)
-    details: 一个有3种玩法的多世界多玩法服务器
+    details: 多世界多玩法服务器开创者
     link: https://www.dfggmc.top/
     linkText: 花风服务器 官方网站
   - icon:
@@ -40,13 +40,7 @@ features:
     details:   这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
     link: https://www.wslst.xyz/
     linkText: MLX落雪欢迎您
-  - icon:
-      src: /fxzm.png
-    title: 繁星之梦服务器
-    details: Minecraft1.8.x-1.14.x插件生存服务器。
-    link: https://fxzm.eu.org/
-    linkText: 繁星之梦服务器 官方网站
-  - icon:
+    - icon:
       src: /CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
