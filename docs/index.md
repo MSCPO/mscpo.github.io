@@ -76,6 +76,12 @@ features:
     details: JAVA-灾难生存 一个朴实的生存服务器
     link: /
     linkText: 加入极光服务器！
+  - icon:
+      src: /LZDCraft.png
+    title: LZDCraft
+    details: 一个纯净生存服务器
+    link: www.lzdcraft.top
+    linkText: 加入LZDCraft！
 
 
   - icon:
