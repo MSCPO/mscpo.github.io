@@ -22,7 +22,7 @@ features:
     details: 目前联盟下有两台生电服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
     link: https://mc.mscaome.top/
     linkText: 加入联盟服务器！
-- icon:
+  - icon:
       src: /DFGG_Logo.png
     title: 花风服务器(原dfgg服务器)
     details: 多世界多玩法服务器开创者
