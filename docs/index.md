@@ -30,10 +30,10 @@ features:
     linkText: 花风服务器 官方网站
   - icon:
       src: /ZUYMC.webp
-    title: ZUYMC服务器
-    details: ZUYMCS是一个基岩版的生存建筑服务器，在这里你可以独自生存冒险，也可以与其他玩家一同逐步发掘「生存」的奥秘！
+    title: ZUYCraft服务器
+    details: 筑梦于虚拟，创造不凡篇章。欢迎来到ZUYCraft基岩生存建筑服务器。
     link: https://zl.cn.eu.org/
-    linkText: ZUYMC服务器 官方网站
+    linkText: ZUYCraft 官方网站
   - icon:
       src: /MLX.png
     title: 落雪 生存服务器
