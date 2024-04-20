@@ -74,7 +74,7 @@ features:
       src: /LZDCraft.png
     title: LZDCraft
     details: 一个纯净生存服务器
-    link: www.lzdcraft.top
+    link: https://www.lzdcraft.top/
     linkText: 加入LZDCraft！
 
 
