@@ -40,7 +40,7 @@ features:
     details:   这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
     link: https://www.wslst.xyz/
     linkText: MLX落雪欢迎您
-    - icon:
+  - icon:
       src: /CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
