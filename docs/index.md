@@ -1,13 +1,13 @@
 ---
 layout: home
 
-features:
+hero:
   name: 服务器集体宣传组织
   tagline: Minecraft服务器集体宣传组织 (MSCPO)
-icon:
+  image:
     src: /logo.png
     alt: 服务器集体宣传组织
-details:
+  actions:
     - theme: brand
       text: 加入我们
       link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
@@ -43,7 +43,7 @@ features:
   - icon:
       src: /CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
-    details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
+    details: 玩法:娱乐、养老、建筑、社交、生存群组服服务器
     link: https://chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
@@ -73,7 +73,7 @@ features:
   - icon:
       src: /LZDCraft.png
     title: LZDCraft
-    details: 一个纯净生存服务器
+    details: 1.8x-1.20x的纯净生存服务器
     link: https://www.lzdcraft.top/
     linkText: 加入LZDCraft！
 
