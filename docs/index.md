@@ -22,31 +22,31 @@ features:
     details: 目前联盟下有两台生电服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
     link: https://mc.mscaome.top/
     linkText: 加入联盟服务器！
-  -- icon:
+- icon:
       src: /DFGG_Logo.png
     title: 花风服务器(原dfgg服务器)
     details: 多世界多玩法服务器开创者
     link: https://www.dfggmc.top/
     linkText: 花风服务器 官方网站
-  -- icon:
+  - icon:
       src: /ZUYMC.webp
     title: ZUYMC服务器
     details: ZUYMCS是一个基岩版的生存建筑服务器，在这里你可以独自生存冒险，也可以与其他玩家一同逐步发掘「生存」的奥秘！
     link: https://zl.cn.eu.org/
     linkText: ZUYMC服务器 官方网站
-  -- icon:
+  - icon:
       src: /MLX.png
     title: 落雪 生存服务器
     details:   这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
     link: https://www.wslst.xyz/
     linkText: MLX落雪欢迎您
-  -- icon:
+    - icon:
       src: /CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
     details: 玩法:生存，建筑，RPG，宠物，太空，坐骑，BOSS，小游戏，养成，职业等
     link: https://chlmc.top/
     linkText: 加入CHLcraft！
-  -- icon:
+  - icon:
       src: /HaiCloud_2.png
     title: HaiCloud 服务器
     details: HaiCloud, 成立于2024年1月31日, 目标是:做好一个纯生存服务器! (前身为Yorase)
