@@ -23,12 +23,6 @@ features:
     link: https://mc.mscaome.top/
     linkText: 加入联盟服务器！
   - icon:
-      src: /DFGG_Logo.png
-    title: 花风服务器(原dfgg服务器)
-    details: 多世界多玩法服务器开创者
-    link: https://www.dfggmc.top/
-    linkText: 花风服务器 官方网站
-  - icon:
       src: /ZUYMC.webp
     title: ZUYCraft服务器
     details: 筑梦于虚拟，创造不凡篇章。欢迎来到ZUYCraft基岩生存建筑服务器。
