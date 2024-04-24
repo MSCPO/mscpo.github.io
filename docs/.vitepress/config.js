@@ -12,6 +12,7 @@ export default {
         nav: [
             { text: "首页", link: "/" },
             { text: "须知", link: "/rules/" },
+            { text: "旧成员服", link: "/return/" },
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
