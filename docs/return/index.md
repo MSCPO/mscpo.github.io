@@ -18,7 +18,7 @@ features:
   - icon:
       src: /Aurora.png
     title: 极光 服务器
-    details: 退出原因：因服务器受到DDOS攻击导致永久停服
+    details: 退出原因：因服务器受到DDOS攻击和经济问题导致永久停服
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
     linkText: 欢迎回家！
   - icon:
