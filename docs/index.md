@@ -41,11 +41,11 @@ features:
     link: https://chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /HaiCloud_2.png
-    title: HaiCloud 服务器
-    details: HaiCloud, 成立于2024年1月31日, 目标是:做好一个纯生存服务器! (前身为Yorase)
-    link: https://haic.framer.ai/
-    linkText: HaiCloud服务器 官方网站
+      src: /baketo.png
+    title: Baketo 服务器
+    details: 我们没有高配的处理器, 但是有满怀爱心的玩家和服务器!
+    link: https://baketo.framer.ai/
+    linkText: Baketo服务器 官方网站
   - icon:
       src: /AncientBC.png
     title: AncientBC
