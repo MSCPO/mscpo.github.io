@@ -36,6 +36,6 @@ features:
       src: /HeDanTown.png
     title: 何淡小镇 服务器
     details: 退出原因：因服主学业原因及其他不可抗拒因素而停止运营
-    link: https://fhy1234.framer.media/
+    link: https://fhy1234.framer.media/TNTown
     linkText: 欢迎回家！
 ---
