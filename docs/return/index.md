@@ -32,7 +32,7 @@ features:
     details: 退出原因：主动退出了集宣组织
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
     linkText: 欢迎回家！
-      - icon:
+  - icon:
       src: /HeDanTown.png
     title: 何淡小镇 服务器
     details: 退出原因：因服主学业原因及其他不可抗拒因素而停止运营
