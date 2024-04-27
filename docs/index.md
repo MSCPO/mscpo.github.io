@@ -61,7 +61,7 @@ features:
   - icon:
       src: /LZDCraft.png
     title: LZDCraft
-    details: 版本:JAVA1.8.x-1.20跨版本</br>纯净生存服务器
+    details: 版本:JAVA1.8.x-1.20</br>纯净生存服务器
     link: https://www.lzdcraft.top/
     linkText: 加入LZDCraft！
   - icon:
