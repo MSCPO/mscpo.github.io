@@ -27,7 +27,7 @@ features:
     title: ZUYCraft服务器
     details: 筑梦于虚拟，创造不凡篇章。欢迎来到ZUYCraft基岩生存建筑服务器。
     link: https://zl.cn.eu.org/
-    linkText: ZUYCraft 官方网站
+    linkText: 加入ZUYCraft
   - icon:
       src: /MLX.png
     title: 落雪 生存服务器
@@ -53,11 +53,11 @@ features:
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=r4Iu4wC53j0UUxxa5ANc0qIu_hYtk4vn&authKey=FSsA4Kh4BHqJlH8MzKieRS%2Fv4cp3rJHDF5sp1mSpALYVctxdP5IBCQpDEz1ZwHSD&noverify=0&group_code=681032398
     linkText: 加入AncientBC！
   - icon:
-      src: /HeDanTown.png
-    title: 何淡小镇
-    details: 我们没有多余的插件,没有乱七八糟的玩法,这是一个纯粹生存的世界,快加入我们一起玩吧！
-    link: https://fhy1234.framer.media/TNTown
-    linkText: 加入何淡小镇！
+      src: /FuYuanDaLu.png
+    title: 福渊大陆
+    details: 无杂乱的玩法,只是一个纯粹生存的世界。欢迎您于此：享受时光、结交好友或是探索世界。
+    link: https://fhy1234.framer.media/FuWorld
+    linkText: 加入福渊大陆
   - icon:
       src: /LZDCraft.png
     title: LZDCraft
