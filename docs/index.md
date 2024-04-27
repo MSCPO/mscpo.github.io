@@ -67,7 +67,7 @@ features:
   - icon:
       src: /MCSPRJ.png
     title: 江南社会主义人民共和国 服务器
-    details: 版本:JAVA1.19.4跨版本</br>生存服
+    details: 版本:JAVA1.20.1</br>生存服
     link: https://qm.qq.com/q/SunGAv7AMs
     linkText: 加入江南社会主义人民共和国！
   - icon:
