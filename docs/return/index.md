@@ -1,9 +1,8 @@
 ---
 layout: home
-
 hero:
   name: 服务器集体宣传组织</br>欢迎回家！
-  tagline: 愿你宣传一生，归来仍是集宣！
+  tagline: 愿您宣传一生，归来仍是集宣！
   image:
     src: /logo.png
     alt: 服务器集体宣传组织
