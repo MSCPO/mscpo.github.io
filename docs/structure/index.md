@@ -11,17 +11,17 @@ import {
 } from 'vitepress/theme'
 const Server = [
   {
-    avatar: '/MLX.png',
-    name: '落雪 生存服务器',
+    avatar: './teammate/MLX_wslst.jpg',
+    name: 'wslst',
     title: '会长',
-    desc: '版本:JAVA1.19.4跨版本</br>这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）',
+    desc: '在MSCPO第一次公开选举中票数第一，是MLX落雪服务器的腐竹',
 
   },
     {
-    avatar: '/ZUYMC.webp',
-    name: 'ZUYCraft服务器',
+    avatar: './teammate/ZUY_PVZ小白.jpg',
+    name: 'PVZ小白',
     title: '副会长',
-    desc: '版本:基岩1.20.72</br>筑梦于虚拟，创造不凡篇章。欢迎来到ZUYCraft基岩生存建筑服务器。',
+    desc: '在MSCPO第一次公开选举中票数第三，ZUYCraft服务器腐竹',
   },
 ]
 </script>
