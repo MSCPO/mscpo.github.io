@@ -1,4 +1,5 @@
 ---
+title: 欢迎回家！
 layout: home
 hero:
   name: 服务器集体宣传组织</br>欢迎回家！

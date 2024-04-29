@@ -17,5 +17,9 @@ export default {
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
         ],
+        footer: {
+            message: 'Minecraft Server Collective Promotion Organization',
+            copyright: 'Copyright © 2023-present <a href="http://mscpo.netlify.app/">MSCPO</a>'
+        },
     },
 };
