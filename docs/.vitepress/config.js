@@ -20,7 +20,7 @@ export default {
         ],
         footer: {
             message: 'Minecraft Server Collective Promotion Organization',
-            copyright: 'Copyright © 2023-present <a href="http://mscpo.netlify.app/">MSCPO</a>'
+            copyright: 'Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a>'
         },
     },
 };
