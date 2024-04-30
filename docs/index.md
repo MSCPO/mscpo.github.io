@@ -57,13 +57,13 @@ features:
     title: 福渊大陆
     details: 版本：JAVA | 1.20.4跨版本</br>无杂乱的玩法,只是一个纯粹生存的世界。欢迎您于此：享受时光、结交好友或是探索世界。
     link: https://fhy1234.framer.media/FuWorld
-    linkText: 加入福渊大陆
+    linkText: 欢迎来到福渊大陆!
   - icon:
       src: /server_icons/LZDCraft.png
     title: LZDCraft
     details: 版本：JAVA | 1.8.x-1.20</br>纯净生存服务器
     link: https://www.lzdcraft.top/
-    linkText: 加入LZDCraft！
+    linkText: 欢迎来到LZDCRAFT服务器！
   - icon:
       src: /server_icons/MCSPRJ.png
     title: 江南社会主义人民共和国 服务器
