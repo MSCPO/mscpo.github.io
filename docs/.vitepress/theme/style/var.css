@@ -7,4 +7,6 @@
     /* 图标背景 */
     --vp-home-hero-image-background-image: linear-gradient( 135deg, #98c76d 10%, #45b6ad 100%);
     --vp-home-hero-image-filter: blur(150px);
+    --vp-font-family-base: "Minecraft AE"
+    --vp-font-family-mono: "Minecraft AE"
   }
