@@ -3,7 +3,8 @@ export default {
         ['link', { rel: 'icon', href: '/logo2.png' }],
     ],
     title: '服务器集体宣传组织',
-    description: '一个Minecraft服务器集体宣传组织',
+    lastUpdated: true,
+    description: 'Minecraft服务器集体宣传组织 (MSCPO)-一个致力于我的世界服务器宣传和技术交流的新兴组织',
     lang: 'zh-CN',
     themeConfig: {
         siteTitle: '服务器集体宣传组织', //站点标题
@@ -27,5 +28,6 @@ export default {
             message: 'Minecraft Server Collective Promotion Organization',
             copyright: 'Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a>'
         },
+        lastUpdatedText: "最近更新时间"
     },
 };

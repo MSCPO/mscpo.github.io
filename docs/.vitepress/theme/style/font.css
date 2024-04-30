@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Minecraft AE Pixel';
+    src: url('/fonts/Minecraft_AE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Minecraft AE Pixel';
+    src: url('/fonts/Minecraft_AE.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --vp-font-family-base: 'Minecraft AE Pixel', -apple-system, Roboto, Oxygen, Ubuntu, Helvetica, Arial, sans-serif;
+    --vp-font-family-mono: 'Minecraft AE Pixel', monospace;
+}
+body {
+    font-family: 'Minecraft AE Pixel', inter;
+  }
