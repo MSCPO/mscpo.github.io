@@ -19,7 +19,7 @@ features:
   - icon:
       src: https://maserver.netlify.app/images/favicon.ico
     title: MA-CAT社会主义联盟 服务器集群
-    details: 版本：JAVA | 1.20.1(CAT共产猫服)</br>版本：JAVA | 1.20.2跨版本互通(M&A互助公社)</br>目前联盟下有两台生电服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
+    details: 版本：JAVA | 1.20.1(猫服)</br>版本：JAVA互通 | 1.20.2跨版本(公社)</br>目前联盟下有两台生电服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
     link: https://mc.mscaome.top/
     linkText: 加入联盟服务器！
   - icon:
@@ -49,7 +49,7 @@ features:
   - icon:
       src: /server_icons/AncientBC.png
     title: AncientBC
-    details: 版本：JAVA | 1.20.1跨版本</br>这里是一个超友好的Minecraft服务器社区！在原版基础添加更多玩法和地形，不影响生电，无圈地，无论是玩家互动，养老，建筑，生电都是没有问题哒！
+    details: 版本：JAVA | 1.20.1</br>这里是一个超友好的Minecraft服务器社区！在原版基础添加更多玩法和地形，不影响生电，无圈地，无论是玩家互动，养老，建筑，生电都是没有问题哒！
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=r4Iu4wC53j0UUxxa5ANc0qIu_hYtk4vn&authKey=FSsA4Kh4BHqJlH8MzKieRS%2Fv4cp3rJHDF5sp1mSpALYVctxdP5IBCQpDEz1ZwHSD&noverify=0&group_code=681032398
     linkText: 加入AncientBC！
   - icon:
@@ -61,7 +61,7 @@ features:
   - icon:
       src: /server_icons/LZDCraft.png
     title: LZDCraft
-    details: 版本：JAVA | 1.8.x-1.20</br>纯净生存服务器
+    details: 版本：JAVA互通 | 1.8.x-1.20</br>纯净生存服务器
     link: https://www.lzdcraft.top/
     linkText: 欢迎来到LZDCRAFT服务器！
   - icon:
@@ -79,7 +79,7 @@ features:
   - icon:
       src: /server_icons/MCODW.png
     title: MCODW 服务器
-    details: 版本：JAVA | 1.20.1互通</br>leaves生电+粘液
+    details: 版本：JAVA互通 | 1.20.1</br>leaves生电+粘液
     link: https://mcyouxi.asia/
     linkText: 实现共产，奔赴未来！
 
