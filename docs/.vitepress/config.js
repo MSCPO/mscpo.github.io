@@ -10,10 +10,15 @@ export default {
         logo: "/logo2.png",
         description: '一个Minecraft服务器集体宣传组织',//Minecraft Server Collective Promotion Organization
         nav: [
-            { text: "首页", link: "/" },
+            {
+                text: '服务器',
+                items: [
+                  { text: "成员服", link: "/" },
+                  { text: "已离开的成员服", link: "/return/" },
+                ]
+            },
             { text: "须知", link: "/rules/" },
             { text: "组织架构", link: "/structure/" },
-            { text: "旧成员服", link: "/return/" },
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
