@@ -43,7 +43,7 @@ features:
   - icon:
       src: /server_icons/baketo.png
     title: Baketo 服务器
-    details: 版本：JAVA | 1.19.2</br>我们没有高配的处理器, 但是有满怀爱心的玩家和服务器!
+    details: 版本：JAVA | 1.19.2</br>我们没有高配的处理器, 但是有满怀爱心的玩家和服务器!</br>注：服务器网站不适应Chrome手机版
     link: https://baketo.framer.ai/
     linkText: Baketo服务器 官方网站
   - icon:
