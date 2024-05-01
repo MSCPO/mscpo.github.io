@@ -1,6 +1,6 @@
 import { onContentUpdated } from 'vitepress';
 import { computed, shallowRef } from 'vue';
-import { getHeaders } from './outline';
+import { getHeaders } from '../composables/outline';
 import { useData } from './data';
 export function useLocalNav() {
     const { theme, frontmatter } = useData();

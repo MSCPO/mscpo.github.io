@@ -11,13 +11,7 @@ export default {
         logo: "/logo2.png",
         description: '一个Minecraft服务器集体宣传组织',//Minecraft Server Collective Promotion Organization
         nav: [
-            {
-                text: '服务器',
-                items: [
-                  { text: "成员服", link: "/" },
-                  { text: "已离开的成员服", link: "/return/" },
-                ]
-            },
+            { text: "成员服", link: "/" },
             { text: "须知", link: "/rules/" },
             { text: "组织架构", link: "/structure/" },
         ],
@@ -29,5 +23,24 @@ export default {
             copyright: 'Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a>'
         },
         lastUpdatedText: "最近更新时间",
+        search: {
+            provider: "local",
+            options: {
+              translations: {
+                button: {
+                  buttonText: "搜索文章",
+                  buttonAriaLabel: "搜索文章",
+                },
+                modal: {
+                  noResultsText: "无法找到相关结果",
+                  resetButtonTitle: "清除查询条件",
+                  footer: {
+                    selectText: "选择",
+                    navigateText: "切换",
+                  },
+                },
+              },
+            },
+          },
     },
 };
