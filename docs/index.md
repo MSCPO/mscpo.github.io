@@ -63,7 +63,7 @@ features:
     title: LZDCraft
     details: 版本：JAVA互通 | 1.8.x-1.20</br>纯净生存服务器
     link: https://www.lzdcraft.top/
-    linkText: 欢迎来到LZDCRAFT服务器！
+    linkText: 欢迎来到LZDCRAFT！
   - icon:
       src: /server_icons/MCSPRJ.png
     title: 江南社会主义人民共和国 服务器
@@ -72,7 +72,7 @@ features:
     linkText: 加入江南社会主义人民共和国！
   - icon:
       src: /logo2.png
-    title: 新浪潮服务器（未来·2098）
+    title: 新浪潮服务器（未来 2098）
     details: 版本：国际基岩 | 1.20.72</br>城建服
     link: https://qm.qq.com/q/6uychCQhZ6
     linkText: 新浪潮向你招手...
@@ -82,6 +82,12 @@ features:
     details: 版本：JAVA互通 | 1.20.1</br>leaves生电+粘液
     link: https://mcyouxi.asia/
     linkText: 实现共产，奔赴未来！
+  - icon:
+      src: /server_icons/EternalStar.jpg
+    title: EternalStar (永恒星)
+    details: 版本：JAVA互通 | 1.20.4</br>群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）
+    link: https://eternalstarmc.com:442/
+    linkText: 愿美丽的繁星永远照耀着你
 
 
   - icon:
