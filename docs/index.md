@@ -97,3 +97,24 @@ features:
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
     linkText: 加入集宣组织
 ---
+<script>
+import $ from 'jquery'
+
+export default {
+  mounted() {
+    this.shuffleElements()
+  },
+  methods: {
+    shuffleElements() {
+      const elements = $('div>.VPFeatures>.container>.items>.item')
+      for (let i = elements.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1))
+        const temp = elements[i]
+        elements[i] = elements[j]
+        elements[j] = temp
+      }
+      $('div>.VPFeatures>.container>.items').html(elements)
+    }
+  }
+}
+</script>

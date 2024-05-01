@@ -28,6 +28,6 @@ export default {
             message: 'Minecraft Server Collective Promotion Organization',
             copyright: 'Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a>'
         },
-        lastUpdatedText: "最近更新时间"
+        lastUpdatedText: "最近更新时间",
     },
 };
