@@ -85,7 +85,7 @@ features:
   - icon:
       src: /server_icons/EternalStar.jpg
     title: EternalStar (永恒星)
-    details: 版本：JAVA互通 | 1.20.4</br>群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）
+    details: 版本：JAVA互通 | 1.20.4跨版本</br>群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）
     link: https://eternalstarmc.com:442/
     linkText: 愿美丽的繁星永远照耀着你
 
