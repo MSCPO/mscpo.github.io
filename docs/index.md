@@ -83,7 +83,7 @@ features:
     link: https://mcyouxi.asia/
     linkText: 实现共产，奔赴未来！
   - icon:
-      src: /server_icons/EternalStar.jpg
+      src: /server_icons/EternalStar.png
     title: EternalStar (永恒星)
     details: 版本：JAVA互通 | 1.20.4跨版本</br>群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）
     link: https://eternalstarmc.com:442/
