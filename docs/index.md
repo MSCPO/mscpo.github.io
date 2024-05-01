@@ -38,7 +38,7 @@ features:
       src: /server_icons/CHLcraft.png
     title: CHLcraft 1.20.1沉浸生存服
     details: 版本：JAVA | 1.20.1</br>玩法:娱乐、养老、建筑、社交、生存群组服服务器
-    link: https://chlmc.top/
+    link: https://www.chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
       src: /server_icons/baketo.png
