@@ -28,7 +28,7 @@ features:
   - icon:
       src: /server_icons/ZUYMC.webp
     title: ZUYCraft服务器
-    details: 版本：国际基岩 | 1.20.72</br>穿梭于服务器之间，指尖轻触按键，心中的梦想在虚拟的土地上逐渐成形。在这片Minecraft的建筑天地里，你我共同织造着不凡的故事篇章。筑一砖一瓦，我们不仅是创造者，更是这个虚拟舞台上的诗人和梦想家。ZUY Craft生存建筑服务器，你的理想服务器！
+    details: 版本：国际基岩 | 1.20.81</br>心中的梦想在虚拟的土地上逐渐成形,在这片建筑天地里，和我们一起，筑梦于虚拟，
     link: https://zl.cn.eu.org/
     linkText: 创造不凡篇章！
   - icon:
@@ -98,11 +98,11 @@ features:
     link: https://happydog.ltd:1145/
     linkText: 加入HappyDog！~
   - icon:
-      src: /server_icons/Unknown.png
-    title: DustServer（尘埃服）
-    details: 版本：Unknown</br>Unknown
-    link: /
-    linkText: 加入HappyDog！~
+    src: /server_icons/DustServer.png
+    title: DustServer (尘埃聚落)
+    details: 版本：JAVA互通 | 1.20.1跨版本</br>生存服
+    link: http://smalldust.流萤.love/
+    linkText: 做不被定义的尘埃（点击加入尘埃聚落）
   - icon:
       src: /server_icons/Unknown.png
     title: Haku Server
@@ -115,6 +115,12 @@ features:
     details: 版本：Unknown</br>Unknown
     link: /
     linkText: 加入MCIC~
+    src: /server_icons/DustServer.png
+    title: DustServer (尘埃聚落)
+    details: 版本：JAVA互通 | 1.20.1跨版本</br>生存服
+    link: http://smalldust.流萤.love/
+    linkText: 做不被定义的尘埃（点击加入尘埃聚落）
+
 
   - icon:
       src: /logo2.png
