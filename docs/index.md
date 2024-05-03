@@ -9,11 +9,11 @@ hero:
     alt: 服务器集体宣传组织
   actions:
     - theme: brand
-      text: 加入我们
-      link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
-    - theme: alt
       text: 加入玩家群
       link: https://qm.qq.com/q/LaTnA2vXyK
+    - theme: alt
+      text: 加入组织
+      link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
     # - theme: alt
       # text: View on GitHub
       # link: https://github.com/vuejs/vitepress
