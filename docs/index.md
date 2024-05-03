@@ -97,7 +97,7 @@ features:
     details: 版本：Unknown跨版本</br>Unknown
     link: https://happydog.ltd:1145/
     linkText: 加入HappyDog！~
-    - icon:
+  - icon:
     src: /server_icons/DustServer.png
     title: DustServer (尘埃聚落)
     details: 版本：JAVA互通 | 1.20.1跨版本</br>生存服
