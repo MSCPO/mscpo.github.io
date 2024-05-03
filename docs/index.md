@@ -94,8 +94,8 @@ features:
   - icon:
       src: /server_icons/HappyDog.jpg
     title: HappyDog
-    details: 版本：Unknown跨版本</br>Unknown
-    link: https://happydog.ltd:1145/
+    details: 版本：JAVA互通 | 1.8.X-1.20.x跨版本</br>HappyDog新服开荒！1.8.X-1.20.x多版本支持！且支持基岩版玩家进入服务器！无正版无白名单，快来一键进服玩耍！快来和小伙伴占山为王吧！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XMDbSMq5gMVGTESYHiBOQB80SoYJA7U4&authKey=qRhuSkFIxpfQc9CYs4MnfidRNI2cOcrT1HqoJbVV7%2BujhsywsYPx8Kv0NzuCitxd&noverify=0&group_code=192088919
     linkText: 加入HappyDog！
   - icon:
       src: /server_icons/DustServer.png
