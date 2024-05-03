@@ -25,9 +25,9 @@ features:
   - icon:
       src: /server_icons/ZUYMC.webp
     title: ZUYCraft服务器
-    details: 版本：国际基岩 | 1.20.72</br>筑梦于虚拟，创造不凡篇章。欢迎来到ZUYCraft基岩生存建筑服务器。
+    details: 版本：国际基岩 | 1.20.72</br>穿梭于服务器之间，指尖轻触按键，心中的梦想在虚拟的土地上逐渐成形。在这片Minecraft的建筑天地里，你我共同织造着不凡的故事篇章。筑一砖一瓦，我们不仅是创造者，更是这个虚拟舞台上的诗人和梦想家。ZUY Craft生存建筑服务器，你的理想服务器！
     link: https://zl.cn.eu.org/
-    linkText: 加入ZUYCraft
+    linkText: 创造不凡篇章！
   - icon:
       src: /server_icons/MLX.png
     title: 落雪 生存服务器
@@ -43,7 +43,7 @@ features:
   - icon:
       src: /server_icons/baketo.png
     title: Baketo 服务器
-    details: 版本：JAVA | 1.19.2</br>我们没有高配的处理器, 但是有满怀爱心的玩家和服务器!</br>注：服务器网站不适应Chrome手机版
+    details: 版本：JAVA | 1.19.2</br>我们没有高配的处理器, 但是有满怀爱心的玩家和服务器!</br>注：服务器网站不适应Chrome手机版</br>因和3b3t发生严重的冲突，服务器可能会永久关闭
     link: https://baketo.framer.ai/
     linkText: Baketo服务器 官方网站
   - icon:
@@ -55,7 +55,7 @@ features:
   - icon:
       src: /server_icons/FuYuanDaLu.png
     title: 福渊大陆
-    details: 版本：JAVA | 1.20.4跨版本</br>无杂乱的玩法,只是一个纯粹生存的世界。欢迎您于此：享受时光、结交好友或是探索世界。
+    details: 版本：JAVA互通 | 1.20.4跨版本</br>无杂乱的玩法,只是一个纯粹生存的世界。欢迎您于此：享受时光、结交好友或是探索世界。
     link: https://fhy1234.framer.media/FuWorld
     linkText: 欢迎来到福渊大陆!
   - icon:
