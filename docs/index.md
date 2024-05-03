@@ -101,7 +101,7 @@ features:
       src: /server_icons/DustServer.png
     title: DustServer（尘埃聚落）
     details: 版本：JAVA互通 | 1.20.1跨版本</br>生存服
-    link: https://smalldust.流萤.love/
+    link: http://smalldust.流萤.love/
     linkText: 做不被定义的尘埃（点击加入尘埃聚落）
   - icon:
       src: /server_icons/Unknown.png
@@ -110,11 +110,11 @@ features:
     link: /
     linkText: 加入Haku Server
   - icon:
-      src: /server_icons/Unknown.png
+      src: /server_icons/MCIC.jpg
     title: MCIC
-    details: 版本：Unknown</br>Unknown
-    link: /
-    linkText: 加入MCIC
+    details: 版本：JAVA互通 | 1.18.x</br>*Unknown**无线电静默*成分复杂的服务器
+    link: https://qm.qq.com/q/6DsL9DkN3O
+    linkText: 加入MCIC!
 
 
   - icon:
