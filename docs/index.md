@@ -101,7 +101,7 @@ features:
       src: /server_icons/DustServer.png
     title: DustServer（尘埃聚落）
     details: 版本：JAVA互通 | 1.20.1跨版本</br>生存服
-    link: https://smalldust.流萤.love/
+    link: http://smalldust.流萤.love/
     linkText: 做不被定义的尘埃（点击加入尘埃聚落）
   - icon:
       src: /server_icons/Unknown.png
