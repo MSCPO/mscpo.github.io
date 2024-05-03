@@ -96,7 +96,7 @@ features:
     title: HappyDog
     details: 版本：Unknown跨版本</br>Unknown
     link: https://happydog.ltd:1145/
-    linkText: 加入HappyDog！~
+    linkText: 加入HappyDog！
   - icon:
     src: /server_icons/DustServer.png
     title: DustServer (尘埃聚落)
@@ -108,13 +108,13 @@ features:
     title: Haku Server
     details: 版本：Unknown</br>Unknown
     link: /
-    linkText: 加入Haku Server~
+    linkText: 加入Haku Server
   - icon:
       src: /server_icons/Unknown.png
     title: MCIC
     details: 版本：Unknown</br>Unknown
     link: /
-    linkText: 加入MCIC~
+    linkText: 加入MCIC
 
 
   - icon:
