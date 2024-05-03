@@ -100,9 +100,15 @@ features:
   - icon:
       src: /server_icons/DustServer.png
     title: DustServer（尘埃聚落）
-    details: 版本：JAVA互通 | 1.20.1跨版本</br>生存服
+    details: 版本：JAVA | 1.20.1跨版本</br>生存服
     link: http://smalldust.流萤.love/
     linkText: 做不被定义的尘埃（点击加入尘埃聚落）
+  - icon:
+      src: /server_icons/2b2t_run.png
+    title: 2b2t.run
+    details: 版本：JAVA | 1.20.1跨版本</br>无政府服务器
+    link: http://2b2t.run:81/
+    linkText: 2b 你好我的朋友</br>2t我不知道该说什么
   - icon:
       src: /server_icons/Unknown.png
     title: Haku Server
