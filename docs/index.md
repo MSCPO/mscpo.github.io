@@ -106,9 +106,9 @@ features:
   - icon:
       src: /server_icons/2b2t_run.png
     title: 2b2t.run
-    details: 版本：JAVA | 1.20.1跨版本</br>无政府服务器
+    details: 版本：JAVA | 1.20.1跨版本</br>无政府服务器</br>2b 你好我的朋友</br>2t 我不知道该说什么
     link: http://2b2t.run:81/
-    linkText: 2b 你好我的朋友</br>2t我不知道该说什么
+    linkText: 加入无政府！
   - icon:
       src: /server_icons/Unknown.png
     title: Haku Server
