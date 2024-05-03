@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 服务器集体宣传组织
-  tagline: Minecraft服务器集体宣传组织 (MSCPO)</br>一个致力于我的世界服务器宣传和技术交流的新兴组织
+  tagline: Minecraft服务器集体宣传组织 (MSCPO)</br>一个致力于我的世界服务器宣传和技术交流的新兴组织（×）服主同好群（√）
   image:
     src: /logo.png
     alt: 服务器集体宣传组织
@@ -91,6 +91,12 @@ features:
     details: 版本：JAVA互通 | 1.20.4跨版本</br>群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）
     link: https://eternalstarmc.com:442/
     linkText: 愿美丽的繁星永远照耀着你
+  - icon:
+      src: /server_icons/HappyDog.jpg
+    title: HappyDog
+    details: 版本：Unknown跨版本</br>Unknown
+    link: https://happydog.ltd:1145/
+    linkText: 加入HappyDog！~
 
 
   - icon:
