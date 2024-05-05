@@ -22,7 +22,7 @@ Minecraft服务器集体宣传组织 (MSCPO)
       src: /server_icons/example.jpg
     title: example
     details: 版本：JAVA/JAVA互通/基岩 | example</br>example描述
-    link: /example（服务器官网或者是入群链接）
+    link: https://example.com（服务器官网或者是入群链接）
     linkText: example（链接名字，如“加入我们awa”）
 ```
 

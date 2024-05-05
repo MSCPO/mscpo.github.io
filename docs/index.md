@@ -110,19 +110,17 @@ features:
     link: http://2b2t.run:81/
     linkText: 加入无政府！
   - icon:
-      src: /server_icons/Unknown.png
+      src: https://skin.xmb505.top/avatar/9?size=128
     title: Haku Server
-    details: 版本：Unknown</br>Unknown
-    link: /
-    linkText: 加入Haku Server
+    details: 版本：1.8-1.20.5 | 互通 </br>技术测试服！</br>你好，远道而来的朋友！我是服务器吉祥物黑可，这里是一个技术测试服，将会使用很多新奇的插件和代码，使用皮肤站验证来保护玩家数据，玩得开心。
+    link: https://skin.xmb505.top
+    linkText: 前往 Haku Server 注册页！
   - icon:
       src: /server_icons/MCIC.jpg
     title: MCIC
     details: 版本：JAVA | 1.16.x-1.20.2</br>*Unknown**无线电静默*成分复杂的服务器
     link: https://qm.qq.com/q/6DsL9DkN3O
     linkText: 加入MCIC!
-
-
   - icon:
       src: /logo2.png
     title: 又或是什么也不知道的小白
