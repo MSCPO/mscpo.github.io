@@ -47,7 +47,7 @@ features:
       src: /server_icons/Arcturn.png
     title: Arcturn 服务器
     details: 版本：JAVA | 1.8-1.20.6</br>纯净生存服! 玩法:养老,生存,种田 总有一个你喜欢的!</br>注：服务器网站不适应Chrome手机版
-    link: https://baketo.framer.ai/
+    link: https://qm.qq.com/q/nmBBom3z9Y
     linkText: 准备好出发了吗?
   - icon:
       src: /server_icons/AncientBC.png
