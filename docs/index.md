@@ -44,11 +44,11 @@ features:
     link: https://www.chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /server_icons/baketo.png
-    title: Baketo 服务器
-    details: 版本：JAVA | 1.19.2</br>我们没有高配的处理器, 但是有满怀爱心的玩家和服务器!</br>注：服务器网站不适应Chrome手机版</br>因和3b3t发生严重的冲突，服务器可能会永久关闭
+      src: /server_icons/Arcturn.png
+    title: Arcturn 服务器
+    details: 版本：JAVA | 1.8-1.20.6</br>纯净生存服! 玩法:养老,生存,种田 总有一个你喜欢的!</br>注：服务器网站不适应Chrome手机版
     link: https://baketo.framer.ai/
-    linkText: Baketo服务器 官方网站
+    linkText: 准备好出发了吗?
   - icon:
       src: /server_icons/AncientBC.png
     title: AncientBC
