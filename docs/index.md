@@ -44,10 +44,10 @@ features:
     link: https://www.chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /server_icons/Arcturn.png
-    title: Arcturn 服务器
+      src: /server_icons/infinura.png
+    title: Infinura | 生存之旅
     details: 版本：JAVA | 1.8-1.20.6</br>纯净生存服! 玩法:养老,生存,种田 总有一个你喜欢的!</br>注：服务器网站不适应Chrome手机版
-    link: https://qm.qq.com/q/nmBBom3z9Y
+    link: https://infinura.framer.ai
     linkText: 准备好出发了吗?
   - icon:
       src: /server_icons/AncientBC.png
