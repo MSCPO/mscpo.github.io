@@ -13,6 +13,7 @@ export default {
         nav: [
             { text: "成员服", link: "/" },
             { text: "须知", link: "/rules/" },
+            { text: "MCICP", link: "https://mcsite.cc/" },
             { text: "组织架构", link: "/structure/" },
         ],
         socialLinks: [
@@ -20,7 +21,7 @@ export default {
         ],
         footer: {
             message: 'Minecraft Server Collective Promotion Organization',
-            copyright: 'Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a>'
+            copyright: 'Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a><a href="https://icp.mcsite.cc/mc/00000003.html">MCICP备案</a>'
         },
         lastUpdatedText: "最近更新时间",
         search: {
