@@ -121,6 +121,14 @@ features:
     details: 版本：JAVA | 1.16.x-1.20.2</br>*Unknown**无线电静默*成分复杂的服务器
     link: https://qm.qq.com/q/6DsL9DkN3O
     linkText: 加入MCIC!
+
+  - icon:
+      src: /server_icons/MCICP.jpg
+    title: MCICP备案
+    details: MC备案是一个纯公益性质的网站，我们致力于为MC社区的成员提供一个免费的服务平台。
+    link: https://mcsite.cc/
+    linkText: MCICP备案
+
   - icon:
       src: /logo2.png
     title: 又或是什么也不知道的小白
