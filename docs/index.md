@@ -34,7 +34,7 @@ features:
   - icon:
       src: /server_icons/MLX.png
     title: 落雪 生存服务器
-    details: 版本：JAVA | 1.20.6跨版本</br>这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
+    details: 版本：JAVA | 1.21跨版本</br>这是一个纯生存java版服务器。然后？没了，嗯，没了。（你干嘛哎呦！）
     link: https://www.wslst.xyz/
     linkText: MLX落雪邀请你一起唱跳rap篮球！
   - icon:
