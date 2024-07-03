@@ -26,7 +26,7 @@ features:
     link: https://mc.mscaome.top/
     linkText: 加入联盟服务器！
   - icon:
-      src: /server_icons/ZUYMC.webp
+      src: /server_icons/ZUYMC.png
     title: ZUYCraft服务器
     details: 版本：国际基岩 | 1.21</br>轻触屏幕，心中的梦想在虚拟的土地上逐渐成形；在这片建筑天地里，和我们一起：筑梦于虚拟，
     link: https://mc.zuyst.top
