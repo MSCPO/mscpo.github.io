@@ -122,7 +122,7 @@ features:
     link: https://qm.qq.com/q/6DsL9DkN3O
     linkText: 加入MCIC!
   - icon:
-      src: /server_icons/EMP.png
+      src: https://www.empmc.cn/images/EMP.png
     title: EMP-Tfir
     details: 版本：互通 | 1.7-1.21</br>立志于打造卓越的互通服务器！主要玩法为养老，生存。星星之火，可以燎原！
     link: https://www.empmc.cn
