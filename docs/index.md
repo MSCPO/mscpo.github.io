@@ -28,7 +28,7 @@ features:
   - icon:
       src: /server_icons/ZUYMC.png
     title: ZUYCraft服务器
-    details: 版本：国际基岩 | 1.21</br>轻触屏幕，心中的梦想在虚拟的土地上逐渐成形；在这片建筑天地里，和我们一起：筑梦于虚拟，
+    details: 版本：国际基岩 | 1.21</br>这是一个基岩版的生存建筑服务器！轻触屏幕，心中的梦想在虚拟的土地上逐渐成形；在这片建筑天地里，和我们一起：筑梦于虚拟，
     link: https://mc.zuyst.top
     linkText: 创造不凡篇章！
   - icon:
@@ -126,7 +126,7 @@ features:
     title: EMP-Tfir
     details: 版本：互通 | 1.7-1.21</br>立志于打造卓越的互通服务器！主要玩法为养老，生存。星星之火，可以燎原！
     link: https://www.empmc.cn
-    linkText: 和我们一起燎原！
+    linkText: 和我们一起，原神启动！
   - icon:
       src: /server_icons/MCICP.jpg
     title: MCICP备案
