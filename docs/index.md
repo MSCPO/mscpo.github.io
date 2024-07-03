@@ -20,7 +20,7 @@ hero:
 
 features:
   - icon:
-      src: https://maserver.netlify.app/images/favicon.ico
+      src: /server_icons/MA_CAT.ico
     title: MA-CAT社会主义联盟 服务器集群
     details: 版本：JAVA | 1.20.1(猫服)</br>版本：JAVA互通 | 1.20.2跨版本(公社)</br>目前联盟下有两台生电服务器，一台是M&A互助公社，为公开状态的服务器，主张直接民主和全员民主，一台是共产猫服，为半公开状态，主张通过集权和计划分配，直接调控服务器经济发展。
     link: https://mc.mscaome.top/
