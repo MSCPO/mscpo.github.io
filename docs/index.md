@@ -121,7 +121,12 @@ features:
     details: 版本：JAVA | 1.16.x-1.20.2</br>*Unknown**无线电静默*成分复杂的服务器
     link: https://qm.qq.com/q/6DsL9DkN3O
     linkText: 加入MCIC!
-
+- icon:
+    src: /server_icons/EMP.png
+    title: EMP-Tfir
+    details: 版本：互通 | 1.20.6跨版本兼容</br>星星之火，可以燎原！
+    link: https://www.wslst.xyz/
+    linkText: 加入我们！
   - icon:
       src: /server_icons/MCICP.jpg
     title: MCICP备案
