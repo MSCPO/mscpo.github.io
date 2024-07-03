@@ -124,9 +124,9 @@ features:
   - icon:
       src: /server_icons/EMP.png
     title: EMP-Tfir
-    details: 版本：互通 | 1.20.6跨版本兼容</br>星星之火，可以燎原！
-    link: https://www.wslst.xyz/
-    linkText: 加入我们！
+    details: 版本：互通 | 1.7-1.21</br>立志于打造卓越的互通服务器！主要玩法为养老，生存。星星之火，可以燎原！
+    link: https://www.empmc.cn
+    linkText: 和我们一起燎原！
   - icon:
       src: /server_icons/MCICP.jpg
     title: MCICP备案
