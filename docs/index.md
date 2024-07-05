@@ -45,9 +45,9 @@ features:
     linkText: 加入CHLcraft！
   - icon:
       src: /server_icons/infinura.png
-    title: Infinura | 生存之旅
-    details: 版本：JAVA | 1.8-1.20.6</br>纯净生存服! 玩法:养老,生存,种田 总有一个你喜欢的!</br>注：服务器网站不适应Chrome手机版
-    link: https://infinura.framer.ai
+    title: EXRealm
+    details: 版本：JAVA | 1.20.2跨版本</br>这可不是一个普通的插件服，而是加了更多生物和更多群系的插件服! 服务器保证高配置，绝对不限制生电!
+    link: https://qm.qq.com/q/TkVWdiRksk
     linkText: 准备好出发了吗?
   - icon:
       src: /server_icons/AncientBC.png
