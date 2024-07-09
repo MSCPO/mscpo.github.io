@@ -130,7 +130,7 @@ features:
   - icon:
       src: /server_icons/xmy.jpg
     title: 星梦缘
-    details: 版本：JAVA|1.20.4<br>Tech Otakus save the world.<br> 一个生存养老生电服务器，稍稍带点升级和金币系统<br>主要玩法为养老、生存、红石<br>
+    details: 版本：JAVA|1.20.4<br> 一个生存养老生电服务器，稍稍带点升级和金币系统<br>主要玩法为养老、生存、红石<br>
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RvnIElsqnnLFumZna--bcq2_heD_tL_b&authKey=7ukvB881FlPlB6%2FkPR8QL%2BihosPQy%2Fk5B4HsEGHekkmZ7sDPOgj6qFkI8Hl6MALH&noverify=0&group_code=925356827
     linkText: 我的世界，启动！(点击加入星梦缘)
   - icon:
