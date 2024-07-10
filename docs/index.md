@@ -44,7 +44,7 @@ features:
     link: https://www.chlmc.top/
     linkText: 加入CHLcraft！
   - icon:
-      src: /server_icons/exrealm.png
+      src: /server_icons/EXRealm2.png
     title: EXRealm
     details: 版本：Java | 1.8-1.21</br>这可不是一个普通的插件服，而是加了更多生物和更多群系的插件服! 服务器保证高配置，绝对不限制生电!
     link: https://qm.qq.com/q/TkVWdiRksk
