@@ -134,6 +134,14 @@ features:
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RvnIElsqnnLFumZna--bcq2_heD_tL_b&authKey=7ukvB881FlPlB6%2FkPR8QL%2BihosPQy%2Fk5B4HsEGHekkmZ7sDPOgj6qFkI8Hl6MALH&noverify=0&group_code=925356827
     linkText: 我的世界，启动！(点击加入星梦缘)
   - icon:
+      src: /server_icons/Pixelverse.png
+    title: Pixelverse 像素宇宙
+    details: 版本：JAVA|1.20.x<br>RPG生存服/免费VIP/遗迹探险/副本挑战/养老生存
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TECOnBn_yGy7C6NW6wxcFgCrUyd6fLLk&authKey=MWFWALPTlQ%2FQylWzDy6GOiSfLyGMu7lVhM%2BBhgXei3IAI96x6lHaNOVa3vUu%2BOBn&noverify=0&group_code=931753287
+    linkText: 快来玩吧！~
+
+
+  - icon:
       src: /server_icons/MCICP.jpg
     title: MCICP备案
     details: MC备案是一个纯公益性质的网站，我们致力于为MC社区的成员提供一个免费的服务平台。
