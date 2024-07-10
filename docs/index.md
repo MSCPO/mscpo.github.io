@@ -145,7 +145,12 @@ features:
     details: 版本：Java互通|1.20.4<br>这是一个养老休闲服，以原版生存为主，可打造各种建筑和生电，有经济、圈地等，另外还有粘液科技、空岛生存等玩法
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TffNfzg34EHGyaqoylllYp4Kto4mpgHe&authKey=8SquukekAUNMw1001MzfVMVHBkDHYGypHNqGeJAiaDQr6kEbJ%2BwnwSFr%2BRpsSonl&noverify=0&group_code=311579481
     linkText: 加入蓝藻工程
-
+  - icon:
+      src: /server_icons/Cool_Summer.png
+    title: 清凉一夏
+    details: 版本：Java互通|1.12.2<br>神奇宝贝服全世代宝可梦包括人物宝可梦
+    link: https://qm.qq.com/q/rPOJ7UH8uk
+    linkText: 清凉一下(夏)→
 
   - icon:
       src: /server_icons/MCICP.jpg
