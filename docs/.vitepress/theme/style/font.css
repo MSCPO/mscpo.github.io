@@ -1,12 +1,6 @@
 @font-face {
-    font-family: 'Minecraft AE Pixel';
-    src: url('/fonts/Minecraft_AE.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Minecraft AE Pixel';
-    src: url('/fonts/Minecraft_AE.woff2') format('truetype');
+    font-family: 'Fusion-Pixel-12-proportional-zh_cn';
+    src: url('/fonts/fusion-pixel-10px-proportional-zh_hans.woff2') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,5 +9,5 @@
     --vp-font-family-mono: 'Minecraft AE Pixel', monospace;
 }
 body {
-    font-family: 'Minecraft AE Pixel', inter;
+    font-family: Fusion-Pixel-12-proportional-zh_cn,sans-serif;
   }
