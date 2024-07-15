@@ -151,6 +151,12 @@ features:
     details: 版本：Java互通|1.12.2<br>神奇宝贝服全世代宝可梦包括人物宝可梦
     link: https://qm.qq.com/q/rPOJ7UH8uk
     linkText: 清凉一下(夏)→
+  - icon:
+      src: /server_icons/OurcraftCenter.png
+    title: Ourcraft Center
+    details: 版本：Java互通<br>一个对未来充满抱负的创造互通服务器
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dLQfJlHznMv5uCtDgN_w0N2TtUbljoUl&authKey=UnmTbfvDotEr7xXfQiedsHyT2dHLYzxX8sswXaHwCza2Y1hu5NrLa1gfQ1TgVDTE&noverify=0&group_code=925857319
+    linkText: 与君同在，共创未来！
 
   - icon:
       src: /server_icons/MCICP.jpg
