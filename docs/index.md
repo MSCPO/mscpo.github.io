@@ -157,6 +157,12 @@ features:
     details: 版本：Java互通<br>一个对未来充满抱负的创造互通服务器
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dLQfJlHznMv5uCtDgN_w0N2TtUbljoUl&authKey=UnmTbfvDotEr7xXfQiedsHyT2dHLYzxX8sswXaHwCza2Y1hu5NrLa1gfQ1TgVDTE&noverify=0&group_code=925857319
     linkText: 与君同在，共创未来！
+  - icon:
+      src: /server_icons/LingFengServer.png
+    title: LingFengServer
+    details: 版本：Java互通<br>一个创造社交服务器
+    link: https://qm.qq.com/q/jGvLyUKdsQ
+    linkText: 加入我们
 
   - icon:
       src: /server_icons/MCICP.jpg
