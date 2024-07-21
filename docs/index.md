@@ -158,11 +158,17 @@ features:
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dLQfJlHznMv5uCtDgN_w0N2TtUbljoUl&authKey=UnmTbfvDotEr7xXfQiedsHyT2dHLYzxX8sswXaHwCza2Y1hu5NrLa1gfQ1TgVDTE&noverify=0&group_code=925857319
     linkText: 与君同在，共创未来！
   - icon:
-      src: /server_icons/LingFengServer.png
-    title: LingFengServer
-    details: 版本：Java互通<br>一个创造社交服务器
-    link: https://qm.qq.com/q/jGvLyUKdsQ
-    linkText: 加入我们
+      src: /server_icons/mozhisc.png
+    title: 沫之生存
+    details: 版本：JAVA｜1.16.5多玩法<br>沫之生存是一个友爱的模组公益服，主要构成为两个肝服+一个养老服，肝服主要开Curseforge等模组整合包，养老服以养老探索为主不删档。服务器支持离线登录，也有皮肤显示与圈地、登录等适配模组。QQ群：1035365056
+    link: https://www.bilibili.com/video/BV1vw4m1a7cZ
+    linkText: 开局别墅加女仆，摸鱼养老不用愁!
+  - icon:
+      src: /server_icons/Blue_green_algae_project.jpg
+    title: 蓝藻工程
+    details: 版本：Java互通|1.20.4<br>这是一个养老休闲服，以原版生存为主，可打造各种建筑和生电，有经济、圈地等，另外还有粘液科技、空岛生存等玩法
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TffNfzg34EHGyaqoylllYp4Kto4mpgHe&authKey=8SquukekAUNMw1001MzfVMVHBkDHYGypHNqGeJAiaDQr6kEbJ%2BwnwSFr%2BRpsSonl&noverify=0&group_code=311579481
+    linkText: 加入蓝藻工程
 
   - icon:
       src: /server_icons/MCICP.jpg
