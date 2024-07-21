@@ -39,8 +39,8 @@ features:
     linkText: MLX落雪邀请你一起唱跳rap篮球！
   - icon:
       src: /server_icons/CHLcraft.png
-    title: CHLcraft 1.20.4纯净生存服
-    details: 版本：JAVA | 1.20.4</br>玩法:娱乐、养老、建筑、社交、生存群组服服务器
+    title: CHLcraft 1.21纯净生存服
+    details: 版本：JAVA | 1.21</br>玩法:娱乐、养老、建筑、社交、生存群组服服务器
     link: https://qm.qq.com/q/MYyW731OUu
     linkText: 加入CHLcraft！
   - icon:
