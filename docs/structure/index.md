@@ -11,10 +11,10 @@ import {
 } from 'vitepress/theme'
 const Server = [
   {
-    avatar: '/teammate/MLX_wslst.jpg',
-    name: 'wslst',
+    avatar: '待编辑',
+    name: '待编辑',
     title: '会长',
-    desc: '在MSCPO第一次公开选举中票数第一，是MLX落雪服务器的腐竹',
+    desc: '待编辑',
 
   },
     {
