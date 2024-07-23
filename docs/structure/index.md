@@ -10,18 +10,23 @@ import {
   VPTeamPageSection
 } from 'vitepress/theme'
 const Server = [
-  {
-    avatar: '待编辑',
-    name: '待编辑',
-    title: '会长',
-    desc: '待编辑',
-
-  },
     {
-    avatar: '/teammate/ZUY_PVZ小白.jpg',
+    avatar: '/teammate/2/ZUY_PVZ小白.jpg',
     name: 'PVZ小白',
     title: '副会长',
-    desc: '在MSCPO第一次公开选举中票数第三，ZUYCraft服务器腐竹',
+    desc: '在MSCPO第二次公开选举中票数第三，ZUYCraft服务器腐竹',
+  },
+  {
+    avatar: '/teammate/2/白千琴.jpg',
+    name: '白千琴',
+    title: '会长',
+    desc: '在MSCPO第二次公开选举中票数第一，予巧团队代表',
+  },
+  {
+    avatar: '/teammate/2/Ленинград.jpg',
+    name: 'Ленинград',
+    title: '副会长',
+    desc: '在MSCPO第二次公开选举中票数第二，明灯·Alethea服务器维护',
   },
 ]
 </script>
