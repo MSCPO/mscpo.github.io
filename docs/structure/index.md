@@ -20,7 +20,7 @@ const Server = [
     avatar: '/teammate/2/白千琴.jpg',
     name: '白千琴',
     title: '会长',
-    desc: '在MSCPO第二次公开选举中票数第一，予巧团队代表',
+    desc: '在MSCPO第二次公开选举中票数第一，OURCRAFT（予巧）团队代表，同时也是OURCRAFT服务器腐竹、OURCRAFT委员会总执事',
   },
   {
     avatar: '/teammate/2/Ленинград.jpg',
