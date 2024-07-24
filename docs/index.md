@@ -176,7 +176,7 @@ features:
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IN66_e0mjTqMILXBQyg2wheeaB_UKMzL&authKey=ZBjgoDC74dGteKvZfQ1DirV32WwX%2B%2FNSniOCOTg%2Bx1RVktQlFosTUW49nT0yjQWB&noverify=0&group_code=819238564
     linkText: 点击加入窝闷的群聊awa
   - icon:
-      src: /server_icons/MCSC.jpg
+      src: /server_icons/MCSC.png
     title: MCSC服务器联合体
     details: 版本：JAVA互通 | 1.21.1</br>MCSC服务器联合体是一个Minecraft服务器的联盟，现有四个下属服务器，分别为:公社化插件生存BE服务器「YPCP」，地球BE服务器「百葉」，Java&amp;BE服务器「百葉互通」，Java生存服务器「密西加沙大本营」。
     link: https://qm.qq.com/q/x9dqg3CZ5o
