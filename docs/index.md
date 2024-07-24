@@ -181,6 +181,12 @@ features:
     details: 版本：JAVA互通 | 1.21.1</br>MCSC服务器联合体是一个Minecraft服务器的联盟，现有四个下属服务器，分别为:公社化插件生存BE服务器「YPCP」，地球BE服务器「百葉」，Java&amp;BE服务器「百葉互通」，Java生存服务器「密西加沙大本营」。
     link: https://qm.qq.com/q/x9dqg3CZ5o
     linkText: 点击加入我们的审核群
+  - icon:
+      src: /server_icons/Aurarts.jpg
+    title: Badboys Network
+    details: 版本：JAVA | 1.8.x-1.21.x</br>2021年的一场变故，让 Badboys Server 陷入了徘徊期。一位管理却并不认为结局感到如此。于是他启动了「『链析』计划」。这项计划长达四年。自2021年开始，2024年为末，本服务器完成了从单服到群组服的迭代。包含了五种经典小游戏，其他玩法正在开发中!
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RmJf0KFZTkzdAwuzoxnuhz198qCwa7Xk&authKey=ILEmRIZnwstZrZVU%2FIDj%2F7habPR1C%2BQ6BtESsAJ76RRK%2FFNQPzjvWv0QYZzv6jJs&noverify=0&group_code=373311963
+    linkText: 点击加入我们的交流群
 ---
 <script>
 export default {
