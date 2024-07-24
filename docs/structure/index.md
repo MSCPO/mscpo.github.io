@@ -11,8 +11,8 @@ import {
 } from 'vitepress/theme'
 const Server = [
     {
-    avatar: '/teammate/2/ZUY_PVZ小白.jpg',
-    name: 'PVZ小白',
+    avatar: '/teammate/2/peg195.jpg',
+    name: 'peg195',
     title: '副会长',
     desc: '在MSCPO第二次公开选举中票数第三，ZUYCraft服务器腐竹',
   },
