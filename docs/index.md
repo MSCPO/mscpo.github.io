@@ -147,10 +147,10 @@ features:
     linkText: 清凉一下(夏)→
   - icon:
       src: /server_icons/OurcraftCenter.png
-    title: Ourcraft Center
+    title: Ourcraft - 予巧服务器
     details: 版本：Java互通<br>一个对未来充满抱负的创造互通服务器
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dLQfJlHznMv5uCtDgN_w0N2TtUbljoUl&authKey=UnmTbfvDotEr7xXfQiedsHyT2dHLYzxX8sswXaHwCza2Y1hu5NrLa1gfQ1TgVDTE&noverify=0&group_code=925857319
-    linkText: 与君同在，共创未来！
+    linkText: 与君同在，共创未来！（点击加入Ourcraft服务器交流群）
   - icon:
       src: /server_icons/mozhisc.png
     title: 沫之生存
