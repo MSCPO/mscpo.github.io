@@ -152,25 +152,35 @@ features:
     link: https://www.bilibili.com/video/BV1vw4m1a7cZ
     linkText: 开局别墅加女仆，摸鱼养老不用愁!
   - icon:
-      src: /server_icons/Blue_green_algae_project.jpg
-    title: 蓝藻工程
-    details: 版本：Java互通|1.20.4<br>这是一个养老休闲服，以原版生存为主，可打造各种建筑和生电，有经济、圈地等，另外还有粘液科技、空岛生存等玩法
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TffNfzg34EHGyaqoylllYp4Kto4mpgHe&authKey=8SquukekAUNMw1001MzfVMVHBkDHYGypHNqGeJAiaDQr6kEbJ%2BwnwSFr%2BRpsSonl&noverify=0&group_code=311579481
-    linkText: 加入蓝藻工程
-
-  - icon:
       src: /server_icons/MCICP.jpg
     title: MCICP备案
     details: MC备案是一个纯公益性质的网站，我们致力于为MC社区的成员提供一个免费的服务平台。
     link: https://mcsite.cc/
     linkText: MCICP备案
-
   - icon:
       src: /logo2.png
     title: 又或是什么也不知道的小白
     details: Minecraft服务器集体宣传组织 (MSCPO) 生了~ 不管你是PVP大佬，还是服主
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
     linkText: 加入集宣组织
+  - icon:
+      src: /server_icons/CGML.jpg
+    title: 青琉淩光联合服务器
+    details: 版本：JAVA互通 | 1.20.x</br>青琉淩光联合服务器是一个五服联合组成的大型综合服务器平台。开设以琉光市建筑地图为主体的城市建筑服和以玩家自由生存为主体的生存服（在建设）。青琉淩光，照亮未来！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ignijPtlWjH2oE17VE5gb2TN9m8lFDdL&authKey=RvbJDW7%2BXKMOH8CZnlz4VPoHdJYJ6OFwUY34v84XUqJqWLzq2hN2LMBwiCsZRv%2F4&noverify=0&group_code=577706597
+    linkText: 点击加入我们的群聊！
+  - icon:
+      src: /server_icons/XJYY.jpg
+    title: 只因悠悠MC创造服务器
+    details: 版本：JAVA互通 | 1.9.x-1.21.x</br>欢迎加入只因悠悠创造服！服务器基于paper1.20.6，支持双版本加入。服务器位于北京，支持北京移动、浙江宁波电信和美国三条线路。管理不严格，建筑无位置和大小限制。加入我们，享受无限的建筑乐趣！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IN66_e0mjTqMILXBQyg2wheeaB_UKMzL&authKey=ZBjgoDC74dGteKvZfQ1DirV32WwX%2B%2FNSniOCOTg%2Bx1RVktQlFosTUW49nT0yjQWB&noverify=0&group_code=819238564
+    linkText: 点击加入窝闷的群聊awa
+  - icon:
+      src: /server_icons/MCSC.jpg
+    title: MCSC服务器联合体
+    details: 版本：JAVA互通 | 1.21.1</br>MCSC服务器联合体是一个Minecraft服务器的联盟，现有四个下属服务器，分别为:公社化插件生存BE服务器「YPCP」，地球BE服务器「百葉」，Java&amp;BE服务器「百葉互通」，Java生存服务器「密西加沙大本营」。
+    link: https://qm.qq.com/q/x9dqg3CZ5o
+    linkText: 点击加入我们的审核群
 ---
 <script>
 export default {
