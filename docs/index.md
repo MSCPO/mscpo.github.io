@@ -148,7 +148,7 @@ features:
   - icon:
       src: /server_icons/OurcraftCenter.png
     title: Ourcraft Center
-    details: 版本：Java互通<br>一个对未来充满抱负的创造互通服务器
+    details: 版本：Java互通｜1.8.x—1.21<br>一个对未来充满抱负的创造互通服务器
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dLQfJlHznMv5uCtDgN_w0N2TtUbljoUl&authKey=UnmTbfvDotEr7xXfQiedsHyT2dHLYzxX8sswXaHwCza2Y1hu5NrLa1gfQ1TgVDTE&noverify=0&group_code=925857319
     linkText: 与君同在，共创未来！
   - icon:
