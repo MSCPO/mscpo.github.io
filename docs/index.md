@@ -186,7 +186,7 @@ features:
     title: MCSC服务器联合体
     details: 版本：JAVA互通 | 1.21.1</br>MCSC服务器联合体是一个Minecraft服务器的联盟，现有四个下属服务器，分别为:公社化插件生存BE服务器「YPCP」，地球BE服务器「百葉」，Java&amp;BE服务器「百葉互通」，Java生存服务器「密西加沙大本营」。
     link: https://qm.qq.com/q/x9dqg3CZ5o
-    linkText:点击加入我们的审核群
+    linkText: 点击加入我们的审核群
 ---
 <script>
 export default {
