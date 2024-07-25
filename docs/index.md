@@ -193,6 +193,12 @@ features:
     details: 版本：JAVA互通 | 1.9.x-1.21.x</br>云城都市是一个独立的我的世界城市，由Ourcraft团队提供服务器支持。在这里，你可以与大家一起建造美丽的都市建筑，为云城都市的繁荣贡献自己的一份力量！在这里，我们都是参与者，我们都是逐梦人！
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uGv1Z_usuB372sj0ngkim_CTOzsknQZN&authKey=2GaS15Yrn%2FuamR9fBP1rqC1z4OGUUzwCLrXSmsPLGnwqozzt5sInrWFvazltXStf&noverify=0&group_code=694179831
     linkText: 一起来建设美丽的云城都市吧！
+  - icon:
+      src: /server_icons/BCMOA.jpg
+    title: 白尘轨道交通运营
+    details: 白尘轨道交通运营管理集团有限公司，简称白尘轨道运营。成立于2017年7月，主打我的世界Java及国际基岩版服务器现代化高质量轨道交通的建设。目前有多个服务器与白尘轨道合作，并下属有五个运营中心与全自动线路运营筹备管理部。白尘轨道运营的最具代表性的线路有鸭城地铁26号线和清如地铁1号线，欢迎广大服务器与我们合作！
+    link: https://b23.tv/pEsgRm4
+    linkText: 看看尘轨的风采！（请点我哦）
 ---
 <script>
 export default {
