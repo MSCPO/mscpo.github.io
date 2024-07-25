@@ -199,6 +199,12 @@ features:
     details: 白尘轨道交通运营管理集团有限公司，简称白尘轨道运营。成立于2017年7月，主打我的世界Java及国际基岩版服务器现代化高质量轨道交通的建设。目前有多个服务器与白尘轨道合作，并下属有五个运营中心与全自动线路运营筹备管理部。白尘轨道运营的最具代表性的线路有鸭城地铁26号线和清如地铁1号线，欢迎广大服务器与我们合作！
     link: https://b23.tv/pEsgRm4
     linkText: 看看尘轨的风采！（请点我哦）
+    - icon:
+      src: /server_icons/DFGG.png
+    title: dfgg服务器
+    details: 版本：JAVA | 1.7-1.21</br>多世界多玩法服务器首创者
+    link: https://dfggmc.top/
+    linkText: 我们的故事，在这里开始！
 ---
 <script>
 export default {
