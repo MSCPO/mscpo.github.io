@@ -200,7 +200,7 @@ features:
     link: https://b23.tv/pEsgRm4
     linkText: 看看尘轨的风采！（请点我哦）
     - icon:
-      src: /server_icons/DFGG.png
+      src: /server_icons/DFGG_Logo.png
     title: dfgg服务器
     details: 版本：JAVA | 1.7-1.21</br>多世界多玩法服务器首创者
     link: https://dfggmc.top/
