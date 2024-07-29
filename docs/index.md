@@ -140,12 +140,6 @@ features:
     link: https://qm.qq.com/q/rPOJ7UH8uk
     linkText: 清凉一下(夏)→
   - icon:
-      src: /server_icons/OurcraftCenter.png
-    title: Ourcraft - 予巧服务器
-    details: 版本： JAVA互通 | 1.9.x-1.21.x<br>OURCRAFT中文简称为“予巧”，总体创建于2020年。前身为PT46团队、梦云城建设工作室和清如建设组。将近4年的时间以来，我们始终坚持在Minecraft（我的世界）中建造高标准高颜值的现代都市，创造属于我们的世界。</br>根据青山米可里创作的奇幻未完结小说《皓兰传》所指导的世界观记载，OURCRAFT代行虚拟国皓兰国首都圈中京都的管理工作。</br>目前在OURCRAFT服务器内，中京都下辖3个城市，分别是清如都市、西九木市和梦云城。</br>西九木市是OURCRAFT概念立项最早的城市，可追溯至2018年。在小说中，它是皓兰国的旧都，闻名于世的西九木魔法学院正是在此处。而如今，它隶属于OURCRAFT服务器，是一个超平坦的自由建设世界。</br>梦云城是梦云城建设工作室时期的代表城市，建立于2020年12月26日。它是OURCRAFT在网易租赁服时期的第一个城市。由各位志同道合的玩家一起建设的“世纪广场”“超大轻轨”等项目，成为了梦云城闪耀的城市名片。如今，它也隶属于OURCRAFT，是一个放大化的自由建筑世界。</br>清如都市原名清如市，在小说中是皓兰国现在的首都，也是首都圈中京都的核心城市，更是OURCRAFT的对外宣传门户城市。它是OURCRAFT在网易租赁服时期的最后一个城市，同时也是存档最多，发展最快，变化最大的城市。由白千琴主导的“百万方块计划”，将老建筑搬上了新的清如都市，清如都市逾三年的发展历程一目了然。如今，清如都市正在继续蓬勃发展，向更新的未来前进！</br>清如都市OURCRAFT对于建筑要求最严格的城市。OURCRAFT委员会会定期审查清如都市内的所有建筑，并根据“方块转移”计划将不符合标准的建筑转移至其他城市。不过，清如都市仍然是OURCRAFT最有潜力的发展平台。</br>加入OURCRAFT，未来在我们手中！
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dLQfJlHznMv5uCtDgN_w0N2TtUbljoUl&authKey=UnmTbfvDotEr7xXfQiedsHyT2dHLYzxX8sswXaHwCza2Y1hu5NrLa1gfQ1TgVDTE&noverify=0&group_code=925857319
-    linkText: 与君同在，共创未来！（欢迎点击加入Ourcraft服务器交流群！）
-  - icon:
       src: /server_icons/mozhisc.png
     title: 沫之生存
     details: 版本：JAVA｜1.16.5多玩法<br>沫之生存是一个友爱的模组公益服，主要构成为两个肝服+一个养老服，肝服主要开Curseforge等模组整合包，养老服以养老探索为主不删档。服务器支持离线登录，也有皮肤显示与圈地、登录等适配模组。QQ群：1035365056
@@ -170,12 +164,6 @@ features:
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ignijPtlWjH2oE17VE5gb2TN9m8lFDdL&authKey=RvbJDW7%2BXKMOH8CZnlz4VPoHdJYJ6OFwUY34v84XUqJqWLzq2hN2LMBwiCsZRv%2F4&noverify=0&group_code=577706597
     linkText: 点击加入我们的群聊！
   - icon:
-      src: /server_icons/XJYY.jpg
-    title: 只因悠悠MC创造服务器
-    details: 版本：JAVA互通 | 1.9.x-1.21.x</br>欢迎加入只因悠悠创造服！服务器基于paper1.20.6，支持双版本加入。服务器位于北京，支持北京移动、浙江宁波电信和美国三条线路。管理不严格，建筑无位置和大小限制。加入我们，享受无限的建筑乐趣！
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IN66_e0mjTqMILXBQyg2wheeaB_UKMzL&authKey=ZBjgoDC74dGteKvZfQ1DirV32WwX%2B%2FNSniOCOTg%2Bx1RVktQlFosTUW49nT0yjQWB&noverify=0&group_code=819238564
-    linkText: 点击加入窝闷的群聊awa
-  - icon:
       src: /server_icons/MCSC.png
     title: MCSC服务器联合体
     details: 版本：JAVA互通 | 1.21.1</br>MCSC服务器联合体是一个Minecraft服务器的联盟，现有四个下属服务器，分别为:公社化插件生存BE服务器「YPCP」，地球BE服务器「百葉」，Java&amp;BE服务器「百葉互通」，Java生存服务器「密西加沙大本营」。
@@ -187,18 +175,6 @@ features:
     details: 版本：JAVA | 1.8.x-1.21.x</br>2021年的一场变故，让 Badboys Server 陷入了徘徊期。一位管理却并不认为结局感到如此。于是他启动了「『链析』计划」。这项计划长达四年。自2021年开始，2024年为末，本服务器完成了从单服到群组服的迭代。包含了五种经典小游戏，其他玩法正在开发中!
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RmJf0KFZTkzdAwuzoxnuhz198qCwa7Xk&authKey=ILEmRIZnwstZrZVU%2FIDj%2F7habPR1C%2BQ6BtESsAJ76RRK%2FFNQPzjvWv0QYZzv6jJs&noverify=0&group_code=373311963
     linkText: 点击加入我们的交流群
-  - icon:
-      src: /server_icons/YUNC.jpg
-    title: 云城都市
-    details: 版本：JAVA互通 | 1.9.x-1.21.x</br>云城都市是一个独立的我的世界城市，由Ourcraft团队提供服务器支持。在这里，你可以与大家一起建造美丽的都市建筑，为云城都市的繁荣贡献自己的一份力量！在这里，我们都是参与者，我们都是逐梦人！
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uGv1Z_usuB372sj0ngkim_CTOzsknQZN&authKey=2GaS15Yrn%2FuamR9fBP1rqC1z4OGUUzwCLrXSmsPLGnwqozzt5sInrWFvazltXStf&noverify=0&group_code=694179831
-    linkText: 一起来建设美丽的云城都市吧！
-  - icon:
-      src: /server_icons/BCMOA.jpg
-    title: 白尘轨道交通运营
-    details: 白尘轨道交通运营管理集团有限公司，简称白尘轨道运营。成立于2017年7月，主打我的世界Java及国际基岩版服务器现代化高质量轨道交通的建设。目前有多个服务器与白尘轨道合作，并下属有五个运营中心与全自动线路运营筹备管理部。白尘轨道运营的最具代表性的线路有鸭城地铁26号线和清如地铁1号线，欢迎广大服务器与我们合作！
-    link: https://b23.tv/pEsgRm4
-    linkText: 看看尘轨的风采！（请点我哦）
   - icon:
       src: /server_icons/DFGG_Logo.png
     title: dfgg服务器
