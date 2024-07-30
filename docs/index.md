@@ -38,12 +38,6 @@ features:
     link: https://qm.qq.com/q/MYyW731OUu
     linkText: 加入CHLcraft！
   - icon:
-      src: /server_icons/mrt.png
-    title: Mivotos Rail Transit | 米沃轨道交通
-    details: 版本：Java | 1.20.1</br>纯公益MTR模组服, 你可以在里面建造独一无二的线路! 甚至有还原现实世界线路的线路!
-    link: https://qm.qq.com/q/oR1ZAVxOOk
-    linkText: 加入米沃轨道交通!
-  - icon:
       src: /server_icons/AncientBC.png
     title: AncientBC
     details: 版本：JAVA | 1.20.1</br>这里是一个超友好的Minecraft服务器社区！在原版基础添加更多玩法和地形，不影响生电，无圈地，无论是玩家互动，养老，建筑，生电都是没有问题哒！
