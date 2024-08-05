@@ -13,7 +13,19 @@ export default {
         nav: [
             { text: "成员服", link: "/" },
             { text: "须知", link: "/rules/" },
-            { text: "MCICP", link: "https://mcsite.cc/" },
+            {
+              text: "开服文档",
+              items: [
+                { text: "集宣组织开服文档", link: "https://mscpodoc.netlify.app/" },
+                { text: "笨蛋 MC 开服教程", link: "https://yizhan.wiki/NitWikit/" }
+              ]
+            },
+            {
+              text: "友情链接",
+              items: [
+                { text: "MCICP", link: "https://mcsite.cc/" },
+              ]
+            },
             { text: "组织架构", link: "/structure/" },
         ],
         socialLinks: [
