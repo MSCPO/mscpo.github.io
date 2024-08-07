@@ -20,7 +20,12 @@ export default {
                 { text: "笨蛋 MC 开服教程", link: "https://yizhan.wiki/NitWikit/" }
               ]
             },
-            { text: "MCICP", link: "https://mcsite.cc/" },
+            {
+              text: "友情链接",
+              items: [
+                { text: "MCICP", link: "https://mcsite.cc/" },
+              ]
+            },
             { text: "组织架构", link: "/structure/" },
         ],
         socialLinks: [
