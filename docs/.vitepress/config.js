@@ -13,6 +13,13 @@ export default {
         nav: [
             { text: "成员服", link: "/" },
             { text: "须知", link: "/rules/" },
+            {
+              text: "开服文档",
+              items: [
+                { text: "集宣组织开服文档", link: "https://mscpodoc.netlify.app/" },
+                { text: "笨蛋 MC 开服教程", link: "https://yizhan.wiki/NitWikit/" }
+              ]
+            },
             { text: "MCICP", link: "https://mcsite.cc/" },
             { text: "组织架构", link: "/structure/" },
         ],

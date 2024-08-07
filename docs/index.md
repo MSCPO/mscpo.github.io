@@ -181,6 +181,12 @@ features:
     details: 版本：网易MC</br>斯卡林特联邦共和国由7个地区服务器组成（包含5个直辖市及2个州级行政区，目前已开发三个）。是一个始建于2022年的新生亲俄服务器。我们真诚希望各位成员能够加入我们斯卡林特，成为我们的一份子。在这里，我们将共同追求梦想，共同成长，共同创造美好的未来。我们相信，只要我们携手合作，定能创造出无数辉煌的成果。让我们紧密团结在一起，齐心协力，为我们的服务器赢得荣耀，为实现M奥梦想而奋斗。斯卡林特联邦共和国永远欢迎你们的加入！
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Rp1OKxxY1RVGfa4t7Vxz1VNsCI5EJ50_&authKey=P%2BzUEKkB929PsH5sLzCDRvN6a25azkJ%2B2%2Fv8RG9NCpa8ZZ7ntmiCWQsA32HVzh5X&noverify=0&group_code=786517417
     linkText: 点击加入我们！
+  - icon:
+      src: /server_icons/MCDOGSERVER.jpg
+    title: mcdogserver 服务器
+    details: 版本：JAVA | 1.9.x-1.21</br>内含有tpa互传与登录插件
+    link: https://www.mcdogserver.top/
+    linkText: 点击加入我们！
 ---
 <script>
 export default {
