@@ -1,8 +1,7 @@
 name: 添加服务器卡片到主页
-about: 我们只需要服务器的一些必要信息
+description: 我们只需要服务器的一些必要信息
 title: '[添加服务器]: '
-labels: ''
-assignees: ''
+labels: ['待处理', '处理中']
 body:
   - type: markdown
     attributes:
@@ -55,5 +54,3 @@ body:
       value: "1.8.2-1.20.4跨版本"
     validations:
       required: true
-
-
