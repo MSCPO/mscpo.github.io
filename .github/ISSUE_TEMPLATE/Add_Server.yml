@@ -60,3 +60,13 @@ body:
       value: "1.8.2-1.20.4跨版本"
     validations:
       required: true
+
+  - type: textarea
+    id: server-icon
+    attributes:
+      label: '您的服务器图标链接'
+      description: '您的服务器图标链接（可选）'
+      placeholder: 'https://'
+      value: "https://"
+    validations:
+      required: false
