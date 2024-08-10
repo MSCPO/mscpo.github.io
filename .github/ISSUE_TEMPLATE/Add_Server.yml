@@ -1,0 +1,62 @@
+name: '添加服务器卡片到主页'
+description: '我们只需要服务器的一些必要信息，注意: 未正确根据提示进行反馈错误可能会被忽略或关闭.'
+title: '[添加服务器]: '
+labels: ['待处理', '处理中']
+body:
+  - type: markdown
+    id: Info
+    attributes:
+      value: |
+        您只需要提供服务器的一些必要信息。
+
+  - type: input
+    id: contact
+    attributes:
+      label: '服务器名称'
+      description: '您的服务器叫什么？'
+      placeholder: 'ex. Minecraft服务器'
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-motd
+    attributes:
+      label: '您的服务器描述'
+      description: '使用简短的语言描述您的服务器！'
+      placeholder: '服务器描述'
+      value: "一个简单的服务器"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: '版本'
+      description: 'Java/基岩/互通'
+      options:
+        - 'Java'
+        - '基岩'
+        - '互通'
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-version
+    attributes:
+      label: '具体客户端版本'
+      description: '客户端的版本'
+      placeholder: '客户端版本'
+      value: "1.8.2-1.20.4跨版本"
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-link
+    attributes:
+      label: '服务器宣传链接'
+      description: '服务器的宣传链接，可以是服务器官网（宣传页面），服务器宣传视频链接，又或者是服务器群聊入群链接，用于服务器卡牌链接跳转'
+      placeholder: '客户端版本'
+      value: "1.8.2-1.20.4跨版本"
+    validations:
+      required: true
