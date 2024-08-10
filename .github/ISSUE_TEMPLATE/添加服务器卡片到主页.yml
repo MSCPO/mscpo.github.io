@@ -4,9 +4,11 @@ title: '[添加服务器]: '
 labels: ['待处理', '处理中']
 body:
   - type: markdown
+    id: Info
     attributes:
       value: |
         您只需要提供服务器的一些必要信息。
+
   - type: input
     id: contact
     attributes:
@@ -14,7 +16,8 @@ body:
       description: 您的服务器叫什么？
       placeholder: ex. Minecraft服务器
     validations:
-      required: false
+      required: true
+
   - type: textarea
     id: server-motd
     attributes:
@@ -24,6 +27,7 @@ body:
       value: "一个简单的服务器"
     validations:
       required: true
+
   - type: dropdown
     id: version
     attributes:
@@ -36,6 +40,7 @@ body:
       default: 0
     validations:
       required: true
+
   - type: textarea
     id: server-version
     attributes:
@@ -45,6 +50,7 @@ body:
       value: "1.8.2-1.20.4跨版本"
     validations:
       required: true
+
   - type: textarea
     id: server-link
     attributes:
