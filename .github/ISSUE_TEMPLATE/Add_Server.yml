@@ -22,9 +22,8 @@ body:
     id: server-motd
     attributes:
       label: '您的服务器描述'
-      description: '使用简短的语言描述您的服务器！'
+      description: '使用简短的语言描述您的服务器，控制在 50 字以内为宜。'
       placeholder: '服务器描述'
-      value: "一个简单的服务器"
     validations:
       required: true
 
@@ -46,8 +45,7 @@ body:
     attributes:
       label: '具体客户端版本'
       description: '客户端的版本'
-      placeholder: '客户端版本'
-      value: "1.8.2-1.20.4跨版本"
+      placeholder: 'ex. 1.8.2-1.20.4'
     validations:
       required: true
 
@@ -56,8 +54,7 @@ body:
     attributes:
       label: '服务器宣传链接'
       description: '服务器的宣传链接，可以是服务器官网（宣传页面），服务器宣传视频链接，又或者是服务器群聊入群链接，用于服务器卡牌链接跳转'
-      placeholder: '客户端版本'
-      value: "1.8.2-1.20.4跨版本"
+      placeholder: 'https://'
     validations:
       required: true
 
@@ -67,6 +64,5 @@ body:
       label: '您的服务器图标链接'
       description: '您的服务器图标链接（可选）'
       placeholder: 'https://'
-      value: "https://"
     validations:
       required: false

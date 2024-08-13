@@ -133,18 +133,6 @@ features:
     link: https://www.bilibili.com/video/BV1vw4m1a7cZ
     linkText: 开局别墅加女仆，摸鱼养老不用愁!
   - icon:
-      src: /server_icons/MCICP.jpg
-    title: MCICP备案
-    details: MC备案是一个纯公益性质的网站，我们致力于为MC社区的成员提供一个免费的服务平台。
-    link: https://mcsite.cc/
-    linkText: MCICP备案
-  - icon:
-      src: /logo2.png
-    title: 又或是什么也不知道的小白
-    details: Minecraft服务器集体宣传组织 (MSCPO) 生了~ 不管你是PVP大佬，还是服主
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-ha-O_RHEHGVRN9NAZem0ERNmHe7T51C&authKey=1Xb0FkaaJ1VwawDAZQIDz4eGFi6I32VMj6zN5pMgusmRBq%2FDhipJirNgXqHgQ51W&noverify=0&group_code=715969715
-    linkText: 加入集宣组织
-  - icon:
       src: /server_icons/CGML.jpg
     title: 青琉淩光联合服务器
     details: 版本：JAVA互通 | 1.20.x</br>青琉淩光联合服务器是一个五服联合组成的大型综合服务器平台。开设以琉光市建筑地图为主体的城市建筑服和以玩家自由生存为主体的生存服（在建设）。青琉淩光，照亮未来！
@@ -180,6 +168,12 @@ features:
     details: 版本：JAVA | 1.9.x-1.21</br>内含有tpa互传与登录插件
     link: https://www.mcdogserver.top/
     linkText: 点击加入我们！
+  - icon:
+      src: /server_icons/tycat.jpg
+    title: tycat 服务器
+    details: 版本：JAVA | 1.8.x-1.20.4</br>欢迎来到我们的 tycat纯净服务器——一个完全原汁原味的 Minecraft 世界,让你重温游戏的本真乐趣!<br>我们的官方QQ群是：959356303
+    link: /
+    linkText: 这里等候你的到来!
 ---
 <script>
 export default {
