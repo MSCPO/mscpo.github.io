@@ -15,7 +15,7 @@ features:
   - icon:
       src: /server_icons/MA_CAT.ico
     title: MFT服务器联盟
-    details: 版本：JAVA | 1.20.1(共产猫服)</br>版本：JAVA | 1.20.4(明灯生存)</br>版本：JAVA | 1.20.1(自由未来)</br>目前联盟下有三台服务器</br>共产猫服：地毯端生电服务器，在尊重原版的基础上积极创新，始终代表先进生产力的发展方向。</br>明灯·Alethea 是一个小型群组服，以沉浸式生存体验为玩法核心。下有 趣味生电 粘液科技(测试) 等玩法。（无白名单）</br>自由未来(Minecraft Free Future)是一个城建类创造服，目前处于发展阶段。（新服开荒，无白名单）
+    details: 版本：JAVA | 1.20.1(共产猫服)</br>版本：JAVA | 1.20.4(明灯生存)</br>版本：JAVA | 1.20.1(自由未来)</br>共产猫服，地毯端生电，基于原版创新，引领先进生产力。明灯·Alethea 为小型群组服，主打沉浸式生存，特色玩法如趣味生电与粘液科技（测试）。自由未来(Minecraft Free Future)为城建类创造服，尚在发展阶段，无白名单限制。
     link: https://mc.mscaome.top/
     linkText: 加入联盟服务器！
   - icon:
