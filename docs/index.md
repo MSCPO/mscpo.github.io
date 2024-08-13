@@ -11,6 +11,9 @@ hero:
     - theme: brand
       text: 添加自己的服务器到主页
       link: /rules/
+    - theme: alt
+      text: MCJPG
+      link: https://mcjpg.zhuyuxuan.link/
 features:
   - icon:
       src: /server_icons/MA_CAT.ico
