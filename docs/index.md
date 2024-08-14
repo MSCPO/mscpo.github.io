@@ -177,6 +177,12 @@ features:
     details: 版本：JAVA | 1.8.x-1.20.4</br>欢迎来到我们的 tycat纯净服务器——一个完全原汁原味的 Minecraft 世界,让你重温游戏的本真乐趣!<br>我们的官方QQ群是：959356303
     link: /
     linkText: 这里等候你的到来!
+  - icon:
+      src: /server_icons/XingMengTaoYuan.png
+    title: 星梦桃源
+    details: 版本：JAVA互通 | 1.8.x-1.21.1</br>这是一个支持基岩与Java双版本的离线服务器，专注于生存、生电、红石与建筑的原版插件服务器。
+    link: https://xingmengtaoyuan.zeabur.app/
+    linkText: 欢迎你的到来！！！
 ---
 <script>
 export default {
