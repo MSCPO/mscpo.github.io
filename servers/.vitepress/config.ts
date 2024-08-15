@@ -1,3 +1,5 @@
+import { imgSize } from "@mdit/plugin-img-size";
+
 export default {
     head: [
         ['link', { rel: 'icon', href: '/logo2.png' }],
@@ -38,6 +40,7 @@ export default {
                 { text: "MCICP", link: "https://mcsite.cc/" },
               ]
             },
+            { text: "特别鸣谢", link: "/acknowledgement/" },
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
@@ -71,5 +74,14 @@ export default {
       ssr: {
         noExternal: ["vitepress-theme-vuetom"]
       }
+    },
+    markdown: {
+      config: md => {
+        md.use(imgSize)
+        // md.use(InlineLinkPreviewElementTransform)
+      },
+      image: {
+        lazyLoading: true
+      },
     },
 };
