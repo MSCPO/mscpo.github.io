@@ -38,6 +38,7 @@ export default {
               text: "友情链接",
               items: [
                 { text: "MCICP", link: "https://mcsite.cc/" },
+                { text: "MCJPG", link: "https://mcjpg.zhuyuxuan.link/" },
               ]
             },
             { text: "特别鸣谢", link: "/acknowledgement/" },
@@ -46,8 +47,8 @@ export default {
             { icon: "github", link: "https://github.com/MSCPO" },
         ],
         footer: {
-            message: 'Minecraft Server Collective Promotion Organization',
-            copyright: '-Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a>— —<a href="https://icp.mcsite.cc/mc/00000003.html">MCICP备案</a>-'
+            message: 'Minecraft Server Collective Promotion Organization | Minecraft集体宣传组织',
+            copyright: '- Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a> <a href="https://icp.mcsite.cc/mc/00000003.html">MCICP备案</a> -'
         },
         lastUpdatedText: "最近更新时间",
         search: {

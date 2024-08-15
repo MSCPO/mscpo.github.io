@@ -20,7 +20,7 @@
     //页面背景色
     --vt-bg-doc: rgba(var(--vt-c-bg-rgb), 1) !important;
     //标题h1颜色
-      // 重写主题色
+    // 重写主题色
     //  主色主题颜色：导航
     --vp-c-brand:  #538ce9;
     --vp-c-brand-light:  #77a3ea;
@@ -155,13 +155,13 @@
                 border-right:0;
                 background-color:#fafafa ;
             }
-        th:last-child{
-            border-right:1px solid #ebe6e6;
+            th:last-child{
+                border-right:1px solid #ebe6e6;
+            }
+            th:first-child{
+                border-left:1px solid #ebe6e6;
+            }
         }
-        th:first-child{
-            border-left:1px solid #ebe6e6;
-        }
-    }
         tr>th{
             flex: 1;
         }
