@@ -172,7 +172,7 @@ features:
       src: /server_icons/tycat.jpg
     title: tycat 服务器
     details: 版本：JAVA | 1.8.x-1.20.4</br>欢迎来到我们的 tycat纯净服务器——一个完全原汁原味的 Minecraft 世界,让你重温游戏的本真乐趣!<br>我们的官方QQ群是：959356303
-    link: /
+    link: https://qm.qq.com/q/QLRQms1xKy
     linkText: 这里等候你的到来!
   - icon:
       src: /server_icons/XingMengTaoYuan.png
