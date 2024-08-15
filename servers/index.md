@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 服务器集体宣传组织
-  tagline: Minecraft服务器集体宣传组织 (MSCPO)<br>已经与<a href="https://mcjpg.zhuyuxuan.link/">MCJPG</a>合并（×）已经解散（√）<br>*仍然接受添加服务器(以Github Issue形式提交)
+  tagline: Minecraft服务器集体宣传组织 (MSCPO)<br>已经与<a href="https://mcjpg.zhuyuxuan.link/">MCJPG</a>合并（×）已经解散（√）<br>*仍然接受添加服务器(以Github Issue形式提交，无门槛)
   actions:
     - theme: brand
       text: 添加自己的服务器到主页
