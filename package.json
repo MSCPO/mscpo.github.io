@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress serve docs"
+    "dev": "vitepress dev servers",
+    "build": "vitepress build servers",
+    "preview": "vitepress serve servers"
   },
   "dependencies": {
+    "kxs-ui": "^0.0.3",
     "vue": "^3.4.26"
   },
   "devDependencies": {
@@ -17,7 +18,8 @@
     "sass": "^1.76.0",
     "terser": "^5.31.0",
     "vite": "^5.2.10",
-    "vitepress": "^1.1.4",
+    "vitepress": "^1.3.2",
+    "vitepress-theme-vuetom": "^2.3.0",
     "vue": "^3.4.26"
   }
 }
