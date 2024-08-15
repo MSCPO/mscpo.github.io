@@ -67,4 +67,9 @@ export default {
             },
           },
     },
+    vite: {
+      ssr: {
+        noExternal: ["vitepress-theme-vuetom"]
+      }
+    },
 };
