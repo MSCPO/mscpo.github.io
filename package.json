@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@mdit/plugin-img-size": "^0.13.0",
+    "busuanzi.pure.js": "^1.0.3",
     "kxs-ui": "^0.0.3",
     "vue": "^3.4.37"
   },
