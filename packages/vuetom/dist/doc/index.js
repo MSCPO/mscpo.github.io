@@ -6,7 +6,7 @@ import '../styles/rewrite/index.css';
 import VTLayout from './components/VTLayout.vue';
 const DocsTheme = {
     ...vitepressTheme,
-    Layout: VTLayout
+    Layout: VTLayout,
 };
 export * from 'vitepress/theme';
 export default DocsTheme;
