@@ -1,3 +1,4 @@
 servers/.vitepress/cache/
 node_modules/
 package-lock.json
+packages/vuetom/node_modules/

@@ -1,0 +1,136 @@
+/** code macos */
+div[class*='language-'] {
+  &.macos,&.light {
+    margin: 0 0 24px;
+    border-radius: 7px;
+    box-shadow: var(--vp-shadow-4);
+    &:hover {
+      .line-numbers-wrapper {
+        color: var(--vp-c-brand);
+        font-weight: 600;
+        opacity: 1;
+      }
+    }
+    .line-numbers-wrapper {
+      padding-top: 40px;
+      width: 32px;
+      border-right: 0px;
+      opacity: 0.3;
+    }
+    &::before {
+      position: initial;
+      display: block;
+      color: var(--vp-c-text-2);
+      background: var(--vp-c-bg-soft);
+      height: 24px;
+      line-height: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+    &::after {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #fc625d;
+      -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+      box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+      content: ' ';
+    }
+    pre {
+      code {
+        padding-left: 32px;
+        font-weight: 600;
+      }
+    }
+    .token.comment,
+    .token.block-comment,
+    .token.prolog,
+    .token.doctype,
+    .token.cdata {
+      color: #747474;
+    }
+
+    .token.punctuation {
+      color: #743c3c;
+    }
+
+    .token.tag,
+    .token.attr-name,
+    .token.namespace,
+    .token.deleted {
+      color: #e2777a;
+    }
+
+    .token.function-name {
+      color: #1a5997;
+    }
+
+    .token.boolean,
+    .token.number,
+    .token.function {
+      color: #af4b09;
+    }
+
+    .token.property,
+    .token.class-name,
+    .token.constant,
+    .token.symbol {
+      color: #a0710b;
+    }
+
+    .token.selector,
+    .token.important,
+    .token.atrule,
+    .token.keyword,
+    .token.builtin {
+      color: #a241a3;
+    }
+
+    .token.string,
+    .token.char,
+    .token.attr-value,
+    .token.regex,
+    .token.variable {
+      color: #1e8545;
+    }
+
+    .token.operator,
+    .token.entity,
+    .token.url {
+      color: #168d8b;
+    }
+
+    .token.important,
+    .token.bold {
+      font-weight: bold;
+    }
+
+    .token.italic {
+      font-style: italic;
+    }
+
+    .token.entity {
+      cursor: help;
+    }
+
+    .token.inserted {
+      color: green;
+    }
+  }
+}
+.dark {
+  div[class*='language-'] {
+    &.macos {
+      &::before {
+        background: var(--vp-c-bg);
+      }
+      .lang {
+        background-color: transparent;
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+:root {
+  // custom-block.tip
+  --vp-custom-block-tip-border: var(--vp-c-brand-light);
+  --vp-custom-block-tip-text: var(--vp-c-brand);
+  --vp-custom-block-tip-bg: transparent;
+  // custom-block.warning
+  --vp-custom-block-warning-border: #b99a02;
+  --vp-custom-block-warning-text: #b49704;
+  --vp-custom-block-warning-bg: #e7c00010;
+  // custom-block.danger
+  --vp-custom-block-danger-border: #b90e0e;
+  --vp-custom-block-danger-text: #cf0b0b;
+  --vp-custom-block-danger-bg: #cc000010;
+  // custom-block.info
+  --vp-custom-block-info-border: #05b640;
+  --vp-custom-block-info-text: #05b740;
+  --vp-custom-block-info-bg: #06ce4910;
+}
+
+.custom-block.tip,
+.custom-block.info,
+.custom-block.warning,
+.custom-block.danger {
+  margin: 1rem 0;
+  border-width: 2px;
+  border-left: 0.5rem solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.3rem;
+  overflow-x: auto;
+  &:hover {
+    transition: all 0.5s;
+    box-shadow: var(--vp-shadow-4);
+    border-left: 2px solid;
+  }
+  a {
+    cursor: pointer;
+  }
+  .custom-block-title {
+    font-weight: 600;
+  }
+}
+
+.custom-block.details {
+  margin: 1rem 0;
+  border-width: 2px;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.3rem;
+  summary {
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.dark {
+  .custom-block.tip {
+    background-color: #23232380;
+  } 
+}

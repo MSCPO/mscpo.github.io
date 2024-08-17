@@ -1,0 +1,260 @@
+/** code default */
+
+code .token.deleted {
+  color: #ec5975;
+}
+
+code .token.inserted {
+  color: var(--c-brand);
+}
+
+div[class*='language-'] {
+  position: relative;
+  background-color: var(--vp-c-bg-soft);
+  transition: color 0.5s;
+  border: 2px solid transparent;
+  overflow-x: auto;
+  .line-numbers-wrapper {
+    border-right: 2px solid var(--vp-c-brand);
+    transition: opacity 0.5s;
+    opacity: 0.3;
+  }
+}
+
+div[class*='language-']:hover {
+  border: 2px solid var(--vp-c-brand);
+  .line-numbers-wrapper {
+    color: var(--vp-c-brand);
+    font-weight: 600;
+    opacity: 1;
+  }
+  &::before {
+    opacity: 0;
+  }
+  &::after {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+div[class*='language-']::after {
+  content: '';
+  height: 5px;
+  width: 0;
+  background: var(--vp-c-brand);
+  transition: all 0.5s;
+  opacity: 0.3;
+  display: block;
+}
+
+div[class*='language-']::before {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8rem;
+  color: #888;
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  text-align: center;
+  transition: opacity 0.5s;
+  display: none;
+}
+
+.dark {
+  div[class*='language-'] {
+    background-color: var(--vp-c-bg-alt);
+  }
+}
+
+@media (min-width: 420px) {
+  div[class*='language-'] {
+    margin: 1rem 0;
+    border-radius: 6px;
+  }
+
+  li > div[class*='language-'] {
+    margin: 1rem 0 1rem 0rem;
+    border-radius: 6px;
+  }
+}
+
+div[class~='language-html']:before,
+div[class~='language-markup']:before {
+  content: 'html';
+}
+
+div[class~='language-md']:before,
+div[class~='language-markdown']:before {
+  content: 'md';
+}
+
+div[class~='language-css']:before {
+  content: 'css';
+}
+
+div[class~='language-sass']:before {
+  content: 'sass';
+}
+
+div[class~='language-scss']:before {
+  content: 'scss';
+}
+
+div[class~='language-less']:before {
+  content: 'less';
+}
+
+div[class~='language-stylus']:before {
+  content: 'styl';
+}
+
+div[class~='language-js']:before,
+div[class~='language-javascript']:before {
+  content: 'js';
+}
+
+div[class~='language-ts']:before,
+div[class~='language-typescript']:before {
+  content: 'ts';
+}
+
+div[class~='language-json']:before {
+  content: 'json';
+}
+
+div[class~='language-rb']:before,
+div[class~='language-ruby']:before {
+  content: 'rb';
+}
+
+div[class~='language-py']:before,
+div[class~='language-python']:before {
+  content: 'py';
+}
+
+div[class~='language-sh']:before,
+div[class~='language-bash']:before {
+  content: 'sh';
+}
+
+div[class~='language-php']:before {
+  content: 'php';
+}
+
+div[class~='language-go']:before {
+  content: 'go';
+}
+
+div[class~='language-rust']:before {
+  content: 'rust';
+}
+
+div[class~='language-java']:before {
+  content: 'java';
+}
+
+div[class~='language-c']:before {
+  content: 'c';
+}
+
+div[class~='language-yaml']:before {
+  content: 'yaml';
+}
+
+div[class~='language-dockerfile']:before {
+  content: 'dockerfile';
+}
+
+div[class~='language-vue']:before {
+  content: 'vue';
+}
+
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML.
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ *
+ * @author Rose Pritchard
+ */
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999;
+}
+
+.token.punctuation {
+  color: #ccc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+  color: #e2777a;
+}
+
+.token.function-name {
+  color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+  color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+  color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+  color: #cc99cd;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: green;
+}
+
+/* pre code */
+
+.container pre {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  padding: 15px;
+  margin-bottom: 0;
+  overflow: auto;
+}

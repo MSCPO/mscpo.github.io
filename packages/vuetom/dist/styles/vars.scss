@@ -1,0 +1,149 @@
+/** Base Styles */
+
+/**
+ * Base Color
+ * --------------------------------------------------------------------- */
+@import './colors.scss';
+
+:root {
+
+  /**
+   * Extends Vitepress
+   * --------------------------------------------------------------------- */
+
+  --vp-c-second: var(--vp-c-pink);
+  --vp-c-second-light: var(--vp-c-pink-light);
+  --vp-c-second-lighter: var(--vp-c-pink-lighter);
+  --vp-c-second-dark: var(--vp-c-pink-dark);
+  --vp-c-second-darker: var(--vp-c-pink-darker);  
+
+  /**
+   * Typography
+   * --------------------------------------------------------------------- */
+
+  --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+
+  /**
+   * Z Indexes
+   *
+   * Algolia SearchBox has a z-index of 200, so make sure not to go above
+   * that value.
+   * --------------------------------------------------------------------- */
+
+  --z-index-navbar: 10;
+  --z-index-sidebar: 6;
+
+  /**
+   * Shadows
+   * --------------------------------------------------------------------- */
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 3px 12px rgba(0, 0, 0, 0.07), 0 1px 4px rgba(0, 0, 0, 0.07);
+  --shadow-3: 0 12px 32px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+  --shadow-4: 0 14px 44px rgba(0, 0, 0, 0.12), 0 3px 9px rgba(0, 0, 0, 0.12);
+  --shadow-5: 0 18px 56px rgba(0, 0, 0, 0.16), 0 4px 12px rgba(0, 0, 0, 0.16);
+
+  /**
+   * Sizes
+   * --------------------------------------------------------------------- */
+
+  --header-height: 3.6rem;
+}
+
+:root {
+  --c-brand: #1496ce;
+  --c-brand-light: #19aeee;
+  --c-sub-brand: #f197bd;
+  --c-sub-brand-light: #f7adcb;
+  --color-border: #ad295c8a;
+  --color-block: #2a7f8a;
+  --color-strong: #c13e74;
+  --color-code: #7ea1c5;
+  --color-border-left: #1d8ab9;
+  --color-code-bg: rgba(77,208,225,0.08);
+  --color-block-bg: rgba(77,208,225,0.15);
+  --linear-title: linear-gradient(to right, #32defd, rgb(247 69 152));
+  // vt 背景色
+  --vt-c-bg: var(--vt-c-white);
+  --vt-c-bg-soft: var(--vt-c-white-soft);
+  --vt-c-bg-mute: var(--vt-c-white-mute);
+  --vt-c-bg-rgb: var(--c-white-rgb);
+
+  --vt-shadow: 0 5px 6px -5px rgba(133,133,133,.6);
+  --vt-code-shadow: 5px 5px 1px rgba(255, 255, 255, 0.4);
+  --vt-code-shadow-h: 5px 5px 10px rgba(255, 255, 255, 0.4);
+  --vt-code-inline-color: #c13e74;
+  --vt-code-inline-bg: #c13e7408;
+}
+
+.dark {
+  --c-brand: #18baff;
+  --c-brand-light: #189bd3;
+  --color-border: #ff3a858a;
+  --color-block: #2a7f8a;
+  --color-strong: #e44a8a;
+  --color-code: #7ea1c5;
+  --color-border-left: #1d8ab9;
+  --color-code-bg: rgba(77,208,225,0.08);
+  --color-block-bg: rgba(77,208,225,0.15);
+  --linear-title: linear-gradient(to right, #32defd, rgb(247 69 152));
+  // vt 背景色
+  --vt-c-bg: var(--vt-c-black);
+  --vt-c-bg-soft: var(--vt-c-black-soft);
+  --vt-c-bg-mute: var(--vt-c-black-mute);
+  --vt-c-bg-rgb: var(--c-black-rgb);
+
+  --vt-shadow: 0 5px 6px -5px rgba(0, 0, 0, 0.6);
+  --vt-code-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+  --vt-code-shadow-h: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  --vt-code-inline-color: #eee;
+  --vt-code-inline-bg: #c13e7450;
+}
+
+// breakpoints
+$breakpoint-xxl: 1440px !default;
+$breakpoint-xlg: 1280px !default;
+$breakpoint-lg: 960px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-sm: 480px !default;
+
+/**
+ * Icons
+ * -------------------------------------------------------------------------- */
+
+/**
+ * Layouts
+ * -------------------------------------------------------------------------- */
+
+/**
+ * Component: Code
+ * -------------------------------------------------------------------------- */
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+:root {
+  --vt-c-button-hover-bg: var(--vp-c-blue-dimm-4);
+  --vt-c-button-active-bg: var(--vp-c-blue-dimm-5);
+}
+
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+/**
+ * Component: Nav
+ * -------------------------------------------------------------------------- */
+
+/**
+ * Component: Sidebar
+ * -------------------------------------------------------------------------- */
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */

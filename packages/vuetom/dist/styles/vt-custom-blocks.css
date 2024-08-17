@@ -1,0 +1,58 @@
+:root {
+  --vp-custom-block-tip-border: var(--vp-c-brand-light);
+  --vp-custom-block-tip-text: var(--vp-c-brand);
+  --vp-custom-block-tip-bg: transparent;
+  --vp-custom-block-warning-border: #b99a02;
+  --vp-custom-block-warning-text: #b49704;
+  --vp-custom-block-warning-bg: #e7c00010;
+  --vp-custom-block-danger-border: #b90e0e;
+  --vp-custom-block-danger-text: #cf0b0b;
+  --vp-custom-block-danger-bg: #cc000010;
+  --vp-custom-block-info-border: #05b640;
+  --vp-custom-block-info-text: #05b740;
+  --vp-custom-block-info-bg: #06ce4910
+}
+.custom-block.danger,
+.custom-block.info,
+.custom-block.tip,
+.custom-block.warning {
+  margin: 1rem 0;
+  border-width: 2px;
+  border-left: .5rem solid;
+  border-radius: .5rem;
+  padding: .5rem 1.3rem;
+  overflow-x: auto
+}
+.custom-block.danger:hover,
+.custom-block.info:hover,
+.custom-block.tip:hover,
+.custom-block.warning:hover {
+  transition: all .5s;
+  box-shadow: var(--vp-shadow-4);
+  border-left: 2px solid
+}
+.custom-block.danger a,
+.custom-block.info a,
+.custom-block.tip a,
+.custom-block.warning a {
+  cursor: pointer
+}
+.custom-block.danger .custom-block-title,
+.custom-block.info .custom-block-title,
+.custom-block.tip .custom-block-title,
+.custom-block.warning .custom-block-title {
+  font-weight: 600
+}
+.custom-block.details {
+  margin: 1rem 0;
+  border-width: 2px;
+  border-radius: .5rem;
+  padding: .5rem 1.3rem
+}
+.custom-block.details summary {
+  outline: 0;
+  cursor: pointer
+}
+.dark .custom-block.tip {
+  background-color: rgba(35,35,35,.5019607843)
+}
