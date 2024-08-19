@@ -26,7 +26,7 @@ export default {
         description: '一个Minecraft服务器集体宣传组织',//Minecraft Server Collective Promotion Organization
         nav: [
             { text: "成员服", link: "/" },
-            { text: "须知", link: "/rules/" },
+            { text: "添加服务器", link: "/AddServers/" },
             {
               text: "开服文档",
               items: [

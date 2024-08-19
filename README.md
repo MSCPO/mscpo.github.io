@@ -1,6 +1,6 @@
 # 服务器集体宣传组织
 
-[添加自己的服务器到主页](https://github.com/MSCPO/mscpo.github.io/issues/new/choose)
+[[添加自己的服务器到主页(问卷形式)]](https://github.com/MSCPO/mscpo.github.io/issues/new/choose) [[添加自己的服务器到主页(Pull)]](https://github.com/MSCPO/mscpo.github.io/blob/main/servers/index.md)
 
 -------------
 Languages：[English](README_EN.md);中文
