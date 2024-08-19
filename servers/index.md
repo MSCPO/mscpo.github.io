@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 添加自己的服务器到主页
-      link: /rules/
+      link: /AddServers/
     - theme: alt
       text: 特别鸣谢
       link: /acknowledgement/
