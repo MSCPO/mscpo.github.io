@@ -180,6 +180,18 @@ features:
     details: 版本：JAVA互通 | 1.8.x-1.21.1</br>这是一个支持基岩与Java双版本的离线服务器，专注于生存、生电、红石与建筑的原版插件服务器。
     link: https://xingmengtaoyuan.zeabur.app/
     linkText: 欢迎你的到来！！！
+  - icon:
+      src: /server_icons/极承魔域RPG.png
+    title: 极承魔域RPG
+    details: 版本：JAVA | 1.12.2</br>服务器的主要玩法：职业 技能 RPG 空岛 深渊玩法 DNF强化 徽章镶嵌 DNF天空套合成 宠物体系 时空之物玩法(原神圣遗物)<br>服务器拥有的系统： 职业 技能 能力 称号 培养宠物 签到 空岛 领地 商店 精英怪 尸潮 自助充值 邮箱 礼包 签到 任务 组队 活动副本<br>QQ群：236513990
+    link: http://mc7.cloudcatc.com:1102/
+    linkText: 极承魔域 欢迎来玩
+  - icon:
+      src: /server_icons/树怪的铁道.png
+    title: '[铸币柳]树怪的铁道服务器'
+    details: 版本：JAVA | 1.19.2</br>机械动力附属铁道装饰模组[跨越]测试服，原色经典，直特风范。
+    link: https://qm.qq.com/q/IlLpUBApG0
+    linkText: '前往 [铸币柳]树怪的铁道'
 ---
 <script>
 export default {
