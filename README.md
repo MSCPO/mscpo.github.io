@@ -2,6 +2,11 @@
 
 [添加自己的服务器到主页](https://github.com/MSCPO/mscpo.github.io/issues/new/choose)
 
+-------------
+Languages：[English](README_EN.md);中文
+
+-------------
+
 ## 提交服务器
 
 在提交服务器之前，请确定你的服务器满足以下要求：

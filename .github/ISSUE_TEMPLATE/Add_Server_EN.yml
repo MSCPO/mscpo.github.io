@@ -1,0 +1,68 @@
+name: '[EN]Add Server Card to Homepage'
+description: 'We only need some essential information about your server. Note: Applications not properly submitted as prompted may be ignored or closed.'
+title: '[Add Server]: '
+labels: ['Pending', 'In Progress']
+body:
+  - type: markdown
+    id: Info
+    attributes:
+      value: |
+        You only need to provide some essential information about your server.
+
+  - type: input
+    id: contact
+    attributes:
+      label: 'Server Name'
+      description: 'What is your server called?'
+      placeholder: 'ex. Minecraft Server'
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-motd
+    attributes:
+      label: 'Server Description'
+      description: 'Describe your server in a few words, ideally within 50 characters.'
+      placeholder: 'Server Description'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: 'Version'
+      description: 'Java/Bedrock/Cross-Platform'
+      options:
+        - 'Java'
+        - 'Bedrock'
+        - 'Cross-Platform'
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-version
+    attributes:
+      label: 'Specific Client Version'
+      description: 'The version of the client'
+      placeholder: 'ex. 1.8.2-1.20.4'
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-link
+    attributes:
+      label: 'Server Promotion Link'
+      description: 'The promotion link for your server, which can be the server website (promotion page), server promotion video link, or server group chat link for server card link redirection'
+      placeholder: 'https://'
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-icon
+    attributes:
+      label: 'Server Icon Link'
+      description: 'The link to your server icon (optional)'
+      placeholder: 'https://'
+    validations:
+      required: false
