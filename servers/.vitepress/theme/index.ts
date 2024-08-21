@@ -9,6 +9,7 @@ import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import 'vitepress-plugin-back-to-top/dist/style.css'
+import "vitepress-markdown-timeline/dist/theme/index.css";
 
 export default {
   ...VuetomTheme,

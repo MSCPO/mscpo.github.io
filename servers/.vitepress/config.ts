@@ -1,5 +1,6 @@
 import { imgSize } from "@mdit/plugin-img-size";
 import minipic from 'vite-plugin-minipic';
+import timeline from "vitepress-markdown-timeline";
 
 export default {
     head: [
@@ -28,6 +29,7 @@ export default {
         nav: [
             { text: "成员服", link: "/" },
             { text: "添加服务器", link: "/AddServers/" },
+            { text: "关于", link: "/about/" },
             {
               text: "开服文档",
               items: [
@@ -107,7 +109,8 @@ export default {
     },
     markdown: {
       config: md => {
-        md.use(imgSize)
+        md.use(imgSize);
+        md.use(timeline);
         // md.use(InlineLinkPreviewElementTransform)
       },
       image: {
