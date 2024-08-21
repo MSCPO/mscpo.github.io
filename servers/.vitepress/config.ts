@@ -3,7 +3,7 @@ import minipic from 'vite-plugin-minipic';
 
 export default {
     head: [
-        ['link', { rel: 'icon', href: '/logo2.png' }],
+        ['link', { rel: 'icon', href: '/logo2.webp' }],
     ],
     title: '服务器集体宣传组织',
     lastUpdated: true,
@@ -11,9 +11,9 @@ export default {
     lang: 'zh-CN',
     themeConfig: {
         siteTitle: '服务器集体宣传组织', //站点标题
-        logo: "/logo2.png",
+        logo: "/logo2.webp",
 
-        logoImg: "/logo.png",
+        logoImg: "/logo.webp",
         bgImg: "/bg.webp",
         bgColor: '0,0,0',
         bgOpacity: 0.6,
