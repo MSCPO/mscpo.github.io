@@ -38,7 +38,6 @@ export default {
             {
               text: "友情链接",
               items: [
-                { text: "MCICP", link: "https://mcsite.cc/" },
                 { text: "MCJPG", link: "https://mcjpg.zhuyuxuan.link/" },
               ]
             },
@@ -49,7 +48,7 @@ export default {
         ],
         footer: {
             message: 'Minecraft Server Collective Promotion Organization | Minecraft集体宣传组织',
-            copyright: '- Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a> <a href="https://icp.mcsite.cc/mc/00000003.html">MCICP备案</a> -<br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人次'
+            copyright: '- Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a> -<br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人次'
         },
         lastUpdatedText: "最近更新时间",
         search: {
