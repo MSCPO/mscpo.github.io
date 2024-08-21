@@ -1,4 +1,5 @@
 import { imgSize } from "@mdit/plugin-img-size";
+import minipic from 'vite-plugin-minipic';
 
 export default {
     head: [
@@ -74,7 +75,36 @@ export default {
     vite: {
       ssr: {
         noExternal: ["vitepress-theme-vuetom"]
-      }
+      },
+      plugins: [
+        minipic({
+          sharpOptions: {
+            avif: {
+              quality: 75
+            },
+            jpeg: {
+              quality: 75
+            },
+            jpg: {
+              quality: 75
+            },
+            png: {
+              quality: 75
+            },
+            webp: {
+              quality: 75
+            },
+            gif:{}
+          },
+          convert: [
+            { from: 'png', to: 'png' },
+            { from: 'jpg', to: 'jpeg' },
+            { from: 'jpeg', to: 'webp' },
+            { from: 'avif', to: 'avif' }
+          ],
+          cache: true
+        })
+      ]
     },
     markdown: {
       config: md => {
