@@ -97,10 +97,10 @@ export default {
             gif:{}
           },
           convert: [
-            { from: 'png', to: 'png' },
-            { from: 'jpg', to: 'jpeg' },
+            { from: 'png', to: 'webp' },
+            { from: 'jpg', to: 'webp' },
             { from: 'jpeg', to: 'webp' },
-            { from: 'avif', to: 'avif' }
+            { from: 'avif', to: 'webp' }
           ],
           cache: true
         })
