@@ -40,7 +40,7 @@ export default {
             {
               text: "友情链接",
               items: [
-                { text: "MCJPG", link: "https://mcjpg.zhuyuxuan.link/" },
+                { text: "MCJPG", link: "https://mcjpg.org/" },
               ]
             },
             { text: "特别鸣谢", link: "/acknowledgement/" },
