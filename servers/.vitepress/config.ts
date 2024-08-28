@@ -30,6 +30,7 @@ export default {
             { text: "成员服", link: "/" },
             { text: "添加服务器", link: "/AddServers/" },
             { text: "关于", link: "/about/" },
+            { text: "MC导航", link: "/nav/" },
             {
               text: "开服文档",
               items: [
