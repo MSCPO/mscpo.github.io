@@ -29,21 +29,26 @@ export default {
         nav: [
             { text: "成员服", link: "/" },
             { text: "添加服务器", link: "/AddServers/" },
-            { text: "关于", link: "/about/" },
-            {
-              text: "开服文档",
-              items: [
-                { text: "集宣组织开服文档", link: "https://mscpodoc.netlify.app/" },
-                { text: "笨蛋 MC 开服教程", link: "https://yizhan.wiki/NitWikit/" }
-              ]
-            },
             {
               text: "友情链接",
               items: [
                 { text: "MCJPG", link: "https://mcjpg.org/" },
+                {
+                  text: "开服文档",
+                  items: [
+                    { text: "集宣组织开服文档", link: "https://mscpodoc.netlify.app/" },
+                    { text: "笨蛋 MC 开服教程", link: "https://yizhan.wiki/NitWikit/" }
+                  ]
+                },
               ]
             },
-            { text: "特别鸣谢", link: "/acknowledgement/" },
+            {
+              text: "更多",
+              items: [
+                { text: "关于", link: "/about/" },
+                { text: "特别鸣谢", link: "/acknowledgement/" },
+              ]
+            },
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
