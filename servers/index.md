@@ -198,6 +198,24 @@ features:
     details: 版本：Java | 1.20.1<br>客官，来咖啡馆坐坐吗，内提供除咖啡外任何饮料酒水茶<br>这是个我的世界服务器！
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CpJiYEnLGnyBpia8YbABuJac0JD_86NO&authKey=3D22Wvj7EWN6gj%2FUViNInlQWLA2otMF9Q%2FnhNclBMOS6m5PJ1nmaHoYX35VxWNGV&noverify=0&group_code=674547299
     linkText: '前往 云边咖啡馆'
+  - icon:
+      src: https://mc.u-eptm.us.kg/Image/Web.ico
+    title: 'U-EPTM.'
+    details: 版本：Java | 1.17.x-Latest<br>这是一个1.20.6无规则公益服务器
+    link: https://mc.u-eptm.us.kg/
+    linkText: '欢迎来到 U-EPTM.'
+  - icon:
+      src: https://mc.u-eptm.us.kg/Image/Web.ico
+    title: 'U-EPTM.'
+    details: 版本：Java | 1.17.x-Latest<br>这是一个1.20.6无规则公益服务器
+    link: https://mc.u-eptm.us.kg/
+    linkText: '欢迎来到 U-EPTM.'
+  - icon:
+      src: https://www.tac-server.top/img/logo.webp
+    title: 'TACS/茶水晶服务器'
+    details: 版本：Java | 1.20.4<br>不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们<br>服务器为i5-13600KF+32G运存<br>审核通过后您方可加入服务器
+    link: https://www.tac-server.top/
+    linkText: 'TACS/茶水晶服务器'
 ---
 <script>
 export default {
