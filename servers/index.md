@@ -211,11 +211,59 @@ features:
     link: https://mc.u-eptm.us.kg/
     linkText: '欢迎来到 U-EPTM.'
   - icon:
-      src: https://www.tac-server.top/img/logo.webp
+      src: https://www.tacserver.top/img/logo.webp
     title: 'TACS/茶水晶服务器'
     details: 版本：Java | 1.20.4<br>不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们<br>服务器为i5-13600KF+32G运存<br>审核通过后您方可加入服务器
-    link: https://www.tac-server.top/
-    linkText: 'TACS/茶水晶服务器'
+    link: https://www.tacserver.top
+    linkText: '前往 TACS/茶水晶服务器'
+  - icon:
+      src: https://img.picui.cn/free/2024/08/30/66d11033a9db9.png
+    title: 'MTRpixel'
+    details: 版本：Java | 1.20.1<br>1.服务器核心使用mohist，实现插件模组并用<br>2.服务器城市建设正在进行<br>注意：新人进服默认以游客模式运行，游戏模式为冒险，如要进服建造，请看q群公告来操作
+    link: https://www.bilibili.com/video/BV126s5euEtd?t=80.7
+    linkText: '前往 MTRpixel'
+  - icon:
+      src: 'https://private-user-images.githubusercontent.com/179894903/363004622-bc4d18bf-02f1-4c6c-b103-5c2004008864.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYzMDM5NTcsIm5iZiI6MTcyNjMwMzY1NywicGF0aCI6Ii8xNzk4OTQ5MDMvMzYzMDA0NjIyLWJjNGQxOGJmLTAyZjEtNGM2Yy1iMTAzLTVjMjAwNDAwODg2NC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkxNFQwODQ3MzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MmYxMWZiZDU5MzFiM2U2YTBjYjdlYTRkNjU5MzE2OGIwOTA5NTVkMzQzYTc0MTI4NTY5YTZiZWIyYWU2OGRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.T07xQaXoqSlIb-eWvXqb66VYf_b_lVOxsK7nPnn_ZQE'
+    title: '冰原宝可梦服务器'
+    details: 版本：Java | 1.12.2<br>朱紫宝可梦服务器<br>含最新第九世代宝可梦<br>非魔改宝可梦，不禁圣杯，红线<br>最大程度还原原版宝可梦对战<br>玩法多多，福利多多
+    link: https://qm.qq.com/q/n67PqqaBLU
+    linkText: '前往 冰原宝可梦服务器'
+  - icon:
+      src: https://www.mrfat.us/img/favicon.png
+    title: 'MrFat服务器'
+    details: 版本：Java互通 | 1.21<br>死宅聚集地，欢迎各位来游玩本服务器！<br>死宅腐竹会和大家一起互动！
+    link: https://www.mrfat.us/
+    linkText: '前往 MrFat服务器'
+  - icon:
+      src: https://img.picui.cn/free/2024/09/01/66d3e96da383c.png
+    title: '信仰天域'
+    details: 版本：Java互通 | 1.20.1<br>Forge端 农夫乐事 群青 ysm 方块小镇 飞车奇匠 ae2 暮色森林 灾变 精妙背包 无尽贪婪 更多装饰 高版本怀旧向长期建筑养老服务器 不换周目 实时更新插件与模组版本 三日一备份 欢迎大家游玩
+    link: https://qm.qq.com/q/DeqGT9L692
+    linkText: '前往 信仰天域'
+  - icon:
+      src: https://img.picui.cn/free/2024/09/01/66d3e96da383c.png
+    title: '猫娘乐园'
+    details: 版本：Java | 1.12.x<br>猫娘乐园 ——纯净MOD生存|公益|工业|神秘|暮色|林业<br>很好玩的纯净mod服，没有复杂的指令，无死亡不掉落，有正版验证，欢迎所有方块人的加入！ 每个人在服务器中都是平等的包括服主！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JpckQwkEOoRU-YQUniZCoxVdwZNS_QrG&authKey=WsAoDeU6fmEgHEszYMiAwCliTS2RaTOt%2FOBuLthlE98Pw4a0WLtOrVvX%2F7XuoJKc&noverify=0&group_code=261483972
+    linkText: '前往 猫娘乐园'
+  - icon:
+      src: /logo2.webp
+    title: '方块宝可梦'
+    details: 版本：Java | 1.20.1<br>🎉 《我的世界方块宝可梦》全新冒险等你来战！ 🎉<br>🌍 探索无垠的方块世界<br>你是否厌倦了日常的繁琐，渴望一次全新的冒险？《我的世界方块宝可梦》为你打开了一扇通往奇幻世界的大门！在这个广袤无垠的方块世界里，你可以自由挖矿，随心所欲地建造自己的梦幻家园。🐲 神兽自...
+    link: https://qm.qq.com/q/ZFcs1HVcye
+    linkText: '前往 方块宝可梦'
+  - icon:
+      src: /logo2.webp
+    title: '一个养老服务器'
+    details: 版本：Java | 1.21.1<br>1.21.1养老原版服务器，百度网盘直接下载，内有服务器地址，内置各种光影，也可自行添加。服务器无特别规定，请不要搞破坏，或者偷东西之类的，请遵守基本道德水准。<br>您也可以自行下载请参照下面的具体客户端版本<br>服务器地址：xm.rainplay.cn:25166<br>第一请使用盗版登录，id设置为Test<br>如果想长久玩下去，请添加QQ：2629683293<br>这个服是完全的公益服，因为有白名单，所以请添加QQ来添加白名单，防止有人蓄意破坏
+    link: https://pan.baidu.com/s/1OIFTuNsOScRIIlDPIQgzZA
+    linkText: '提取码：1234'
+  - icon:
+      src: http://154.12.36.160/images/logo.png
+    title: 'M3inPE0.14'
+    details: 版本：基岩 | 0.14.x<br> 一个超级老的PE0.14生存服<br>服务器是美国的<br>地址:154.12.36.160<br>端口:19132<br>人非常少 我希望像生存斧一样
+    link: http://154.12.36.160/
+    linkText: '前往 M3inPE0.14'
 ---
 <script>
 export default {
