@@ -265,32 +265,20 @@ features:
     link: http://154.12.36.160/
     linkText: '前往 M3inPE0.14'
 ---
-<script>
-export default {
-  mounted() {
-    this.shuffleElements();
-    // 如果确实需要在挂载后调用 reload() 方法，确保该方法已经定义
-    // this.reload();
-  },
-  methods: {
-    shuffleElements() {
-      const elements = Array.from(document.querySelectorAll('div.VPFeatures .container .items .item'));
-      const parent = document.querySelector('div.VPFeatures .container .items');
-
-      for (let i = elements.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        const temp = elements[i];
-        elements[i] = elements[j];
-        elements[j] = temp;
-      }
-
-      // 清空父元素并将重新排序后的元素添加到父元素中
-      parent.innerHTML = '';
-      elements.forEach(element => {
-        parent.appendChild(element);
-      });
-    }
+<script setup>
+import { onMounted } from 'vue'
+onMounted(() => {
+  const elements = Array.from(document.querySelectorAll('div.VPFeatures .container .items .item'));
+  const parent = document.querySelector('div.VPFeatures .container .items');
+  for (let i = elements.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = elements[i];
+    elements[i] = elements[j];
+    elements[j] = temp;
+    parent.innerHTML = '';
+    elements.forEach(element => {
+      parent.appendChild(element);
+    });
   }
-}
+})
 </script>
-<Confetti />
