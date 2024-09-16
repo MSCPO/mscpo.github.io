@@ -34,6 +34,11 @@ export default {
 
 const playlist = [
   {
+    name: 'Moog City 2',
+    author: 'C418',
+    file: '/Moog_City_2.mp3',
+  },
+  {
     name: 'Hygeia(Remix)',
     author: 'MSCPO',
     file: '/Hygeia(Remix).mp3',

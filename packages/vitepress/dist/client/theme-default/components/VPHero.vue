@@ -35,7 +35,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
   <p v-if="text" v-html="text" class="text"></p>
   <p v-if="tagline" v-html="tagline" class="tagline"></p>
   <div class="common-slogan">
-    <div class="text animated-div" style="color:chartreuse">MSCPO 中国</div>
+    <div class="text animated-div" style="font-size:32px; color:chartreuse">MSCPO 中国</div>
   </div>
 </slot>
 <slot name="home-hero-info-after" />
@@ -354,7 +354,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
   animation: scaleAnimation 0.6s infinite;
   transition-timing-function: ease-in;
   position: relative;
-  top: -4vh; left: 14vh;
+  top: -4vh; left: 16vh;
 }
 
 </style>
