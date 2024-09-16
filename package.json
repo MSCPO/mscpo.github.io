@@ -7,9 +7,12 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "vitepress dev servers",
-    "build": "vitepress build servers",
-    "preview": "vitepress serve servers"
+    "dev": "pnpm run server:dev",
+    "build": "pnpm run server:build",
+    "preview": "pnpm run server:preview",
+    "server:dev": "vitepress dev servers",
+    "server:build": "vitepress build servers",
+    "server:preview": "vitepress serve servers"
   },
   "dependencies": {
     "@mdit/plugin-img-size": "^0.13.1",
