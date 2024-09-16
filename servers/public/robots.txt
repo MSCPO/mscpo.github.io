@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /contact/
+
+Sitemap: https://mscpo.netlify.app/sitemap.xml

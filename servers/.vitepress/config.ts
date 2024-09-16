@@ -122,4 +122,8 @@ export default {
         lazyLoading: true
       },
     },
+    sitemap: {
+      hostname: 'https://mscpo.netlify.app/',
+      lastmodDateOnly: false
+    }
 };
