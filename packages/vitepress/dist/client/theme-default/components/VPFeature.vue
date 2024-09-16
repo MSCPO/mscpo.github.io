@@ -79,21 +79,21 @@ defineProps<{
 }
 
 .Java {
-  background-image: url("/JavaEditon.png");
+  background-image: url("/JavaEditon.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
 }
 
 .Bedrock {
-  background-image: url("/BedRock.png");
+  background-image: url("/BedRock.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
 }
 
 .Geyser {
-  background-image: url("/BedRock.png"), url("/JavaEditon.png");
+  background-image: url("/BedRock.webp"), url("/JavaEditon.webp");
   background-blend-mode: luminosity;
   background-position: center;
   background-repeat: no-repeat;
