@@ -68,6 +68,7 @@
     "@types/markdown-it": "^14.1.2",
     "@vitejs/plugin-vue": "^5.1.2",
     "@vue/devtools-api": "^7.3.8",
+    "@vueuse/sound": "^2.0.1",
     "@vue/shared": "^3.4.38",
     "@vueuse/core": "^11.0.0",
     "@vueuse/integrations": "^11.0.0",

@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { normalizeLink } from '../support/utils'
 import { EXTERNAL_URL_RE } from '../../shared'
+import SoundFiles from '../sounds/button.mp3'
 
 const props = defineProps<{
   tag?: string
@@ -19,6 +20,17 @@ const isExternal = computed(
 )
 </script>
 
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
+</script>
+
 <template>
   <component
     :is="tag"
@@ -31,6 +43,7 @@ const isExternal = computed(
     :href="href ? normalizeLink(href) : undefined"
     :target="target ?? (isExternal ? '_blank' : undefined)"
     :rel="rel ?? (isExternal ? 'noreferrer' : undefined)"
+    @click="playSound"
   >
     <slot />
   </component>

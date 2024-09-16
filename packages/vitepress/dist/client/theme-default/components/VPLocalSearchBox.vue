@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import localSearchIndex from '@localSearchIndex'
+import SoundFiles from '../sounds/button.mp3'
 import {
   computedAsync,
   debouncedWatch,
@@ -402,6 +403,17 @@ function formMarkRegex(terms: Set<string>) {
 }
 </script>
 
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
+</script>
+
 <template>
   <Teleport to="body">
     <div
@@ -444,6 +456,7 @@ function formMarkRegex(terms: Set<string>) {
             id="localsearch-input"
             aria-labelledby="localsearch-label"
             class="search-input"
+            @click="playSound"
           />
           <div class="search-actions">
             <button
@@ -453,7 +466,8 @@ function formMarkRegex(terms: Set<string>) {
               :class="{ 'detailed-list': showDetailedList }"
               :title="translate('modal.displayDetails')"
               @click="
-                selectedIndex > -1 && (showDetailedList = !showDetailedList)
+                selectedIndex > -1 && (showDetailedList = !showDetailedList),
+                playSound()
               "
             >
               <span class="vpi-layout-list local-search-icon" />

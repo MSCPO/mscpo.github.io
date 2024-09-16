@@ -10,6 +10,7 @@ import {
 import type { DefaultTheme } from '../../shared'
 import { useData } from '../composables/data'
 import VPNavBarSearchButton from './VPNavBarSearchButton.vue'
+import SoundFiles from '../sounds/button.mp3'
 
 const VPLocalSearchBox = __VP_LOCAL_SEARCH__
   ? defineAsyncComponent(() => import('./VPLocalSearchBox.vue'))
@@ -129,6 +130,17 @@ if (__VP_LOCAL_SEARCH__) {
 const provider = __ALGOLIA__ ? 'algolia' : __VP_LOCAL_SEARCH__ ? 'local' : ''
 </script>
 
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
+</script>
+
 <template>
   <div class="VPNavBarSearch">
     <template v-if="provider === 'local'">
@@ -137,7 +149,7 @@ const provider = __ALGOLIA__ ? 'algolia' : __VP_LOCAL_SEARCH__ ? 'local' : ''
         @close="showSearch = false"
       />
 
-      <div id="local-search">
+      <div id="local-search" @click="playSound">
         <VPNavBarSearchButton @click="showSearch = true" />
       </div>
     </template>

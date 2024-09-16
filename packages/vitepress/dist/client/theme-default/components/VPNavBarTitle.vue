@@ -5,6 +5,7 @@ import { useLangs } from '../composables/langs'
 import { useSidebar } from '../composables/sidebar'
 import { normalizeLink } from '../support/utils'
 import VPImage from './VPImage.vue'
+import SoundFiles from '../sounds/button.mp3'
 
 const { site, theme } = useData()
 const { hasSidebar } = useSidebar()
@@ -29,6 +30,17 @@ const target = computed(() =>
 )
 </script>
 
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
+</script>
+
 <template>
   <div class="VPNavBarTitle" :class="{ 'has-sidebar': hasSidebar }">
     <a
@@ -36,6 +48,7 @@ const target = computed(() =>
       :href="link ?? normalizeLink(currentLang.link)"
       :rel="rel"
       :target="target"
+      @click="playSound"
     >
       <slot name="nav-bar-title-before" />
       <VPImage v-if="theme.logo" class="logo" :image="theme.logo" />

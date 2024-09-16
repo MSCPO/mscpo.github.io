@@ -27,39 +27,42 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
   <div class="VPHero" :class="{ 'has-image': image || heroImageSlotExists }">
     <div class="container">
       <div class="main">
-        <slot name="home-hero-info-before" />
-        <slot name="home-hero-info">
-          <h1 v-if="name" class="name">
-            <span v-html="name" class="clip"></span>
-          </h1>
-          <p v-if="text" v-html="text" class="text"></p>
-          <p v-if="tagline" v-html="tagline" class="tagline"></p>
-        </slot>
-        <slot name="home-hero-info-after" />
+<slot name="home-hero-info-before" />
+<slot name="home-hero-info">
+  <h1 v-if="name" class="name">
+    <span v-html="name" class="clip"></span>
+  </h1>
+  <p v-if="text" v-html="text" class="text"></p>
+  <p v-if="tagline" v-html="tagline" class="tagline"></p>
+  <div class="common-slogan">
+    <div class="text animated-div" style="color:chartreuse">MSCPO 中国</div>
+  </div>
+</slot>
+<slot name="home-hero-info-after" />
 
-        <div v-if="actions" class="actions">
-          <div v-for="action in actions" :key="action.link" class="action">
-            <VPButton
-              tag="a"
-              size="medium"
-              :theme="action.theme"
-              :text="action.text"
-              :href="action.link"
-              :target="action.target"
-              :rel="action.rel"
-            />
-          </div>
-        </div>
-        <slot name="home-hero-actions-after" />
+<div v-if="actions" class="actions">
+  <div v-for="action in actions" :key="action.link" class="action">
+    <VPButton
+      tag="a"
+      size="medium"
+      :theme="action.theme"
+      :text="action.text"
+      :href="action.link"
+      :target="action.target"
+      :rel="action.rel"
+    />
+  </div>
+</div>
+<slot name="home-hero-actions-after" />
       </div>
 
       <div v-if="image || heroImageSlotExists" class="image">
-        <div class="image-container">
-          <div class="image-bg" />
-          <slot name="home-hero-image">
-            <VPImage v-if="image" class="image-src" :image="image" />
-          </slot>
-        </div>
+<div class="image-container">
+  <div class="image-bg" />
+  <slot name="home-hero-image">
+    <VPImage v-if="image" class="image-src" :image="image" />
+  </slot>
+</div>
       </div>
     </div>
   </div>
@@ -333,4 +336,25 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
     max-height: 320px;
   }
 }
+
+@keyframes scaleAnimation {
+  0% {
+    transform: rotate(-30deg) scale(1);
+  }
+  50% {
+    transform: rotate(-30deg) scale(0.6);
+  }
+  100% {
+    transform: rotate(-30deg) scale(1);
+  }
+}
+
+.animated-div {
+  transform-origin: center;
+  animation: scaleAnimation 0.6s infinite;
+  transition-timing-function: ease-in;
+  position: relative;
+  top: -4vh; left: 14vh;
+}
+
 </style>

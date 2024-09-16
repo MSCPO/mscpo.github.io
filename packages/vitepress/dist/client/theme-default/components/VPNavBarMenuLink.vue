@@ -3,12 +3,24 @@ import type { DefaultTheme } from 'vitepress/theme'
 import { useData } from '../composables/data'
 import { isActive } from '../../shared'
 import VPLink from './VPLink.vue'
+import SoundFiles from '../sounds/button.mp3'
 
 defineProps<{
   item: DefaultTheme.NavItemWithLink
 }>()
 
 const { page } = useData()
+</script>
+
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
 </script>
 
 <template>
@@ -26,6 +38,7 @@ const { page } = useData()
     :target="item.target"
     :rel="item.rel"
     tabindex="0"
+    @click="playSound"
   >
     <span v-html="item.text"></span>
   </VPLink>

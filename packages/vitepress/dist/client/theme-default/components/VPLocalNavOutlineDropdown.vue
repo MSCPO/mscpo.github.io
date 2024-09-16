@@ -5,6 +5,7 @@ import { nextTick, ref, watch } from 'vue'
 import { useData } from '../composables/data'
 import { resolveTitle, type MenuItem } from '../composables/outline'
 import VPDocOutlineItem from './VPDocOutlineItem.vue'
+import SoundFiles from '../sounds/button.mp3'
 
 const props = defineProps<{
   headers: MenuItem[]
@@ -62,6 +63,17 @@ function scrollToTop() {
 }
 </script>
 
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
+</script>
+
 <template>
   <div
     class="VPLocalNavOutlineDropdown"
@@ -69,14 +81,14 @@ function scrollToTop() {
     ref="main"
   >
     <button @click="toggle" :class="{ open }" v-if="headers.length > 0">
-      <span class="menu-text">{{ resolveTitle(theme) }}</span>
+      <span class="menu-text" @click="playSound">{{ resolveTitle(theme) }}</span>
       <span class="vpi-chevron-right icon" />
     </button>
     <button @click="scrollToTop" v-else>
       {{ theme.returnToTopLabel || 'Return to top' }}
     </button>
     <Transition name="flyout">
-      <div v-if="open" ref="items" class="items" @click="onItemClick">
+      <div v-if="open" ref="items" class="items" @click="onItemClick, playSound()">
         <div class="header">
           <a class="top-link" href="#" @click="scrollToTop">
             {{ theme.returnToTopLabel || 'Return to top' }}
