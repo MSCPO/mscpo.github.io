@@ -80,7 +80,7 @@ export default {
     },
     vite: {
       ssr: {
-        noExternal: ["vitepress-theme-vuetom"]
+        noExternal: ["vitepress-theme-mscpo"]
       },
       plugins: [
         minipic({

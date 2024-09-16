@@ -1,5 +1,5 @@
 import Layout from './components/Layout.vue'
-import VuetomTheme from 'vitepress-theme-vuetom'
+import VuetomTheme from 'vitepress-theme-mscpo'
 import "./style/custom.scss"
 import Confetti from "./components/Confetti.vue"
 import Button from "./components/Button.vue"

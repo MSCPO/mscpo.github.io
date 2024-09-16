@@ -1,11 +1,12 @@
 {
-  "name": "vitepress-theme-vuetom",
+  "name": "vitepress-theme-mscpo",
   "version": "2.3.0",
   "description": "A Vitepress Theme, Have blog and document styles",
   "type": "module",
   "packageManager": "pnpm@7.9.0",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
+  "private":"true",
   "types": "./types/index.d.ts",
   "exports": {
     ".": {
