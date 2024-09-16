@@ -6,6 +6,7 @@ import VPLink from './VPLink.vue'
 defineProps<{
   icon?: DefaultTheme.FeatureIcon
   title: string
+  type: 'Java' | 'Bedrock' | 'Geyser' | '网易'
   details?: string
   link?: string
   linkText?: string
@@ -23,7 +24,10 @@ defineProps<{
     :no-icon="true"
     :tag="link ? 'a' : 'div'"
   >
-    <article class="box">
+    <article
+      class="box"
+      :class="[type]"
+    >
       <div v-if="typeof icon === 'object' && icon.wrap" class="icon">
         <VPImage
           :image="icon"
@@ -70,7 +74,30 @@ defineProps<{
   display: flex;
   flex-direction: column;
   padding: 24px;
+  border: 1px;
   height: 100%;
+}
+
+.Java {
+  background-image: url("/JavaEditon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.Bedrock {
+  background-image: url("/BedRock.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.Geyser {
+  background-image: url("/BedRock.png"), url("/JavaEditon.png");
+  background-blend-mode: luminosity;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
 }
 
 .box > :deep(.VPImage) {

@@ -6,6 +6,7 @@ import VPFeature from './VPFeature.vue'
 export interface Feature {
   icon?: DefaultTheme.FeatureIcon
   title: string
+  type: 'Java' | 'Bedrock' | 'Geyser' | '网易'
   details: string
   link?: string
   linkText?: string
@@ -52,6 +53,7 @@ const grid = computed(() => {
             :link-text="feature.linkText"
             :rel="feature.rel"
             :target="feature.target"
+            :type ="feature.type"
           />
         </div>
       </div>
