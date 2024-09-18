@@ -63,6 +63,10 @@ Languages：[English](README_EN.md);中文
 
 [服务器集体宣传组织(MSCPO)](https://mscpo.mscaome.top) https://mscpo.mscaome.top
 
+### 项目信息
+
+![Alt](https://repobeats.axiom.co/api/embed/40f1d6f2bafcf731a005ddad0f4a0178ce8e6c46.svg "Repobeats analytics image")
+
 ### 贡献者
 
 帮助我们添加服务器的贡献者们
