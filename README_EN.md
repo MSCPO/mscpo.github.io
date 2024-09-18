@@ -17,7 +17,7 @@ Before submitting a server, please make sure that your server meets the followin
 If your server meets the above requirements, please follow these steps to submit your server:
 
 1. Fork this repository and clone it locally.
-2. Modify the `docs/index.md` file and add the following to the `features` field:
+2. Modify the `servers/index.md` file and add the following to the `features` field:
 
 ``` index.md
   - icon:
@@ -47,7 +47,7 @@ For example:
   - icon: 🛠️
 ```
 
-3. (Optional) If you need to display the server icon, please add the icon to the `docs/public/server_icons/` directory.
+3. (Optional) If you need to display the server icon, please add the icon to the `servers/public/server_icons/` directory.
 4. Push to your repository and then submit a pull request.
 
 ## Special Thanks

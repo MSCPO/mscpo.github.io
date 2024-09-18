@@ -299,6 +299,18 @@ features:
     details: 版本：国际基岩 | 0.14.x<br> 一个超级老的PE0.14生存服<br>服务器是美国的<br>地址:154.12.36.160<br>端口:19132<br>人非常少 我希望像生存斧一样
     link: http://154.12.36.160/
     linkText: '前往 M3inPE0.14'
+  - icon:
+      src: /logo2.webp
+    title: 'Lucky clover幸运的四叶草🍀'
+    type: Bedrock
+    details: 版本：国际基岩 | 1.21.20+<br>死亡不掉落生存服，有冰船小游戏，时钟管理菜单，基岩版原版bds<br>加入QQ群：972352260
+  - icon:
+      src: /server_icons/WTFXXJ.webp
+    title: 'WTFXXJ'
+    type: Java
+    details: 版本：Java | 1.8.9-1.21.1<br>WTFXXJ是一个(近乎原版的)我的世界生存服<br>在这里你可以和朋友们一起Van<br>插件少的情况下会紧跟版本更新<br>WTFXXJ是一个普普通通的生存服，你可以理解和你开单人档差不多！！！<br>只是加了一些{玩家让加的}功能类插件！<br>​​进入服务器即代表你同意服务器规则中的所有内容！<br>若不同意请勿进服
+    link: https://www.wtfxxj.top/
+    linkText: '前往 WTFXXJ'
 ---
 <script setup>
 import { onMounted } from 'vue'
