@@ -64,6 +64,10 @@ For example:
 
 [Server Collective Promotion Organization (MSCPO)](https://mscpo.mscaome.top) [https://mscpo.mscaome.top](https://mscpo.mscaome.top)
 
+### Info
+
+![Alt](https://repobeats.axiom.co/api/embed/40f1d6f2bafcf731a005ddad0f4a0178ce8e6c46.svg "Repobeats analytics image")
+
 ### Contributors
 
 Contributors who helped us add servers
