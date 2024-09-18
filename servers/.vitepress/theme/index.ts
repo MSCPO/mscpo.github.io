@@ -1,8 +1,9 @@
-import Layout from './components/Layout.vue'
 import VuetomTheme from 'vitepress-theme-mscpo'
+import DefaultTheme from 'vitepress/theme'
 import "./style/custom.scss"
+import { h } from 'vue'
+import { useData } from 'vitepress'
 import Confetti from "./components/Confetti.vue"
-import Button from "./components/Button.vue"
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import vitepressMusic from 'vitepress-plugin-music'
@@ -10,14 +11,15 @@ import 'vitepress-plugin-music/lib/css/index.css'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import 'vitepress-plugin-back-to-top/dist/style.css'
 import "vitepress-markdown-timeline/dist/theme/index.css";
+import NavList from './components/Nav/NavList.vue'
 
 export default {
   ...VuetomTheme,
   enhanceApp({app, router}) {
     // 注册全局组件
-    app.component('Layout' , Layout)
     app.component('Confetti' , Confetti)
-    app.component('Button' , Button)
+    app.component('NavList' , NavList)
+    
     
     if (inBrowser) {
       router.onAfterRouteChanged = () => {
@@ -29,6 +31,18 @@ export default {
       // default
       threshold:300
     })
+  },
+  Layout: () => {
+    const props: Record<string, any> = {}
+    // 获取 frontmatter
+    const { frontmatter } = useData()
+
+    /* 添加自定义 class */
+    if (frontmatter.value?.layoutClass) {
+      props.class = frontmatter.value.layoutClass
+    }
+
+    return h(DefaultTheme.Layout, props)
   },
 }
 

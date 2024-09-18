@@ -24,6 +24,12 @@ importers:
         specifier: ^3.4.37
         version: 3.5.5(typescript@5.6.2)
     devDependencies:
+      '@mdit-vue/shared':
+        specifier: ^2.1.3
+        version: 2.1.3
+      '@modyfi/vite-plugin-yaml':
+        specifier: ^1.1.0
+        version: 1.1.0(rollup@4.21.3)(vite@5.4.5(@types/node@22.5.5)(sass@1.78.0)(terser@5.32.0))
       '@vitejs/plugin-legacy':
         specifier: ^5.3.2
         version: 5.4.2(terser@5.32.0)(vite@5.4.5(@types/node@22.5.5)(sass@1.78.0)(terser@5.32.0))
@@ -374,6 +380,9 @@ importers:
       '@esbuild-kit/cjs-loader':
         specifier: ^2.2.1
         version: 2.4.4
+      '@types/dom-view-transitions':
+        specifier: ^1.0.5
+        version: 1.0.5
       '@types/nprogress':
         specifier: ^0.2.0
         version: 0.2.3
@@ -1685,6 +1694,11 @@ packages:
       markdown-it:
         optional: true
 
+  '@modyfi/vite-plugin-yaml@1.1.0':
+    resolution: {integrity: sha512-L26xfzkSo1yamODCAtk/ipVlL6OEw2bcJ92zunyHu8zxi7+meV0zefA9xscRMDCsMY8xL3C3wi3DhMiPxcbxbw==}
+    peerDependencies:
+      vite: ^3.2.7 || ^4.0.5 || ^5.0.5
+
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -1884,6 +1898,9 @@ packages:
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
+
+  '@types/dom-view-transitions@1.0.5':
+    resolution: {integrity: sha512-N2sILR7fxSMnaFaAPwGj4DtHCXjIyQTHt+xJyf9jATpzUsTkMNM0DWtqZB6W7f501B/Y0tq3uqat/VlbjuTpMA==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -3160,6 +3177,10 @@ packages:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
     hasBin: true
 
+  js-yaml@4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
+
   jsesc@0.5.0:
     resolution: {integrity: sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA==}
     hasBin: true
@@ -4086,6 +4107,10 @@ packages:
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
+
+  tosource@2.0.0-alpha.3:
+    resolution: {integrity: sha512-KAB2lrSS48y91MzFPFuDg4hLbvDiyTjOVgaK7Erw+5AmZXNq4sFRVn8r6yxSLuNs15PaokrDRpS61ERY9uZOug==}
+    engines: {node: '>=10'}
 
   totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
@@ -5722,6 +5747,15 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.1.0
 
+  '@modyfi/vite-plugin-yaml@1.1.0(rollup@4.21.3)(vite@5.4.5(@types/node@22.5.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@rollup/pluginutils': 5.1.0(rollup@4.21.3)
+      js-yaml: 4.1.0
+      tosource: 2.0.0-alpha.3
+      vite: 5.4.5(@types/node@22.5.5)(sass@1.78.0)(terser@5.32.0)
+    transitivePeerDependencies:
+      - rollup
+
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -5889,6 +5923,8 @@ snapshots:
   '@types/debug@4.1.12':
     dependencies:
       '@types/ms': 0.7.34
+
+  '@types/dom-view-transitions@1.0.5': {}
 
   '@types/estree@1.0.5': {}
 
@@ -7257,6 +7293,10 @@ snapshots:
       argparse: 1.0.10
       esprima: 4.0.1
 
+  js-yaml@4.1.0:
+    dependencies:
+      argparse: 2.0.1
+
   jsesc@0.5.0: {}
 
   jsesc@2.5.2: {}
@@ -8245,6 +8285,8 @@ snapshots:
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
+
+  tosource@2.0.0-alpha.3: {}
 
   totalist@3.0.1: {}
 

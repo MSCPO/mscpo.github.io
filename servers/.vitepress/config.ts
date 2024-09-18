@@ -1,6 +1,7 @@
 import { imgSize } from "@mdit/plugin-img-size";
 import minipic from 'vite-plugin-minipic';
 import timeline from "vitepress-markdown-timeline";
+import ViteYaml from 'vite-plugin-yaml'
 
 export default {
     head: [
@@ -49,6 +50,7 @@ export default {
                 { text: "特别鸣谢", link: "/acknowledgement/" },
               ]
             },
+            // { text: "导航", link: "/nav/" },
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
