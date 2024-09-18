@@ -1,5 +1,7 @@
 # 如何在集宣组织宣传网站中添加自己的服务器展示位置？
 
+待处理：![Wait...](https://img.shields.io/github/issues/MSCPO/mscpo.github.io.svg)    已处理：![Completed](https://img.shields.io/github/issues-closed/MSCPO/mscpo.github.io.svg)
+
 ## 方法一：问卷申请
 
 1. 提供必要信息
