@@ -1,7 +1,7 @@
 import { imgSize } from "@mdit/plugin-img-size";
 import minipic from 'vite-plugin-minipic';
 import timeline from "vitepress-markdown-timeline";
-import ViteYaml from 'vite-plugin-yaml'
+import ViteYaml from '@modyfi/vite-plugin-yaml'
 
 export default {
     head: [
@@ -85,6 +85,7 @@ export default {
         noExternal: ["vitepress-theme-mscpo"]
       },
       plugins: [
+        ViteYaml(),
         minipic({
           sharpOptions: {
             avif: {

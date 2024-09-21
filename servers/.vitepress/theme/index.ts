@@ -1,5 +1,4 @@
 import VuetomTheme from 'vitepress-theme-mscpo'
-import DefaultTheme from 'vitepress/theme'
 import "./style/custom.scss"
 import { h } from 'vue'
 import { useData } from 'vitepress'
@@ -42,7 +41,7 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props)
+    return h(VuetomTheme.Layout, props)
   },
 }
 

@@ -1,5 +1,5 @@
 /* type.ts */
-export interface NavLink {
+export interface NavTypes {
     /** 站点图标 */
     icon?: string | { svg: string }
     badge?:
@@ -18,5 +18,5 @@ export interface NavLink {
   
   export interface NavData {
     title: string
-    items: NavLink[]
+    items: NavTypes[]
   }

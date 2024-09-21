@@ -1,5 +1,8 @@
 import type { NavLink } from '../.vitepress/theme/types'
 
+import yml from './data.yaml'
+
+
 type NavData = {
   title: string
   items: NavLink[]
