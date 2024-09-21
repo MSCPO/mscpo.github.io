@@ -300,7 +300,7 @@ features:
     link: http://154.12.36.160/
     linkText: '前往 M3inPE0.14'
   - icon:
-      src: /Lucky_clover.webp
+      src: /server_icons/Lucky_clover.webp
     title: 'Lucky clover幸运的四叶草🍀'
     type: Bedrock
     details: 版本：国际基岩 | 1.21.20+<br>死亡不掉落生存服，有冰船小游戏，时钟管理菜单，基岩版原版bds<br>加入QQ群：972352260
