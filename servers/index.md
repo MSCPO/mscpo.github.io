@@ -313,6 +313,13 @@ features:
     details: 版本：Java | 1.8.9-1.21.1<br>WTFXXJ是一个(近乎原版的)我的世界生存服<br>在这里你可以和朋友们一起Van<br>插件少的情况下会紧跟版本更新<br>WTFXXJ是一个普普通通的生存服，你可以理解和你开单人档差不多！！！<br>只是加了一些{玩家让加的}功能类插件！<br>​​进入服务器即代表你同意服务器规则中的所有内容！<br>若不同意请勿进服
     link: https://www.wtfxxj.top/
     linkText: '前往 WTFXXJ'
+  - icon:
+      src: /logo.webp
+    title: 'RBS'
+    type: Geyser
+    details: 版本：Java | 1.21.1<br>RBS 差不多就是Redstone building server的简写。一个生电服务器。很小，人数上限5，人爆了需要排队。目前人数较少（都开学了呀）。我们是互通，但Java优先，我们的互通更新也较慢。
+    link: ./
+    linkText: 'QQ群 870645787'
 ---
 <script setup>
 import { onMounted } from 'vue'
