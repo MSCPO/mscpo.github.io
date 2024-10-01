@@ -304,7 +304,7 @@ features:
     title: 'Lucky clover幸运的四叶草🍀'
     type: Bedrock
     details: 版本：国际基岩 | 1.21.20+<br>死亡不掉落生存服，有冰船小游戏，时钟管理菜单，基岩版原版bds<br>加入QQ群：972352260
-    link: https://qm.qq.com/q/ERzHZcbbNI
+    link: https://pro.luckyclover.us.kg
     linkText: '前往 Lucky clover幸运的四叶草🍀'
   - icon:
       src: /server_icons/WTFXXJ.webp
