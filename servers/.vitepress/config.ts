@@ -33,7 +33,7 @@ export default {
             {
               text: "友情链接",
               items: [
-                { text: "暂无", link: "#/" },
+                { text: "MCJPG", link: "https://mcjpg.org/" },
                 {
                   text: "开服文档",
                   items: [
