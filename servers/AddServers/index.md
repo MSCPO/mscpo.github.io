@@ -5,8 +5,8 @@
 ## 方法1：加入委员会群聊
 
 1.加入群聊
-  [加入群聊](https://qm.qq.com/cgi-bin/qm/qr?k=gWjlcHAM-9cSgtQC1B-gkMpzdW250uDv&jump_from=webapi&authKey=1ce3eEvCnXY71xkoPTH7/zOBqkuaJD6H/XlY/Mz5kDxycvwnpDdQRtM03+WPsLMh)
-2.私信现任委会长/在群内@说明服务器信息即可
+  [加入群聊](https://qm.qq.com/cgi-bin/qm/qr?k=gWjlcHAM-9cSgtQC1B-gkMpzdW250uDv&jump_from=webapi&authKey=1ce3eEvCnXY71xkoPTH7/zOBqkuaJD6H/XlY/Mz5kDxycvwnpDdQRtM03+WPsLMh)  
+2.私信现任委会长/在群内@说明服务器信息即可  
 
 ## 方法2：问卷申请
 
