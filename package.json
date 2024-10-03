@@ -18,7 +18,6 @@
   "dependencies": {
     "@mdit/plugin-img-size": "^0.13.1",
     "busuanzi.pure.js": "^1.0.3",
-    "js-yaml": "^4.1.0",
     "kxs-ui": "^0.0.3",
     "prettier": "^3.3.3",
     "sharp": "^0.33.5",
