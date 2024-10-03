@@ -14,9 +14,15 @@ importers:
       busuanzi.pure.js:
         specifier: ^1.0.3
         version: 1.0.3
+      js-yaml:
+        specifier: ^4.1.0
+        version: 4.1.0
       kxs-ui:
         specifier: ^0.0.3
         version: 0.0.3
+      prettier:
+        specifier: ^3.3.3
+        version: 3.3.3
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
