@@ -50,7 +50,7 @@ export default {
                 { text: "特别鸣谢", link: "/acknowledgement/" },
               ]
             },
-            // { text: "导航", link: "/nav/" },
+            { text: "导航", link: "/Nav/" },
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/MSCPO" },
