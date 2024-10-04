@@ -4,6 +4,7 @@ title: MC联机服务器列表
 hero:
   name: 服务器集体宣传组织
   tagline: Minecraft服务器集体宣传组织 (MSCPO)<br>服务器列表（随机排序）
+  floattitle: MSCPO 中国
   actions:
     - theme: brand
       text: 添加自己的服务器到列表
@@ -321,20 +322,4 @@ features:
     link: ./
     linkText: 'QQ群 870645787'
 ---
-<script setup>
-import { onMounted } from 'vue'
-onMounted(() => {
-  const elements = Array.from(document.querySelectorAll('div.VPFeatures .container .items .item'));
-  const parent = document.querySelector('div.VPFeatures .container .items');
-  for (let i = elements.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = elements[i];
-    elements[i] = elements[j];
-    elements[j] = temp;
-    parent.innerHTML = '';
-    elements.forEach(element => {
-      parent.appendChild(element);
-    });
-  }
-})
-</script>
+

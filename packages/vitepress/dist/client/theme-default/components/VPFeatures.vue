@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { DefaultTheme } from 'vitepress/theme'
-import { computed } from 'vue'
+import { computed, watch, ref, onMounted } from 'vue'
 import VPFeature from './VPFeature.vue'
 
 export interface Feature {
@@ -17,22 +17,24 @@ export interface Feature {
 const props = defineProps<{
   features: Feature[]
 }>()
-
+// 计算网格类名
 const grid = computed(() => {
   const length = props.features.length
-
-  if (!length) {
-    return
-  } else if (length === 2) {
-    return 'grid-2'
-  } else if (length === 3) {
-    return 'grid-3'
-  } else if (length % 3 === 0) {
-    return 'grid-6'
-  } else if (length > 3) {
-    return 'grid-4'
-  }
+  return length === 0 ? undefined
+    : length === 2 ? 'grid-2'
+    : length === 3 ? 'grid-3'
+    : length % 3 === 0 ? 'grid-6'
+    : 'grid-4'
 })
+// 随机排列特性列表
+const shuffledFeatures = ref<Feature[]>([])
+const shuffleFeatures = () => {
+  shuffledFeatures.value = [...props.features].sort(() => Math.random() - 0.5)
+}
+// 监听 features 的变化并随机排列
+watch(() => props.features, shuffleFeatures, { immediate: true })
+// 组件挂载时初始打乱
+onMounted(shuffleFeatures)
 </script>
 
 <template>
@@ -40,8 +42,8 @@ const grid = computed(() => {
     <div class="container">
       <div class="items">
         <div
-          v-for="feature in features"
-          :key="feature.title"
+          v-for="(feature, index) in shuffledFeatures"
+          :key="feature.title + index"
           class="item"
           :class="[grid]"
         >

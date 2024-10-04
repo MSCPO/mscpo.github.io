@@ -16,6 +16,7 @@ defineProps<{
   name?: string
   text?: string
   tagline?: string
+  floattitle?: string
   image?: DefaultTheme.ThemeableImage
   actions?: HeroAction[]
 }>()
@@ -35,7 +36,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
   <p v-if="text" v-html="text" class="text"></p>
   <p v-if="tagline" v-html="tagline" class="tagline"></p>
   <div class="common-slogan">
-    <div class="text animated-div" style="font-size:32px; color:chartreuse">MSCPO 中国</div>
+    <div class="text animated-div" style="font-size:32px; color:chartreuse"><p v-if="floattitle" v-html="floattitle"></p></div>
   </div>
 </slot>
 <slot name="home-hero-info-after" />
