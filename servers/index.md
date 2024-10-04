@@ -10,8 +10,8 @@ hero:
       text: 添加自己的服务器到列表
       link: /AddServers/
     - theme: alt
-      text: 特别鸣谢
-      link: /acknowledgement/
+      text: 加入我们
+      link: https://qm.qq.com/q/QGwqtKSnIK
 features:
   - icon:
       src: /server_icons/MA_CAT.ico
@@ -319,7 +319,7 @@ features:
     title: 'RBS'
     type: Geyser
     details: 版本：Java | 1.21.1<br>RBS 差不多就是Redstone building server的简写。一个生电服务器。很小，人数上限5，人爆了需要排队。目前人数较少（都开学了呀）。我们是互通，但Java优先，我们的互通更新也较慢。
-    link: ./
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=EDtLzndUhMiEpKK9ejgERZF6u3tw_J1V&authKey=yKA2ynl3OmeJkdttzHyXhIYXwCPCHJ00w6VoTN54SxENmgaa8O9aNZrhOTfi5NRE&noverify=0&group_code=870645787
     linkText: 'QQ群 870645787'
 ---
 
