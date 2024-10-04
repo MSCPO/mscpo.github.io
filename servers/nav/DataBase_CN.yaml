@@ -1,8 +1,13 @@
-########################
-# 导航数据库 语言 - 中文
-########################
+###########################
+##      MSCPO Website    ##
+##  Navigation DataBase  ##
+##     Format: Yaml      ##
+##    Language: zh_CN    ##
+###########################
 
-- title: MC官方网站
+# Type: Official_Website
+# 图像索引: Official_Website
+- title: 官方网站
   items:
     - title: Minecraft官网
       icon: /Nav_Images/Official_Website/Minecraft.webp
@@ -23,11 +28,21 @@
       icon: /Nav_Images/Official_Website/Mojang_Jira.webp
       desc: Minecraft的官方BUG反馈社区
       link: https://bugs.mojang.com/projects/MC/issues
+    - title: FindMCServer
+      icon: /Nav_Images/Official_Website/FindMCServer.webp
+      desc: 官方Minecraft服务器列表
+      link: https://findmcserver.com/
+    - title: Minecraft Classic
+      icon: /Nav_Images/Official_Website/Minecraft_Feedback.webp
+      desc: Minecraft Classic是著名的开放世界沙盒构建游戏Minecraft的在线版本。
+      link: https://classic.minecraft.net/
     - title: 网易版论坛
       icon: /Nav_Images/Official_Website/mc.163.com.webp
       desc: 中国版官方论坛
       link: https://mc.netease.com/
 
+# 分类: 百科
+# 图像索引: Wiki_Class
 - title: 百科
   items:
     - title: 中文 Minecraft Wiki
@@ -59,6 +74,8 @@
       desc: MC开服教程
       link: 'https://yizhan.wiki/NitWikit/'
 
+# 分类: 非官方论坛
+# 图像索引: Unofficial_BBS
 - title: 非官方论坛
   items:
     - title: Minecraft Forum
@@ -81,7 +98,29 @@
       icon: /Nav_Images/Unofficial_BBS/MCBBS2.webp
       desc: 人能够能动地认识世界；人能够能动地改造世界。
       link: https://mcbbs2.net/
+    - title: Minecraft教育版论坛
+      icon: /Nav_Images/Official_Website/Minecraft_Education.webp
+      desc: 教育版基于基岩版制作，包含了可以在课堂里让Minecraft更易理解和更有效果的特性。
+      link: https://www.mceebbs.com/
+    - title: Minecraft吧
+      icon: /Nav_Images/Unofficial_BBS/MinecraftBaidu.webp
+      desc: 百度贴吧Minecraft吧，一个活跃的第三方玩家社区。
+      link: https://tieba.baidu.com/f?kw=minecraft
+    - title: Minecraft-HK Community
+      icon: /Nav_Images/Unofficial_BBS/Minecraft-HK.webp
+      desc: 交流有關 Minecraft 的最新資訊、專業教學、遊戲伺服器、相關資源及心得分享
+      link: https://www.minecraft-hk.com/
+    - title: MCPE-TW
+      icon: /Nav_Images/Unofficial_BBS/MCPE-TW.webp
+      desc: 來自中國台灣的 Minecraft PE 中文討論區
+      link: https://www.minecraft-hk.com/
+    - title: 我的世界小黑论坛
+      icon: /Nav_Images/Unofficial_BBS/Minecraft_BL-PineApple BBS.webp
+      desc: 來自中國台灣的 Minecraft PE 中文討論區
+      link: https://www.minecraft-hk.com/
 
+# 分类: 基岩版开发文档
+# 图像索引: Bedrock_DEV_Docs
 - title: 基岩版开发文档
   items:
     - title: MC基岩版开发Wiki
@@ -94,6 +133,8 @@
       icon: '/Nav_Images/Bedrock_DEV_Docs/bedrock.dev.webp'
       link: 'https://bedrock.dev/'
 
+# 分类: 资源站
+# 图像索引: Resource_Website
 - title: 资源站
   items:
     - title: MCVersions
@@ -168,15 +209,41 @@
       icon: /Nav_Images/Resource_Website/MSkins.webp
       desc: 一个英文的MC皮肤资源网站
       link: https://mskins.net/
-    - title: Minecraft Schematics
-      icon: /Nav_Images/Resource_Website/Minecraft Schematics.webp
-      desc: 一个英文的MC投影资源网站
-      link: https://www.minecraft-schematics.com/
     - title: Minecraft Sounds
       icon: /Nav_Images/Resource_Website/Minecraft_Sounds.webp
       desc: 一个国内MC音效下载网站
       link: https://o.xbottle.top/mcsounds/
+    - title: Minecraft Schematics
+      icon: /Nav_Images/Resource_Website/Minecraft_Schematics.webp
+      desc: 此站收纳了大量用户上传的Minecraft Schematic文件（创世神模组用的结构文件），亦可用于投影模组（Litematica）
+      link: https://www.minecraft-schematics.com/
+    - title: Minecraft Schematics
+      icon: /Nav_Images/Resource_Website/MCserver.webp
+      desc: 我的世界综合性网站，为服主提供各种服务器教程、插件、MOD、软件资源，建站服务。为MC玩家展示服务器，提供教程。
+      link: https://www.mcio.cn/
+    - title: Modpack Index
+      icon: /Nav_Images/Resource_Website/ModpackIndex.webp
+      desc: Modpack Index 是作为实用程序构建的，以帮助跟踪惊人的不断增长的 Modpack 社区。
+      link: https://www.modpackindex.com/
+    - title: Minecraft Polska
+      icon: /Nav_Images/Resource_Website/Minecraft_Polska.webp
+      desc: minecraft.org.pl 是一个关于 Minecraft 的波兰网站，您可以在其中找到有关游戏、模组、纹理和游戏其他附加内容的新闻。
+      link: https://minecraft.org.pl/
+    - title: Block Models
+      icon: /Nav_Images/Official_Website/Minecraft_Feedback.webp
+      desc: BlockModels.com是一个你可以上传，分享和推广你的Minecraft方块模型的网站。
+      link: https://blockmodels.com/
+    - title: TITAIKE
+      icon: /Nav_Images/Resource_Website/TITAIKE.webp
+      desc: TITAIKE是国内一家整合及翻译国内外基岩版地图的网站，在整合优质国外基岩版地图的前提下，我们也接收来自国内各大工作室及个人的作品
+      link: https://www.titaike.cn/
+    - title: MinecraftCapes
+      icon: /Nav_Images/Resource_Website/MinecraftCapes.webp
+      desc: 免费披风斗篷站 - 在游戏中穿任何你想要的斗篷和披风
+      link: https://minecraftcapes.net/
 
+# 分类: 服务器门户
+# 图像索引: Server_Gateway
 - title: 服务器门户
   items:
     - title: Minecraft Servers
@@ -208,6 +275,8 @@
       desc: MCJPG组织官网
       link: https://mcjpg.org
 
+# 分类: 功能性网站
+# 图像索引: Functional_website
 - title: 功能性网站
   items:
     - title: Chunk Base
@@ -283,6 +352,8 @@
       desc: 查询正版玩家的UUID等信息
       link: https://mcuuid.net/
 
+# 分类: 模组和光影加载器
+# 图像索引: Light_and_Shadow_Loader
 - title: 模组和光影加载器
   items:
     - title: Forge
@@ -314,6 +385,8 @@
       desc: 通过Fabric驱动的Java版高版本光影加载器,与钠兼容
       link: https://irisshaders.net/
 
+# 分类: 启动器和客户端
+# 图像索引: Client
 - title: 启动器和客户端
   items:
     - title: Minecraft 官方启动器
@@ -357,6 +430,8 @@
       desc: 热门PVP客户端
       link: https://feathermc.com/
 
+# 分类: 实用软件
+# 图像索引: Practical_Software
 - title: 实用软件
   items:
     - title: EaglerCraft
