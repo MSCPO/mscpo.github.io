@@ -63,7 +63,7 @@ const formatBadge = computed(() => {
   --m-nav-icon-box-size: 50px;
   --m-nav-icon-size: 45px;
   --m-nav-box-gap: 12px;
-
+  text-decoration: unset!important;
   display: block;
   border: 1px solid var(--vp-c-bg-soft);
   border-radius: 12px;

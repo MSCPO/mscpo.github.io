@@ -97,6 +97,11 @@
 .VPFeatures .container {
     max-width: 100%;
 }
+
+.vp-doc.container {
+  max-width: 100%!important;
+}
+
 .box .VPImage {
     margin: auto;
 }

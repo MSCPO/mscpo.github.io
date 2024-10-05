@@ -5,7 +5,7 @@ outline: [2, 3, 4]
 ---
 
 <script setup>
-import NAV_DATA from './DataBase_CN.yaml'
+import NAV_DATA from './DataBase.yaml'
 </script>
 <style src="./index.scss"></style>
 

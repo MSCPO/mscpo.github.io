@@ -7,6 +7,11 @@ import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 // 语言文件
 import { zh_CN } from './languages/zh_CN'
 import { en } from './languages/en'
+// import { pt } from './languages/pt'
+// import { ru } from './languages/ru'
+// import { es } from './languages/es'
+// import { ko } from './languages/ko'
+
 // COMMON
 export default defineConfigWithTheme<VuetomThemeConfig>({
     head: [
@@ -30,10 +35,17 @@ export default defineConfigWithTheme<VuetomThemeConfig>({
             { icon: "github", link: "https://github.com/MSCPO" },
         ],
     },
+    rewrites: {
+      'zh_CN/:rest*': ':rest*'
+    },
     // 语言引入
     locales: {
       root: { label: '简体中文', ...zh_CN },
-      en: { label: 'English', ...en }
+      en: { label: 'English', ...en },
+      // pt: { label: 'Português', ...pt },
+      // ru: { label: 'Русский', ...ru },
+      // es: { label: 'Español', ...es },
+      // ko: { label: '한국어', ...ko }
     },
     vite: {
       ssr: {

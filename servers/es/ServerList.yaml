@@ -1,0 +1,18 @@
+- name: To be joinedicon
+  icon:
+    src: /logo2.webp
+  type: Java
+  desc: Version：Java | 1.21<br>Example Description
+  link: /en/AddServers/
+- name: To be joined
+  icon:
+    src: /logo2.webp
+  type: Geyser
+  desc: Version：Geyser | 1.21<br>Example Description
+  link: /en/AddServers/
+- name: To be joined
+  icon:
+    src: /logo2.webp
+  type: Bedrock
+  desc: Version：Bedrock | 1.21<br>Example Description
+  link: /en/AddServers/

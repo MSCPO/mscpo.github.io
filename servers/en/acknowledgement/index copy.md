@@ -1,17 +1,17 @@
 ---
 layout: home
-title: MC联机服务器列表
+title: Minecraft Server List (Randomly Sorted)
 hero:
-  name: 服务器集体宣传组织
-  tagline: Minecraft服务器集体宣传组织 (MSCPO)<br>服务器列表（随机排序）
-  floattitle: MSCPO 中国
+  name: MSCPO
+  tagline: Minecraft Server Collective Promotion Organization<br>Minecraft Server List (Randomly Sorted)
+  floattitle: MSCPO International
   actions:
     - theme: brand
-      text: 添加自己的服务器到列表
+      text: Add your own server to the list
       link: /AddServers/
     - theme: alt
-      text: 加入我们
-      link: https://qm.qq.com/q/QGwqtKSnIK
+      text: Special Thanks
+      link: /acknowledgement/
 features:
   - icon:
       src: /server_icons/MA_CAT.ico
@@ -319,7 +319,23 @@ features:
     title: 'RBS'
     type: Geyser
     details: 版本：Java | 1.21.1<br>RBS 差不多就是Redstone building server的简写。一个生电服务器。很小，人数上限5，人爆了需要排队。目前人数较少（都开学了呀）。我们是互通，但Java优先，我们的互通更新也较慢。
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=EDtLzndUhMiEpKK9ejgERZF6u3tw_J1V&authKey=yKA2ynl3OmeJkdttzHyXhIYXwCPCHJ00w6VoTN54SxENmgaa8O9aNZrhOTfi5NRE&noverify=0&group_code=870645787
+    link: ./
     linkText: 'QQ群 870645787'
 ---
-
+<script setup>
+import { onMounted } from 'vue'
+onMounted(() => {
+  const elements = Array.from(document.querySelectorAll('div.VPFeatures .container .items .item'));
+  const parent = document.querySelector('div.VPFeatures .container .items');
+  for (let i = elements.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = elements[i];
+    elements[i] = elements[j];
+    elements[j] = temp;
+    parent.innerHTML = '';
+    elements.forEach(element => {
+      parent.appendChild(element);
+    });
+  }
+})
+</script>

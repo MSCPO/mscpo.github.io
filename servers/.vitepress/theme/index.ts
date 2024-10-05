@@ -11,6 +11,7 @@ import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import 'vitepress-plugin-back-to-top/dist/style.css'
 import "vitepress-markdown-timeline/dist/theme/index.css";
 import NavList from './components/Nav/NavList.vue'
+import ServerList from './components/ServerCard/ServerList.vue'
 
 export default {
   ...VuetomTheme,
@@ -18,7 +19,7 @@ export default {
     // 注册全局组件
     app.component('Confetti' , Confetti)
     app.component('NavList' , NavList)
-    
+    app.component('ServerList' , ServerList)
     
     if (inBrowser) {
       router.onAfterRouteChanged = () => {

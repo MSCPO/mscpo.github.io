@@ -1,13 +1,13 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
-export const en = defineConfig({
+export const pt = defineConfig({
     head: [
         ['link', { rel: 'icon', href: '/logo2.webp' }],
     ],
     title: 'MSCPO',
     lastUpdated: true,
     description: 'Minecraft Server Collective Promotion Organization (MSCPO) - An emerging organization dedicated to Minecraft server promotion and technical exchange.',
-    lang: 'en',
+    lang: 'pt',
     themeConfig: {
         siteTitle: 'MSCPO', //站点标题
         nav: [
