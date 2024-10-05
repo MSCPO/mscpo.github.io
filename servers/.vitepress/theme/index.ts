@@ -16,7 +16,7 @@ import ServerList from './components/ServerCard/ServerList.vue'
 export default {
   ...VuetomTheme,
   enhanceApp({app, router}) {
-    // 注册全局组件
+    // Register the global component
     app.component('Confetti' , Confetti)
     app.component('NavList' , NavList)
     app.component('ServerList' , ServerList)
@@ -34,10 +34,10 @@ export default {
   },
   Layout: () => {
     const props: Record<string, any> = {}
-    // 获取 frontmatter
+    // Get frontmatter
     const { frontmatter } = useData()
 
-    /* 添加自定义 class */
+    /* Add custom class */
     if (frontmatter.value?.layoutClass) {
       props.class = frontmatter.value.layoutClass
     }

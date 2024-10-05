@@ -33,8 +33,7 @@ type Servers = Server[];
 const props = defineProps<{
   servers: Servers;
 }>();
-
-// 计算网格类名
+// CSS judgment
 const grid = computed(() => {
   const length = props.servers.length
   return length === 0 ? undefined
@@ -43,14 +42,12 @@ const grid = computed(() => {
     : length % 3 === 0 ? 'grid-6'
     : 'grid-4'
 })
-// 随机排列特性列表
+// Random part
 const shuffledServers = ref<Servers>([])
 const shuffleServers = () => {
   shuffledServers.value = [...props.servers].sort(() => Math.random() - 0.5)
 }
-// 监听 features 的变化并随机排列
 watch(() => props.servers, shuffleServers, { immediate: true })
-// 组件挂载时初始打乱
 onMounted(shuffleServers)
 </script>
 

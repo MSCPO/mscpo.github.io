@@ -1,17 +1,17 @@
 ---
 layout: home
-title: Minecraft Server List (Randomly Sorted)
+title: Список серверов Minecraft (отсортированный в случайном порядке)
 hero:
   name: MSCPO
-  tagline: Minecraft Server Collective Promotion Organization<br>Minecraft Server List (Randomly Sorted)
+  tagline: Организация коллективного продвижения серверов Minecraft<br>Список серверов Minecraft (отсортированный случайным образом)
   floattitle: MSCPO International
   actions:
     - theme: brand
-      text: Add your own server to the list
-      link: /en/AddServers/
+      text: Добавьте свой собственный сервер в список
+      link: /ru/AddServers/
     - theme: alt
-      text: Special Thanks
-      link: /en/acknowledgement/
+      text: Особая благодарность
+      link: /ru/acknowledgement/
 ---
 <script setup>
 import Server_DATA from './ServerList.yaml'

@@ -1,29 +1,29 @@
-# Minecraft Server Collective Promotion Organization (MSCPO)
+# Организация коллективного продвижения серверов Minecraft (MSCPO)
 
-The Minecraft Server Collective Promotion Organization (MSCPO) is an up-and-coming organization dedicated to the propaganda and technical communication of Minecraft servers (x) Fellow server owners group (√)
+Организация коллективного продвижения серверов Minecraft (MSCPO) - это перспективная организация, занимающаяся пропагандой и техническим общением серверов Minecraft (x) Группа владельцев серверов (√)
 
-> Committee Status: Reorganized, we're back!
+> Статус комитета: Реорганизован, мы вернулись!
 
-## Information on the Server List project
+## Информация о проекте «Список серверов
 
 ![Alt](https://repobeats.axiom.co/api/embed/40f1d6f2bafcf731a005ddad0f4a0178ce8e6c46.svg "Repobeats analytics image")
 
-## Timeline
+## Временная шкала
 
 ::: timeline 2024-01-26
-Organized by the M&A Aid Commune dfgg server ZUYMC server.
+Организовано Коммуной помощи M&A dfgg сервер ZUYMC сервер.
 
-Minecraft Server Collective Promotion Organization (MSCPO) **Officially Established**
+Организация коллективного продвижения сервера Minecraft (MSCPO) **Официально создана**
 :::
 
 ::: timeline 2024-01-31
-MSCPO Committee The decision-making community that serves as the MSCPO is beginning to organize itself.
+Комитет MSCPO Сообщество, принимающее решения и выступающее в качестве MSCPO, начинает самоорганизацию.
 :::
 
 ::: timeline 2024-02-16
-MSCPO Committee *First Round of Democratic Elections* Begins!
+Комитет МСКПО *Первый раунд демократических выборов* начинается!
 
-### Election results
+### Результаты выборов
 
 | Position | Server | Delegate | Votes |
 | :---: | :---: | :---: | :---: |
@@ -34,41 +34,41 @@ MSCPO Committee *First Round of Democratic Elections* Begins!
 :::
 
 ::: timeline 2024-02-23
-MSCPO Started by Vice-President:Peg195 [MSCPO Server Bulletin Board](https://github.com/MSCPO/server-list) Github Project
+MSCPO Started by Vice-President:Peg195 [Доска объявлений сервера MSCPO](https://github.com/MSCPO/server-list) Проект Github
 :::
 
 ::: timeline 2024-02-25
-MSCPO Committee President: wushuiliusuantong Started to organize and plan MSCPO campaigns, and to organize the shooting of MSCPO videos.
+Президент комитета MSCPO: wushuiliusuantong Приступил к организации и планированию кампаний MSCPO, а также к организации съемок видеороликов MSCPO.
 :::
 
 ::: timeline 2024-03-14
-MSCPO Committee Chairman: wushuiliusuantong The collective propaganda video editing and filming is completed, and the organization is uploading [[Propaganda Videos]](https://www.bilibili.com/video/BV1oJ4m1879t/)
+Председатель комитета МСКПО: wushuiliusuantong Монтаж и съемка коллективного пропагандистского видео завершены, и организация загружает [[Пропагандистские видео]](https://www.bilibili.com/video/BV1oJ4m1879t/)
 :::
 
 ::: timeline 2024-03-17
-MSCPO Committee President: wushuiliusuantong Started organizing and planning a new round of collective propaganda activities for MSCPO, organizing the shooting of collective propaganda videos.
+Председатель комитета МСКПО: wushuiliusuantong Начата организация и планирование нового раунда коллективных пропагандистских мероприятий для МСКПО, организация съемок коллективных пропагандистских видеороликов.
 :::
 
 ::: timeline 2024-05-05
-MSCPO Membership Maintenance: Ленинград Launched [Server_Ping](https://github.com/MSCPO/Server_Ping) Github project Gets MC's server status via UDP/TCP protocol, supports Vercel Serverless deployment.
+MSCPO Membership Maintenance: Ленинград Запущен проект [Server_Ping](https://github.com/MSCPO/Server_Ping) Github Получает статус сервера MC по протоколу UDP/TCP, поддерживает бессерверное развертывание Vercel.
 :::
 
 ::: timeline 2024-05-11
-The Organizational Committee of the Collective Promotion Group has decided to hold its first meeting on M&A Aid Commune server.
+Организационный комитет группы коллективного продвижения принял решение о проведении первого собрания на сервере M&A Aid Commune.
 :::
 
 ::: timeline 2024-05-12
-The Organizational Committee of the Collective Promotion Group had its first meeting on the M&A Aid Commune server, with the proceedings live-streamed.
+Организационный комитет Группы коллективного продвижения провел свое первое заседание на сервере M&A Aid Commune, велась прямая трансляция.
 :::
 
 ::: timeline 2024-07-06
-In MSCPO membership Server Maintenance, Ленинград of Ленинград M&A Aid Commune initiated the "MSCPO Committee Server Setup Guide" on Github. The project aims to assist players in swiftly setting up their servers, covering various server options.
+В рамках проекта «Обслуживание серверов членов MSCPO» Ленинградская Коммуна Помощи M&A инициировала на Github «Руководство по настройке серверов Комитета MSCPO». Проект призван помочь игрокам в быстрой настройке серверов, охватывая различные варианты серверов.
 :::
 
 ::: timeline 2024-07-22
-Let's Begin the Second Round of Democratic Elections for the MSCPO Committee:
+Начнем второй раунд демократических выборов в Комитет MSCPO:
 
-### Election results
+### Результаты выборов
 
 | Position | Server | Delegate | Votes |
 | :---: | :---: | :---: | :---: |
@@ -79,26 +79,26 @@ Let's Begin the Second Round of Democratic Elections for the MSCPO Committee:
 :::
 
 ::: timeline 2024-07-23
-MSCPO Advisory Committee initiates the process of engaging a server provider.
+Консультативный комитет MSCPO инициирует процесс привлечения поставщика серверов.
 :::
 
 ::: timeline 2024-07-29
-MSCPO Chairman Bai Qianqin, due to internal conflicts within the Yuqiao Team, officially resigns from the MSCPO, leaving the Committee in a nonfunctional state. Despite the withdrawal, Bai Qianqin still controls the committee for nearly a month.
+Председатель MSCPO Бай Цяньцинь из-за внутренних конфликтов в команде Yuqiao Team официально выходит из состава MSCPO, оставляя комитет в нефункциональном состоянии. Несмотря на выход, Бай Цяньцинь все еще контролирует комитет в течение почти месяца.
 
->(Despite the official resignation, Bai Qianqin maintains control over the committee for approximately a month.) 
+>(Несмотря на официальный уход, Бай Цяньцинь сохраняет контроль над комитетом в течение примерно месяца). 
 >
->Internal conflict: Bai Qianqin, a significant member of the Yuqiao Team, is expelled by the group.
+>Внутренний конфликт: Бай Цяньцинь, важный член команды «Юцяо», исключается из группы.
 
 :::
 
 ::: timeline 2024-08-09
-MSCPO Vice-President Leningrad announces that the organization's website will continue to be maintained.
+Вице-президент MSCPO Ленинград объявляет, что веб-сайт организации будет продолжать поддерживаться.
 :::
 
 ::: timeline 2024-08-10
-Minecraft Server Collective Promotion Organization (MSCPO) officially dissolves its committee.
+Организация коллективного продвижения серверов Minecraft (MSCPO) официально распускает свой комитет.
 :::
 
 ::: timeline 2024-10-01...
-The Minecraft Server Collective Promotion Organization (MSCPO) Committee is restructured by Peg195.
+Комитет Организации коллективного продвижения сервера Minecraft (MSCPO) реструктурирован Peg195.
 :::

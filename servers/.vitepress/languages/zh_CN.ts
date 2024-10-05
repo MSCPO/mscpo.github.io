@@ -1,3 +1,6 @@
+// 配置 - 语言部分
+// 请参照 https://vitepress.dev/zh/ 修改
+// END
 import { defineConfigWithTheme } from 'vitepress'
 import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 
@@ -7,7 +10,7 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
     description: 'Minecraft服务器集体宣传组织 (MSCPO)-一个致力于我的世界服务器宣传和技术交流的新兴组织',
     lang: 'zh-CN',
     themeConfig: {
-        siteTitle: '服务器集体宣传组织', //站点标题
+        siteTitle: '服务器集体宣传组织',
         nav: [
             { text: "成员服", link: "/" },
             { text: "添加服务器", link: "/AddServers/" },

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import VPImage from 'vitepress/dist/client/theme-default/components//VPImage.vue'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
+import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
 
 defineProps<{
   icon?: 
@@ -28,6 +29,17 @@ defineProps<{
 }>()
 </script>
 
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
+</script>
+
 <template>
   <VPLink
     class="ServerCard"
@@ -39,6 +51,7 @@ defineProps<{
       class="box"
       :class="[type]"
       :title="desc"
+      @click="playSound"
     >
       <div class="box-header">
         <div v-if="typeof icon === 'object' && icon.wrap" class="icon">

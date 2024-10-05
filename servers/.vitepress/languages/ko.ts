@@ -1,6 +1,10 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+// 구성 - 언어 섹션
+// 수정 사항은 https://vitepress.dev/ko/ 참조
+// END
+import { defineConfigWithTheme } from 'vitepress'
+import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 
-export const ko = defineConfig({
+export const ko = defineConfigWithTheme<VuetomThemeConfig>({
     head: [
         ['link', { rel: 'icon', href: '/logo2.webp' }],
     ],
@@ -9,7 +13,7 @@ export const ko = defineConfig({
     description: 'Minecraft Server Collective Promotion Organization (MSCPO) - An emerging organization dedicated to Minecraft server promotion and technical exchange.',
     lang: 'ko',
     themeConfig: {
-        siteTitle: 'MSCPO', //站点标题
+        siteTitle: 'MSCPO',
         nav: [
             { text: "Members' Servers", link: "/en/" },
             { text: "Add a Server", link: "/en/AddServers/" },

@@ -4,6 +4,7 @@ import { withBase } from 'vitepress'
 import { slugify } from '@mdit-vue/shared'
 
 import { NavTypes } from './NavTypes'
+import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
 
 const props = defineProps<{
   noIcon?: boolean
@@ -34,9 +35,20 @@ const formatBadge = computed(() => {
 })
 </script>
 
+<script lang="ts">
+export default {
+  methods: {
+      playSound() {
+        const audio = new Audio(SoundFiles);
+        audio.play();
+      }
+    }
+}
+</script>
+
 <template>
   <a v-if="link" class="m-nav-link" :href="link" target="_blank" rel="noreferrer">
-    <article class="box" :class="{ 'has-badge': formatBadge }">
+    <article class="box" :class="{ 'has-badge': formatBadge }" @click="playSound">
       <div class="box-header">
         <template v-if="!noIcon">
           <div v-if="svg" class="icon" v-html="svg"></div>
@@ -66,7 +78,7 @@ const formatBadge = computed(() => {
   text-decoration: unset!important;
   display: block;
   border: 1px solid var(--vp-c-bg-soft);
-  border-radius: 12px;
+  border-radius: 2px;
   height: 100%;
   background-color: var(--vp-c-bg-soft);
   transition: all 0.25s;
@@ -98,7 +110,7 @@ const formatBadge = computed(() => {
     justify-content: center;
     align-items: center;
     margin-right: calc(var(--m-nav-box-gap) - 2px);
-    border-radius: 6px;
+    border-radius: 3px;
     width: var(--m-nav-icon-box-size);
     height: var(--m-nav-icon-box-size);
     font-size: var(--m-nav-icon-size);

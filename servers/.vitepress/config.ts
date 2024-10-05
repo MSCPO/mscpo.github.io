@@ -4,11 +4,11 @@ import timeline from "vitepress-markdown-timeline";
 import ViteYaml from '@modyfi/vite-plugin-yaml'
 import { defineConfigWithTheme } from 'vitepress'
 import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
-// 语言文件
+// Language import
 import { zh_CN } from './languages/zh_CN'
 import { en } from './languages/en'
 // import { pt } from './languages/pt'
-// import { ru } from './languages/ru'
+import { ru } from './languages/ru'
 // import { es } from './languages/es'
 // import { ko } from './languages/ko'
 
@@ -38,12 +38,12 @@ export default defineConfigWithTheme<VuetomThemeConfig>({
     rewrites: {
       'zh_CN/:rest*': ':rest*'
     },
-    // 语言引入
+    // Language introduction
     locales: {
       root: { label: '简体中文', ...zh_CN },
       en: { label: 'English', ...en },
       // pt: { label: 'Português', ...pt },
-      // ru: { label: 'Русский', ...ru },
+      ru: { label: 'Русский', ...ru },
       // es: { label: 'Español', ...es },
       // ko: { label: '한국어', ...ko }
     },

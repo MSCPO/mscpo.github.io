@@ -1,46 +1,50 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+// Конфигурация - Раздел «Язык
+// Пожалуйста, обратитесь к https://vitepress.dev/ru/ для внесения изменений
+// END
+import { defineConfigWithTheme } from 'vitepress'
+import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 
-export const ru = defineConfig({
+export const ru = defineConfigWithTheme<VuetomThemeConfig>({
     head: [
         ['link', { rel: 'icon', href: '/logo2.webp' }],
     ],
     title: 'MSCPO',
     lastUpdated: true,
-    description: 'Minecraft Server Collective Promotion Organization (MSCPO) - An emerging organization dedicated to Minecraft server promotion and technical exchange.',
+    description: 'Организация коллективного продвижения серверов Minecraft (MSCPO) - развивающаяся организация, занимающаяся продвижением серверов Minecraft и техническим обменом.',
     lang: 'ru',
     themeConfig: {
-        siteTitle: 'MSCPO', //站点标题
+        siteTitle: 'MSCPO',
         nav: [
-            { text: "Members' Servers", link: "/en/" },
-            { text: "Add a Server", link: "/en/AddServers/" },
+            { text: "Серверы для членов", link: "/ru/" },
+            { text: "Добавить сервер", link: "/ru/AddServers/" },
             {
-              text: "More",
+              text: "Подробнее",
               items: [
-                { text: "About", link: "/en/about/" },
-                { text: "Special Thanks", link: "/en/acknowledgement/" },
+                { text: "О сайте", link: "/ru/about/" },
+                { text: "Особая благодарность", link: "/ru/acknowledgement/" },
               ]
             },
-            { text: "Navigation", link: "/en/nav/" },
+            { text: "Навигация", link: "/ru/nav/" },
         ],
         footer: {
-            message: 'Minecraft Server Collective Promotion Organization',
-            copyright: '- Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a> -<br>Site visits: <span id="busuanzi_value_site_pv"></span> | Unique visitors: <span id="busuanzi_value_site_uv"></span>'
+            message: 'Организация коллективного продвижения сервера Minecraft',
+            copyright: '- Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a> -<br>Посещение объектов: <span id="busuanzi_value_site_pv"></span> | Уникальные посетители: <span id="busuanzi_value_site_uv"></span>'
         },
-        lastUpdatedText: "Last updated",
+        lastUpdatedText: "Последнее обновление",
         search: {
             provider: "local",
             options: {
               translations: {
                 button: {
-                  buttonText: "Search articles",
-                  buttonAriaLabel: "Search articles",
+                  buttonText: "Поиск статей",
+                  buttonAriaLabel: "Поиск статей",
                 },
                 modal: {
-                  noResultsText: "No relevant results found",
-                  resetButtonTitle: "Clear search criteria",
+                  noResultsText: "Соответствующие результаты не найдены",
+                  resetButtonTitle: "Четкие критерии поиска",
                   footer: {
-                    selectText: "Select",
-                    navigateText: "Switch",
+                    selectText: "Выберите",
+                    navigateText: "Переключатель",
                   },
                 },
               },

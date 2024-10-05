@@ -1,6 +1,10 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+// Configuración - Sección de idioma
+// Consulte el https://vitepress.dev/es/ para ver la modificación
+// FIN
+import { defineConfigWithTheme } from 'vitepress'
+import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 
-export const es = defineConfig({
+export const es = defineConfigWithTheme<VuetomThemeConfig>({
     head: [
         ['link', { rel: 'icon', href: '/logo2.webp' }],
     ],
@@ -9,7 +13,7 @@ export const es = defineConfig({
     description: 'Minecraft Server Collective Promotion Organization (MSCPO) - An emerging organization dedicated to Minecraft server promotion and technical exchange.',
     lang: 'es',
     themeConfig: {
-        siteTitle: 'MSCPO', //站点标题
+        siteTitle: 'MSCPO',
         nav: [
             { text: "Members' Servers", link: "/en/" },
             { text: "Add a Server", link: "/en/AddServers/" },
