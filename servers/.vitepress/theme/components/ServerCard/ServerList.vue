@@ -55,7 +55,7 @@ onMounted(shuffleServers)
 </script>
 
 <template>
-  <div class="server-cards">
+  <div class="server-cards VPHomeFeatures">
     <div class="items">
       <div
         v-for="(server, index) in shuffledServers"
