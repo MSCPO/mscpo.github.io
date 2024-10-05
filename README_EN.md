@@ -17,35 +17,35 @@ Before submitting a server, please make sure that your server meets the followin
 If your server meets the above requirements, please follow these steps to submit your server:
 
 1. Fork this repository and clone it locally.
-2. Modify the `servers/index.md` file and add the following to the `features` field:
+2. Modify the `servers/en/ServerList.yaml` file and add the following:
 
-``` index.md
-  - icon:
-      src: /server_icons/example.jpg
-    title: example
-    type: Java/Geyser/Bedrock
-    details: 版本：JAVA/JAVA互通/基岩 | example</br>example描述
-    link: https://example.com（服务器官网或者是入群链接）
-    linkText: example（链接名字，如“加入我们awa”）
+``` yaml
+- title: example
+  icon:
+    src: /server_icons/example.jpg
+  type: Java/Geyser/Bedrock
+  version: Your server version
+  desc: example desc
+  link: https://example.com
 ```
 
 > The `icon:` field can be modified to a single character, and it can also switch between dark and light modes.
 
 For example:
 
-``` index.md
-  - icon:
-      dark: /dark-feature-icon.svg
-      light: /light-feature-icon.svg
+``` yaml
+  icon:
+    dark: /dark-feature-icon.svg
+    light: /light-feature-icon.svg
 ```
 
-``` index.md
-  - icon:
-      src: /cool-feature-icon.svg
+``` yaml
+  icon:
+    src: /cool-feature-icon.svg
 ```
 
-``` index.md
-  - icon: 🛠️
+``` yaml
+  icon: 🛠️
 ```
 
 3. (Optional) If you need to display the server icon, please add the icon to the `servers/public/server_icons/` directory.

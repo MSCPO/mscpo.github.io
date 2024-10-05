@@ -2,11 +2,10 @@
 ##      MSCPO Website    ##
 ##  Navigation DataBase  ##
 ##     Format: Yaml      ##
-##    Language: zh_CN    ##
+##     Language: EN      ##
 ###########################
 
 # Type: Official_Website
-# 图像索引: Official_Website
 - title: Official Website
   items:
     - title: Minecraft官网
@@ -41,8 +40,7 @@
       desc: 中国版官方论坛
       link: https://mc.netease.com/
 
-# 分类: 百科
-# 图像索引: Wiki_Class
+# Type: Wiki
 - title: Wiki
   items:
     - title: 中文 Minecraft Wiki
@@ -74,8 +72,7 @@
       desc: MC开服教程
       link: 'https://yizhan.wiki/NitWikit/'
 
-# 分类: 非官方论坛
-# 图像索引: Unofficial_BBS
+# Type: Unofficial_BBS
 - title: Unofficial BBS
   items:
     - title: Minecraft Forum
@@ -119,8 +116,7 @@
       desc: 來自中國台灣的 Minecraft PE 中文討論區
       link: https://www.minecraft-hk.com/
 
-# 分类: 基岩版开发文档
-# 图像索引: Bedrock_DEV_Docs
+# Type: Bedrock_DEV_Docs
 - title: Bedrock DEV Docs
   items:
     - title: MC基岩版开发Wiki
@@ -133,8 +129,7 @@
       icon: '/Nav_Images/Bedrock_DEV_Docs/bedrock.dev.webp'
       link: 'https://bedrock.dev/'
 
-# 分类: 资源站
-# 图像索引: Resource_Website
+# Type: Resource_Website
 - title: Resource Website
   items:
     - title: MCVersions
@@ -242,8 +237,7 @@
       desc: 免费披风斗篷站 - 在游戏中穿任何你想要的斗篷和披风
       link: https://minecraftcapes.net/
 
-# 分类: 服务器门户
-# 图像索引: Server_Gateway
+# Type: Server_Gateway
 - title: Server Gateway
   items:
     - title: Minecraft Servers
@@ -275,8 +269,7 @@
       desc: MCJPG组织官网
       link: https://mcjpg.org
 
-# 分类: 功能性网站
-# 图像索引: Functional_website
+# Type: Functional_website
 - title: Functional website
   items:
     - title: Chunk Base
@@ -352,8 +345,7 @@
       desc: 查询正版玩家的UUID等信息
       link: https://mcuuid.net/
 
-# 分类: 模组和光影加载器
-# 图像索引: Light_and_Shadow_Loader
+# Type: Light_and_Shadow_Loader
 - title: Light and Shadow Loader
   items:
     - title: Forge
@@ -385,8 +377,7 @@
       desc: 通过Fabric驱动的Java版高版本光影加载器,与钠兼容
       link: https://irisshaders.net/
 
-# 分类: 启动器和客户端
-# 图像索引: Client
+# Type: Client
 - title: Client
   items:
     - title: Minecraft 官方启动器
@@ -430,8 +421,7 @@
       desc: 热门PVP客户端
       link: https://feathermc.com/
 
-# 分类: 实用软件
-# 图像索引: Practical_Software
+# Type: Practical_Software
 - title: Practical Software
   items:
     - title: EaglerCraft

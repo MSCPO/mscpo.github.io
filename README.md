@@ -18,35 +18,35 @@ Languages：[English](README_EN.md);中文
 如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 
 1. fork 本仓库, 并 clone 到本地。
-2. 修改 `servers/index.md` 的features字段，添加
+2. 修改 `servers/zh_CN/ServerList.yaml` 添加
 
-``` index.md
-  - icon:
-      src: /server_icons/example.jpg
-    title: example
-    type: Java/Geyser/Bedrock
-    details: 版本：JAVA/JAVA互通/基岩 | example</br>example描述
-    link: https://example.com（服务器官网或者是入群链接）
-    linkText: example（链接名字，如“加入我们awa”）
+``` yaml
+- title: example
+  icon:
+    src: /server_icons/example.jpg
+  type: Java/Geyser/Bedrock
+  version: 你的服务器版本
+  desc: example描述
+  link: https://example.com（服务器官网或者是入群链接）
 ```
 
 >其中icon:可以修改为单个字符，也能在夜间模式和白天模式切换
 
 例如
 
-``` index.md
-  - icon:
-      dark: /dark-feature-icon.svg
-      light: /light-feature-icon.svg
+``` yaml
+  icon:
+    dark: /dark-feature-icon.svg
+    light: /light-feature-icon.svg
 ```
 
-``` index.md
-  - icon:
-      src: /cool-feature-icon.svg
+``` yaml
+  icon:
+    src: /cool-feature-icon.svg
 ```
 
-``` index.md
-  - icon: 🛠️
+``` yaml
+  icon: 🛠️
 ```
 
 3. (可选)如果你需要显示服务器图标，请在 `servers/public/server_icons/` 目录下添加图标

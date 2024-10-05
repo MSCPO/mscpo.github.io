@@ -1,18 +1,27 @@
+###########################
+##      MSCPO Website    ##
+##  ServerList DataBase  ##
+##     Format: Yaml      ##
+##     Language: EN      ##
+###########################
 - name: To be joinedicon
   icon:
     src: /logo2.webp
   type: Java
+  version: Unknown
   desc: Version：Java | 1.21<br>Example Description
   link: /en/AddServers/
 - name: To be joined
   icon:
     src: /logo2.webp
   type: Geyser
+  version: Unknown
   desc: Version：Geyser | 1.21<br>Example Description
   link: /en/AddServers/
 - name: To be joined
   icon:
     src: /logo2.webp
   type: Bedrock
+  version: Unknown
   desc: Version：Bedrock | 1.21<br>Example Description
   link: /en/AddServers/
