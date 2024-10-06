@@ -14,8 +14,8 @@ jobs:
     steps:
       - name: Issue Forms Body Parser
         id: parse
-        uses: zentered/issue-forms-body-parser@v2.2.0
-      - run: echo ${{ toJSON(steps.parse.outputs.data) }}
+        uses: PSModule/Get-IssueFormData@v0
+      - run: cat ${{ steps.parse.outputs.data }}
       - name: Organize Inputs
         id: organize-inputs
         run: |
