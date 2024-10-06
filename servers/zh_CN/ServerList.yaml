@@ -425,3 +425,12 @@
     一个生电服务器。很小，人数上限5，人爆了需要排队。
     目前人数较少（都开学了呀）。我们是互通，但Java优先，我们的互通更新也较慢。
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=EDtLzndUhMiEpKK9ejgERZF6u3tw_J1V&authKey=yKA2ynl3OmeJkdttzHyXhIYXwCPCHJ00w6VoTN54SxENmgaa8O9aNZrhOTfi5NRE&noverify=0&group_code=870645787
+
+- name: '自由无政府JE服务器'
+  icon:
+    src: /server_icons/自由无政府JE服务器.webp
+  type: Java
+  version: 1.21
+  desc: | 
+    这是一个无政府服务器，没有特殊情况24小时在线，这里虽然是无政府生存服务器，但是很安全（反作弊做的肯定到位），离线/正版均可，最大15人。
+  link: https://qm.qq.com/q/7vuLWVUCQM
