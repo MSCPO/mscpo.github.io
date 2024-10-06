@@ -26,8 +26,8 @@ jobs:
             "version": test_input(.["version"].text; " null "),
             "Language": test_input(.["Language"].text; "alpha_test"),
             "server_version": test_input(.["server-version"].text; "Unknown"),
-            "server_link": test_input(.["server-link"].text; "false"),
-            "server_icon": test_input(.["server-icon"].text; "false"),
+            "server_link": test_input(.["server-link"].text; "./"),
+            "server_icon": test_input(.["server-icon"].text; "/logo2.webp"),
           }' > inputs.json
           echo "CONTACT=$(jq -r '.contact' inputs.json)" >> $GITHUB_OUTPUT
           echo "SERVER_MOTD=$(jq -r '.server_motd' inputs.json)" >> $GITHUB_OUTPUT
