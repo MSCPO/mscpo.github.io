@@ -1,7 +1,7 @@
 name: '[EN]Add Server Card to Homepage'
 description: 'We only need some essential information about your server. Note: Applications not properly submitted as prompted may be ignored or closed.'
 title: '[Add Server]: '
-labels: ['Pending', 'In Progress']
+labels: ["Submit"]
 body:
   - type: markdown
     id: Info
@@ -36,6 +36,19 @@ body:
         - 'Java'
         - 'Bedrock'
         - 'Cross-Platform'
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: Language
+    attributes:
+      label: 'Language'
+      description: 'Server Language'
+      options:
+        - 'en'
+        - 'zh_CN'
+        - 'ru'
       default: 0
     validations:
       required: true

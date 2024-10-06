@@ -1,0 +1,39 @@
+name: Servers Request
+on:
+  issues:
+    types:
+      - Submit
+
+jobs:
+  get-server-info:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+    timeout-minutes: 2
+    steps:
+      - name: Issue Forms Body Parser
+        id: parse-issue
+        uses: zentered/issue-forms-body-parser@v2.2.0
+      - name: Organize Inputs
+        id: organize-inputs
+        run: |
+          echo ${{ toJSON(steps.parse-issue.outputs.data) }} | jq '
+          def test_input($input; $default):
+          if ($input == "*No response*" or $input == "None") then $default else ($input | tostring | gsub("\\\\";""))  end;
+          {
+            "contact": .["contact"].text[1:-1],
+            "server_motd": test_input(.["server-motd"].text; " null ")[1:-1],
+            "version": test_input(.["version"].text; " null "),
+            "Language": test_input(.["Language"].text; "alpha_test"),
+            "server_version": test_input(.["server-version"].text; "Unknown"),
+            "server_link": test_input(.["server-link"].text; "false"),
+            "server_icon": test_input(.["server-icon"].text; "false"),
+          }' > inputs.json
+          echo "CONTACT=$(jq -r '.contact' inputs.json)" >> $GITHUB_OUTPUT
+          echo "SERVER_MOTD=$(jq -r '.server_motd' inputs.json)" >> $GITHUB_OUTPUT
+          echo "VERSION=$(jq -r '.version' inputs.json)" >> $GITHUB_OUTPUT
+          echo "LANGUAGE=$(jq -r '.Language' inputs.json)" >> $GITHUB_OUTPUT
+          echo "SERVER_VERSION=$(jq -r '.server_version' inputs.json)" >> $GITHUB_OUTPUT
+          echo "SERVER_LINK=$(jq -r '.server_link' inputs.json)" >> $GITHUB_OUTPUT
+          echo "SERVER_ICON=$(jq -r '.server_icon' inputs.json)" >> $GITHUB_OUTPUT
+          cat inputs.json
