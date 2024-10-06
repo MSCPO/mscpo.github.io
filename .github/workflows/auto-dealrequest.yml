@@ -25,7 +25,7 @@ jobs:
             "contact": .["contact"].text[1:-1],
             "server_motd": test_input(.["server-motd"].text; " null ")[1:-1],
             "version": test_input(.["version"].text; " null "),
-            "Language": test_input(.["Language"].text; "alpha_test"),
+            "Language": test_input(.["Language"].text; "zh_CN"),
             "server_version": test_input(.["server-version"].text; "Unknown"),
             "server_link": test_input(.["server-link"].text; "./"),
             "server_icon": test_input(.["server-icon"].text; "/logo2.webp"),
