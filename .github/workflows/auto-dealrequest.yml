@@ -13,13 +13,13 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: Issue Forms Body Parser
-        id: parse-issue
+        id: parse
         uses: zentered/issue-forms-body-parser@v2.2.0
       - run: echo ${{ toJSON(steps.parse.outputs.data) }}
       - name: Organize Inputs
         id: organize-inputs
         run: |
-          echo ${{ toJSON(steps.parse-issue.outputs.data) }} | jq '
+          echo ${{ toJSON(steps.parse.outputs.data) }} | jq '
           def test_input($input; $default):
           if ($input == "*No response*" or $input == "None") then $default else ($input | tostring | gsub("\\\\";""))  end;
           {
