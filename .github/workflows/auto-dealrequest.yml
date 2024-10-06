@@ -2,11 +2,12 @@ name: Servers Request
 on:
   issues:
     types:
-      - Submit
+      - labeled
 
 jobs:
   get-server-info:
     runs-on: ubuntu-latest
+    if: github.event.label.name == 'Submit'
     permissions:
       issues: read
     timeout-minutes: 2
