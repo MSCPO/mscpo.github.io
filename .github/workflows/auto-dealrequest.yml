@@ -43,10 +43,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install -r requirements.txt
       - name: 处理请求
         working-directory: ./.github/scripts/
         run: |
+          pip install -r requirements.txt
           echo --- Old DataBase:
           cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           echo --- New Data Input:
