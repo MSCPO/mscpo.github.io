@@ -60,5 +60,14 @@ jobs:
       - name: DataBase Output
         working-directory: ./
         run: |
-          echo --- Old DataBase
+          echo --- New DataBase
           cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+      - name: Push DataBase
+        uses: actions-x/commit@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update"
+          files: ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          rebase: 'true'
+          name: github-actions[bot]
+          email: github-actions@noreply.github.com
