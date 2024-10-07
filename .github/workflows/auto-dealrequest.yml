@@ -63,7 +63,7 @@ jobs:
           echo --- New DataBase
           cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
       - name: Push DataBase
-        uses: actions-x/commit@v6
+        uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update"
