@@ -10,6 +10,7 @@ jobs:
     if: contains(github.event.label.name, 'Submit')
     permissions:
       issues: read
+      contents: write
     timeout-minutes: 2
     steps:
       - name: Issue Forms Body Parser
@@ -18,9 +19,7 @@ jobs:
       - name: Organize Inputs
         id: organize-inputs
         run: |
-          cd mscpo.github.io
-          dir
-          cd scripts
+          cd ./scripts/
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
@@ -50,7 +49,7 @@ jobs:
 
       - name: 处理请求
         run: |
-          cd '${{ github.workspace }}/scripts'
+          cd ./scripts/
           pip install -r requirements.txt
           python Auto.py server_info.yaml ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           cat ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
