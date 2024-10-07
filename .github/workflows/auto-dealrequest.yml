@@ -9,12 +9,13 @@ jobs:
     permissions:
       contents: read
       issues: read
+      pull-requests: write
     runs-on: ubuntu-latest
     if: contains(github.event.label.name, 'Submit')
     timeout-minutes: 2
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Issue Forms Body Parser
         id: parse
         uses: PSModule/Get-IssueFormData@v0
@@ -63,11 +64,10 @@ jobs:
           echo --- New DataBase
           cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
       - name: Push DataBase
-        uses: github-actions-x/commit@v2.9
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update"
-          files: ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
-          rebase: 'true'
-          name: github-actions[bot]
-          email: github-actions@noreply.github.com
+        run: |
+          git config --global user.email DataBase@email.com
+          git config --global user.name DataBase
+          git add .
+          git commit -m "New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
