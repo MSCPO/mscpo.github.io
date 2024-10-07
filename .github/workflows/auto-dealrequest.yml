@@ -16,9 +16,9 @@ jobs:
         id: parse
         uses: PSModule/Get-IssueFormData@v0
       - name: Organize Inputs
-        working-directory: "scripts"
         id: organize-inputs
         run: |
+          cd '$GITHUB_WORKSPACE/scripts'
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
@@ -47,8 +47,8 @@ jobs:
           python-version: '3.11'
 
       - name: 处理请求
-        working-directory: "scripts"
         run: |
+          cd '$GITHUB_WORKSPACE/scripts'
           pip install -r requirements.txt
           python Auto.py server_info.yaml ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           cat ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
