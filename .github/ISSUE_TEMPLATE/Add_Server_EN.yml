@@ -1,7 +1,7 @@
 name: '[EN]Add Server Card to Homepage'
 description: 'We only need some essential information about your server. Note: Applications not properly submitted as prompted may be ignored or closed.'
 title: '[Add Server]: '
-labels: ["Submit"]
+labels: ["Submit", "Lang:EN"]
 body:
   - type: markdown
     id: Info

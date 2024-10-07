@@ -7,7 +7,7 @@ on:
 jobs:
   get-server-info:
     runs-on: ubuntu-latest
-    if: github.event.label.name == 'Submit'
+    if: contains(github.event.label.name, 'Submit')
     permissions:
       issues: read
     timeout-minutes: 2
@@ -18,4 +18,21 @@ jobs:
       - name: Organize Inputs
         id: organize-inputs
         run: |
-          echo ${{ toJSON(steps.parse.outputs.data) }} | jq '
+          server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
+          server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
+          server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
+          server_desc="${{ fromJSON(steps.parse.outputs.data)['Server Description'] }}"
+          server_link="${{ fromJSON(steps.parse.outputs.data)['Server Promotion Link'] }}"
+
+          echo "- name: '$server_name'" >> server_info.yaml
+          echo "  icon:" >> server_info.yaml
+          echo "    src: $server_icon" >> server_info.yaml
+          echo "  type: $server_type" >> server_info.yaml
+          echo "  version: 1.8.9-1.21.1" >> server_info.yaml
+          echo "  desc: |" >> server_info.yaml
+          echo "    $server_desc" >> server_info.yaml
+          echo "  link: $server_link" >> server_info.yaml
+          
+      - name: Output Server Info
+        run: |
+          cat server_info.yaml
