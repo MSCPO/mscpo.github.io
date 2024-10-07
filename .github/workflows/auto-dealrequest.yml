@@ -18,7 +18,7 @@ jobs:
       - name: Organize Inputs
         id: organize-inputs
         run: |
-          cd '${{ github.workflow }}/scripts'
+          cd '${{ github.workspace }}/scripts'
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
@@ -48,7 +48,7 @@ jobs:
 
       - name: 处理请求
         run: |
-          cd '${{ github.workflow }}/scripts'
+          cd '${{ github.workspace }}/scripts'
           pip install -r requirements.txt
           python Auto.py server_info.yaml ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           cat ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
