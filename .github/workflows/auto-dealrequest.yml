@@ -6,6 +6,9 @@ on:
 
 jobs:
   get-server-info:
+    permissions:
+      contents: write
+      issues: read
     runs-on: ubuntu-latest
     if: contains(github.event.label.name, 'Submit')
     timeout-minutes: 2
@@ -46,13 +49,12 @@ jobs:
 
       - name: Set up Python
         run: |
-          dir
           python -m pip install --upgrade pip
-          pip install -r ./scripts/requirements.txt
+          pip install -r requirements.txt
 
       - name: 处理请求
         run: |
           pip install -r requirements.txt
-          python Auto.py server_info.yaml ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
-          cat ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          python Auto.py server_info.yaml ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           rm -rf ./ServerList.yaml
