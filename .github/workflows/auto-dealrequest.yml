@@ -7,7 +7,7 @@ on:
 jobs:
   get-server-info:
     permissions:
-      contents: write
+      contents: read
       issues: read
     runs-on: ubuntu-latest
     if: contains(github.event.label.name, 'Submit')
