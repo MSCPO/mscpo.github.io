@@ -18,7 +18,7 @@ jobs:
       - name: Organize Inputs
         id: organize-inputs
         run: |
-          cd '${{ github.workspace }}/scripts'
+          ls -R ${{ github.workspace }}
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
