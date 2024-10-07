@@ -71,3 +71,5 @@ jobs:
           git commit -m "New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.MSCPO }}
