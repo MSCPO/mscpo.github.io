@@ -21,20 +21,34 @@ jobs:
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
+          server_version="${{ fromJSON(steps.parse.outputs.data)['Specific Client Version'] }}"
           server_desc="${{ fromJSON(steps.parse.outputs.data)['Server Description'] }}"
           server_link="${{ fromJSON(steps.parse.outputs.data)['Server Promotion Link'] }}"
           if [ "$server_icon" == "_No response_" ]; then
             server_icon="/logo2.webp"
           fi
-          echo "- name: '$server_name'" >> server_info.yaml
-          echo "  icon:" >> server_info.yaml
-          echo "    src: $server_icon" >> server_info.yaml
-          echo "  type: $server_type" >> server_info.yaml
-          echo "  version: 1.8.9-1.21.1" >> server_info.yaml
-          echo "  desc: |" >> server_info.yaml
-          echo "    $server_desc" >> server_info.yaml
-          echo "  link: $server_link" >> server_info.yaml
-          
+          echo "- name: '$server_name'" >> ./scripts/server_info.yaml
+          echo "  icon:" >> ./scripts/server_info.yaml
+          echo "    src: $server_icon" >> ./scripts/server_info.yaml
+          echo "  type: $server_type" >> ./scripts/server_info.yaml
+          echo "  version: $server_version" >> ./scripts/server_info.yaml
+          echo "  desc: |" >> ./scripts/server_info.yaml
+          echo "    $server_desc" >> ./scripts/server_info.yaml
+          echo "  link: $server_link" >> ./scripts/server_info.yaml
+
       - name: Output Server Info
         run: |
           cat server_info.yaml
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 处理请求
+        run: |
+          cd ./scripts/
+          pip install -r requirements.txt
+          python Auto.py server_info.yaml ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          cat ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          rm -rf ./server_info.yaml
