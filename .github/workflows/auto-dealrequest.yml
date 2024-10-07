@@ -19,6 +19,9 @@ jobs:
         id: organize-inputs
         run: |
           dir
+          dir ../
+          dir ../../
+          dir ../../../
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
