@@ -18,10 +18,9 @@ jobs:
       - name: Organize Inputs
         id: organize-inputs
         run: |
+          cd mscpo.github.io
           dir
-          dir ../
-          dir ../../
-          dir ../../../
+          cd scripts
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
