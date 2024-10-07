@@ -41,6 +41,7 @@ jobs:
         working-directory: ./
         run: |
           cat server_info.yaml
+          ls -al
 
       - name: Set up Python
         uses: actions/setup-python@v5
