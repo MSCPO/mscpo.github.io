@@ -47,9 +47,9 @@ jobs:
         working-directory: ./
         run: |
           echo --- Old DataBase
-          cat ../../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           echo --- New Data Input:
-          cat ./server_info.yaml
+          cat ./.github/scripts/server_info.yaml
       - name: Data Processing...
         working-directory: ./.github/scripts/
         run: |
