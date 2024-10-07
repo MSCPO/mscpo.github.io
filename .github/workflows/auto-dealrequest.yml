@@ -16,7 +16,6 @@ jobs:
       - name: Organize Inputs
         id: organize-inputs
         run: |
-          cd '${{ github.workspace }}'
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
@@ -36,19 +35,24 @@ jobs:
           echo "  link: $server_link" >> server_info.yaml
 
       - name: Output Server Info
+        working-directory: ./
         run: |
           cat server_info.yaml
 
-      - name: Install Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 处理请求
+      - name: Set up Python
+        working-directory: ./scripts
         run: |
-          cd '${{ github.workspace }}'
-          dir
-          tree ./
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 处理请求
+        working-directory: ./scripts
+        run: |
           pip install -r requirements.txt
           python Auto.py server_info.yaml ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           cat ../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
