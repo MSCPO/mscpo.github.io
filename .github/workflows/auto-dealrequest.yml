@@ -8,9 +8,6 @@ jobs:
   get-server-info:
     runs-on: ubuntu-latest
     if: contains(github.event.label.name, 'Submit')
-    permissions:
-      issues: read
-      contents: write
     timeout-minutes: 2
     steps:
       - name: Issue Forms Body Parser
