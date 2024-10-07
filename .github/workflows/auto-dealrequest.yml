@@ -20,6 +20,7 @@ jobs:
         uses: PSModule/Get-IssueFormData@v0
       - name: Organize Inputs
         id: organize-inputs
+        working-directory: ./.github/scripts/
         run: |
           server_name="${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}"
           server_icon="${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}"
@@ -38,22 +39,21 @@ jobs:
           echo "  desc: |" >> server_info.yaml
           echo "    $server_desc" >> server_info.yaml
           echo "  link: $server_link" >> server_info.yaml
-      - name: Output Server Info
-        working-directory: ./
-        run: |
-          cat server_info.yaml
-          ls -al
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Set up Python
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+      - run: pip install -r requirements.txt
       - name: 处理请求
+        working-directory: ./.github/scripts/
         run: |
-          pip install -r requirements.txt
-          python Auto.py server_info.yaml ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          echo --- Old DataBase:
           cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
-          rm -rf ./ServerList.yaml
+          echo --- New Data Input:
+          cat ./server_info.yaml
+          echo Data Processing...
+          python Auto.py server_info.yaml ../../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          echo --- Completed!
+          echo --- New DataBase:
+          cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          rm -rf ./server_info.yaml
