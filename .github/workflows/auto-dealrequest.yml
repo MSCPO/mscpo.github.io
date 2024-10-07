@@ -23,7 +23,9 @@ jobs:
           server_type="${{ fromJSON(steps.parse.outputs.data)['Version'] }}"
           server_desc="${{ fromJSON(steps.parse.outputs.data)['Server Description'] }}"
           server_link="${{ fromJSON(steps.parse.outputs.data)['Server Promotion Link'] }}"
-
+          if [ "$server_icon" == "_No response_" ]; then
+            server_icon="/logo2.webp"
+          fi
           echo "- name: '$server_name'" >> server_info.yaml
           echo "  icon:" >> server_info.yaml
           echo "    src: $server_icon" >> server_info.yaml
