@@ -71,7 +71,7 @@
     "@vueuse/sound": "^2.0.1",
     "@vue/shared": "^3.4.38",
     "@vueuse/core": "^11.0.0",
-    "@vueuse/integrations": "^11.0.0",
+    "@vueuse/integrations": "^11.1.0",
     "focus-trap": "^7.5.4",
     "mark.js": "8.11.1",
     "minisearch": "^7.1.0",
