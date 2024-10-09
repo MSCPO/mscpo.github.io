@@ -4,6 +4,9 @@ on:
     types:
       - labeled
 
+env:
+  TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   get-server-info:
     permissions:
@@ -64,12 +67,13 @@ jobs:
         run: |
           echo --- New DataBase
           cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+      - name: Push DataBase
+        run: |
+          git config --global user.email DataBase@email.com
+          git config --global user.name DataBase
+          git add .
+          git commit -m "New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          base: main
-          title: "[AUTO]New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update"
-          commit-message: "[Auto]New Servers & DataBase Update"
-          labels: automerge
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ env.TOKEN }}
