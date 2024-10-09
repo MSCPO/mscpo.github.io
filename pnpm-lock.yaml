@@ -94,8 +94,8 @@ importers:
         specifier: ^7.3.8
         version: 7.4.5
       '@vue/shared':
-        specifier: ^3.4.38
-        version: 3.5.5
+        specifier: ^3.5.11
+        version: 3.5.11
       '@vueuse/core':
         specifier: ^11.0.0
         version: 11.0.3(vue@3.5.5(typescript@5.6.2))
@@ -2104,6 +2104,9 @@ packages:
     resolution: {integrity: sha512-XjRamLIq5f47cxgy+hiX7zUIY+4RHdPDVrPvvMDAUTdW5RJWX/S0ji/rCbm3LWTT/9Co9bvQME8ZI15ahL4/Qw==}
     peerDependencies:
       vue: 3.5.5
+
+  '@vue/shared@3.5.11':
+    resolution: {integrity: sha512-W8GgysJVnFo81FthhzurdRAWP/byq3q2qIw70e0JWblzVhjgOMiC2GyovXrZTFQJnFVryYaKGP3Tc9vYzYm6PQ==}
 
   '@vue/shared@3.5.5':
     resolution: {integrity: sha512-0KyMXyEgnmFAs6rNUL+6eUHtUCqCaNrVd+AW3MX3LyA0Yry5SA0Km03CDKiOua1x1WWnIr+W9+S0GMFoSDWERQ==}
@@ -6165,7 +6168,7 @@ snapshots:
       '@volar/language-core': 2.4.5
       '@vue/compiler-dom': 3.5.5
       '@vue/compiler-vue2': 2.7.16
-      '@vue/shared': 3.5.5
+      '@vue/shared': 3.5.11
       computeds: 0.0.1
       minimatch: 9.0.5
       muggle-string: 0.4.1
@@ -6194,6 +6197,8 @@ snapshots:
       '@vue/compiler-ssr': 3.5.5
       '@vue/shared': 3.5.5
       vue: 3.5.5(typescript@5.6.2)
+
+  '@vue/shared@3.5.11': {}
 
   '@vue/shared@3.5.5': {}
 
@@ -8468,7 +8473,7 @@ snapshots:
       '@types/markdown-it': 14.1.2
       '@vitejs/plugin-vue': 5.1.3(vite@5.4.6(@types/node@22.5.5)(sass@1.78.0)(terser@5.32.0))(vue@3.5.5(typescript@5.6.2))
       '@vue/devtools-api': 7.4.5
-      '@vue/shared': 3.5.5
+      '@vue/shared': 3.5.11
       '@vueuse/core': 11.0.3(vue@3.5.5(typescript@5.6.2))
       '@vueuse/integrations': 11.0.3(axios@1.7.7)(focus-trap@7.6.0)(nprogress@0.2.0)(vue@3.5.5(typescript@5.6.2))
       focus-trap: 7.6.0
