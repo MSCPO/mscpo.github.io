@@ -25,3 +25,12 @@
   version: Unknown
   desc: Version：Bedrock | 1.21<br>Example Description
   link: /en/AddServers/
+- name: 'Test'
+  icon:
+    src: /logo2.webp
+  type: Java
+  version: 1.7.10
+  desc: |
+    Test
+  link: http://mscpo.netlify.app/
+
