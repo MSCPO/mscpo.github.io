@@ -72,4 +72,4 @@ jobs:
           title: "[AUTO]New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update"
           commit-message: "[Auto]New Servers & DataBase Update"
           labels: automerge
-          sign-commits: true
+          token: ${{ secrets.GITHUB_TOKEN }}
