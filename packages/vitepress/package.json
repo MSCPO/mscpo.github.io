@@ -69,7 +69,7 @@
     "@vitejs/plugin-vue": "^5.1.2",
     "@vue/devtools-api": "^7.3.8",
     "@vueuse/sound": "^2.0.1",
-    "@vue/shared": "^3.4.38",
+    "@vue/shared": "^3.5.11",
     "@vueuse/core": "^11.0.0",
     "@vueuse/integrations": "^11.1.0",
     "focus-trap": "^7.5.4",
