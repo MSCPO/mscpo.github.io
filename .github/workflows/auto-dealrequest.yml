@@ -67,13 +67,11 @@ jobs:
         run: |
           echo --- New DataBase
           cat ./servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
-      - name: Push DataBase
-        run: |
-          git config --global user.email DataBase@email.com
-          git config --global user.name DataBase
-          git add .
-          git commit -m "New Servers ${{ fromJSON(steps.parse.outputs.data)['Language'] }}-${{ fromJSON(steps.parse.outputs.data)['Server Name'] }} & DataBase Update" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
         with:
-          github_token: ${{ env.TOKEN }}
+          token: ${{ env.TOKEN }}
+          branch: main
+          title: "feat: update servers links from issue(auto by bot)"
+          commit-message: "feat: update servers links from issue(auto by bot)"
+          branch-suffix: timestamp
