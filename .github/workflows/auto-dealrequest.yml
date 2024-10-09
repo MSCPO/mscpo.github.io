@@ -73,5 +73,15 @@ jobs:
           token: ${{ env.TOKEN }}
           branch: update-servers-links-from-issue
           title: "feat: update servers links from issue(auto by bot)"
-          commit-message: "feat: update servers links from issue(auto by bot)"
+          commit-message: |
+          feat: update servers links from issue(auto by bot)
+
+            --- New Servers ---
+            Name - ${{ fromJSON(steps.parse.outputs.data)['Server Name'] }}
+            Version - ${{ fromJSON(steps.parse.outputs.data)['Specific Client Version'] }}
+            Type - ${{ fromJSON(steps.parse.outputs.data)['Version'] }}
+            Desc - ${{ fromJSON(steps.parse.outputs.data)['Server Description'] }}
+            Icon - ${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}
+            Link - ${{ fromJSON(steps.parse.outputs.data)['Server Promotion Link'] }}
+            --- End of Servers ---
           branch-suffix: timestamp
