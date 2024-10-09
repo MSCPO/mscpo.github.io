@@ -71,7 +71,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ env.TOKEN }}
-          branch: update-friend-servers-from-issue
+          branch: update-servers-links-from-issue
           title: "feat: update servers links from issue(auto by bot)"
           commit-message: "feat: update servers links from issue(auto by bot)"
           branch-suffix: timestamp
