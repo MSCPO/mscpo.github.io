@@ -131,7 +131,7 @@
     "nanoid": "^5.0.7",
     "ora": "^8.0.1",
     "p-map": "^7.0.2",
-    "path-to-regexp": "^6.2.2",
+    "path-to-regexp": "^8.2.0",
     "picocolors": "^1.0.1",
     "pkg-dir": "^8.0.0",
     "playwright-chromium": "^1.46.1",
