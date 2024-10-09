@@ -296,8 +296,8 @@ importers:
         specifier: ^1.0.0-next.25
         version: 1.0.0-next.25
       postcss-prefix-selector:
-        specifier: ^1.16.1
-        version: 1.16.1(postcss@8.4.47)
+        specifier: ^2.0.0
+        version: 2.0.0(postcss@8.4.47)
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -3651,10 +3651,10 @@ packages:
     peerDependencies:
       postcss: ^8.2.14
 
-  postcss-prefix-selector@1.16.1:
-    resolution: {integrity: sha512-Umxu+FvKMwlY6TyDzGFoSUnzW+NOfMBLyC1tAkIjgX+Z/qGspJeRjVC903D7mx7TuBpJlwti2ibXtWuA7fKMeQ==}
+  postcss-prefix-selector@2.0.0:
+    resolution: {integrity: sha512-t8172nkNyEASE5VXn+rtHG/WJNa/0qnWP8UpiUdQ4ZWd4EgpRFSLX/YAYGSVLXG2iD+T8Q7Ewr7EP7oEWJos8A==}
     peerDependencies:
-      postcss: '>4 <9'
+      postcss: ^8.0.0
 
   postcss-selector-parser@6.1.2:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
@@ -7735,7 +7735,7 @@ snapshots:
       postcss: 8.4.47
       postcss-selector-parser: 6.1.2
 
-  postcss-prefix-selector@1.16.1(postcss@8.4.47):
+  postcss-prefix-selector@2.0.0(postcss@8.4.47):
     dependencies:
       postcss: 8.4.47
 
