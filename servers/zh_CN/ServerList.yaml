@@ -434,3 +434,12 @@
   desc: | 
     这是一个无政府服务器，没有特殊情况24小时在线，这里虽然是无政府生存服务器，但是很安全（反作弊做的肯定到位），离线/正版均可，最大15人。
   link: https://qm.qq.com/q/7vuLWVUCQM
+
+- name: 'minecraft synthesize survive(MSS)'
+  icon:
+    src: /server_icons/minecraft_synthesize_survive.webp
+  type: Geyser
+  version: 1.21.1
+  desc: | 
+    paper插件互通服务器，内已添加粘液科技、连锁挖矿、等价交换，船新未开荒
+  link: https://qm.qq.com/q/zROUGLpQxa
