@@ -59,7 +59,7 @@ jobs:
         working-directory: ./.github/scripts/
         run: |
           pip install -r requirements.txt
-          python Auto.py server_info.yaml ../../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
+          python Patch.py server_info.yaml ../../servers/${{ fromJSON(steps.parse.outputs.data)['Language'] }}/ServerList.yaml
           echo --- Completed!
           rm -rf ./server_info.yaml
       - name: DataBase Output
@@ -84,4 +84,5 @@ jobs:
             Icon - ${{ fromJSON(steps.parse.outputs.data)['Server Icon Link'] }}
             Link - ${{ fromJSON(steps.parse.outputs.data)['Server Promotion Link'] }}
             --- End of Servers ---
+
           branch-suffix: timestamp
