@@ -3,7 +3,7 @@ layout: home
 title: MC联机服务器列表
 hero:
   name: 服务器集体宣传组织
-  tagline: Minecraft服务器集体宣传组织 (MSCPO)<br>服务器列表（随机排序）
+  tagline: Minecraft服务器集体宣传组织 (MSCPO)<br>服务器列表（随机排序）<br>无门槛提交
   floattitle: MSCPO 中国
   actions:
     - theme: brand
