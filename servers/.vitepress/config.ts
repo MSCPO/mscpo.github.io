@@ -5,12 +5,12 @@ import ViteYaml from '@modyfi/vite-plugin-yaml'
 import { defineConfigWithTheme } from 'vitepress'
 import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 // Language import
-import { zh_CN } from './languages/zh_CN'
-import { en } from './languages/en'
-// import { pt } from './languages/pt'
-import { ru } from './languages/ru'
-// import { es } from './languages/es'
-// import { ko } from './languages/ko'
+import { zh_CN } from './i18n/zh_CN'
+import { en } from './i18n/en'
+// import { pt } from './i18n/pt'
+import { ru } from './i18n/ru'
+// import { es } from './i18n/es'
+// import { ko } from './i18n/ko'
 
 // COMMON
 export default defineConfigWithTheme<VuetomThemeConfig>({

@@ -1,6 +1,6 @@
 import VuetomTheme from 'vitepress-theme-mscpo'
 import "./style/custom.scss"
-import { h } from 'vue'
+import { h, watchEffect } from 'vue'
 import { useData } from 'vitepress'
 import Confetti from "./components/Confetti.vue"
 import { inBrowser } from 'vitepress'
@@ -44,6 +44,14 @@ export default {
 
     return h(VuetomTheme.Layout, props)
   },
+  setup() {
+    const { lang } = useData()
+    watchEffect(() => {
+      if (inBrowser) {
+        document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2024 00:00:00 UTC; path=/`
+      }
+    })
+  }
 }
 
 const playlist = [
