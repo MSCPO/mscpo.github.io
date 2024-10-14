@@ -24,8 +24,8 @@ importers:
         specifier: ^0.33.5
         version: 0.33.5
       vitepress:
-        specifier: npm:@mscpo/vitepress@^1.4.1
-        version: '@mscpo/vitepress@1.4.1(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)'
+        specifier: npm:@mscpo/vitepress@^1.4.1-rc.2
+        version: '@mscpo/vitepress@1.4.1-rc.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)'
       vue:
         specifier: ^3.4.37
         version: 3.5.5(typescript@5.6.2)
@@ -65,7 +65,7 @@ importers:
         version: 1.0.1(typescript@5.6.2)
       vitepress-plugin-music:
         specifier: ^0.0.9
-        version: 0.0.9(@mscpo/vitepress@1.4.1(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2))
+        version: 0.0.9(@mscpo/vitepress@1.4.1-rc.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2))
       vitepress-theme-mscpo:
         specifier: workspace:^2.3.0
         version: link:packages/vitepress-theme-mscpo
@@ -1258,8 +1258,8 @@ packages:
     peerDependencies:
       vite: ^3.2.7 || ^4.0.5 || ^5.0.5
 
-  '@mscpo/vitepress@1.4.1':
-    resolution: {integrity: sha512-rOU7r3KpCS6+tc6Tc6zGgmiVDKPlLQkkf/j9Q8JO4Axrmu78ELOUFr2kcwJPaN9lijj+7P6SVBr6UWL/30Ub1Q==}
+  '@mscpo/vitepress@1.4.1-rc.2':
+    resolution: {integrity: sha512-N0EupDrCmfEX1KC/dvH+lhlV7OjB7mzYExzIVdvDiOSMRmS0CucOAJMJZA4MKlPnAtpQeAJdtegF3YQzwWdIzQ==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -4448,7 +4448,7 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@mscpo/vitepress@1.4.1(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)':
+  '@mscpo/vitepress@1.4.1-rc.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)':
     dependencies:
       '@docsearch/css': 3.6.2
       '@docsearch/js': 3.6.2(@algolia/client-search@4.24.0)(search-insights@2.17.2)
@@ -6464,9 +6464,9 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.4.1(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)):
+  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.4.1-rc.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)):
     dependencies:
-      vitepress: '@mscpo/vitepress@1.4.1(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)'
+      vitepress: '@mscpo/vitepress@1.4.1-rc.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2)'
 
   vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.2)(terser@5.32.0)(typescript@5.6.2):
     dependencies:
