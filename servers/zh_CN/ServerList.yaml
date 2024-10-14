@@ -336,7 +336,7 @@
 
 - name: '信仰天域'
   icon:
-    src: https://img.picui.cn/free/2024/09/01/66d3e96da383c.png
+    src: '/server_icons/信仰天域.webp'
   type: Geyser
   version: 1.20.1
   desc: |
@@ -345,7 +345,7 @@
 
 - name: '猫娘乐园'
   icon:
-    src: https://img.picui.cn/free/2024/09/01/66d3e96da383c.png
+    src: '/server_icons/猫娘乐园.webp'
   type: Java
   version: 1.12.x
   desc: |
@@ -384,7 +384,7 @@
 
 - name: 'M3inPE0.14'
   icon:
-    src: http://154.12.36.160/images/logo.png
+    src: /logo.webp
   type: Bedrock
   version: 0.14.x
   desc: |
