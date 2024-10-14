@@ -1,3 +1,0 @@
-[submodule "packages/vitepress"]
-	path = packages/vitepress
-	url = git@github.com:MSCPO/vitepress.git
