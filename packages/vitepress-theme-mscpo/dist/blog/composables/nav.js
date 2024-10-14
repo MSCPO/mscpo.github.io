@@ -1,5 +1,5 @@
 import { ref, computed, watch } from 'vue';
-import { useData, useRoute } from 'vitepress';
+import { useData, useRoute } from '@mscpo/vitepress';
 export function useNav() {
     const isScreenOpen = ref(false);
     function openScreen() {
