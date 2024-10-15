@@ -2,12 +2,18 @@
 import VPImage from 'vitepress/dist/client/theme-default/components//VPImage.vue'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
+import { ref, computed } from "vue"
+import useClipboard from 'vue-clipboard3'
 
-defineProps<{
+const serverinfo = defineProps<{
   icon?: 
   | string
   | {
-      src: string
+      src: {
+        type: string
+        required: true
+        default: '/logo.webp'
+      }
       alt?: string
       width?: string
       height?: string
@@ -33,48 +39,90 @@ const playSound = () => {
   const audio = new Audio(SoundFiles);
   audio.play();
 }
+
+const props = {
+  server: serverinfo.ip
+}
+
+const handleServerInfo = async () => {
+  try {
+    const res = await fetch(
+      `https://mcstat.mcskin.cn/api/status/${props.server}`
+    );
+    const data = await res.json();
+    if (data.online) {
+      server_status.value = "<a style=\"color: green\">◉在线</a>"
+    } else {
+      server_status.value = "<a style=\"color: red\">◉离线</a>"
+    }
+  } catch (e) {
+    server_status.value = "<a style=\"color: red\">◉离线</a>"
+  }
+};
+
+const server_status = ref("<a style=\"color: blue\">◉正在获取...</a>")
+
+handleServerInfo()
+
+const copy = async () => {
+  if (serverinfo.ip !== undefined) {
+    try {
+      useClipboard().toClipboard(serverinfo.ip)
+      alert("复制成功！服务器地址为：" + serverinfo.ip);
+      console.log('Copied to clipboard')
+    } catch (e) {
+      console.error(e)
+      alert("复制失败，请重试。服务器地址为：" + serverinfo.ip);
+    }
+  }
+}
+
+const openUrl = (url: string | undefined) => {
+  window.open(url, '_blank')
+}
 </script>
 
 <template>
   <VPLink
     class="ServerCard"
-    :href="link"
+    @click="openUrl(serverinfo.link)"
     :no-icon="true"
     :tag="link ? 'a' : 'div'"
   >
     <article
       class="box"
-      :class="[type]"
-      :title="desc"
+      :class="[serverinfo.type]"
+      :title="serverinfo.desc"
       @click="playSound"
     >
       <div class="box-header">
-        <div v-if="typeof icon === 'object' && icon.wrap" class="icon">
+        <div v-if="typeof serverinfo.icon === 'object' && serverinfo.icon.wrap" class="icon">
           <VPImage
             class="icon"
-            :image="icon"
-            :alt="icon.alt"
-            :height="icon.height || 48"
-            :width="icon.width || 48"
+            :image="serverinfo.icon"
+            :alt="serverinfo.icon.alt"
+            :height="serverinfo.icon.height || 48"
+            :width="serverinfo.icon.width || 48"
             style="margin: 0;max-height: 48px;max-width: 48px;"
           />
         </div>
         <VPImage
-          v-else-if="typeof icon === 'object'"
+          v-else-if="typeof serverinfo.icon === 'object'"
           class="icon"
-          :image="icon"
-          :alt="icon.alt"
-          :height="icon.height || 48"
-          :width="icon.width || 48"
+          :image="serverinfo.icon"
+          :alt="serverinfo.icon.alt"
+          :height="serverinfo.icon.height || 48"
+          :width="serverinfo.icon.width || 48"
           style="margin: 0; margin-right: 0.5rem;max-height: 48px;max-width: 48px;"
         />
         <div v-else-if="icon" class="icon" v-html="icon"></div>
         <div class="info-container">
           <h4 class="ServerName" v-html="name"></h4>
-          <a class="ServerVersion">{{ type }} {{ version }}</a>
+          <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion" v-html="server_status"></a></a>
+          <a v-if="ip" class="ServerVersion" @click.stop="copy">IP: {{ serverinfo.ip }}</a>
         </div>
       </div>
-      <p v-if="desc" class="desc" v-html="desc ? desc.replace(/\n/g, '<br>') : ''"></p>
+      <p v-if="desc" class="desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>') : ''"></p>
     </article>
   </VPLink>
 </template>
@@ -84,6 +132,7 @@ const playSound = () => {
   text-decoration: unset!important;
   display: block;
   height: 100%;
+  cursor: pointer;
   transition: all 0.25s;
 
   .box {
