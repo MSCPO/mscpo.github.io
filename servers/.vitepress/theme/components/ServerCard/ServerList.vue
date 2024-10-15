@@ -26,6 +26,7 @@ type Server = {
   link?: string
   linkText?: string
   version?: string | number
+  ip?: string
 }
 
 type Servers = Server[];
@@ -69,6 +70,7 @@ onMounted(shuffleServers)
           :link="server.link"
           :linkText="server.linkText"
           :version="server.version"
+          :ip="server.ip"
         />
       </div>
     </div>

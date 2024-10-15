@@ -26,17 +26,12 @@ defineProps<{
   type: 'Java' | 'Bedrock' | 'Geyser' | 'Netease'
   link?: string
   version?: string | number
+  ip?: string
 }>()
-</script>
 
-<script lang="ts">
-export default {
-  methods: {
-      playSound() {
-        const audio = new Audio(SoundFiles);
-        audio.play();
-      }
-    }
+const playSound = () => {
+  const audio = new Audio(SoundFiles);
+  audio.play();
 }
 </script>
 
@@ -123,6 +118,7 @@ export default {
           color: white;
           font-size: 12px;
           margin-top: 5px;
+          line-height: 80%;
         }
       }
     }

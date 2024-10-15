@@ -51,6 +51,13 @@ export default defineConfigWithTheme<VuetomThemeConfig>({
       ssr: {
         noExternal: ["vitepress-theme-mscpo"]
       },
+      css: {
+        preprocessorOptions: {
+          scss: {
+            api: "modern",
+          },
+        },
+      },
       plugins: [
         ViteYaml(),
         minipic({
