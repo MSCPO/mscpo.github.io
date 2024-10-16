@@ -2,8 +2,11 @@
 import VPImage from 'vitepress/dist/client/theme-default/components//VPImage.vue'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
-import { ref, computed } from "vue"
-// import useClipboard from 'vue-clipboard3'
+import { ref } from "vue"
+import { useClipboard } from '@vueuse/core'
+
+const source = ref('Copy')
+const { copy, copied } = useClipboard({ source })
 
 const serverinfo = defineProps<{
   icon?: 
@@ -64,19 +67,6 @@ const server_status = ref("<a style=\"color: blue\">◉正在获取...</a>")
 
 handleServerInfo()
 
-// const copy = async () => {
-//   if (serverinfo.ip !== undefined) {
-//     try {
-//       useClipboard().toClipboard(serverinfo.ip)
-//       alert("复制成功！服务器地址为：" + serverinfo.ip);
-//       console.log('Copied to clipboard')
-//     } catch (e) {
-//       console.error(e)
-//       alert("复制失败，请重试。服务器地址为：" + serverinfo.ip);
-//     }
-//   }
-// }
-
 const openUrl = (url: string | undefined) => {
   window.open(url, '_blank')
 }
@@ -119,7 +109,7 @@ const openUrl = (url: string | undefined) => {
         <div class="info-container">
           <h4 class="ServerName" v-html="name"></h4>
           <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion" v-html="server_status"></a></a>
-          <a v-if="ip" class="ServerVersion">IP: {{ serverinfo.ip }}</a>
+          <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" >IP: {{ copied ? "复制成功！" : serverinfo.ip }}</a>
         </div>
       </div>
       <p v-if="desc" class="desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>') : ''"></p>
