@@ -120,7 +120,6 @@ const openUrl = (url: string | undefined) => {
 <style lang="scss" scoped>
 .ServerCard {
   text-decoration: unset!important;
-  display: block;
   height: 100%;
   cursor: pointer;
   transition: all 0.25s;

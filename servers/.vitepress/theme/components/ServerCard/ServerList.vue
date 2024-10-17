@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ServerCard from './ServerCard.vue';
-import { computed, watch, ref, onMounted } from 'vue'
+import { watch, ref, onMounted } from 'vue'
 
 type Server = {
   icon?: 
@@ -34,15 +34,6 @@ type Servers = Server[];
 const props = defineProps<{
   servers: Servers;
 }>();
-// CSS judgment
-const grid = computed(() => {
-  const length = props.servers.length
-  return length === 0 ? undefined
-    : length === 2 ? 'grid-2'
-    : length === 3 ? 'grid-3'
-    : length % 3 === 0 ? 'grid-6'
-    : 'grid-4'
-})
 // Random part
 const shuffledServers = ref<Servers>([])
 const shuffleServers = () => {
@@ -59,7 +50,6 @@ onMounted(shuffleServers)
         v-for="(server, index) in shuffledServers"
         :key="server.name + index"
         class="item"
-        :class="[grid]"
       >
         <ServerCard
           :key="server.name + index"
@@ -99,8 +89,9 @@ onMounted(shuffleServers)
 }
 
 .items {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
   margin: -8px;
   .item {
     padding: 16px;
@@ -115,32 +106,6 @@ onMounted(shuffleServers)
           animation-iteration-count: 1;
           color: var(--c-sub-brand-light);
     }
-  }
-}
-
-@media (min-width: 640px) {
-  .item.grid-2,
-  .item.grid-4,
-  .item.grid-6 {
-    width: calc(100% / 2);
-  }
-}
-
-@media (min-width: 768px) {
-  .item.grid-2,
-  .item.grid-4 {
-    width: calc(100% / 2);
-  }
-
-  .item.grid-3,
-  .item.grid-6 {
-    width: calc(100% / 3);
-  }
-}
-
-@media (min-width: 960px) {
-  .item.grid-4 {
-    width: calc(100% / 4);
   }
 }
 </style>
