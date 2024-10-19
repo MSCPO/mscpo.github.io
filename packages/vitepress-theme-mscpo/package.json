@@ -77,8 +77,5 @@
     "vite": "^5.4.9",
     "vitepress": "npm:@mscpo/vitepress@^1.4.1-rc.4",
     "vue": "^3.2.45"
-  },
-  "peerDependencies": {
-    "vitepress": "^1.4.1"
   }
 }
