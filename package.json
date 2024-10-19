@@ -22,9 +22,8 @@
     "hui-vue": "^2.1.1",
     "prettier": "^3.3.3",
     "sharp": "^0.33.5",
-    "vitepress": "npm:@mscpo/vitepress@^1.4.1-rc.3",
-    "vue": "^3.4.37",
-    "vue-virtual-scroll-grid": "^1.11.0"
+    "vitepress": "npm:@mscpo/vitepress@1.4.1-rc.4",
+    "vue": "^3.4.37"
   },
   "devDependencies": {
     "@mdit-vue/shared": "^2.1.3",

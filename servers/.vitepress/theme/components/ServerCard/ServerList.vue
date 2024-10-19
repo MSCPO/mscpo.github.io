@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import ServerCard from './ServerCard.vue';
-import { watch, ref, onMounted } from 'vue'
+import GridList, { RequestFunc } from './ServerItem.vue'
+import ServerCard from './ServerCard.vue'
+import { computed } from 'vue'
 
 type Server = {
   icon?: 
@@ -29,41 +30,70 @@ type Server = {
   ip?: string
 }
 
-type Servers = Server[];
+type Servers = Server[]
 
 const props = defineProps<{
-  servers: Servers;
-}>();
-// Random part
-const shuffledServers = ref<Servers>([])
-const shuffleServers = () => {
-  shuffledServers.value = [...props.servers].sort(() => Math.random() - 0.5)
+  servers: Servers
+}>()
+
+// Fisher–Yates shuffle
+const shuffledServers = computed(() => {
+  const serversCopy = [...props.servers]
+  for (let i = serversCopy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [serversCopy[i], serversCopy[j]] = [serversCopy[j], serversCopy[i]];
+  }
+  return serversCopy
+})
+
+// Fetch servers function for pagination
+const fetchServers: RequestFunc<Server> = async ({ page, limit }) => {
+  const start = (page - 1) * limit
+  const end = start + limit
+
+  // Get paginated servers from shuffledServers
+  const paginatedServers = shuffledServers.value.slice(start, end)
+
+  return {
+    data: paginatedServers,
+    total: shuffledServers.value.length,
+  }
 }
-watch(() => props.servers, shuffleServers, { immediate: true })
-onMounted(shuffleServers)
 </script>
 
 <template>
   <div class="server-cards VPHomeFeatures">
-    <div class="items">
-      <div
-        v-for="(server, index) in shuffledServers"
-        :key="server.name + index"
-        class="item"
-      >
-        <ServerCard
-          :key="server.name + index"
-          :icon="server.icon"
-          :name="server.name"
-          :desc="server.desc"
-          :type ="server.type"
-          :link="server.link"
-          :linkText="server.linkText"
-          :version="server.version"
-          :ip="server.ip"
-        />
-      </div>
-    </div>
+    <GridList 
+      :request="fetchServers" 
+      :column-gap="20" 
+      :row-gap="20" 
+      :limit="100" 
+      :item-min-width="200" 
+      class="items"
+    >
+      <template #default="{ item }">
+        <div class="item">
+          <ServerCard
+            :icon="item.icon"
+            :name="item.name"
+            :desc="item.desc"
+            :type="item.type"
+            :link="item.link"
+            :version="item.version"
+            :ip="item.ip"
+          />
+        </div>
+      </template>
+      <template #empty>
+        <p align="center" style="color: rgb(0, 225, 255);">暂无服务器数据</p>
+      </template>
+      <template #loading>
+        <p align="center" style="color: rgb(0, 225, 255);">加载中...</p>
+      </template>
+      <template #noMore>
+        <p align="center" style="color: rgb(0, 225, 255);">没有更多服务器</p>
+      </template>
+    </GridList>
   </div>
 </template>
 
@@ -71,27 +101,26 @@ onMounted(shuffleServers)
 .server-cards {
   position: relative;
   display: block;
-  height: 100%;
-  margin-bottom: 5%;
+  height: 100vh;
+  margin: 2%;
   background: linear-gradient(to right,rgba(6,205,255,.1882352941),rgba(223,7,107,.3));
 }
 
 @media (min-width: 640px) {
   .server-cards {
-    padding: 0 48px;
+    padding: 0 30px;
   }
 }
 
 @media (min-width: 960px) {
   .server-cards {
-    padding: 0 64px;
+    padding: 0 10px;
   }
 }
 
 .items {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 10px;
+  height: 100%;
   margin: -8px;
   .item {
     padding: 16px;

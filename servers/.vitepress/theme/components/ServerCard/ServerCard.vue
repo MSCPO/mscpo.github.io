@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import VPImage from 'vitepress/dist/client/theme-default/components//VPImage.vue'
+import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
 import { ref } from "vue"
@@ -39,8 +39,8 @@ const serverinfo = defineProps<{
 }>()
 
 const playSound = () => {
-  const audio = new Audio(SoundFiles);
-  audio.play();
+  const audio = new Audio(SoundFiles)
+  audio.play()
 }
 
 const props = {
@@ -51,8 +51,8 @@ const handleServerInfo = async () => {
   try {
     const res = await fetch(
       `https://mcstat.mcskin.cn/api/status/${props.server}`
-    );
-    const data = await res.json();
+    )
+    const data = await res.json()
     if (data.online) {
       server_status.value = "<a style=\"color: green\">◉在线</a>"
     } else {
@@ -61,7 +61,7 @@ const handleServerInfo = async () => {
   } catch (e) {
     server_status.value = "<a style=\"color: red\">◉离线</a>"
   }
-};
+}
 
 const server_status = ref("<a style=\"color: blue\">◉正在获取...</a>")
 
