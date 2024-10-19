@@ -100,8 +100,8 @@ importers:
         specifier: ^5.4.9
         version: 5.4.9(@types/node@22.7.5)(sass@1.79.5)(terser@5.34.1)
       vitepress:
-        specifier: npm:@mscpo/vitepress@^1.4.1-rc.4
-        version: '@mscpo/vitepress@1.4.1(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.2)(terser@5.34.1)(typescript@5.6.2)'
+        specifier: npm:@mscpo/vitepress@1.4.1-rc.4
+        version: '@mscpo/vitepress@1.4.1-rc.4(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.2)(terser@5.34.1)(typescript@5.6.2)'
       vue:
         specifier: ^3.2.45
         version: 3.5.5(typescript@5.6.2)
@@ -1176,18 +1176,6 @@ packages:
     resolution: {integrity: sha512-L26xfzkSo1yamODCAtk/ipVlL6OEw2bcJ92zunyHu8zxi7+meV0zefA9xscRMDCsMY8xL3C3wi3DhMiPxcbxbw==}
     peerDependencies:
       vite: ^3.2.7 || ^4.0.5 || ^5.0.5
-
-  '@mscpo/vitepress@1.4.1':
-    resolution: {integrity: sha512-rOU7r3KpCS6+tc6Tc6zGgmiVDKPlLQkkf/j9Q8JO4Axrmu78ELOUFr2kcwJPaN9lijj+7P6SVBr6UWL/30Ub1Q==}
-    hasBin: true
-    peerDependencies:
-      markdown-it-mathjax3: ^4
-      postcss: ^8
-    peerDependenciesMeta:
-      markdown-it-mathjax3:
-        optional: true
-      postcss:
-        optional: true
 
   '@mscpo/vitepress@1.4.1-rc.4':
     resolution: {integrity: sha512-32y9hh22e8mimcv9d2fmkdBSNosh4omQelANIUj2HU1bPnDPUM6STMEETSnyzUhE5mIlRS3APWWDh1mxZJ78OQ==}
@@ -4653,56 +4641,6 @@ snapshots:
       vite: 5.4.9(@types/node@22.7.5)(sass@1.79.5)(terser@5.34.1)
     transitivePeerDependencies:
       - rollup
-
-  '@mscpo/vitepress@1.4.1(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.2)(terser@5.34.1)(typescript@5.6.2)':
-    dependencies:
-      '@docsearch/css': 3.6.2
-      '@docsearch/js': 3.6.2(@algolia/client-search@4.24.0)(search-insights@2.17.2)
-      '@shikijs/core': 1.22.0
-      '@shikijs/transformers': 1.22.0
-      '@shikijs/types': 1.22.0
-      '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 5.1.4(vite@5.4.9(@types/node@22.7.5)(sass@1.79.5)(terser@5.34.1))(vue@3.5.12(typescript@5.6.2))
-      '@vue/devtools-api': 7.4.6
-      '@vue/shared': 3.5.12
-      '@vueuse/core': 11.1.0(vue@3.5.12(typescript@5.6.2))
-      '@vueuse/integrations': 11.1.0(axios@1.7.7)(focus-trap@7.6.0)(nprogress@0.2.0)(vue@3.5.12(typescript@5.6.2))
-      focus-trap: 7.6.0
-      mark.js: 8.11.1
-      minisearch: 7.1.0
-      shiki: 1.22.0
-      vite: 5.4.9(@types/node@22.7.5)(sass@1.79.5)(terser@5.34.1)
-      vue: 3.5.12(typescript@5.6.2)
-    optionalDependencies:
-      markdown-it-mathjax3: 4.3.2
-      postcss: 8.4.47
-    transitivePeerDependencies:
-      - '@algolia/client-search'
-      - '@types/node'
-      - '@types/react'
-      - '@vue/composition-api'
-      - async-validator
-      - axios
-      - change-case
-      - drauu
-      - fuse.js
-      - idb-keyval
-      - jwt-decode
-      - less
-      - lightningcss
-      - nprogress
-      - qrcode
-      - react
-      - react-dom
-      - sass
-      - sass-embedded
-      - search-insights
-      - sortablejs
-      - stylus
-      - sugarss
-      - terser
-      - typescript
-      - universal-cookie
 
   '@mscpo/vitepress@1.4.1-rc.4(@algolia/client-search@4.24.0)(@types/node@22.7.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(sass@1.79.5)(search-insights@2.17.2)(terser@5.34.1)(typescript@5.6.2)':
     dependencies:

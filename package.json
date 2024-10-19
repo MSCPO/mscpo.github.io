@@ -22,7 +22,7 @@
     "hui-vue": "^2.1.1",
     "prettier": "^3.3.3",
     "sharp": "^0.33.5",
-    "vitepress": "npm:@mscpo/vitepress@^1.4.1-rc.4",
+    "vitepress": "npm:@mscpo/vitepress@1.4.1-rc.4",
     "vue": "^3.4.37"
   },
   "devDependencies": {
