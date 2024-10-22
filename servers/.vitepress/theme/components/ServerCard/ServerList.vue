@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import GridList, { RequestFunc } from './ServerItem.vue'
 import ServerCard from './ServerCard.vue'
-import { computed } from 'vue'
+import { ref } from 'vue'
 
 type Server = {
   icon?: 
@@ -37,14 +37,16 @@ const props = defineProps<{
 }>()
 
 // Fisher–Yates shuffle
-const shuffledServers = computed(() => {
+const shuffledServers = (): Server[] => {
   const serversCopy = [...props.servers]
   for (let i = serversCopy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [serversCopy[i], serversCopy[j]] = [serversCopy[j], serversCopy[i]];
   }
   return serversCopy
-})
+}
+
+const gridKey = ref(0)
 
 // Fetch servers function for pagination
 const fetchServers: RequestFunc<Server> = async ({ page, limit }) => {
@@ -52,18 +54,24 @@ const fetchServers: RequestFunc<Server> = async ({ page, limit }) => {
   const end = start + limit
 
   // Get paginated servers from shuffledServers
-  const paginatedServers = shuffledServers.value.slice(start, end)
+  const paginatedServers = shuffledServers().slice(start, end)
 
   return {
     data: paginatedServers,
-    total: shuffledServers.value.length,
+    total: shuffledServers().length,
   }
 }
+
+const refreshServers = () => {
+    gridKey.value++
+  }
 </script>
 
 <template>
   <div class="server-cards VPHomeFeatures">
+    <button @click="refreshServers" style="color: aqua;">更新服务器列表</button>
     <GridList 
+      :key="gridKey"
       :request="fetchServers" 
       :column-gap="20" 
       :row-gap="20" 
