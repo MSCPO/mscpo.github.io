@@ -70,7 +70,7 @@
     "@docsearch/css": "^3.6.2",
     "@docsearch/js": "^3.3.0",
     "@vueuse/components": "^11.1.0",
-    "@vueuse/core": "^9.6.0",
+    "@vueuse/core": "^11.1.0",
     "body-scroll-lock": "^4.0.0-beta.0",
     "nprogress": "^0.2.0",
     "shiki": "^1.22.0",
