@@ -58,7 +58,7 @@ const playSound = () => {
           {{ title }}
         </h5>
       </div>
-      <Badge v-if="formatBadge" class="badge" :type="formatBadge.type" :text="formatBadge.text" />
+      <badge v-if="formatBadge" class="badge" :type="formatBadge.type" :text="formatBadge.text" />
       <p v-if="desc" class="desc">{{ desc }}</p>
     </article>
   </a>

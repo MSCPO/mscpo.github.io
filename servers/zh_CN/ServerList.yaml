@@ -285,7 +285,7 @@
 
 - name: 'U-EPTM.'
   icon:
-    src: https://mc.u-eptm.us.kg/Image/Web.ico
+    src: /logo2.webp
   type: Java
   version: 1.17.x-Latest
   desc: 版本：Java | 1.17.x-Latest<br>这是一个1.20.6无规则公益服务器

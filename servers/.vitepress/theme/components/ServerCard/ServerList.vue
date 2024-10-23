@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import GridList, { RequestFunc } from './ServerItem.vue'
 import ServerCard from './ServerCard.vue'
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { useData } from 'vitepress'
+import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
+// import { data } from '../hooks/servers.data'
+// console.log(data)
+
+const { localeIndex } = useData()
 
 type Server = {
   icon?: 
@@ -63,20 +69,57 @@ const fetchServers: RequestFunc<Server> = async ({ page, limit }) => {
 }
 
 const refreshServers = () => {
-    gridKey.value++
+  gridKey.value++
+  const audio = new Audio(SoundFiles)
+  audio.play()
+}
+
+
+const lang = computed(() => {
+  switch (localeIndex.value) {
+    case 'root':
+      return {
+        button: "更新服务器列表",
+        empty: "暂无服务器数据",
+        loading: "加载中...",
+        noMore: "没有更多服务器"
+      }
+    case 'en':
+      return {
+        button: "Update server list",
+        empty: "No server data",
+        loading: "Loading...",
+        noMore: "No more servers"
+      }
+    case 'ru':
+      return {
+        button: "Обновить список серверов",
+        empty: "Нет данных о серверах",
+        loading: "Загрузка...",
+        noMore: "Нет новых серверов"
+      }
+    default:
+      return {
+        button: "更新服务器列表",
+        empty: "暂无服务器数据",
+        loading: "加载中...",
+        noMore: "没有更多服务器"
+      }
   }
+});
+
 </script>
 
 <template>
   <div class="server-cards VPHomeFeatures">
-    <button @click="refreshServers" style="color: aqua;">更新服务器列表</button>
+    <button @click="refreshServers" style="color: aqua;" v-text="lang.button"></button>
     <GridList 
       :key="gridKey"
       :request="fetchServers" 
       :column-gap="20" 
       :row-gap="20" 
       :limit="100" 
-      :item-min-width="200" 
+      :item-min-width="250" 
       class="items"
     >
       <template #default="{ item }">
@@ -93,13 +136,13 @@ const refreshServers = () => {
         </div>
       </template>
       <template #empty>
-        <p align="center" style="color: rgb(0, 225, 255);">暂无服务器数据</p>
+        <p align="center" style="color: rgb(0, 225, 255);" v-text="lang.empty"></p>
       </template>
       <template #loading>
-        <p align="center" style="color: rgb(0, 225, 255);">加载中...</p>
+        <p align="center" style="color: rgb(0, 225, 255);" v-text="lang.loading"></p>
       </template>
       <template #noMore>
-        <p align="center" style="color: rgb(0, 225, 255);">没有更多服务器</p>
+        <p align="center" style="color: rgb(0, 225, 255);" v-text="lang.noMore"></p>
       </template>
     </GridList>
   </div>

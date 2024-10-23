@@ -2,8 +2,10 @@
 import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
-import { ref } from "vue"
+import { ref, computed } from "vue"
 import { useClipboard } from '@vueuse/core'
+import { useData } from 'vitepress'
+const { localeIndex } = useData()
 
 const source = ref('Copy')
 const { copy, copied } = useClipboard({ source })
@@ -38,6 +40,39 @@ const serverinfo = defineProps<{
   ip?: string
 }>()
 
+const lang = computed(() => {
+  switch (localeIndex.value) {
+    case 'root':
+      return {
+        online: "◉在线",
+        offline: "◉离线",
+        loading: "◉正在获取...",
+        copied: "复制成功！",
+      }
+    case 'en':
+      return {
+        online: "◉Online",
+        offline: "◉Offline",
+        loading: "Loading...",
+        copied: "复制成功！",
+      }
+    case 'ru':
+      return {
+        online: "◉Онлайн",
+        empty: "Нет данных о серверах",
+        loading: "Загрузка...",
+        copied: "复制成功！",
+      }
+    default:
+      return {
+        online: "◉Online",
+        offline: "◉Offline",
+        loading: "Loading...",
+        copied: "复制成功！",
+      }
+  }
+});
+
 const playSound = () => {
   const audio = new Audio(SoundFiles)
   audio.play()
@@ -47,23 +82,29 @@ const props = {
   server: serverinfo.ip
 }
 
+const server_status = ref<string | undefined>(lang.value.loading)
+const status_color = ref("gray")
+
 const handleServerInfo = async () => {
-  try {
-    const res = await fetch(
-      `https://mcstat.mcskin.cn/api/status/${props.server}`
-    )
-    const data = await res.json()
-    if (data.online) {
-      server_status.value = "<a style=\"color: green\">◉在线</a>"
-    } else {
-      server_status.value = "<a style=\"color: red\">◉离线</a>"
+  if (props.server != null) {
+    try {
+      const res = await fetch(
+        `https://mcstat.mcskin.cn/api/status/${props.server}`
+      )
+      const data = await res.json()
+      if (data.online) {
+        server_status.value = lang.value.online
+        status_color.value = "green"
+      } else {
+        server_status.value = lang.value.offline
+        status_color.value = "red"
+      }
+    } catch (e) {
+      server_status.value = lang.value.offline
+      status_color.value = "red"
     }
-  } catch (e) {
-    server_status.value = "<a style=\"color: red\">◉离线</a>"
   }
 }
-
-const server_status = ref("<a style=\"color: blue\">◉正在获取...</a>")
 
 handleServerInfo()
 
@@ -82,10 +123,9 @@ const openUrl = (url: string | undefined) => {
     <article
       class="box"
       :class="[serverinfo.type]"
-      :title="serverinfo.desc"
       @click="playSound"
     >
-      <div class="box-header">
+      <div class="box-header" :title="serverinfo.name">
         <div v-if="typeof serverinfo.icon === 'object' && serverinfo.icon.wrap" class="icon">
           <VPImage
             class="icon"
@@ -108,11 +148,11 @@ const openUrl = (url: string | undefined) => {
         <div v-else-if="icon" class="icon" v-html="icon"></div>
         <div class="info-container">
           <h4 class="ServerName" v-html="name"></h4>
-          <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion" v-html="server_status"></a></a>
-          <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" >IP: {{ copied ? "复制成功！" : serverinfo.ip }}</a>
+          <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion" :style="{'color':status_color}" v-html="server_status"></a></a>
+          <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" >IP: {{ copied ? lang.copied : serverinfo.ip }}</a>
         </div>
       </div>
-      <p v-if="desc" class="desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>') : ''"></p>
+      <p v-if="desc" class="desc" :title="serverinfo.desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></p>
     </article>
   </VPLink>
 </template>
