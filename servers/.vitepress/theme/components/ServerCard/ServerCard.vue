@@ -40,7 +40,7 @@ const serverinfo = defineProps<{
   ip?: string
 }>()
 
-const lang = computed(() => {
+const i18nlang = computed(() => {
   switch (localeIndex.value) {
     case 'root':
       return {
@@ -82,7 +82,7 @@ const props = {
   server: serverinfo.ip
 }
 
-const server_status = ref<string | undefined>(lang.value.loading)
+const server_status = ref<string | undefined>(i18nlang.value.loading)
 const status_color = ref("gray")
 
 const handleServerInfo = async () => {
@@ -93,14 +93,14 @@ const handleServerInfo = async () => {
       )
       const data = await res.json()
       if (data.online) {
-        server_status.value = lang.value.online
+        server_status.value = i18nlang.value.online
         status_color.value = "green"
       } else {
-        server_status.value = lang.value.offline
+        server_status.value = i18nlang.value.offline
         status_color.value = "red"
       }
     } catch (e) {
-      server_status.value = lang.value.offline
+      server_status.value = i18nlang.value.offline
       status_color.value = "red"
     }
   }
@@ -149,7 +149,9 @@ const openUrl = (url: string | undefined) => {
         <div class="info-container">
           <h4 class="ServerName" v-html="name"></h4>
           <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion" :style="{'color':status_color}" v-html="server_status"></a></a>
-          <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" >IP: {{ copied ? lang.copied : serverinfo.ip }}</a>
+          <Tooltip v-if="ip" tooltip="复制服务器IP">
+            <a class="ServerVersion" @click.stop="copy(serverinfo.ip)" >IP: {{ copied ? i18nlang.copied : serverinfo.ip }}</a>
+          </Tooltip>
         </div>
       </div>
       <p v-if="desc" class="desc" :title="serverinfo.desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></p>
@@ -200,18 +202,18 @@ const openUrl = (url: string | undefined) => {
         }
       }
     }
-  .desc {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex-grow: 1;
-    margin: calc(var(--m-nav-box-gap) - 2px) 0 0;
-    line-height: 1.5;
-    font-size: 12px;
-    color: white;
-  }
+    .desc {
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex-grow: 1;
+      margin: calc(var(--m-nav-box-gap) - 2px) 0 0;
+      line-height: 1.5;
+      font-size: 12px;
+      color: white;
+    }
   }
 }
 .Java {
@@ -250,4 +252,5 @@ const openUrl = (url: string | undefined) => {
     }
   }
 }
+
 </style>

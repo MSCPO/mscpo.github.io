@@ -1,11 +1,14 @@
-<script setup lang="ts">
+<script setup lang="ts"> 
 import GridList, { RequestFunc } from './ServerItem.vue'
 import ServerCard from './ServerCard.vue'
 import { ref, computed } from 'vue'
 import { useData } from 'vitepress'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
+import { CompassOutlined } from '@ant-design/icons-vue'
+
+//// !!! Dev !!!
 // import { data } from '../hooks/servers.data'
-// console.log(data)
+// console.log(data);
 
 const { localeIndex } = useData()
 
@@ -53,18 +56,27 @@ const shuffledServers = (): Server[] => {
 }
 
 const gridKey = ref(0)
+const searchQuery = ref('')
 
-// Fetch servers function for pagination
+// Fetch servers function for pagination and filtering
 const fetchServers: RequestFunc<Server> = async ({ page, limit }) => {
   const start = (page - 1) * limit
   const end = start + limit
 
-  // Get paginated servers from shuffledServers
-  const paginatedServers = shuffledServers().slice(start, end)
+  const filteredServers = shuffledServers().filter(server => {
+    const matchesType = selectedValue.value ? server.type === selectedValue.value : true;
+    const matchesSearch = 
+      server.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
+      (server.desc && server.desc.toLowerCase().includes(searchQuery.value.toLowerCase()));
+      
+    return matchesType && matchesSearch;
+  });
+
+  const paginatedServers = filteredServers.slice(start, end)
 
   return {
     data: paginatedServers,
-    total: shuffledServers().length,
+    total: filteredServers.length,
   }
 }
 
@@ -74,45 +86,142 @@ const refreshServers = () => {
   audio.play()
 }
 
-
-const lang = computed(() => {
+const i18nlang = computed(() => {
   switch (localeIndex.value) {
     case 'root':
       return {
-        button: "更新服务器列表",
         empty: "暂无服务器数据",
         loading: "加载中...",
-        noMore: "没有更多服务器"
+        noMore: "没有更多服务器",
+        search: {
+          placeholder: "搜索服务器...",
+          button: "搜索并刷新"
+        },
+        select: {
+          placeholder: "平台",
+          options: {
+            Java: 'Java',
+            Bedrock: '基岩',
+            Geyser: '互通',
+            Netease: '网易',
+            Not_specified: '未指定'
+          },
+          width: 80
+        }
       }
     case 'en':
       return {
-        button: "Update server list",
         empty: "No server data",
         loading: "Loading...",
-        noMore: "No more servers"
+        noMore: "No more servers",
+        search: {
+          placeholder: "Search servers...",
+          button: "Search"
+        },
+        select: {
+          placeholder: "Type",
+          options: {
+            Java: 'Java',
+            Bedrock: 'Bedrock',
+            Geyser: 'Geyser',
+            Netease: 'Netease',
+            Not_specified: 'Not specified'
+          },
+          width: 130
+        }
       }
     case 'ru':
       return {
-        button: "Обновить список серверов",
         empty: "Нет данных о серверах",
         loading: "Загрузка...",
-        noMore: "Нет новых серверов"
+        noMore: "Нет новых серверов",
+        search: {
+          placeholder: "Search servers...",
+          button: "Search"
+        },
+        select: {
+          placeholder: "Type",
+          options: {
+            Java: 'Java',
+            Bedrock: 'Bedrock',
+            Geyser: 'Geyser',
+            Netease: 'Netease',
+            Not_specified: 'Not specified'
+          },
+          width: 130
+        }
       }
     default:
       return {
-        button: "更新服务器列表",
         empty: "暂无服务器数据",
         loading: "加载中...",
-        noMore: "没有更多服务器"
+        noMore: "没有更多服务器",
+        search: {
+          placeholder: "搜索服务器...",
+          button: "搜索并刷新"
+        },
+        select: {
+          placeholder: "平台",
+          options: {
+            Java: 'Java',
+            Bedrock: '基岩',
+            Geyser: '互通',
+            Netease: '网易',
+            Not_specified: 'Not specified'
+          },
+          width: 80
+        }
       }
   }
 });
 
+const options = ref([
+      {
+        label: i18nlang.value.select.options.Java,
+        value: 'Java'
+      },
+      {
+        label: i18nlang.value.select.options.Bedrock,
+        value: 'Bedrock'
+      },
+      {
+        label: i18nlang.value.select.options.Geyser,
+        value: 'Geyser'
+      },
+      {
+        label: i18nlang.value.select.options.Netease,
+        value: 'Netease'
+      },
+      {
+        label: i18nlang.value.select.options.Not_specified,
+        value: ''
+      }
+    ])
+const selectedValue = ref('')
 </script>
 
 <template>
   <div class="server-cards VPHomeFeatures">
-    <button @click="refreshServers" style="color: aqua;" v-text="lang.button"></button>
+    <Tooltip tooltip="选择一个服务器类型">
+      <Select :placeholder="i18nlang.select.placeholder" :options="options" v-model="selectedValue" :width="i18nlang.select.width" @change="refreshServers"/>
+    </Tooltip>
+    <InputSearch 
+      v-model:value="searchQuery" 
+      :placeholder="i18nlang.search.placeholder" 
+      style="margin-bottom: 10px; padding: 5px; width: 200px;"
+      @search="refreshServers"
+    >
+      <template #search>
+        <Button>
+          <template #icon>
+            <Tooltip :tooltip="i18nlang.search.button">
+              <CompassOutlined />
+            </Tooltip>
+          </template>
+
+        </Button>
+      </template>
+    </InputSearch>
     <GridList 
       :key="gridKey"
       :request="fetchServers" 
@@ -136,13 +245,13 @@ const lang = computed(() => {
         </div>
       </template>
       <template #empty>
-        <p align="center" style="color: rgb(0, 225, 255);" v-text="lang.empty"></p>
+        <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.empty"></p>
       </template>
       <template #loading>
-        <p align="center" style="color: rgb(0, 225, 255);" v-text="lang.loading"></p>
+        <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.loading"></p>
       </template>
       <template #noMore>
-        <p align="center" style="color: rgb(0, 225, 255);" v-text="lang.noMore"></p>
+        <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.noMore"></p>
       </template>
     </GridList>
   </div>

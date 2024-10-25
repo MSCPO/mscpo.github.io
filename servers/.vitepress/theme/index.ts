@@ -1,4 +1,6 @@
 import VuetomTheme from 'vitepress-theme-mscpo'
+import VueAmazingUI from 'vue-amazing-ui'
+import 'vue-amazing-ui/css'
 import "./style/custom.scss"
 import { h, watchEffect } from 'vue'
 import { useData } from 'vitepress'
@@ -20,6 +22,7 @@ export default {
     app.component('Confetti' , Confetti)
     app.component('NavList' , NavList)
     app.component('ServerList' , ServerList)
+    app.use(VueAmazingUI)
     
     if (inBrowser) {
       router.onAfterRouteChanged = () => {
