@@ -167,7 +167,7 @@ const i18nlang = computed(() => {
             Bedrock: '基岩',
             Geyser: '互通',
             Netease: '网易',
-            Not_specified: 'Not specified'
+            Not_specified: '未指定'
           },
           width: 80
         }
@@ -202,6 +202,7 @@ const selectedValue = ref('')
 
 <template>
   <div class="server-cards VPHomeFeatures">
+    <div class="search-box">
     <Tooltip tooltip="选择一个服务器类型">
       <Select :placeholder="i18nlang.select.placeholder" :options="options" v-model="selectedValue" :width="i18nlang.select.width" @change="refreshServers"/>
     </Tooltip>
@@ -218,10 +219,10 @@ const selectedValue = ref('')
               <CompassOutlined />
             </Tooltip>
           </template>
-
         </Button>
       </template>
     </InputSearch>
+    </div>
     <GridList 
       :key="gridKey"
       :request="fetchServers" 
@@ -263,7 +264,12 @@ const selectedValue = ref('')
   display: block;
   height: 100vh;
   margin: 2%;
-  background: linear-gradient(to right,rgba(6,205,255,.1882352941),rgba(223,7,107,.3));
+  background: linear-gradient(to right,rgba(6,205,255,.1882352941),rgba(223, 7, 108, 0.164));
+  .search-box {
+    position: fixed;
+    z-index: 999;
+    opacity: 0.7;
+  }
 }
 
 @media (min-width: 640px) {

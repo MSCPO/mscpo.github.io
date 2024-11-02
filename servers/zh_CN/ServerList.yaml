@@ -444,3 +444,12 @@
   desc: | 
     paper插件互通服务器，内已添加粘液科技、连锁挖矿、等价交换，船新未开荒
   link: https://qm.qq.com/q/zROUGLpQxa
+
+- name: 'Lie-downCraft'
+  icon:
+    src: /server_icons/minecraft_synthesize_survive.webp
+  type: Java
+  version: 1.20.1
+  desc: | 
+    一个原版服务器，主要研究生存红石电路和建筑，为在现代化快节奏社会中忙碌的人提供一个休息自己灵魂，放松自己的地方
+  link: QQ群:562618718

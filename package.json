@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@9.12.1",
+  "packageManager": "pnpm@9.12.3",
   "workspaces": [
     "packages/*"
   ],
@@ -22,7 +22,7 @@
     "busuanzi.pure.js": "^1.0.3",
     "prettier": "^3.3.3",
     "sharp": "^0.33.5",
-    "vitepress": "npm:@mscpo/vitepress@1.4.1-rc.4",
+    "vitepress": "npm:@mscpo/vitepress@1.4.3",
     "vue": "^3.5.12",
     "vue-amazing-ui": "^1.8.9"
   },
