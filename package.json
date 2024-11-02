@@ -23,7 +23,7 @@
     "prettier": "^3.3.3",
     "sharp": "^0.33.5",
     "vitepress": "npm:@mscpo/vitepress@1.4.1-rc.4",
-    "vue": "^3.4.37",
+    "vue": "^3.5.12",
     "vue-amazing-ui": "^1.8.9"
   },
   "devDependencies": {
@@ -40,6 +40,6 @@
     "vitepress-plugin-back-to-top": "^1.0.1",
     "vitepress-plugin-music": "^0.0.9",
     "vitepress-theme-mscpo": "workspace:^2.3.0",
-    "vue": "^3.4.37"
+    "vue": "^3.5.12"
   }
 }
