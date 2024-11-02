@@ -121,6 +121,9 @@ export default withPwa(defineConfigWithTheme<VuetomThemeConfig>({
     },
     pwa: {
       outDir: "./.vitepress/dist",
+      mode: 'development',
+      base: '/',
+      scope: '/',
       registerType: "autoUpdate",
       includeManifestIcons: false,
       manifest: {
