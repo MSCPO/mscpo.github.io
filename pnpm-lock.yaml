@@ -27,8 +27,8 @@ importers:
         specifier: ^0.33.5
         version: 0.33.5
       vitepress:
-        specifier: npm:@mscpo/vitepress@1.4.3
-        version: '@mscpo/vitepress@1.4.3(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)'
+        specifier: npm:@mscpo/vitepress@1.4.3-beta.2
+        version: '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)'
       vue:
         specifier: ^3.5.12
         version: 3.5.12(typescript@5.6.2)
@@ -71,7 +71,7 @@ importers:
         version: 1.0.1(typescript@5.6.2)
       vitepress-plugin-music:
         specifier: ^0.0.9
-        version: 0.0.9(@mscpo/vitepress@1.4.3(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2))
+        version: 0.0.9(@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2))
       vitepress-theme-mscpo:
         specifier: workspace:^2.3.0
         version: link:packages/vitepress-theme-mscpo
@@ -103,8 +103,8 @@ importers:
         specifier: ^5.4.10
         version: 5.4.10(@types/node@22.7.5)(sass@1.80.6)(terser@5.36.0)
       vitepress:
-        specifier: npm:@mscpo/vitepress@1.4.3
-        version: '@mscpo/vitepress@1.4.3(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)'
+        specifier: npm:@mscpo/vitepress@1.4.3-beta.2
+        version: '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)'
       vue:
         specifier: ^3.5.12
         version: 3.5.12(typescript@5.6.2)
@@ -1185,8 +1185,8 @@ packages:
     peerDependencies:
       vite: ^3.2.7 || ^4.0.5 || ^5.0.5
 
-  '@mscpo/vitepress@1.4.3':
-    resolution: {integrity: sha512-UAGUQs4fauY8PtFoqFftLRY/Ydt0XFtIdtAK/JH7ZmPfCbWZWl77ABiy96bFphiAYVTCoKDOamjqzo9GqnHivg==}
+  '@mscpo/vitepress@1.4.3-beta.2':
+    resolution: {integrity: sha512-NcKoVJDmU7nqsPZO1sftTTIyZPz8NmvCIxMOtNFdeHg6rnygriCqP1XNEGpWETmCiUnAuf5OB1o1scB+o283Kg==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -4250,7 +4250,7 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@mscpo/vitepress@1.4.3(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)':
+  '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)':
     dependencies:
       '@docsearch/css': 3.6.2
       '@docsearch/js': 3.6.2(@algolia/client-search@4.24.0)(search-insights@2.17.2)
@@ -6268,9 +6268,9 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.4.3(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)):
+  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)):
     dependencies:
-      vitepress: '@mscpo/vitepress@1.4.3(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)'
+      vitepress: '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@4.24.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)'
 
   vooks@0.2.12(vue@3.5.12(typescript@5.6.2)):
     dependencies:

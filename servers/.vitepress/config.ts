@@ -24,7 +24,7 @@ export default defineConfigWithTheme<VuetomThemeConfig>({
         logoImg: "/logo.webp",
         bgImg: "/bg.webp",
         bgColor: '0,0,0',
-        bgOpacity: 0.6,
+        bgOpacity: 0.5,
         flashEnable: true,
         flashColor: ['238,17,17', '0,98,255'],
         parallaxEnable: true,

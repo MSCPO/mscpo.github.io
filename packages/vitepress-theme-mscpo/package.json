@@ -1,7 +1,7 @@
 {
   "name": "vitepress-theme-mscpo",
   "version": "2.3.0",
-  "description": "A Vitepress Theme, Have blog and document styles",
+  "description": "A Vitepress Theme",
   "type": "module",
   "packageManager": "pnpm@7.9.0",
   "main": "./dist/index.js",
@@ -52,12 +52,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lauset/vitepress-theme-vuetom.git"
+    "url": "git+https://github.com/mscpo/mscpo.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/lauset/vitepress-theme-vuetom/issues"
+    "url": "https://github.com/mscpo/mscpo.github.io/issues"
   },
-  "homepage": "https://github.com/lauset/vitepress-theme-vuetom#readme",
+  "homepage": "https://github.com/mscpo/mscpo.github.io#readme",
   "devDependencies": {
     "@esbuild-kit/cjs-loader": "^2.2.1",
     "@types/nprogress": "^0.2.0",
@@ -75,7 +75,7 @@
     "nprogress": "^0.2.0",
     "shiki": "^1.22.2",
     "vite": "^5.4.10",
-    "vitepress": "npm:@mscpo/vitepress@1.4.3",
+    "vitepress": "npm:@mscpo/vitepress@1.4.3-beta.2",
     "vue": "^3.5.12"
   }
 }
