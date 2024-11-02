@@ -131,20 +131,9 @@ export default withPwa(defineConfigWithTheme<VuetomThemeConfig>({
         theme_color: "#ffffff", // 主题颜色
         icons: [
           {
-            src: "/images/pwa-120x120.png", // 图标路径
+            src: "/logo2.webp", // 图标路径
             sizes: "120x120", // 图标尺寸
             type: "image/png", // 图标类型
-          },
-          {
-            src: "/images/pwa-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "/images/pwa-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "any",
           },
         ],
       },
