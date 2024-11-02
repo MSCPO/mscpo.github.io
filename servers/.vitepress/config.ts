@@ -133,7 +133,7 @@ export default withPwa(defineConfigWithTheme<VuetomThemeConfig>({
           {
             src: "/logo2.webp", // 图标路径
             sizes: "120x120", // 图标尺寸
-            type: "image/png", // 图标类型
+            type: "image/webp", // 图标类型
           },
         ],
       },
