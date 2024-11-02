@@ -222,39 +222,41 @@ const selectedValue = ref('')
         </Button>
       </template>
     </InputSearch>
-    </div>
-    <GridList 
-      :key="gridKey"
-      :request="fetchServers" 
-      :column-gap="20" 
-      :row-gap="20" 
-      :limit="100" 
-      :item-min-width="250" 
-      class="items"
-    >
-      <template #default="{ item }">
-        <div class="item">
-          <ServerCard
-            :icon="item.icon"
-            :name="item.name"
-            :desc="item.desc"
-            :type="item.type"
-            :link="item.link"
-            :version="item.version"
-            :ip="item.ip"
-          />
-        </div>
-      </template>
-      <template #empty>
-        <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.empty"></p>
-      </template>
-      <template #loading>
-        <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.loading"></p>
-      </template>
-      <template #noMore>
-        <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.noMore"></p>
-      </template>
-    </GridList>
+  </div>
+    <ClientOnly>
+      <GridList 
+        :key="gridKey"
+        :request="fetchServers" 
+        :column-gap="20" 
+        :row-gap="20" 
+        :limit="100" 
+        :item-min-width="250" 
+        class="items"
+      >
+        <template #default="{ item }">
+          <div class="item">
+            <ServerCard
+              :icon="item.icon"
+              :name="item.name"
+              :desc="item.desc"
+              :type="item.type"
+              :link="item.link"
+              :version="item.version"
+              :ip="item.ip"
+            />
+          </div>
+        </template>
+        <template #empty>
+          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.empty"></p>
+        </template>
+        <template #loading>
+          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.loading"></p>
+        </template>
+        <template #noMore>
+          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.noMore"></p>
+        </template>
+      </GridList>
+    </ClientOnly>
   </div>
 </template>
 

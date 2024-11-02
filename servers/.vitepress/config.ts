@@ -4,6 +4,7 @@ import timeline from "vitepress-markdown-timeline";
 import ViteYaml from '@modyfi/vite-plugin-yaml'
 import { defineConfigWithTheme } from 'vitepress'
 import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
+import viteCompression from "vite-plugin-compression";
 // Language import
 import { zh_CN } from './i18n/zh_CN'
 import { en } from './i18n/en'
@@ -86,6 +87,20 @@ export default defineConfigWithTheme<VuetomThemeConfig>({
             { from: 'avif', to: 'webp' }
           ],
           cache: true
+        }),
+        viteCompression({
+          verbose: true,
+          disable: false,
+          threshold: 10240,
+          algorithm: "gzip",
+          ext: ".gz",
+        }),
+        viteCompression({
+          verbose: true,
+          disable: false,
+          threshold: 10240,
+          algorithm: "brotliCompress",
+          ext: ".br",
         })
       ]
     },
