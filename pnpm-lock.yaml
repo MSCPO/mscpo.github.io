@@ -41,6 +41,9 @@ importers:
       vue-amazing-ui:
         specifier: ^1.8.9
         version: 1.8.9(async-validator@4.2.5)(axios@1.7.7)(focus-trap@7.6.0)(nprogress@0.2.0)(typescript@5.6.2)
+      workbox-window:
+        specifier: ^7.3.0
+        version: 7.3.0
     devDependencies:
       '@mdit-vue/shared':
         specifier: ^2.1.3

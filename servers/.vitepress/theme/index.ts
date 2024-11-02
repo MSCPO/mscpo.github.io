@@ -14,6 +14,8 @@ import 'vitepress-plugin-back-to-top/dist/style.css'
 import "vitepress-markdown-timeline/dist/theme/index.css";
 import NavList from './components/Nav/NavList.vue'
 import ServerList from './components/ServerCard/ServerList.vue'
+import ReloadPrompt from './components/ReloadPrompt.vue'
+import RegisterSW from './components/RegisterSW.vue'
 
 export default {
   ...VuetomTheme,
@@ -45,7 +47,9 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(VuetomTheme.Layout, props)
+    return h(VuetomTheme.Layout, props, {
+      'layout-bottom': () => h(ReloadPrompt, RegisterSW)
+    })
   },
   setup() {
     const { lang } = useData()

@@ -120,20 +120,20 @@ export default withPwa(defineConfigWithTheme<VuetomThemeConfig>({
       lastmodDateOnly: false
     },
     pwa: {
-      outDir: "./dist", // 输出目录
-      registerType: "autoUpdate", // 注册类型为自动更新
-      includeManifestIcons: false, // 不包含清单图标
+      outDir: "./.vitepress/dist",
+      registerType: "autoUpdate",
+      includeManifestIcons: false,
       manifest: {
         id: "/", // 清单 ID
-        name: "Minecraft集体宣传组织(MSCPO)", // 应用名称
-        short_name: "集宣组织", // 应用的短名称
-        description: "Minecraft集体宣传组织", // 应用的描述
-        theme_color: "#ffffff", // 主题颜色
+        name: "Minecraft集体宣传组织(MSCPO)",
+        short_name: "集宣组织",
+        description: "Minecraft集体宣传组织",
+        theme_color: "#ffffff",
         icons: [
           {
-            src: "/pwa-120x120.webp", // 图标路径
-            sizes: "120x120", // 图标尺寸
-            type: "image/webp", // 图标类型
+            src: "/pwa-120x120.webp",
+            sizes: "120x120",
+            type: "image/webp",
           },
           {
             src: "/pwa-192x192.webp",
@@ -149,47 +149,47 @@ export default withPwa(defineConfigWithTheme<VuetomThemeConfig>({
         ],
       },
       workbox: {
-        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"], // 匹配需要缓存的文件类型
+        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i, // 匹配需要缓存的 Google 字体
-            handler: "CacheFirst", // 缓存优先策略
+            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+            handler: "CacheFirst",
             options: {
-              cacheName: "google-fonts-cache", // 缓存名称
+              cacheName: "google-fonts-cache",
               expiration: {
-                maxEntries: 10, // 最大缓存条目数
-                maxAgeSeconds: 60 * 60 * 24 * 365, // 缓存有效期，365天
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 365,
               },
               cacheableResponse: {
-                statuses: [0, 200], // 缓存的响应状态码
+                statuses: [0, 200],
               },
             },
           },
           {
-            urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i, // 匹配需要缓存的 Google 字体
-            handler: "CacheFirst", // 缓存优先策略
+            urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+            handler: "CacheFirst",
             options: {
-              cacheName: "gstatic-fonts-cache", // 缓存名称
+              cacheName: "gstatic-fonts-cache",
               expiration: {
-                maxEntries: 10, // 最大缓存条目数
-                maxAgeSeconds: 60 * 60 * 24 * 365, // 缓存有效期，365天
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 365,
               },
               cacheableResponse: {
-                statuses: [0, 200], // 缓存的响应状态码
+                statuses: [0, 200],
               },
             },
           },
           {
-            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/.*/i, // 匹配需要缓存的 jsdelivr 图片
-            handler: "NetworkFirst", // 网络优先策略
+            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/.*/i,
+            handler: "NetworkFirst",
             options: {
-              cacheName: "jsdelivr-images-cache", // 缓存名称
+              cacheName: "jsdelivr-images-cache",
               expiration: {
-                maxEntries: 10, // 最大缓存条目数
-                maxAgeSeconds: 60 * 60 * 24 * 7, // 缓存有效期，7天
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 7,
               },
               cacheableResponse: {
-                statuses: [0, 200], // 缓存的响应状态码
+                statuses: [0, 200],
               },
             },
           },
