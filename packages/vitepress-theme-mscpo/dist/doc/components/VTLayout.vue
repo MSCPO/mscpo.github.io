@@ -62,9 +62,21 @@ const renderHomeBg = () => {
 //   }
 // )
 
+const getBrowserWidth = function() {
+  if (window.innerWidth < 768) {
+    return false;
+  } else {
+    return true;
+  }
+
+};
+
 onMounted(() => {
+  console.log(getBrowserWidth())
   renderHomeBg()
-  if (parallaxEnable) window.addEventListener('mousemove', heroMove)
+  if (getBrowserWidth()) {
+    if (parallaxEnable) window.addEventListener('mousemove', heroMove)
+  }
 })
 
 onUnmounted(() => {
