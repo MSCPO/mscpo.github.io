@@ -1,26 +1,52 @@
 {
     "installCommand": "pnpm install",
-    "headers": [
-        {
-            "source": "/sw.js",
-            "headers": [
-                {
+    "headers": [{
+            "source": "/(.*).html",
+            "headers": [{
                 "key": "Cache-Control",
                 "value": "public, max-age=0, must-revalidate"
-                }
-            ]
+            }]
         },
         {
-            "source": "(.*)",
-            "headers": [
-                {
+            "source": "/sw.js",
+            "headers": [{
                 "key": "Cache-Control",
-                "value": "public, s-maxage=86400, max-age=86400"
-                }, {
-                "key": "Vercel-CDN-Cache-Control",
-                "value": "max-age=31536000"
+                "value": "public, max-age=0, must-revalidate"
+            }]
+        },
+        {
+            "source": "/manifest.webmanifest",
+            "headers": [{
+                "key": "Content-Type",
+                "value": "application/manifest+json"
+            }]
+        },
+        {
+            "source": "/assets/(.*)",
+            "headers": [{
+                "key": "Cache-Control",
+                "value": "max-age=31536000, immutable"
+            }]
+        },
+        {
+            "source": "/(.*)",
+            "headers": [{
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "X-Frame-Options",
+                    "value": "DENY"
+                },
+                {
+                    "key": "X-XSS-Protection",
+                    "value": "1; mode=block"
                 }
             ]
         }
-    ]
+    ],
+    "rewrites": [{
+        "source": "/(.*)",
+        "destination": "/index.html"
+    }]
 }
