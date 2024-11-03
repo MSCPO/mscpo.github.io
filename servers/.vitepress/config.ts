@@ -1,5 +1,6 @@
 import { imgSize } from "@mdit/plugin-img-size";
-import { withPwa } from "@vite-pwa/vitepress";
+import { withPwa } from '@vite-pwa/vitepress'
+import { pwa } from './plugins/pwa'
 import minipic from 'vite-plugin-minipic';
 import timeline from "vitepress-markdown-timeline";
 import ViteYaml from '@modyfi/vite-plugin-yaml'
@@ -15,7 +16,9 @@ import { ru } from './i18n/ru'
 // import { ko } from './i18n/ko'
 
 // COMMON
-export default withPwa(defineConfigWithTheme<VuetomThemeConfig>({
+export default withPwa(
+  defineConfigWithTheme<VuetomThemeConfig>({
+    pwa,
     head: [
         ['link', { rel: 'icon', href: '/logo2.webp' }],
     ],
@@ -118,85 +121,6 @@ export default withPwa(defineConfigWithTheme<VuetomThemeConfig>({
     sitemap: {
       hostname: 'https://mscpo.netlify.app/',
       lastmodDateOnly: false
-    },
-    pwa: {
-      outDir: "./.vitepress/dist",
-      mode: 'development',
-      base: '/',
-      scope: '/',
-      registerType: "autoUpdate",
-      includeManifestIcons: false,
-      manifest: {
-        id: "/", // 清单 ID
-        name: "Minecraft集体宣传组织(MSCPO)",
-        short_name: "集宣组织",
-        description: "Minecraft集体宣传组织",
-        theme_color: "#ffffff",
-        icons: [
-          {
-            src: "/pwa-120x120.webp",
-            sizes: "120x120",
-            type: "image/webp",
-          },
-          {
-            src: "/pwa-192x192.webp",
-            sizes: "192x192",
-            type: "image/webp",
-          },
-          {
-            src: "/pwa-512x512.webp",
-            sizes: "512x512",
-            type: "image/webp",
-            purpose: "any",
-          },
-        ],
-      },
-      workbox: {
-        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
-        runtimeCaching: [
-          {
-            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
-            handler: "CacheFirst",
-            options: {
-              cacheName: "google-fonts-cache",
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365,
-              },
-              cacheableResponse: {
-                statuses: [0, 200],
-              },
-            },
-          },
-          {
-            urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
-            handler: "CacheFirst",
-            options: {
-              cacheName: "gstatic-fonts-cache",
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365,
-              },
-              cacheableResponse: {
-                statuses: [0, 200],
-              },
-            },
-          },
-          {
-            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/.*/i,
-            handler: "NetworkFirst",
-            options: {
-              cacheName: "jsdelivr-images-cache",
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 7,
-              },
-              cacheableResponse: {
-                statuses: [0, 200],
-              },
-            },
-          },
-        ],
-      },
     }
-}));
+  })
+);
