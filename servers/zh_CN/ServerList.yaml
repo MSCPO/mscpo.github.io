@@ -453,4 +453,13 @@
   desc: | 
     一个原版服务器，主要研究生存红石电路和建筑，为在现代化快节奏社会中忙碌的人提供一个休息自己灵魂，放松自己的地方
     QQ群:562618718
+    
+- name: 'OASIS绿洲起源'
+  icon:
+    src: /server_icons/oasis.png
+  type: Java
+  version: 1.20.4
+  desc: | 
+    原版可生电，难度较大，怪物加强，限制生产力保持趣味性的服务器
+  link: https://www.mczfw.cn/server/2474.html
 
