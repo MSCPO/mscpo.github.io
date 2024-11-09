@@ -25,3 +25,10 @@
   version: Unknown
   desc: Version：Bedrock | 1.21<br>Example Description
   link: /en/AddServers/
+- name: FLMP Server
+  icon:
+    src: /logo2.webp
+  type: Java
+  version: 1.21.1
+  desc: Powered by SpongeNeo Server
+  link: https://mc-int.flmp.xyz/
