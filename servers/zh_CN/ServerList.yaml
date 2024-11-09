@@ -207,13 +207,13 @@
   desc: 2021年的一场变故，让 Badboys Server 陷入了徘徊期。一位管理却并不认为结局感到如此。于是他启动了「『链析』计划」。这项计划长达四年。自2021年开始，2024年为末，本服务器完成了从单服到群组服的迭代。包含了五种经典小游戏，其他玩法正在开发中!
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RmJf0KFZTkzdAwuzoxnuhz198qCwa7Xk&authKey=ILEmRIZnwstZrZVU%2FIDj%2F7habPR1C%2BQ6BtESsAJ76RRK%2FFNQPzjvWv0QYZzv6jJs&noverify=0&group_code=373311963
 
-- name: dfgg服务器
+- name: 花枫服务器
   icon:
     src: /server_icons/DFGG_Logo.webp
   type: Java
   version: 1.7-1.21
-  desc: 多世界多玩法服务器首创者
-  link: https://dfggmc.top/
+  desc: SpongeNeo服务器，主要是建筑
+  link: https://mc.flmp.xyz/
 
 - name: 斯卡林特联邦共和国
   icon:
