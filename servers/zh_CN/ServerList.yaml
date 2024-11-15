@@ -447,13 +447,13 @@
 
 - name: 'Lie-downCraft'
   icon:
-    src: /server_icons/minecraft_synthesize_survive.webp
+    src: /server_icons/Lie-downCraft.webp
   type: Java
   version: 1.20.1
   desc: | 
-    一个原版服务器，主要研究生存红石电路和建筑，为在现代化快节奏社会中忙碌的人提供一个休息自己灵魂，放松自己的地方
-    QQ群:562618718
-    
+    一个原版服务器，主要研究生存红石电路和建筑，为在现代化快节奏社会中忙碌的人提供一个休息自己灵魂，放松自己的地方 这是一个自由的，开放的，包容的原版Minecraft生存服务器，在这里你可以尽情创造，与大家一起建造超级工程，研究红石机器，又或者和基友搞基，在Minecraft的世界中尽情探险。
+  link: http://homea350ti.top:3000/
+
 - name: 'OASIS绿洲起源'
   icon:
     src: /server_icons/oasis.png
