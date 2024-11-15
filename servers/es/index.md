@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: Add your own server to the list
-      link: /en/AddServers/
+      link: /es/AddServers/
     - theme: alt
       text: Special Thanks
-      link: /en/acknowledgement/
+      link: /es/more/acknowledgement/
 ---
 <script setup>
 import Server_DATA from './ServerList.yaml'

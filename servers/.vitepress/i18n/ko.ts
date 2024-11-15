@@ -15,16 +15,16 @@ export const ko = defineConfigWithTheme<VuetomThemeConfig>({
     themeConfig: {
         siteTitle: 'MSCPO',
         nav: [
-            { text: "Members' Servers", link: "/en/" },
-            { text: "Add a Server", link: "/en/AddServers/" },
+            { text: "Members' Servers", link: "/ko/" },
+            { text: "Add a Server", link: "/ko/AddServers/" },
             {
               text: "More",
               items: [
-                { text: "About", link: "/en/about/" },
-                { text: "Special Thanks", link: "/en/acknowledgement/" },
+                { text: "About", link: "/ko/more/about/" },
+                { text: "Special Thanks", link: "/ko/more/acknowledgement/" },
               ]
             },
-            { text: "Navigation", link: "/en/nav/" },
+            { text: "Navigation", link: "/ko/nav/" },
         ],
         footer: {
             message: 'Minecraft Server Collective Promotion Organization',

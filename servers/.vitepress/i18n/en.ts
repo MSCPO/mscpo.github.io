@@ -20,8 +20,8 @@ export const en = defineConfigWithTheme<VuetomThemeConfig>({
             {
               text: "More",
               items: [
-                { text: "About", link: "/en/about/" },
-                { text: "Special Thanks", link: "/en/acknowledgement/" },
+                { text: "About", link: "/en/more/about/" },
+                { text: "Special Thanks", link: "/en/more/acknowledgement/" },
               ]
             },
             { text: "Navigation", link: "/en/nav/" },

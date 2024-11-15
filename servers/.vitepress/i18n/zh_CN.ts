@@ -30,8 +30,8 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
             {
               text: "更多",
               items: [
-                { text: "关于", link: "/about/" },
-                { text: "特别鸣谢", link: "/acknowledgement/" },
+                { text: "关于", link: "/more/about/" },
+                { text: "特别鸣谢", link: "/more/acknowledgement/" },
               ]
             },
             { text: "导航", link: "/nav/" },

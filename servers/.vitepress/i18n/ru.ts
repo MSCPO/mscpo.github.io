@@ -20,8 +20,8 @@ export const ru = defineConfigWithTheme<VuetomThemeConfig>({
             {
               text: "Подробнее",
               items: [
-                { text: "О сайте", link: "/ru/about/" },
-                { text: "Особая благодарность", link: "/ru/acknowledgement/" },
+                { text: "О сайте", link: "/ru/more/about/" },
+                { text: "Особая благодарность", link: "/ru/more/acknowledgement/" },
               ]
             },
             { text: "Навигация", link: "/ru/nav/" },
