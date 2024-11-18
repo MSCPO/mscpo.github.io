@@ -94,8 +94,8 @@ importers:
   packages/vitepress-theme-mscpo:
     dependencies:
       '@docsearch/css':
-        specifier: ^3.7.0
-        version: 3.7.0
+        specifier: ^3.8.0
+        version: 3.8.0
       '@docsearch/js':
         specifier: ^3.7.0
         version: 3.7.0(@algolia/client-search@5.12.0)(search-insights@2.17.2)
@@ -749,6 +749,9 @@ packages:
 
   '@docsearch/css@3.7.0':
     resolution: {integrity: sha512-1OorbTwi1eeDmr0v5t+ckSRlt1zM5GHjm92iIl3kUu7im3GHuP+csf6E0WBg8pdXQczTWP9J9+o9n+Vg6DH5cQ==}
+
+  '@docsearch/css@3.8.0':
+    resolution: {integrity: sha512-pieeipSOW4sQ0+bE5UFC51AOZp9NGxg89wAlZ1BAQFaiRAGK1IKUaPQ0UGZeNctJXyqZ1UvBtOQh2HH+U5GtmA==}
 
   '@docsearch/js@3.7.0':
     resolution: {integrity: sha512-ScfqOIKrSr8SImbpxVaD59xc/bytbL8QEM2GUpe3aICmoICflWp5DyTRzAdFky16HY+yEOAVZXt3COXQ1NOCWw==}
@@ -2450,6 +2453,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -2528,6 +2532,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -4668,6 +4673,8 @@ snapshots:
 
   '@docsearch/css@3.7.0': {}
 
+  '@docsearch/css@3.8.0': {}
+
   '@docsearch/js@3.7.0(@algolia/client-search@5.12.0)(search-insights@2.17.2)':
     dependencies:
       '@docsearch/react': 3.7.0(@algolia/client-search@5.12.0)(search-insights@2.17.2)
@@ -4985,7 +4992,7 @@ snapshots:
 
   '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@5.12.0)(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.80.6)(search-insights@2.17.2)(terser@5.36.0)(typescript@5.6.2)':
     dependencies:
-      '@docsearch/css': 3.7.0
+      '@docsearch/css': 3.8.0
       '@docsearch/js': 3.7.0(@algolia/client-search@5.12.0)(search-insights@2.17.2)
       '@shikijs/core': 1.22.2
       '@shikijs/transformers': 1.22.2
@@ -5035,7 +5042,7 @@ snapshots:
 
   '@mscpo/vitepress@1.5.0(@types/node@22.7.5)(async-validator@4.2.5)(axios@1.7.7)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.80.6)(terser@5.36.0)(typescript@5.6.2)':
     dependencies:
-      '@docsearch/css': 3.7.0
+      '@docsearch/css': 3.8.0
       '@docsearch/js': 3.7.0(@algolia/client-search@5.12.0)(search-insights@2.17.2)
       '@iconify-json/simple-icons': 1.2.11
       '@shikijs/core': 1.22.2
