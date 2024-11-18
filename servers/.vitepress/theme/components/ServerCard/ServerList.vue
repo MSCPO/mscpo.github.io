@@ -201,15 +201,14 @@ const selectedValue = ref('')
 </script>
 
 <template>
-  <div class="server-cards VPHomeFeatures">
-    <div class="search-box">
+  <div class="container VPHomeFeatures">
     <Tooltip tooltip="选择一个服务器类型">
       <Select :placeholder="i18nlang.select.placeholder" :options="options" v-model="selectedValue" :width="i18nlang.select.width" @change="refreshServers"/>
     </Tooltip>
     <InputSearch 
       v-model:value="searchQuery" 
       :placeholder="i18nlang.search.placeholder" 
-      style="margin-bottom: 10px; padding: 5px; width: 200px;"
+      style="margin-bottom: 10px; width: 200px;"
       @search="refreshServers"
     >
       <template #search>
@@ -222,67 +221,64 @@ const selectedValue = ref('')
         </Button>
       </template>
     </InputSearch>
-  </div>
-    <ClientOnly>
-      <GridList 
-        :key="gridKey"
-        :request="fetchServers" 
-        :column-gap="20" 
-        :row-gap="20" 
-        :limit="100" 
-        :item-min-width="250" 
-        class="items"
-      >
-        <template #default="{ item }">
-          <div class="item">
-            <ServerCard
-              :icon="item.icon"
-              :name="item.name"
-              :desc="item.desc"
-              :type="item.type"
-              :link="item.link"
-              :version="item.version"
-              :ip="item.ip"
-            />
-          </div>
-        </template>
-        <template #empty>
-          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.empty"></p>
-        </template>
-        <template #loading>
-          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.loading"></p>
-        </template>
-        <template #noMore>
-          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.noMore"></p>
-        </template>
-      </GridList>
-    </ClientOnly>
+    <div class="server-cards">
+      <ClientOnly>
+        <GridList 
+          :key="gridKey"
+          :request="fetchServers" 
+          :column-gap="20" 
+          :row-gap="20" 
+          :limit="100" 
+          :item-min-width="250" 
+          class="items"
+        >
+          <template #default="{ item }">
+            <div class="item">
+              <ServerCard
+                :icon="item.icon"
+                :name="item.name"
+                :desc="item.desc"
+                :type="item.type"
+                :link="item.link"
+                :version="item.version"
+                :ip="item.ip"
+              />
+            </div>
+          </template>
+          <template #empty>
+            <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.empty"></p>
+          </template>
+          <template #loading>
+            <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.loading"></p>
+          </template>
+          <template #noMore>
+            <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.noMore"></p>
+          </template>
+        </GridList>
+      </ClientOnly>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.server-cards {
+.container {
   position: relative;
   display: block;
-  height: 100vh;
   margin: 2%;
-  background: linear-gradient(to right,rgba(6,205,255,.1882352941),rgba(223, 7, 108, 0.164));
-  .search-box {
-    position: fixed;
-    z-index: 999;
-    opacity: 0.7;
+  .server-cards {
+    height: 100vh;
   }
 }
 
 @media (min-width: 640px) {
-  .server-cards {
-    padding: 0 30px;
+  .container {
+    padding: 0 10px 10px;
   }
 }
 
 @media (min-width: 960px) {
-  .server-cards {
-    padding: 0 10px;
+  .container {
+    padding: 0 30px 30px;
   }
 }
 
@@ -292,6 +288,8 @@ const selectedValue = ref('')
   margin: -8px;
   .item {
     padding: 16px;
+    height: 100%;
+    background: linear-gradient(to right,rgba(149, 255, 11, 0.188),rgba(223, 7, 108, 0.164));
     &:hover {
           -webkit-animation-name: hfhover-zoom;
           animation-name: hfhover-zoom;
