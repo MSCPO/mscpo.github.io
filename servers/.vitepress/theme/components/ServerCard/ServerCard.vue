@@ -149,12 +149,11 @@ const openUrl = (url: string | undefined) => {
         <div class="info-container">
           <h4 class="ServerName" v-html="name"></h4>
           <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion" :style="{'color':status_color}" v-html="server_status"></a></a>
-          <Tooltip v-if="ip" tooltip="复制服务器IP">
-            <a class="ServerVersion" @click.stop="copy(serverinfo.ip)" >IP: {{ copied ? i18nlang.copied : serverinfo.ip }}</a>
-          </Tooltip>
+          <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" ><q-tooltip>复制服务器IP</q-tooltip>IP: {{ copied ? i18nlang.copied : serverinfo.ip }}</a>
         </div>
       </div>
-      <p v-if="desc" class="desc" :title="serverinfo.desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></p>
+      <p v-if="desc" class="desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></p>
+      <q-tooltip max-width="20%" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></q-tooltip>
     </article>
   </VPLink>
 </template>

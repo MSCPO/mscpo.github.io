@@ -4,7 +4,6 @@ import ServerCard from './ServerCard.vue'
 import { ref, computed } from 'vue'
 import { useData } from 'vitepress'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
-import { CompassOutlined } from '@ant-design/icons-vue'
 
 //// !!! Dev !!!
 // import { data } from '../hooks/servers.data'
@@ -95,7 +94,7 @@ const i18nlang = computed(() => {
         noMore: "没有更多服务器",
         search: {
           placeholder: "搜索服务器...",
-          button: "搜索并刷新"
+          button: "检索并刷新"
         },
         select: {
           placeholder: "平台",
@@ -104,7 +103,6 @@ const i18nlang = computed(() => {
             Bedrock: '基岩',
             Geyser: '互通',
             Netease: '网易',
-            Not_specified: '未指定'
           },
           width: 80
         }
@@ -125,7 +123,6 @@ const i18nlang = computed(() => {
             Bedrock: 'Bedrock',
             Geyser: 'Geyser',
             Netease: 'Netease',
-            Not_specified: 'Not specified'
           },
           width: 130
         }
@@ -146,7 +143,6 @@ const i18nlang = computed(() => {
             Bedrock: 'Bedrock',
             Geyser: 'Geyser',
             Netease: 'Netease',
-            Not_specified: 'Not specified'
           },
           width: 130
         }
@@ -158,7 +154,7 @@ const i18nlang = computed(() => {
         noMore: "没有更多服务器",
         search: {
           placeholder: "搜索服务器...",
-          button: "搜索并刷新"
+          button: "检索并刷新"
         },
         select: {
           placeholder: "平台",
@@ -167,7 +163,6 @@ const i18nlang = computed(() => {
             Bedrock: '基岩',
             Geyser: '互通',
             Netease: '网易',
-            Not_specified: '未指定'
           },
           width: 80
         }
@@ -191,10 +186,6 @@ const options = ref([
       {
         label: i18nlang.value.select.options.Netease,
         value: 'Netease'
-      },
-      {
-        label: i18nlang.value.select.options.Not_specified,
-        value: ''
       }
     ])
 const selectedValue = ref('')
@@ -202,25 +193,46 @@ const selectedValue = ref('')
 
 <template>
   <div class="container VPHomeFeatures">
-    <Tooltip tooltip="选择一个服务器类型">
-      <Select :placeholder="i18nlang.select.placeholder" :options="options" v-model="selectedValue" :width="i18nlang.select.width" @change="refreshServers"/>
-    </Tooltip>
-    <InputSearch 
-      v-model:value="searchQuery" 
-      :placeholder="i18nlang.search.placeholder" 
-      style="margin-bottom: 10px; width: 200px;"
-      @search="refreshServers"
-    >
-      <template #search>
-        <Button>
-          <template #icon>
-            <Tooltip :tooltip="i18nlang.search.button">
-              <CompassOutlined />
-            </Tooltip>
+    <form>
+      <div class="select-option">
+        <q-input
+          v-model="searchQuery"
+          :placeholder="i18nlang.search.placeholder"
+          clearable
+        >
+          <template v-slot:prepend>
+            <q-select
+              outlined
+              square
+              text-teal="red"
+              emit-value
+              clearable
+              map-options
+              transition-show="jump-up"
+              transition-hide="jump-up"
+              v-model="selectedValue"
+              :options="options"
+              :label="i18nlang.select.placeholder"
+              style="width: 130px;"
+              @clear="refreshServers"
+              @update:model-value="refreshServers"
+              color="orange"
+            />
           </template>
-        </Button>
-      </template>
-    </InputSearch>
+          <template v-slot:append>
+            <q-btn
+              type="submit"
+              icon="explore"
+              :label="i18nlang.search.button"
+              flat
+              dense
+              @click="refreshServers"
+            />
+          </template>
+        </q-input>
+      </div>
+    </form>
+    <br>
     <div class="server-cards">
       <ClientOnly>
         <GridList 
@@ -267,6 +279,9 @@ const selectedValue = ref('')
   margin: 2%;
   .server-cards {
     height: 100vh;
+  };
+  .select-option {
+    background: linear-gradient(to right,rgba(149, 255, 11, 0.188),rgba(223, 7, 108, 0.164));
   }
 }
 

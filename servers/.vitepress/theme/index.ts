@@ -1,16 +1,21 @@
 import VuetomTheme from 'vitepress-theme-mscpo'
+import { Quasar, Notify, Dialog, LoadingBar, Loading } from 'quasar'
 import VueAmazingUI from 'vue-amazing-ui'
+
+import '@quasar/extras/material-icons/material-icons.css';
+import 'quasar/src/css/index.sass'
+import 'vitepress-plugin-back-to-top/dist/style.css'
+import "vitepress-markdown-timeline/dist/theme/index.css";
+import 'vitepress-plugin-music/lib/css/index.css'
 import 'vue-amazing-ui/css'
 import "./style/custom.scss"
+
 import { h, watchEffect } from 'vue'
 import { useData } from 'vitepress'
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import vitepressMusic from 'vitepress-plugin-music'
-import 'vitepress-plugin-music/lib/css/index.css'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
-import 'vitepress-plugin-back-to-top/dist/style.css'
-import "vitepress-markdown-timeline/dist/theme/index.css";
 import NavList from './components/Nav/NavList.vue'
 import ServerList from './components/ServerCard/ServerList.vue'
 
@@ -24,6 +29,24 @@ export default {
     app.component('NavList' , NavList)
     app.component('ServerList' , ServerList)
     app.use(VueAmazingUI)
+    app.use(Quasar, {
+      config: {
+        brand: {
+          primary: '#151515',
+          sunshine: '#f4f4f4',
+          whiteField: '#E2E1E1',
+          darkBG: '#151515',
+        },
+        globalProperties: {},
+        screen: {
+          bodyClasses: true,
+        },
+      },
+      importStrategy: 'auto',
+      plugins: {
+        Notify, Dialog, LoadingBar, Loading,
+      },
+    })
     
     if (inBrowser) {
       router.onAfterRouteChanged = () => {
