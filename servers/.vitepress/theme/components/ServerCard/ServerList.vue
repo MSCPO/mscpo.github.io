@@ -4,7 +4,6 @@ import ServerCard from './ServerCard.vue'
 import { ref, computed } from 'vue'
 import { useData } from 'vitepress'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
-import { CompassOutlined } from '@ant-design/icons-vue'
 
 //// !!! Dev !!!
 // import { data } from '../hooks/servers.data'
@@ -95,7 +94,7 @@ const i18nlang = computed(() => {
         noMore: "没有更多服务器",
         search: {
           placeholder: "搜索服务器...",
-          button: "搜索并刷新"
+          button: "检索并刷新"
         },
         select: {
           placeholder: "平台",
@@ -104,7 +103,6 @@ const i18nlang = computed(() => {
             Bedrock: '基岩',
             Geyser: '互通',
             Netease: '网易',
-            Not_specified: '未指定'
           },
           width: 80
         }
@@ -125,7 +123,6 @@ const i18nlang = computed(() => {
             Bedrock: 'Bedrock',
             Geyser: 'Geyser',
             Netease: 'Netease',
-            Not_specified: 'Not specified'
           },
           width: 130
         }
@@ -146,7 +143,6 @@ const i18nlang = computed(() => {
             Bedrock: 'Bedrock',
             Geyser: 'Geyser',
             Netease: 'Netease',
-            Not_specified: 'Not specified'
           },
           width: 130
         }
@@ -158,7 +154,7 @@ const i18nlang = computed(() => {
         noMore: "没有更多服务器",
         search: {
           placeholder: "搜索服务器...",
-          button: "搜索并刷新"
+          button: "检索并刷新"
         },
         select: {
           placeholder: "平台",
@@ -167,7 +163,6 @@ const i18nlang = computed(() => {
             Bedrock: '基岩',
             Geyser: '互通',
             Netease: '网易',
-            Not_specified: '未指定'
           },
           width: 80
         }
@@ -191,98 +186,114 @@ const options = ref([
       {
         label: i18nlang.value.select.options.Netease,
         value: 'Netease'
-      },
-      {
-        label: i18nlang.value.select.options.Not_specified,
-        value: ''
       }
     ])
 const selectedValue = ref('')
 </script>
 
 <template>
-  <div class="server-cards VPHomeFeatures">
-    <div class="search-box">
-    <Tooltip tooltip="选择一个服务器类型">
-      <Select :placeholder="i18nlang.select.placeholder" :options="options" v-model="selectedValue" :width="i18nlang.select.width" @change="refreshServers"/>
-    </Tooltip>
-    <InputSearch 
-      v-model:value="searchQuery" 
-      :placeholder="i18nlang.search.placeholder" 
-      style="margin-bottom: 10px; padding: 5px; width: 200px;"
-      @search="refreshServers"
-    >
-      <template #search>
-        <Button>
-          <template #icon>
-            <Tooltip :tooltip="i18nlang.search.button">
-              <CompassOutlined />
-            </Tooltip>
-          </template>
-        </Button>
-      </template>
-    </InputSearch>
-  </div>
-    <ClientOnly>
-      <GridList 
-        :key="gridKey"
-        :request="fetchServers" 
-        :column-gap="20" 
-        :row-gap="20" 
-        :limit="100" 
-        :item-min-width="250" 
-        class="items"
-      >
-        <template #default="{ item }">
-          <div class="item">
-            <ServerCard
-              :icon="item.icon"
-              :name="item.name"
-              :desc="item.desc"
-              :type="item.type"
-              :link="item.link"
-              :version="item.version"
-              :ip="item.ip"
+  <div class="container VPHomeFeatures">
+    <form>
+      <div class="select-option">
+        <q-input
+          v-model="searchQuery"
+          :placeholder="i18nlang.search.placeholder"
+          clearable
+        >
+          <template v-slot:prepend>
+            <q-select
+              outlined
+              square
+              text-teal="red"
+              emit-value
+              clearable
+              map-options
+              transition-show="jump-up"
+              transition-hide="jump-up"
+              v-model="selectedValue"
+              :options="options"
+              :label="i18nlang.select.placeholder"
+              style="width: 130px;"
+              @clear="refreshServers"
+              @update:model-value="refreshServers"
+              color="orange"
             />
-          </div>
-        </template>
-        <template #empty>
-          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.empty"></p>
-        </template>
-        <template #loading>
-          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.loading"></p>
-        </template>
-        <template #noMore>
-          <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.noMore"></p>
-        </template>
-      </GridList>
-    </ClientOnly>
+          </template>
+          <template v-slot:append>
+            <q-btn
+              type="submit"
+              icon="explore"
+              :label="i18nlang.search.button"
+              flat
+              dense
+              @click="refreshServers"
+            />
+          </template>
+        </q-input>
+      </div>
+    </form>
+    <br>
+    <div class="server-cards">
+      <ClientOnly>
+        <GridList 
+          :key="gridKey"
+          :request="fetchServers" 
+          :column-gap="20" 
+          :row-gap="20" 
+          :limit="100" 
+          :item-min-width="250" 
+          class="items"
+        >
+          <template #default="{ item }">
+            <div class="item">
+              <ServerCard
+                :icon="item.icon"
+                :name="item.name"
+                :desc="item.desc"
+                :type="item.type"
+                :link="item.link"
+                :version="item.version"
+                :ip="item.ip"
+              />
+            </div>
+          </template>
+          <template #empty>
+            <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.empty"></p>
+          </template>
+          <template #loading>
+            <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.loading"></p>
+          </template>
+          <template #noMore>
+            <p align="center" style="color: rgb(0, 225, 255);" v-text="i18nlang.noMore"></p>
+          </template>
+        </GridList>
+      </ClientOnly>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.server-cards {
+.container {
   position: relative;
   display: block;
-  height: 100vh;
   margin: 2%;
-  background: linear-gradient(to right,rgba(6,205,255,.1882352941),rgba(223, 7, 108, 0.164));
-  .search-box {
-    position: fixed;
-    z-index: 999;
-    opacity: 0.7;
+  .server-cards {
+    height: 100vh;
+  };
+  .select-option {
+    background: linear-gradient(to right,rgba(149, 255, 11, 0.188),rgba(223, 7, 108, 0.164));
   }
 }
 
 @media (min-width: 640px) {
-  .server-cards {
-    padding: 0 30px;
+  .container {
+    padding: 0 10px 10px;
   }
 }
 
 @media (min-width: 960px) {
-  .server-cards {
-    padding: 0 10px;
+  .container {
+    padding: 0 30px 30px;
   }
 }
 
@@ -292,6 +303,8 @@ const selectedValue = ref('')
   margin: -8px;
   .item {
     padding: 16px;
+    height: 100%;
+    background: linear-gradient(to right,rgba(149, 255, 11, 0.188),rgba(223, 7, 108, 0.164));
     &:hover {
           -webkit-animation-name: hfhover-zoom;
           animation-name: hfhover-zoom;

@@ -7,6 +7,8 @@ import ViteYaml from '@modyfi/vite-plugin-yaml'
 import { defineConfigWithTheme } from 'vitepress'
 import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 import viteCompression from "vite-plugin-compression";
+import { quasar, transformAssetUrls } from '@quasar/vite-plugin';
+
 // Language import
 import { zh_CN } from './i18n/zh_CN'
 import { en } from './i18n/en'
@@ -64,6 +66,7 @@ export default withPwa(
         },
       },
       plugins: [
+        quasar(),
         ViteYaml(),
         minipic({
           sharpOptions: {
@@ -107,6 +110,9 @@ export default withPwa(
           ext: ".br",
         })
       ]
+    },
+    vue: {
+      template: { transformAssetUrls },
     },
     markdown: {
       config: md => {
