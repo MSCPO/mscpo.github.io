@@ -36,11 +36,11 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))
       vite-plugin-pwa:
-        specifier: ^0.20.5
-        version: 0.20.5(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
+        specifier: ^0.21.0
+        version: 0.21.0(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
       vitepress:
         specifier: npm:@mscpo/vitepress@^1.5.0
-        version: '@mscpo/vitepress@1.5.0(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.36.0)'
+        version: '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)'
       vue:
         specifier: ^3.5.12
         version: 3.5.13
@@ -56,7 +56,7 @@ importers:
         version: 1.1.0(rollup@2.79.2)(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))
       '@vite-pwa/vitepress':
         specifier: ^0.5.3
-        version: 0.5.3(vite-plugin-pwa@0.20.5(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0))
+        version: 0.5.3(vite-plugin-pwa@0.21.0(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0))
       '@vitejs/plugin-legacy':
         specifier: ^5.4.3
         version: 5.4.3(terser@5.36.0)(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))
@@ -92,7 +92,7 @@ importers:
         version: 1.0.1
       vitepress-plugin-music:
         specifier: ^0.0.9
-        version: 0.0.9(@mscpo/vitepress@1.5.0(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.36.0))
+        version: 0.0.9(@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0))
       vitepress-theme-mscpo:
         specifier: workspace:^2.3.0
         version: link:packages/vitepress-theme-mscpo
@@ -781,9 +781,11 @@ packages:
 
   '@esbuild-kit/cjs-loader@2.4.4':
     resolution: {integrity: sha512-NfsJX4PdzhwSkfJukczyUiZGc7zNNWZcEAyqeISpDnn0PTfzMJR1aR8xAIPskBejIxBJbIgCCMzbaYa9SXepIg==}
+    deprecated: 'Merged into tsx: https://tsx.is'
 
   '@esbuild-kit/core-utils@3.3.2':
     resolution: {integrity: sha512-sPRAnw9CdSsRmEtnsl2WXWdyquogVpB3yZ3dgwJfe8zrOzTsV7cJvmwrKVa+0ma5BoiGJ+BoqkMvawbayKUsqQ==}
+    deprecated: 'Merged into tsx: https://tsx.is'
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -2249,6 +2251,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -2322,6 +2325,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -3350,14 +3354,14 @@ packages:
   vite-plugin-minipic@1.2.0:
     resolution: {integrity: sha512-v92f4S9PWuYTgAV9HxiLzWSuRbe24VPvF4wxZxF71c3mNo7v707xUX2cfQmp4nD1ZC23yKas3oQq9Ho7NfbcqA==}
 
-  vite-plugin-pwa@0.20.5:
-    resolution: {integrity: sha512-aweuI/6G6n4C5Inn0vwHumElU/UEpNuO+9iZzwPZGTCH87TeZ6YFMrEY6ZUBQdIHHlhTsbMDryFARcSuOdsz9Q==}
+  vite-plugin-pwa@0.21.0:
+    resolution: {integrity: sha512-gnDE5sN2hdxA4vTl0pe6PCTPXqChk175jH8dZVVTBjFhWarZZoXaAdoTIKCIa8Zbx94sC0CnCOyERBWpxvry+g==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@vite-pwa/assets-generator': ^0.2.6
       vite: ^3.1.0 || ^4.0.0 || ^5.0.0
-      workbox-build: ^7.1.0
-      workbox-window: ^7.1.0
+      workbox-build: ^7.3.0
+      workbox-window: ^7.3.0
     peerDependenciesMeta:
       '@vite-pwa/assets-generator':
         optional: true
@@ -4700,7 +4704,7 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@mscpo/vitepress@1.5.0(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.36.0)':
+  '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)':
     dependencies:
       '@docsearch/css': 3.8.0
       '@docsearch/js': 3.8.0(@algolia/client-search@5.14.2)(search-insights@2.17.3)
@@ -5009,9 +5013,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vite-pwa/vitepress@0.5.3(vite-plugin-pwa@0.20.5(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0))':
+  '@vite-pwa/vitepress@0.5.3(vite-plugin-pwa@0.21.0(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0))':
     dependencies:
-      vite-plugin-pwa: 0.20.5(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
+      vite-plugin-pwa: 0.21.0(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
 
   '@vitejs/plugin-legacy@5.4.3(terser@5.36.0)(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))':
     dependencies:
@@ -7068,7 +7072,7 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-pwa@0.20.5(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0):
+  vite-plugin-pwa@0.21.0(vite@5.4.11(less@4.2.0)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0):
     dependencies:
       debug: 4.3.7
       pretty-bytes: 6.1.1
@@ -7100,9 +7104,9 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.5.0(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.36.0)):
+  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)):
     dependencies:
-      vitepress: '@mscpo/vitepress@1.5.0(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.36.0)'
+      vitepress: '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.0)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)'
 
   vue-demi@0.14.10(vue@3.5.13):
     dependencies:
