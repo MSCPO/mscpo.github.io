@@ -133,11 +133,11 @@ const i18nlang = computed(() => {
         loading: "Загрузка...",
         noMore: "Нет новых серверов",
         search: {
-          placeholder: "Search servers...",
-          button: "Search"
+          placeholder: "Поисковый сервер...",
+          button: "Поиск"
         },
         select: {
-          placeholder: "Type",
+          placeholder: "Тип",
           options: {
             Java: 'Java',
             Bedrock: 'Bedrock',
