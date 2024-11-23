@@ -1,6 +1,6 @@
 import VuetomTheme from 'vitepress-theme-mscpo'
 import ArcoVue from '@arco-design/web-vue'
-import ArcoVueIcon from '@arco-design/web-vue';
+import ArcoVueIcon from '@arco-design/web-vue/lib/icon';
 
 import 'vitepress-plugin-back-to-top/dist/style.css'
 import "vitepress-markdown-timeline/dist/theme/index.css";
