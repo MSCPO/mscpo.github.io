@@ -1,0 +1,30 @@
+.@{input-number-prefix-cls} { 
+
+  &-mode-button .arco-input-prepend .arco-input-number-step-button:not(.arco-input-number-mode-button .arco-input-prepend .arco-input-number-step-button:active) {
+    border-right-color: transparent;
+
+  }
+
+  &-mode-button .arco-input-append .arco-input-number-step-button:not(.arco-input-number-mode-button .arco-input-append .arco-input-number-step-button:active) {
+    border-left-color: transparent;
+
+  }
+
+  &-mode-embed .arco-input-number-step {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    .arco-input-number-step-button {
+      border-left: 1px solid var(--color-border-2);
+      color: @color-text-3;
+      &:first-child {
+        border-bottom: 1px solid var(--color-border-2);
+      }
+      &:hover {
+        color : @color-text-2;
+      }
+    }
+
+  }
+
+}

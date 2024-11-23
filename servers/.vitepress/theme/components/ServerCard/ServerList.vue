@@ -193,45 +193,27 @@ const selectedValue = ref('')
 
 <template>
   <div class="container VPHomeFeatures">
-    <form>
       <div class="select-option">
-        <q-input
-          v-model="searchQuery"
-          :placeholder="i18nlang.search.placeholder"
-          clearable
-        >
-          <template v-slot:prepend>
-            <q-select
-              outlined
-              square
-              text-teal="red"
-              emit-value
-              clearable
-              map-options
-              transition-show="jump-up"
-              transition-hide="jump-up"
-              v-model="selectedValue"
-              :options="options"
-              :label="i18nlang.select.placeholder"
-              style="width: 130px;"
-              @clear="refreshServers"
-              @update:model-value="refreshServers"
-              color="orange"
-            />
-          </template>
-          <template v-slot:append>
-            <q-btn
-              type="submit"
-              icon="explore"
-              :label="i18nlang.search.button"
-              flat
-              dense
-              @click="refreshServers"
-            />
-          </template>
-        </q-input>
-      </div>
-    </form>
+        <a-input-group>
+          <a-select
+            :options="options"
+            v-model="selectedValue"
+            :label="i18nlang.select.placeholder"
+            @change="refreshServers"
+            :style="{width:'90px'}"
+            :placeholder="i18nlang.select.placeholder"
+            allow-clear
+          />
+          <a-input-search @search="refreshServers" :style="{width:'80%'}" v-model="searchQuery" :placeholder="i18nlang.search.placeholder" search-button>
+            <template #button-icon>
+              <icon-compass />
+            </template>
+            <template #button-default>
+              {{  i18nlang.search.button }}
+            </template>
+          </a-input-search>
+        </a-input-group>
+    </div>
     <br>
     <div class="server-cards">
       <ClientOnly>

@@ -1,13 +1,11 @@
 import { imgSize } from "@mdit/plugin-img-size";
 import { withPwa } from '@vite-pwa/vitepress'
 import { pwa } from './plugins/pwa'
-import minipic from 'vite-plugin-minipic';
 import timeline from "vitepress-markdown-timeline";
 import ViteYaml from '@modyfi/vite-plugin-yaml'
 import { defineConfigWithTheme } from 'vitepress'
 import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 import viteCompression from "vite-plugin-compression";
-import { quasar, transformAssetUrls } from '@quasar/vite-plugin';
 
 // Language import
 import { zh_CN } from './i18n/zh_CN'
@@ -56,7 +54,9 @@ export default withPwa(
     },
     vite: {
       ssr: {
-        noExternal: ["vitepress-theme-mscpo"]
+        noExternal: [
+          "vitepress-theme-mscpo"
+        ]
       },
       css: {
         preprocessorOptions: {
@@ -66,35 +66,7 @@ export default withPwa(
         },
       },
       plugins: [
-        quasar(),
         ViteYaml(),
-        minipic({
-          sharpOptions: {
-            avif: {
-              quality: 75
-            },
-            jpeg: {
-              quality: 75
-            },
-            jpg: {
-              quality: 75
-            },
-            png: {
-              quality: 75
-            },
-            webp: {
-              quality: 75
-            },
-            gif:{}
-          },
-          convert: [
-            { from: 'png', to: 'webp' },
-            { from: 'jpg', to: 'webp' },
-            { from: 'jpeg', to: 'webp' },
-            { from: 'avif', to: 'webp' }
-          ],
-          cache: true
-        }),
         viteCompression({
           verbose: true,
           disable: false,
@@ -110,9 +82,6 @@ export default withPwa(
           ext: ".br",
         })
       ]
-    },
-    vue: {
-      template: { transformAssetUrls },
     },
     markdown: {
       config: md => {

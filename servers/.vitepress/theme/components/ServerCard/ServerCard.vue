@@ -47,6 +47,7 @@ const i18nlang = computed(() => {
         online: "◉在线",
         offline: "◉离线",
         loading: "◉正在获取...",
+        copied_click: "点击复制服务器地址",
         copied: "复制成功！",
       }
     case 'en':
@@ -54,21 +55,24 @@ const i18nlang = computed(() => {
         online: "◉Online",
         offline: "◉Offline",
         loading: "Loading...",
-        copied: "复制成功！",
+        copied_click: "Click to copy server address",
+        copied: "Copy successful!",
       }
     case 'ru':
       return {
         online: "◉Онлайн",
         empty: "Нет данных о серверах",
         loading: "Загрузка...",
-        copied: "复制成功！",
+        copied_click: "Нажмите для копирования адреса сервера",
+        copied: "Репликация удалась!",
       }
     default:
       return {
         online: "◉Online",
         offline: "◉Offline",
         loading: "Loading...",
-        copied: "复制成功！",
+        copied_click: "Click to copy server address",
+        copied: "Copy successful!",
       }
   }
 });
@@ -147,13 +151,28 @@ const openUrl = (url: string | undefined) => {
         />
         <div v-else-if="icon" class="icon" v-html="icon"></div>
         <div class="info-container">
-          <h4 class="ServerName" v-html="name"></h4>
+          <h4 class="ServerName" v-text="name"/>
           <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion" :style="{'color':status_color}" v-html="server_status"></a></a>
-          <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" ><q-tooltip>复制服务器IP</q-tooltip>IP: {{ copied ? i18nlang.copied : serverinfo.ip }}</a>
+          <a-tooltip>
+            <template #content>
+              <p v-text="i18nlang.copied_click"/>
+              <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" >
+                IP: {{ copied ? i18nlang.copied : serverinfo.ip }}
+              </a>
+            </template>
+            <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)" >
+              IP: {{ copied ? i18nlang.copied : serverinfo.ip }}
+            </a>
+          </a-tooltip>
         </div>
       </div>
-      <p v-if="desc" class="desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></p>
-      <q-tooltip max-width="20%" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></q-tooltip>
+      <a-tooltip v-if="desc">
+        <template #content>
+          <h2 v-html="name"></h2>
+          <p v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></p>
+        </template>
+        <p class="desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>' ) : ''"></p>
+      </a-tooltip>
     </article>
   </VPLink>
 </template>

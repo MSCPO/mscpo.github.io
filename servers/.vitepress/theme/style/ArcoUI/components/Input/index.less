@@ -1,0 +1,31 @@
+.@{input-prefix-cls} { 
+    &-wrapper .arco-icon-hover::before {
+      width: 18px;
+      height: 18px;
+    }
+  
+    &-search &-search-btn {
+      border-left-color: transparent;
+    }
+  
+    &-group > .arco-input-wrapper:not(:last-child),
+    &-group > .arco-input-outer:not(:last-child), 
+    &-group > .arco-input-tag:not(:last-child), 
+    &-group > .arco-select-view:not(:last-child) {
+      &:hover {
+        border-right-color: @color-border-4;
+      }
+    }
+  
+    &-group > .arco-input-wrapper.arco-input-focus:not(:last-child) {
+      border-right-color: rgb(var(--primary-6));
+    }
+  }
+  .@{textarea-prefix-cls} { 
+    &-wrapper .arco-icon-hover::before {
+      width: 18px;
+      height: 18px;
+    }
+  
+}
+  
