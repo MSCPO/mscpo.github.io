@@ -12,7 +12,7 @@ Submitting Servers
 
 Before submitting a server, please make sure that your server meets the following requirements:
 
-1. None
+1. Joined the MSCPO Committee and became an associate member
 
 If your server meets the above requirements, please follow these steps to submit your server:
 
