@@ -41,6 +41,28 @@ body:
       required: true
 
   - type: dropdown
+    id: auth_mode
+    attributes:
+      label: '认证方式'
+      description: '可选offline(离线服务器)，yggdrasil(外置登录)，official(正版服务器)'
+      options:
+        - 'offline'
+        - 'yggdrasil'
+        - 'official'
+      default: 0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: is_member
+    attributes:
+      label: 服务器是否加入了MSCPO组织
+      description: 服务器是否加入了MSCPO组织，如果是MSCPO的成员，服务器卡片将添加“认证服务器”标签
+    default: 0
+    validations:
+      required: true
+
+  - type: dropdown
     id: Language
     attributes:
       label: '语言'
