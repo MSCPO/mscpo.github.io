@@ -58,9 +58,6 @@ body:
     attributes:
       label: 服务器是否加入了MSCPO组织
       description: 服务器是否加入了MSCPO组织，如果是MSCPO的成员，服务器卡片将添加“认证服务器”标签
-    default: 0
-    validations:
-      required: true
 
   - type: dropdown
     id: Language
