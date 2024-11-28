@@ -51,7 +51,7 @@ const i18nlang = computed(() => {
         loading: "◉正在获取...",
         copied_click: "点击复制服务器地址",
         copied: "复制成功！",
-        is_member: "认证成员服",
+        is_member: "成员服",
         is_member_desc: "此服务器是Minecraft服务器集体宣传组织的成员服，我们可以确保其可以长期运行",
         auth_mode: {
           official: "正版服",
