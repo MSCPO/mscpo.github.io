@@ -573,7 +573,7 @@
   is_member: false
   auth_mode: offline
 
-  - name: 'OPCraft'
+- name: 'OPCraft'
   icon:
     src: /server_icons/DFGG_Logo.webp
   type: Java
