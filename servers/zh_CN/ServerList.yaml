@@ -573,12 +573,13 @@
   is_member: false
   auth_mode: offline
 
-  - name: OPCraft
+  - name: 'OPCraft'
   icon:
     src: /server_icons/DFGG_Logo.webp
   type: Java
   version: 1.7-1.21
-  desc: 全员OP不回档服务器
+  desc: | 
+    全员OP不回档服务器
   link: https://op.flmp.xyz/
   ip: opc.flmp.xyz:20255
   is_member: true
