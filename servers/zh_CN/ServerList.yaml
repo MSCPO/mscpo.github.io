@@ -273,7 +273,7 @@
   version: 1.7-1.21
   desc: 1.21纯生存服务器
   link: https://dfggmc.top/
-  ip: play.dfggmc.top
+  ip: play.flmp.studio
   is_member: true
   auth_mode: offline
 
@@ -581,7 +581,7 @@
   desc: | 
     无规则全员OP不回档服务器
   link: https://op.flmp.xyz/
-  ip: play.dfggmc.top:20255
+  ip: play.flmp.studio:20255
   is_member: false
   auth_mode: offline
 
