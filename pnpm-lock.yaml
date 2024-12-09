@@ -34,13 +34,13 @@ importers:
         version: 3.3.3
       vite-plugin-compression:
         specifier: ^0.5.1
-        version: 0.5.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))
+        version: 0.5.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))
       vite-plugin-pwa:
         specifier: ^0.21.1
-        version: 0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
+        version: 0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
       vitepress:
         specifier: npm:@mscpo/vitepress@^1.5.0
-        version: '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)'
+        version: '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.37.0)'
       vue:
         specifier: ^3.5.12
         version: 3.5.13
@@ -53,16 +53,16 @@ importers:
         version: 2.1.3
       '@modyfi/vite-plugin-yaml':
         specifier: ^1.1.0
-        version: 1.1.0(rollup@2.79.2)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))
+        version: 1.1.0(rollup@2.79.2)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))
       '@vite-pwa/vitepress':
         specifier: ^0.5.3
-        version: 0.5.3(vite-plugin-pwa@0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0))
+        version: 0.5.3(vite-plugin-pwa@0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(workbox-build@7.3.0)(workbox-window@7.3.0))
       '@vitejs/plugin-legacy':
         specifier: ^5.4.3
-        version: 5.4.3(terser@5.36.0)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))
+        version: 5.4.3(terser@5.37.0)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
-        version: 5.2.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(vue@3.5.13)
+        version: 5.2.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(vue@3.5.13)
       less:
         specifier: ^4.2.1
         version: 4.2.1
@@ -73,14 +73,14 @@ importers:
         specifier: ^0.33.5
         version: 0.33.5
       terser:
-        specifier: ^5.36.0
-        version: 5.36.0
+        specifier: ^5.37.0
+        version: 5.37.0
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
       vite:
         specifier: ^5.4.11
-        version: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+        version: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
       vite-plugin-minipic:
         specifier: ^1.2.0
         version: 1.2.0(rollup@2.79.2)
@@ -92,7 +92,7 @@ importers:
         version: 1.0.1
       vitepress-plugin-music:
         specifier: ^0.0.9
-        version: 0.0.9(@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0))
+        version: 0.0.9(@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.37.0))
       vitepress-theme-mscpo:
         specifier: workspace:^2.3.0
         version: link:packages/vitepress-theme-mscpo
@@ -122,10 +122,10 @@ importers:
         version: 1.24.0
       vite:
         specifier: ^5.4.11
-        version: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+        version: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
       vitepress:
         specifier: npm:@mscpo/vitepress@1.4.3-beta.2
-        version: '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.36.0)'
+        version: '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.37.0)'
       vue:
         specifier: ^3.5.12
         version: 3.5.13
@@ -3264,6 +3264,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  terser@5.37.0:
+    resolution: {integrity: sha512-B8wRRkmre4ERucLM/uXx4MOV5cbnOlVAqUst+1+iLKPI0dOgFO28f84ptoQt9HEI537PMzfYa/d+GEPKTRXmYA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   text-decoder@1.2.1:
     resolution: {integrity: sha512-x9v3H/lTKIJKQQe7RPQkLfKAnc9lUTkWDypIQgTzPJAq+5/GCDHonmshfvlsNSj58yyshbIJJDLmU15qNERrXQ==}
 
@@ -4689,16 +4694,16 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.1.0
 
-  '@modyfi/vite-plugin-yaml@1.1.0(rollup@2.79.2)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))':
+  '@modyfi/vite-plugin-yaml@1.1.0(rollup@2.79.2)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@2.79.2)
       js-yaml: 4.1.0
       tosource: 2.0.0-alpha.3
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
     transitivePeerDependencies:
       - rollup
 
-  '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.36.0)':
+  '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@5.14.2)(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(search-insights@2.17.3)(terser@5.37.0)':
     dependencies:
       '@docsearch/css': 3.8.0
       '@docsearch/js': 3.8.0(@algolia/client-search@5.14.2)(search-insights@2.17.3)
@@ -4706,7 +4711,7 @@ snapshots:
       '@shikijs/transformers': 1.23.1
       '@shikijs/types': 1.23.1
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 5.2.0(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(vue@3.5.13)
+      '@vitejs/plugin-vue': 5.2.0(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(vue@3.5.13)
       '@vue/devtools-api': 7.6.4
       '@vue/shared': 3.5.13
       '@vueuse/core': 11.3.0(vue@3.5.13)
@@ -4715,7 +4720,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.1.0
       shiki: 1.24.0
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
       vue: 3.5.13
     optionalDependencies:
       postcss: 8.4.49
@@ -4747,7 +4752,7 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)':
+  '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.37.0)':
     dependencies:
       '@docsearch/css': 3.8.0
       '@docsearch/js': 3.8.0(@algolia/client-search@5.14.2)(search-insights@2.17.3)
@@ -4756,7 +4761,7 @@ snapshots:
       '@shikijs/transformers': 1.23.1
       '@shikijs/types': 1.23.1
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 5.2.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(vue@3.5.13)
+      '@vitejs/plugin-vue': 5.2.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(vue@3.5.13)
       '@vue/devtools-api': 7.6.4
       '@vue/shared': 3.5.13
       '@vueuse/core': 11.3.0(vue@3.5.13)
@@ -4765,7 +4770,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.1.0
       shiki: 1.24.0
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
       vue: 3.5.13
     optionalDependencies:
       postcss: 8.4.49
@@ -5081,11 +5086,11 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vite-pwa/vitepress@0.5.3(vite-plugin-pwa@0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0))':
+  '@vite-pwa/vitepress@0.5.3(vite-plugin-pwa@0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(workbox-build@7.3.0)(workbox-window@7.3.0))':
     dependencies:
-      vite-plugin-pwa: 0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
+      vite-plugin-pwa: 0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
 
-  '@vitejs/plugin-legacy@5.4.3(terser@5.36.0)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))':
+  '@vitejs/plugin-legacy@5.4.3(terser@5.37.0)(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
@@ -5095,19 +5100,19 @@ snapshots:
       magic-string: 0.30.13
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
-      terser: 5.36.0
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      terser: 5.37.0
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue@5.2.0(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(vue@3.5.13)':
+  '@vitejs/plugin-vue@5.2.0(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(vue@3.5.13)':
     dependencies:
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
       vue: 3.5.13
 
-  '@vitejs/plugin-vue@5.2.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(vue@3.5.13)':
+  '@vitejs/plugin-vue@5.2.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(vue@3.5.13)':
     dependencies:
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
       vue: 3.5.13
 
   '@vue/compiler-core@3.5.13':
@@ -7033,6 +7038,13 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
+  terser@5.37.0:
+    dependencies:
+      '@jridgewell/source-map': 0.3.6
+      acorn: 8.14.0
+      commander: 2.20.3
+      source-map-support: 0.5.21
+
   text-decoder@1.2.1: {}
 
   thenify-all@1.6.0:
@@ -7173,12 +7185,12 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite-plugin-compression@0.5.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)):
+  vite-plugin-compression@0.5.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)):
     dependencies:
       chalk: 4.1.2
       debug: 4.3.7
       fs-extra: 10.1.0
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -7195,18 +7207,18 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-pwa@0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0))(workbox-build@7.3.0)(workbox-window@7.3.0):
+  vite-plugin-pwa@0.21.1(vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0))(workbox-build@7.3.0)(workbox-window@7.3.0):
     dependencies:
       debug: 4.3.7
       pretty-bytes: 6.1.1
       tinyglobby: 0.2.10
-      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0)
+      vite: 5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0)
       workbox-build: 7.3.0
       workbox-window: 7.3.0
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.36.0):
+  vite@5.4.11(less@4.2.1)(sass@1.81.0)(terser@5.37.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
@@ -7215,7 +7227,7 @@ snapshots:
       fsevents: 2.3.3
       less: 4.2.1
       sass: 1.81.0
-      terser: 5.36.0
+      terser: 5.37.0
 
   vitepress-markdown-timeline@1.2.1:
     dependencies:
@@ -7227,9 +7239,9 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)):
+  vitepress-plugin-music@0.0.9(@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.37.0)):
     dependencies:
-      vitepress: '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.36.0)'
+      vitepress: '@mscpo/vitepress@1.5.0(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.81.0)(terser@5.37.0)'
 
   vue-demi@0.14.10(vue@3.5.13):
     dependencies:
