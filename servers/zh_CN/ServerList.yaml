@@ -595,3 +595,14 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JytRbqy92zBe02FgCbqenxEr0yEgJUj1&authKey=z6mQH13JfqUpODVeR%2FjSzW9yqxGbP790IpP4WIV1OfTDCKfZAgfjQ9UYuTYn6%2FKE&noverify=0&group_code=1005199022
   is_member: true
   auth_mode: offline
+
+- name: 'SNR无规则服务器'
+  icon:
+    src: /server_icons/rdrmghg.jpg
+  type: Java
+  version: 1.20.1
+  desc: | 
+    SNR是一个没有规则没有秩序的服务器，在这里玩家可以做任何想做的事情，并且不禁用坚持与努力，在这个混乱的服务器生存下去，你可以建造基地建立组织（虽然现在服务器才刚开，一点也不混乱），本服为免费服务器，正版离线玩家均可加入，非常原汁原味只有账号和皮肤插件 服务器版本： 1.20.4（目前只支持这一个版本，以后会更新） 一些实用指令： 注册/reg 输入密码 再次输入密码 登录/l 输入密码 更改皮肤/skin 正版玩家id
+  link: https://qm.qq.com/q/2YQEUoWZIA
+  is_member: false
+  auth_mode: offline
