@@ -606,3 +606,15 @@
   link: https://qm.qq.com/q/2YQEUoWZIA
   is_member: false
   auth_mode: offline
+
+- name: 'PixelMine'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.20.1
+  ip: play.dnphinti.top
+  desc: | 
+    我们使用Mohist混合端 插件齐全 mod持续更新
+  link: https://qm.qq.com/q/Rq68hoEyEE
+  is_member: false
+  auth_mode: offline
