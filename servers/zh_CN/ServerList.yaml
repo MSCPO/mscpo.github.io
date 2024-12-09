@@ -28,7 +28,7 @@
     共产猫服，地毯端生电，基于原版创新，引领先进生产力。明灯·Alethea 为小型群组服，主打沉浸式生存，特色玩法如趣味生电与粘液科技（测试）。自由未来(Minecraft Free Future)为城建类创造服，尚在发展阶段，无白名单限制。
   link: https://mc.mscaome.top/
   ip: aomemsc.giize.com
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: ZUYCraft服务器
@@ -38,7 +38,7 @@
   version: 1.21
   desc: 这是一个基岩版的生存建筑服务器！轻触屏幕，心中的梦想在虚拟的土地上逐渐成形；在这片建筑天地里，和我们一起：筑梦于虚拟，
   link: https://mc.zuyst.top
-  is_member: true
+  is_member: false
   auth_mode: official
 
 - name: CHLcraft 1.21纯净生存服
@@ -271,9 +271,9 @@
     src: /server_icons/DFGG_Logo.webp
   type: Java
   version: 1.7-1.21
-  desc: 1.21.3纯生存服务器
-  link: https://mc.flmp.xyz/
-  ip: play.flmp.xyz:29760
+  desc: 1.21纯生存服务器
+  link: https://dfggmc.top/
+  ip: play.dfggmc.top
   is_member: true
   auth_mode: offline
 
@@ -579,10 +579,10 @@
   type: Java
   version: 1.7-1.21
   desc: | 
-    全员OP不回档服务器
+    无规则全员OP不回档服务器
   link: https://op.flmp.xyz/
-  ip: opc.flmp.xyz:20255
-  is_member: true
+  ip: play.dfggmc.top:20255
+  is_member: false
   auth_mode: offline
 
 - name: '瑞典人民共和国'
@@ -598,7 +598,7 @@
 
 - name: 'SNR无规则服务器'
   icon:
-    src: /server_icons/rdrmghg.jpg
+    src: /logo.webp
   type: Java
   version: 1.20.1
   desc: | 
