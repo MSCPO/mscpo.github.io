@@ -618,3 +618,14 @@
   link: https://qm.qq.com/q/Rq68hoEyEE
   is_member: false
   auth_mode: offline
+
+- name: '樱花宝可梦'
+  icon:
+    src: /server_icons/sakura-poke.png
+  type: Java
+  version: 1.20.2
+  desc: | 
+    樱花宝可梦 开放世界 自由冒险世界 Q群号1090409628
+  link: https://qm.qq.com/q/aXtGejlOaA
+  is_member: false
+  auth_mode: offline
