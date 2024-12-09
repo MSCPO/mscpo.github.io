@@ -269,7 +269,7 @@
 - name: 花枫服务器
   icon:
     src: /server_icons/DFGG_Logo.webp
-  type: Java
+  type: Geyser
   version: 1.7-1.21
   desc: 1.21纯生存服务器
   link: https://dfggmc.top/
