@@ -584,3 +584,14 @@
   ip: opc.flmp.xyz:20255
   is_member: true
   auth_mode: offline
+
+- name: '瑞典人民共和国'
+  icon:
+    src: /server_icons/rdrmghg.jpg
+  type: Java
+  version: 1.18.2
+  desc: | 
+    疯狂网←的实践地
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JytRbqy92zBe02FgCbqenxEr0yEgJUj1&authKey=z6mQH13JfqUpODVeR%2FjSzW9yqxGbP790IpP4WIV1OfTDCKfZAgfjQ9UYuTYn6%2FKE&noverify=0&group_code=1005199022
+  is_member: true
+  auth_mode: offline
