@@ -8,5 +8,5 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
     },
-    "include": ["servers/.vitepress/**/*.ts", "vite.config.ts", "env.d.ts"]
+    "include": ["servers/.vitepress/**/*.ts", "servers/.vitepress/theme/components/**/*.ts", "vite.config.ts", "env.d.ts"]
 }

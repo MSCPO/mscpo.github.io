@@ -5,29 +5,11 @@
 ##     Language: ru      ##
 ###########################
 
-- name: To be joinedicon
-  icon:
-    src: /logo2.webp
-  type: Java
-  desc: Version：Java | 1.21<br>Example Description
-  link: /en/AddServers/
-  # is_member: false
-  # auth_mode: offline
-
 - name: To be joined
   icon:
     src: /logo2.webp
   type: Geyser
   desc: Version：Geyser | 1.21<br>Example Description
-  link: /en/AddServers/
-  # is_member: false
-  # auth_mode: offline
-
-- name: To be joined
-  icon:
-    src: /logo2.webp
-  type: Bedrock
-  desc: Version：Bedrock | 1.21<br>Example Description
-  link: /en/AddServers/
-  # is_member: false
-  # auth_mode: offline
+  link: /ru/AddServers/
+  is_member: false
+  auth_mode: offline

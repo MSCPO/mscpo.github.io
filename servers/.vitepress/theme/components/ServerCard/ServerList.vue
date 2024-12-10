@@ -5,11 +5,11 @@ import { ref, computed } from 'vue'
 import { useData } from 'vitepress'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
 
-//// !!! Dev !!!
-// import { data } from '../hooks/servers.data'
-// console.log(data);
-
+// !!! Dev !!!
+import { data } from '../hooks/servers.data'
 const { localeIndex } = useData()
+const currentLang = localeIndex.value === 'root' ? 'zh_CN' : localeIndex.value;
+const Page_Server_Data = data.filter((server) => server.lang === currentLang);
 
 type Server = {
   icon?:
@@ -46,9 +46,18 @@ const props = defineProps<{
   servers: Servers
 }>()
 
+const combinedServers = [
+  ...Page_Server_Data.map(server => ({
+    ...server.info,
+    url: server.url,
+    lang: server.lang,
+  })),
+  ...props.servers,
+];
+
 // Fisher–Yates shuffle
 const shuffledServers = (): Server[] => {
-  const serversCopy = [...props.servers]
+  const serversCopy = [...combinedServers]
   for (let i = serversCopy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [serversCopy[i], serversCopy[j]] = [serversCopy[j], serversCopy[i]];

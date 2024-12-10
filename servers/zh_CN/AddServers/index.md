@@ -21,6 +21,6 @@
 2. 按照格式修改`servers/zh_CN/ServerList.yaml`
 3. 提交，等待合并
 
->如果不知道怎么编辑请看这个->[主页 Features 部分 | VitePress](https://vitepress.dev/zh/reference/default-theme-home-page#features-section)
+>如果不知道怎么编辑请看这个->[[格式：添加新服务器以及修改服务器信息]](./format/index)
 
 我们的GitHub组织页面：https://github.com/MSCPO

@@ -158,18 +158,6 @@
   is_member: false
   auth_mode: offline
 
-- name: Haku Server
-  icon:
-    src: https://skin.xmb505.top/avatar/9?size=128
-  type: Java
-  version: 1.8-1.20.5
-  desc: |
-    技术测试服！
-    你好，远道而来的朋友！我是服务器吉祥物黑可，这里是一个技术测试服，将会使用很多新奇的插件和代码，使用皮肤站验证来保护玩家数据，玩得开心。
-  link: https://skin.xmb505.top
-  is_member: false
-  auth_mode: offline
-
 - name: MCIC
   icon:
     src: /server_icons/MCIC.webp
