@@ -65,6 +65,9 @@ const playSound = () => {
 </template>
 
 <style lang="scss" scoped>
+a[target='_blank']::after{
+  content: none !important;
+}
 .m-nav-link {
   --m-nav-icon-box-size: 50px;
   --m-nav-icon-size: 45px;

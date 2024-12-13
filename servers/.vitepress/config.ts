@@ -8,12 +8,12 @@ import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 import viteCompression from "vite-plugin-compression";
 
 // Language import
-import { zh_CN } from './i18n/zh_CN'
-import { en } from './i18n/en'
-// import { pt } from './i18n/pt'
-import { ru } from './i18n/ru'
-// import { es } from './i18n/es'
-// import { ko } from './i18n/ko'
+import { zh_CN } from './i18n/zh_CN/index'
+import { en } from './i18n/en-US/index'
+// import { pt } from './i18n/pt-PT/index'
+import { ru } from './i18n/ru-RU/index'
+// import { es } from './i18n/es-ES/index'
+// import { ko } from './i18n/ko-KR/index'
 
 // COMMON
 export default withPwa(
