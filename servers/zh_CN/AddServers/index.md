@@ -2,18 +2,31 @@
 
 待处理：![Wait...](https://img.shields.io/github/issues/MSCPO/mscpo.github.io.svg)    已处理：![Completed](https://img.shields.io/github/issues-closed/MSCPO/mscpo.github.io.svg)
 
-## 方法1：问卷申请
+## 方法1：加入委员会群聊
+
+1.加入群聊
+
+2.私信现任委会长/在群内@说明服务器信息即可  
+
+::: info 委员会群组
+
+QQ 群组：[[加入 MSCPO集宣组织 | 一群]](https://qm.qq.com/cgi-bin/qm/qr?k=gWjlcHAM-9cSgtQC1B-gkMpzdW250uDv&jump_from=webapi&authKey=1ce3eEvCnXY71xkoPTH7/zOBqkuaJD6H/XlY/Mz5kDxycvwnpDdQRtM03+WPsLMh)
+:::
+
+::: tip 什么是集宣组织委员会？
+
+- 集宣组织委员会是集宣组织的决策机构。
+- 委员会决策是集宣组织决策的主要决策方式。
+- 加入委员会即视为准成员服，可以参与集宣组织的民主决策，参与/发起集宣组织的各种活动。
+
+:::
+
+## 方法2：问卷申请
 
 1. 提供必要信息
   [申请通道](https://github.com/MSCPO/mscpo.github.io/issues/new/choose)
 2. 等待审核结果。
   如果您有GitHub账号，可以加入组织，帮助我们更新服务器列表，贡献组织下的开源项目（如[Server_Ping](https://github.com/MSCPO/Server_Ping)、[ServerDocumentation](https://github.com/MSCPO/ServerDocumentation)等）。
-
-## 方法2：加入委员会群聊
-
-1.加入群聊
-  [加入群聊](https://qm.qq.com/cgi-bin/qm/qr?k=gWjlcHAM-9cSgtQC1B-gkMpzdW250uDv&jump_from=webapi&authKey=1ce3eEvCnXY71xkoPTH7/zOBqkuaJD6H/XlY/Mz5kDxycvwnpDdQRtM03+WPsLMh)  
-2.私信现任委会长/在群内@说明服务器信息即可  
 
 ## 方法3：提交PR等待合并
 
@@ -23,4 +36,4 @@
 
 >如果不知道怎么编辑请看这个->[[格式：添加新服务器以及修改服务器信息]](./format/index)
 
-我们的GitHub组织页面：https://github.com/MSCPO
+我们的GitHub组织页面：[https://github.com/MSCPO](https://github.com/MSCPO)

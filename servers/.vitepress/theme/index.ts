@@ -1,4 +1,4 @@
-import VuetomTheme from 'vitepress-theme-mscpo'
+import VuetomTheme from 'vitepress-theme-mscpo/docs'
 import ArcoVue from '@arco-design/web-vue'
 import ArcoVueIcon from '@arco-design/web-vue/lib/icon';
 
@@ -22,13 +22,13 @@ if (inBrowser)
 
 export default {
   ...VuetomTheme,
-  enhanceApp({app, router}) {
+  enhanceApp({ app, router }) {
     // Register the global component
-    app.component('NavList' , NavList)
-    app.component('ServerList' , ServerList)
+    app.component('NavList', NavList)
+    app.component('ServerList', ServerList)
     app.use(ArcoVue)
     app.use(ArcoVueIcon)
-    
+
     if (inBrowser) {
       router.onAfterRouteChanged = () => {
         busuanzi.fetch()
@@ -37,10 +37,10 @@ export default {
     vitepressMusic(playlist)
     vitepressBackToTop({
       // default
-      threshold:300
+      threshold: 300
     })
   },
-  
+
   Layout: () => {
     const props: Record<string, any> = {}
     // Get frontmatter

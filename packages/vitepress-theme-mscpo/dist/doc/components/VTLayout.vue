@@ -45,23 +45,6 @@ const renderHomeBg = () => {
   }
 }
 
-// const checkPath = (path: string) => {
-//   const homePaths = [base, `${base}index.html`, `${base}${lang}/`]
-//   const isHome = homePaths.includes(path)
-//   if (isHome) {
-//     nextTick(() => {
-//       renderHomeBg()
-//     })
-//   }
-// }
-
-// watch(
-//   () => route.path,
-//   (path) => {
-//     checkPath(path)
-//   }
-// )
-
 const getBrowserWidth = function() {
   if (window.innerWidth < 768) {
     return false;

@@ -19,22 +19,12 @@
 
     // 代码
     --vp-c-text-code:var(--vp-c-brand-dark);
-    //页面背景色
-    --vt-bg-doc: rgba(var(--vt-c-bg-rgb), 1) !important;
     //标题h1颜色
-    // 重写主题色
-    //  主色主题颜色：导航
     --vp-c-brand:  #538ce9;
     --vp-c-brand-light:  #77a3ea;
     --vp-c-brand-lighter:  #ebf3ff;
     --vp-c-brand-dark:  #096dd9;
     --vp-c-brand-darker:  #003a8c;
-  // 副色 可以改首页logo下字体的发光色
-  --vp-c-second: #55ebde;
-  --vp-c-second-light: #29e0d1;
-  --vp-c-second-lighter: #29e0d1;
-  --vp-c-second-dark: #1a998e;
-  --vp-c-second-darker: #1c6e68; 
 }
 .content {
     font-size: 15px !important;
@@ -50,16 +40,6 @@
     }
     .VPTeamPageTitle .title, .VPTeamPageTitle .lead{
         color: #aaa;
-    }
-}
-// 导航栏
-.VPNavBar {
-    background-color: rgba($color: #ebf7ff, $alpha: 0.8);
-}
-.VPNavBar.has-sidebar {
-    background-color:#fff;
-    .curtain ::before {
-        background: linear-gradient(rgba($color: var(--vp-c-bg), $alpha: 0.5), transparent 70%);
     }
 }
 
@@ -227,12 +207,7 @@
 .VPSidebarItem.level-0 .text {
     font-size: 15px;
 }
-@font-face {
-    font-family: 'Fusion-Pixel-12-proportional-zh_cn';
-    src: url('/fonts/fusion-pixel-10px-proportional-zh_hans.woff2') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 :root {
     --vp-font-family-base: 'Fusion-Pixel-12-proportional-zh_cn', -apple-system, Roboto, Oxygen, Ubuntu, Helvetica, Arial, sans-serif;
     --vp-font-family-mono: 'Fusion-Pixel-12-proportional-zh_cn', monospace;

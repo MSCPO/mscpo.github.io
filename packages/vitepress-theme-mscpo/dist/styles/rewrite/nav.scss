@@ -7,11 +7,29 @@
       color: var(--vp-c-brand);
       font-size: 1.2rem;
       font-weight: bold;
+      border-bottom: none!important
     }
   }
   .VPNavBar {
     .VPNavBarMenuLink {
       font-weight: bold;
     }
+  }
+  .VPNavBar.has-sidebar {
+    .wrapper {
+      background-color: var(--vp-c-bg)
+    }
+  }
+}
+// 导航栏
+.VPNavBar {
+  background-color: rgba($color: #ebf7ff, $alpha: 0.7);
+}
+.VPNavBar.has-sidebar {
+  .curtain ::before {
+      background: linear-gradient(rgba($color: var(--vp-c-bg), $alpha: 0.5), transparent 70%);
+  }
+  .wrapper {
+      background-color: rgba($color: #ebf7ff, $alpha: 0.7);
   }
 }

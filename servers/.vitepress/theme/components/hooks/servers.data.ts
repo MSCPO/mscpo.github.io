@@ -3,7 +3,7 @@
 import { createContentLoader } from "vitepress";
 
 interface ServerInfo {
-    icon?: 
+    icon?:
     | string
     | {
         src: string
@@ -11,7 +11,7 @@ interface ServerInfo {
         width?: string
         height?: string
         wrap?: boolean
-      }
+    }
     | {
         light: string
         dark: string
@@ -19,7 +19,7 @@ interface ServerInfo {
         width?: string
         height?: string
         wrap?: boolean
-      }
+    }
     name: string
     desc?: string
     type: 'Java' | 'Bedrock' | 'Geyser' | 'Netease'
@@ -61,7 +61,7 @@ export default createContentLoader("*/servers/*.md", {
             }
 
             if (!name || !type) {
-                console.warn(now,`[SCS:Warning] Missing required fields in ${url}`)
+                console.warn(now, `[SCS:Warning] Missing required fields in ${url}`)
                 return null
             }
 

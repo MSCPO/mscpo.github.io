@@ -3,7 +3,7 @@
 /**
  * Base Color
  * --------------------------------------------------------------------- */
-@import './colors.scss';
+@use './colors.scss';
 
 :root {
 
@@ -21,10 +21,10 @@
    * Typography
    * --------------------------------------------------------------------- */
 
-  --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  --font-family-base: 'Fusion-Pixel-12-proportional-zh_cn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  --font-family-mono: 'Fusion-Pixel-12-proportional-zh_cn', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 
   /**

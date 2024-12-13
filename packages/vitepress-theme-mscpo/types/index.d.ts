@@ -106,20 +106,6 @@ export declare interface VuetomThemeConfig extends DefaultTheme.Config {
    */
   featuresColor?: string | Array;
 
-  /**
-   * Blog Avatar Image Url
-   *
-   * @example '/imgs/avatar.jpg'
-   */
-  avatar?: string;
-
-  /**
-   * Blog Author Name
-   *
-   * @example 'Vuetom'
-   */
-  author?: string;
-
 }
 
 export * from './shim.d.ts'
