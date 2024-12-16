@@ -55,7 +55,6 @@ const getBrowserWidth = function() {
 };
 
 onMounted(() => {
-  console.log(getBrowserWidth())
   renderHomeBg()
   if (getBrowserWidth()) {
     if (parallaxEnable) window.addEventListener('mousemove', heroMove)

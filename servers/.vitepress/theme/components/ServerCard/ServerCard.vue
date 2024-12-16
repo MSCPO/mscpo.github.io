@@ -2,9 +2,13 @@
 import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
-import { ref, computed } from "vue"
+import { ref, computed, watch, defineEmits } from "vue"
 import { useClipboard } from '@vueuse/core'
 import { useData } from 'vitepress'
+import { createAlova } from 'alova';
+import adapterFetch from 'alova/fetch';
+import VueHook from 'alova/vue';
+
 const { localeIndex } = useData()
 
 const source = ref('Copy')
@@ -40,6 +44,7 @@ const serverinfo = defineProps<{
   ip?: string
   is_member?: boolean
   auth_mode?: 'official' | 'yggdrasil' | 'offline'
+  status: Promise<boolean>
 }>()
 
 const i18nlang = computed(() => {
@@ -124,35 +129,18 @@ const playSound = () => {
   audio.play()
 }
 
-const props = {
-  server: serverinfo.ip
-}
-
-const server_status = ref<string | undefined>(i18nlang.value.loading)
 const status_color = ref("gray")
+const status_text = ref(i18nlang.value.loading)
 
-const handleServerInfo = async () => {
-  if (props.server != null) {
-    try {
-      const res = await fetch(
-        `https://mcstat.mcskin.cn/api/status/${props.server}`
-      )
-      const data = await res.json()
-      if (data.online) {
-        server_status.value = i18nlang.value.online
-        status_color.value = "green"
-      } else {
-        server_status.value = i18nlang.value.offline
-        status_color.value = "red"
-      }
-    } catch (e) {
-      server_status.value = i18nlang.value.offline
-      status_color.value = "red"
-    }
+const server_status = async () => {
+  if (await serverinfo.status) {
+    status_color.value = "green"
+    status_text.value = i18nlang.value.online
+  } else {
+    status_color.value = "red"
+    status_text.value = i18nlang.value.offline
   }
 }
-
-handleServerInfo()
 
 const openUrl = (url: string | undefined) => {
   window.open(url, '_blank')
@@ -160,37 +148,37 @@ const openUrl = (url: string | undefined) => {
 </script>
 
 <template>
-  <VPLink class="ServerCard" @click="openUrl(serverinfo.link)" :no-icon="true" :tag="link ? 'a' : 'div'">
+  <VPLink class="ServerCard" @click="openUrl(serverinfo.link)" :no-icon="true" :tag="serverinfo.link ? 'a' : 'div'">
     <article class="box" :class="[serverinfo.type]" @click="playSound">
       <div class="box-header" :title="serverinfo.name">
         <div v-if="typeof serverinfo.icon === 'object' && serverinfo.icon.wrap" class="icon">
           <VPImage class="icon" :image="serverinfo.icon" :alt="serverinfo.icon.alt" :height="serverinfo.icon.height || 48"
             :width="serverinfo.icon.width || 48" style="margin: 0;max-height: 48px;max-width: 48px;" />
         </div>
-        <VPImage v-else-if="typeof serverinfo.icon === 'object'" class="icon" :image="serverinfo.icon"
-          :alt="serverinfo.icon.alt" :height="serverinfo.icon.height || 48" :width="serverinfo.icon.width || 48"
+        <VPImage v-else-if="typeof serverinfo.icon === 'object'" class="icon" :image="serverinfo.icon" :alt="serverinfo.icon.alt"
+          :height="serverinfo.icon.height || 48" :width="serverinfo.icon.width || 48"
           style="margin: 0; margin-right: 0.5rem;max-height: 48px;max-width: 48px;" />
-        <div v-else-if="icon" class="icon" v-html="icon"></div>
+        <div v-else-if="serverinfo.icon" class="icon" v-html="serverinfo.icon"></div>
         <div class="info-container">
-          <h4 class="ServerName" v-text="name" />
-          <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="ip" class="ServerVersion"
-              :style="{ 'color': status_color }" v-html="server_status"></a></a>
+          <h4 class="ServerName" v-text="serverinfo.name" />
+          <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="serverinfo.ip" class="ServerVersion"
+              :style="{ 'color': status_color }" v-html="status_text" v-show="server_status()"></a></a>
           <a-tooltip>
             <template #content>
               <p v-text="i18nlang.copied_click" />
-              <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)">
+              <a v-if="serverinfo.ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)">
                 IP: {{ copied ? i18nlang.copied : serverinfo.ip }}
               </a>
             </template>
-            <a v-if="ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)">
+            <a v-if="serverinfo.ip" class="ServerVersion" @click.stop="copy(serverinfo.ip)">
               IP: {{ copied ? i18nlang.copied : serverinfo.ip }}
             </a>
           </a-tooltip>
         </div>
       </div>
-      <a-tooltip v-if="desc">
+      <a-tooltip v-if="serverinfo.desc">
         <template #content>
-          <h2 v-html="name"></h2>
+          <h2 v-html="serverinfo.name"></h2>
           <a-space wrap>
             <a-tooltip v-if="serverinfo.is_member" :content="i18nlang.is_member_desc">
               <a-tag bordered color="green">

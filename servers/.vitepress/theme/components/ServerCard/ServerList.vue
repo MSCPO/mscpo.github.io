@@ -4,6 +4,9 @@ import ServerCard from './ServerCard.vue'
 import { ref, computed } from 'vue'
 import { useData } from 'vitepress'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
+import { createAlova } from 'alova';
+import adapterFetch from 'alova/fetch';
+import VueHook from 'alova/vue';
 
 // !!! Dev !!!
 import { data } from '../hooks/servers.data'
@@ -207,6 +210,31 @@ const options = ref([
 const selectedValue = ref('')
 
 const is_member_option = ref(false);
+
+
+const alova = createAlova({
+  requestAdapter: adapterFetch(),
+  statesHook: VueHook,
+  responded: response => response.json()
+});
+
+async function checkStatus(ip: string): Promise<boolean> {
+  if (ip != null) {
+    try {
+      const response = await alova.Get<{ online: boolean }>(`https://mcstat.mcskin.cn/api/status/${ip}`, {
+        shareRequest: true
+      })
+      if (response.online) {
+        return true
+      } else {
+        return false
+      }
+    } catch (e) {
+      return false
+    }
+  }
+  return false
+}
 </script>
 
 <template>
@@ -236,7 +264,8 @@ const is_member_option = ref(false);
           <template #default="{ item }">
             <div class="item">
               <ServerCard :icon="item.icon" :name="item.name" :desc="item.desc" :type="item.type" :link="item.link"
-                :version="item.version" :ip="item.ip" :is_member="item.is_member" :auth_mode="item.auth_mode" />
+                :version="item.version" :ip="item.ip" :is_member="item.is_member" :auth_mode="item.auth_mode"
+                :status="checkStatus(item.ip)" />
             </div>
           </template>
           <template #empty>
