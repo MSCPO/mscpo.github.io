@@ -2,17 +2,24 @@
 import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
-import { ref, computed, watch, defineEmits } from "vue"
+import { ref, computed, watch } from "vue"
 import { useClipboard } from '@vueuse/core'
 import { useData } from 'vitepress'
-import { createAlova } from 'alova';
-import adapterFetch from 'alova/fetch';
-import VueHook from 'alova/vue';
 
 const { localeIndex } = useData()
 
 const source = ref('Copy')
 const { copy, copied } = useClipboard({ source })
+
+interface StatusResponse {
+  online: boolean
+  icon?: string
+  motd?: string
+  players?: {
+    online: number
+    max: number
+  }
+}
 
 const serverinfo = defineProps<{
   icon?:
@@ -44,7 +51,7 @@ const serverinfo = defineProps<{
   ip?: string
   is_member?: boolean
   auth_mode?: 'official' | 'yggdrasil' | 'offline'
-  status: Promise<boolean>
+  status: Promise<StatusResponse>
 }>()
 
 const i18nlang = computed(() => {
@@ -131,16 +138,32 @@ const playSound = () => {
 
 const status_color = ref("gray")
 const status_text = ref(i18nlang.value.loading)
+const status_num = ref<string | null>(null)
 
 const server_status = async () => {
-  if (await serverinfo.status) {
-    status_color.value = "green"
-    status_text.value = i18nlang.value.online
-  } else {
-    status_color.value = "red"
-    status_text.value = i18nlang.value.offline
+  try {
+    const statusinfo = await serverinfo.status
+    if (statusinfo.online) {
+      status_color.value = "green"
+      status_text.value = i18nlang.value.online
+      if (statusinfo.players != null) {
+        status_num.value = `${statusinfo.players.online}/${statusinfo.players.max}`
+      }
+    } else {
+      status_color.value = "red"
+      status_text.value = i18nlang.value.offline
+      status_num.value = null
+    }
+  } catch (error) {
+    status_color.value = "gray"
+    status_text.value = i18nlang.value.loading
+    status_num.value = null
   }
 }
+
+watch(() => serverinfo.ip, () => {
+  status_num.value = null
+})
 
 const openUrl = (url: string | undefined) => {
   window.open(url, '_blank')
@@ -180,6 +203,8 @@ const openUrl = (url: string | undefined) => {
         <template #content>
           <h2 v-html="serverinfo.name"></h2>
           <a-space wrap>
+            <a-tag v-if="serverinfo.ip" :color="status_color" v-text="status_text" />
+            <a-tag v-if="status_num != null" v-text="status_num" />
             <a-tooltip v-if="serverinfo.is_member" :content="i18nlang.is_member_desc">
               <a-tag bordered color="green">
                 <template #icon>

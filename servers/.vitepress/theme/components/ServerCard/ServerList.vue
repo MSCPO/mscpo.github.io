@@ -218,22 +218,32 @@ const alova = createAlova({
   responded: response => response.json()
 });
 
-async function checkStatus(ip: string): Promise<boolean> {
+interface StatusResponse {
+  online: boolean
+  icon?: string
+  motd?: string
+  players?: {
+    online: number
+    max: number
+  }
+}
+
+async function checkStatus(ip: string): Promise<StatusResponse> {
   if (ip != null) {
     try {
-      const response = await alova.Get<{ online: boolean }>(`https://mcstat.mcskin.cn/api/status/${ip}`, {
+      const response = await alova.Get<StatusResponse>(`https://mcstat.mcskin.cn/api/status/${ip}`, {
         shareRequest: true
       })
       if (response.online) {
-        return true
+        return response
       } else {
-        return false
+        return { online: false }
       }
     } catch (e) {
-      return false
+      return { online: false }
     }
   }
-  return false
+  return { online: false }
 }
 </script>
 
