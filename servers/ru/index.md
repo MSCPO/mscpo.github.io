@@ -2,7 +2,7 @@
 layout: home
 title: Список серверов Minecraft (отсортированный в случайном порядке)
 hero:
-  name: MSCPO
+  name: Организация коллективного продвижения сервера Minecraft
   tagline: Организация коллективного продвижения серверов Minecraft<br>Список серверов Minecraft (отсортированный случайным образом)
   floattitle: МSCPO Россия
   actions:
