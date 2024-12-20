@@ -6,10 +6,13 @@ hero:
   tagline: 服务器列表（随机排序）<br>Github Issue 提交
   floattitle: MSCPO 中国
   actions:
-    - theme: brand
-      text: 加入我们
+    - theme: alt
+      text: 加入委员会
       link: https://qm.qq.com/q/QGwqtKSnIK
     - theme: alt
+      text: 加入玩家群
+      link: https://qm.qq.com/q/SHcbys4Scw
+    - theme: brand
       text: 添加服务器
       link: /AddServers/
 ---
