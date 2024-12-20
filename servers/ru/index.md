@@ -4,12 +4,15 @@ title: Список серверов Minecraft (отсортированный �
 hero:
   name: MSCPO
   tagline: Организация коллективного продвижения серверов Minecraft<br>Список серверов Minecraft (отсортированный случайным образом)
-  floattitle: MSCPO International
+  floattitle: МSCPO Россия
   actions:
-    - theme: brand
-      text: Добавьте свой собственный сервер в список
-      link: /ru/AddServers/
     - theme: alt
+      text: Присоединяйтесь к комитету
+      link: https://yandex.ru/chat#/join/89d4640d-6036-48da-8a45-bb74872c3800
+    - theme: alt
+      text: Присоединяйтесь к сообществу
+      link: https://vk.com/mscpo
+    - theme: brand
       text: Особая благодарность
       link: /ru/acknowledgement/
 ---
