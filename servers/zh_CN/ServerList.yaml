@@ -604,7 +604,7 @@
   desc: | 
     我们使用Mohist混合端 插件齐全 mod持续更新
   link: https://qm.qq.com/q/Rq68hoEyEE
-  is_member: false
+  is_member: true
   auth_mode: offline
 
 - name: '樱花宝可梦'
@@ -624,10 +624,9 @@
   type: Java
   version: 1.7.10-1.21
   desc: |
-    有雨云以及mcc云提供了强劲的服务器
-    可以承载200人同时游玩 
+    做为一个mc服务器我们集成了多元素开放式的游玩方式 在这个服务器中你很自由可以随心所欲的创造也可以与朋友来上一次激情的PVP这正是我们想要看到的希望yangixel可以为您带来好的游玩体验
   link: https://yangixel.cn/
-  ip: om.rainplay.cn:30475
+  ip: play.yangixel.cn
   is_member: true
   auth_mode: offline
 
