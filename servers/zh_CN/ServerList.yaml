@@ -643,3 +643,14 @@
   ip: mc.hypixel.net
   is_member: false
   auth_mode: official
+
+- name: '红溪花'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.20.1
+  desc: |
+    这是一个温馨和谐的服务器，提供了稳定流畅的体验，自从2024开服以来我们努力创建一个环境良好更公平公正的游戏氛围，希望与更多的玩家们一起度过了愉快的时光,在这里的日子将会是你值得回忆的美好。我们保证不做影响平衡、破坏公平的行为。服务器暂时处于一周目开荒阶段，欢迎玩家提出意见或者举报违规行为，请大家自觉遵守游戏规则。
+  link: https://www.redbf.top/
+  is_member: true
+  auth_mode: offline
