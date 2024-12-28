@@ -655,13 +655,16 @@
   is_member: true
   auth_mode: offline
 
-- name: 'starry-isles服务器官网'
+- name: 'Starry Isles空岛生存'
   icon:
     src: /logo.webp
   type: Bedrock
   version: 1.21.50
   desc: |
-    Minecraft基岩版1.21.5xMC地址: starry-isles.run.place 备用b.starry-isles.run.place 端口13210 （只有这句话有用，用于提示服务器地址）
+    Minecraft基岩版1.21.5x服务器
+    地址: starry-isles.run.place 
+    备用b.starry-isles.run.place 
+    端口请进入官网查看
   link: http://www.starry-isles.run.place/
   is_member: false
   auth_mode: official
