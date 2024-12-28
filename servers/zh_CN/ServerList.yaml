@@ -597,12 +597,12 @@
 
 - name: 'PixelMine'
   icon:
-    src: /logo.webp
+    src: /server_icons/PixelMine.svg
   type: Java
   version: 1.20.1
   ip: play.dnphinti.top
   desc: | 
-    我们使用Mohist混合端 插件齐全 mod持续更新
+    欢迎来到 PixelMine！我们致力于打造一个公平、公正的游戏环境。混合模组端、丰富插件与多样化模组，为你带来沉浸式游戏体验。搭载完善的反作弊系统，守护每一位热爱游戏的玩家。加入我们，一起享受乐趣，维护秩序，共创精彩世界！
   link: https://qm.qq.com/q/Rq68hoEyEE
   is_member: true
   auth_mode: offline
