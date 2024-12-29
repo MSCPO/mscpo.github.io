@@ -668,3 +668,24 @@
   link: http://www.starry-isles.run.place/
   is_member: false
   auth_mode: official
+
+- name: 'NCloudNetwork'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.21.3
+  desc: |
+    欢迎来到 NCloudNetwork
+    服务器特色：
+    多种模式：生存、创造、迷你游戏，任你选择。
+    定期活动：每周主题活动，赢取奖励。
+    友好社区：加入QQ群975176493，结交新朋友。
+    如何加入：
+    1. 加入QQ群：975176493，申请白名单。
+    2. 下载《我的世界》（Java 1.7-1.21）。
+    3.在多人游戏中输入服务器地址：ncn.nitrodev.asia。
+    欢迎来到NCloudNetwork，一起创造和探险！
+  link: https://qm.qq.com/q/TN6hntPmcE
+  ip: ncn.nitrodev.asia
+  is_member: false
+  auth_mode: offline
