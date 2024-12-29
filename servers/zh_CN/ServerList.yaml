@@ -597,7 +597,7 @@
 
 - name: 'PixelMine'
   icon:
-    src: /server_icons/PixelMine.svg
+    src: /server_icons/PixelMine.jpg
   type: Java
   version: 1.20.1
   ip: play.dnphinti.top
