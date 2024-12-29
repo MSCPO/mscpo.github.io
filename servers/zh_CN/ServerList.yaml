@@ -687,5 +687,5 @@
     欢迎来到NCloudNetwork，一起创造和探险！
   link: https://qm.qq.com/q/TN6hntPmcE
   ip: ncn.nitrodev.asia
-  is_member: false
+  is_member: true
   auth_mode: offline
