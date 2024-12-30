@@ -1,7 +1,7 @@
 ## 时间线
 
 ::: timeline 2024-01-26
-由 M&A互助公社 dfgg服务器 ZUYMC服务器 组织，
+由 M&A互助公社 花枫服务器（原dfgg服务器） ZUYMC服务器 组织，
 
 Minecraft集体宣传组织(MSCPO)**正式成立**
 :::
@@ -90,7 +90,7 @@ Minecraft集体宣传组织(MSCPO) 委员会宣告解散。
 :::
 
 ::: timeline 2024-10-01
-Minecraft集体宣传组织(MSCPO) 委员会 被 peg195 重组
+Minecraft集体宣传组织(MSCPO) 委员会 被 花枫服务器（原dfgg服务器） 重新组织
 :::
 
 ::: timeline 2024-11-09
@@ -99,4 +99,7 @@ Minecraft集体宣传组织(MSCPO) 委员会 被 peg195 重组
 
 ::: timeline 2024-12-20
 集宣组织QQ玩家群重建，新建VK玩家社区（俄罗斯），Yandex委员会群（俄罗斯）
+
+::: timeline 2024-12-31
+集宣组织Discord玩家社区基本成型
 :::
