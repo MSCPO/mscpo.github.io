@@ -1,5 +1,7 @@
 # Minecraft服务器集体宣传组织
 
+[[加入委员会]](https://qm.qq.com/q/zcQwKOUZry)  [[加入玩家群]](https://qm.qq.com/q/dbRxlt3snC) 
+
 [[添加自己的服务器到主页(问卷形式)]](https://github.com/MSCPO/mscpo.github.io/issues/new/choose) [[添加自己的服务器到主页(Pull)]](https://github.com/MSCPO/mscpo.github.io/edit/main/servers/index.md)
 
 待处理：![Wait...](https://img.shields.io/github/issues/MSCPO/mscpo.github.io.svg)    已处理：![Completed](https://img.shields.io/github/issues-closed/MSCPO/mscpo.github.io.svg)
