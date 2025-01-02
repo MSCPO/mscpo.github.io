@@ -1,7 +1,7 @@
 ---
 name: 初梦大陆 - Early Dream Land
 icon:
-  src: /logo.webp
+  src: /server_icons/early_dream_land.webp
 type: Java
 version: 1.20.6
 desc: |
