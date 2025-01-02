@@ -106,8 +106,8 @@ importers:
   packages/vitepress-theme-mscpo:
     dependencies:
       '@docsearch/css':
-        specifier: ^3.7.0
-        version: 3.8.0
+        specifier: ^3.8.2
+        version: 3.8.2
       '@docsearch/js':
         specifier: ^3.8.2
         version: 3.8.2(@algolia/client-search@5.14.2)(search-insights@2.17.3)
@@ -754,9 +754,6 @@ packages:
   '@ctrl/tinycolor@3.6.1':
     resolution: {integrity: sha512-SITSV6aIXsuVNV3f3O0f2n/cgyEDWoSqtZMYiAmcsYHydcKrOz3gUxB/iXd/Qf08+IZX4KpgNbvUdMBmWz+kcA==}
     engines: {node: '>=10'}
-
-  '@docsearch/css@3.8.0':
-    resolution: {integrity: sha512-pieeipSOW4sQ0+bE5UFC51AOZp9NGxg89wAlZ1BAQFaiRAGK1IKUaPQ0UGZeNctJXyqZ1UvBtOQh2HH+U5GtmA==}
 
   '@docsearch/css@3.8.2':
     resolution: {integrity: sha512-y05ayQFyUmCXze79+56v/4HpycYF3uFqB78pLPrSV5ZKAlDuIAAJNhaRi8tTdRNXh05yxX/TyNnzD6LwSM89vQ==}
@@ -4266,8 +4263,6 @@ snapshots:
 
   '@ctrl/tinycolor@3.6.1': {}
 
-  '@docsearch/css@3.8.0': {}
-
   '@docsearch/css@3.8.2': {}
 
   '@docsearch/js@3.8.2(@algolia/client-search@5.14.2)(search-insights@2.17.3)':
@@ -4579,7 +4574,7 @@ snapshots:
 
   '@mscpo/vitepress@1.4.3-beta.2(@algolia/client-search@5.14.2)(@types/node@22.10.2)(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.83.0)(search-insights@2.17.3)(terser@5.37.0)(typescript@4.9.5)':
     dependencies:
-      '@docsearch/css': 3.8.0
+      '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.14.2)(search-insights@2.17.3)
       '@shikijs/core': 1.24.2
       '@shikijs/transformers': 1.23.1
@@ -4628,7 +4623,7 @@ snapshots:
 
   '@mscpo/vitepress@1.5.0(@types/node@22.10.2)(async-validator@4.2.5)(less@4.2.1)(nprogress@0.2.0)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.83.0)(terser@5.37.0)(typescript@4.9.5)':
     dependencies:
-      '@docsearch/css': 3.8.0
+      '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.14.2)(search-insights@2.17.3)
       '@iconify-json/simple-icons': 1.2.11
       '@shikijs/core': 1.23.1
