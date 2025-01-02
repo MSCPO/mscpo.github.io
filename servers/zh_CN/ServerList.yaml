@@ -689,3 +689,15 @@
   ip: ncn.nitrodev.asia
   is_member: true
   auth_mode: offline
+
+- name: 'PepperCraft'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.19-1.21.4
+  desc: |
+    一个“基于原版，忠于原版”，尝试将PVP、生存、生电等玩家融合的原版生存服务器。
+  link: https://bili2233.cn/1cEPwN1
+  ip: je.pcraft.eu.org
+  is_member: true
+  auth_mode: official
