@@ -16,6 +16,14 @@
 
 [服务器集体宣传组织(MSCPO)](https://mscpo.mscaome.top) https://mscpo.mscaome.top
 
+## 花枫工作室
+
+![花枫工作室](/server_icons/DFGG_Logo.webp)
+
+[花枫工作室](https://studio.dfggmc.top/)为我们提供了一个网站节点
+
+[服务器集体宣传组织(MSCPO)](https://mscpo.dfggmc.top) https://mscpo.dfggmc.top
+
 ## 贡献者
 
 帮助我们添加服务器的贡献者们
