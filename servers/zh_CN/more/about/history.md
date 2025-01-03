@@ -106,6 +106,10 @@ Minecraft集体宣传组织(MSCPO) 委员会 被 花枫服务器（原dfgg服务
 :::
 
 ::: timeline 2025-01-01
+Minecraft集体宣传组织(MSCPO) 花枫工作室代表: [花枫工作室]团子断天玩世界 发起 [MSCPO云端黑名单插件](https://github.com/MSCPO/blacklist) Github项目（不开源）
+:::
+
+::: timeline 2025-01-01
 集宣组织 委员会 *2025-1月临时副会长选举* 开始
 
 ### 选举结果(2025-01-01)
