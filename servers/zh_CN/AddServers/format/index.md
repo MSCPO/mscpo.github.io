@@ -70,7 +70,6 @@ type: Geyser # (必选)这是服务器的类型，可选Java（电脑），Geyse
 version: 1.20.1 # (必选)这是服务器的版本// [!code warning]
 desc: |// [!code warning]
       (必选)这是服务器的描述// [!code warning]
-link: https://mc.mscaome.top/// [!code warning]
 ip: aomemsc.giize.com # (可选)这是服务器的IP地址，添加后可以将服务器状态显示在服务器卡片上// [!code warning]
 is_member: false # (可选)服务器是否加入了MSCPO组织// [!code warning]
 auth_mode: offline # (可选)这是服务器的认证方式，可选offline(离线服务器)，yggdrasil(外置登录)，official(正版服务器)// [!code warning]
