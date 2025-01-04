@@ -209,9 +209,10 @@
 }
 
 :root {
-    --vp-font-family-base: 'Fusion-Pixel-12-proportional-zh_cn', -apple-system, Roboto, Oxygen, Ubuntu, Helvetica, Arial, sans-serif;
-    --vp-font-family-mono: 'Fusion-Pixel-12-proportional-zh_cn', monospace;
+    --vp-font-family-base: 'Fusion-Pixel-12-proportional-zh_hans', -apple-system, Roboto, Oxygen, Ubuntu, Helvetica, Arial, sans-serif;
+    --vp-font-family-mono: 'Fusion-Pixel-12-proportional-zh_hans', monospace;
 }
+
 body {
-    font-family: Fusion-Pixel-12-proportional-zh_cn,sans-serif;
+    font-family: 'Fusion-Pixel-12-proportional-zh_hans', sans-serif;
 }
