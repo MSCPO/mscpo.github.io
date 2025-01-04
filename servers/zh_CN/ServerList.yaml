@@ -713,3 +713,14 @@
   ip: mc.sccc.top
   is_member: true
   auth_mode: offline
+
+- name: '维和服区'
+  icon:
+    src: /logo.webp
+  type: Geyser
+  version: 1.0
+  desc: |
+    维和服区”，英文为“peace-keeping The server joint organization”，简称PKSJO.致力于搭建服务器与玩家之间的桥梁，是拥有近300位成员，20+网易/国际认证服务器的组织。群号：961931878
+  link: https://qm.qq.com/q/SCaLylTGsS
+  is_member: true
+  auth_mode: official
