@@ -121,3 +121,6 @@ Minecraft集体宣传组织(MSCPO) 花枫工作室代表: [花枫工作室]团�
 
 :::
 
+::: timeline 2025-01-04
+[Minecraft集宣组织](https://mscpo.netlify.app) 和 [维和服区](https://qm.qq.com/q/SCaLylTGsS) 正式宣布展开合作
+:::
