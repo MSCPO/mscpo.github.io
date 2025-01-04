@@ -701,3 +701,15 @@
   ip: je.pcraft.eu.org
   is_member: true
   auth_mode: official
+
+- name: '我的世界FOX服务器联盟'
+  icon:
+    src: /server_icons/foxserver.png
+  type: Java
+  version: 1.19-1.21.4
+  desc: |
+    一个热爱创新来自于MC的服务器联盟集群
+  link: https://www.mc.sccc.top/
+  ip: mc.sccc.top
+  is_member: true
+  auth_mode: offline
