@@ -81,7 +81,7 @@ hide: false # (可选，仅限内建页面法)这定义了服务器是否能在�
 ```
 
 ::: info 举个栗子
-[Haku_Server.md](https://github.com/MSCPO/mscpo.github.io/blob/main/servers/zh_CN/servers/Haku_Server.md)
+[Test_Server.md](https://github.com/MSCPO/mscpo.github.io/blob/main/servers/zh_CN/servers/Test_Server.md)
 :::
 
 ::: tip 阅读这些可能会有帮助

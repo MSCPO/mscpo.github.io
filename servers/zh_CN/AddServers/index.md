@@ -30,10 +30,23 @@ QQ 群组：[[加入 MSCPO集宣组织 | 一群]](https://qm.qq.com/cgi-bin/qm/q
 
 ## 方法3：提交PR等待合并
 
+### PR提交-数据库法（基础）
+
 1. Fork储存库[MSCPO/mscpo.github.io](https://github.com/MSCPO/mscpo.github.io/fork)
 2. 按照格式修改`servers/zh_CN/ServerList.yaml`
-3. 提交，等待合并
+3. 推送至远程仓库并发起PR请求等待合并
 
->如果不知道怎么编辑请看这个->[[格式：添加新服务器以及修改服务器信息]](./format/index)
+### PR提交-内建页面法（高级）
+
+1. Fork储存库[MSCPO/mscpo.github.io](https://github.com/MSCPO/mscpo.github.io/fork)
+2. 向 `servers/zh_CN/servers` 目录新建 `服务器名.md` MarkDown 文件
+3. 按照格式修改 `服务器名.md` MarkDown 文件
+4. 推送至远程仓库并发起PR请求等待合并
+
+::: info 举个栗子（示范格式）
+[Test_Server.md](https://github.com/MSCPO/mscpo.github.io/blob/main/servers/zh_CN/servers/Test_Server.md)
+:::
+
+> 如果不知道怎么编辑请看这个->[[格式：添加新服务器以及修改服务器信息]](./format/index)
 
 我们的GitHub组织页面：[https://github.com/MSCPO](https://github.com/MSCPO)
