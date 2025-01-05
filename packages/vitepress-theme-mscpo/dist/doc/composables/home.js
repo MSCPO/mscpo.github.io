@@ -91,8 +91,7 @@ export function useHeroMove() {
     const { theme } = useData();
     const { parallaxEnable } = theme.value;
     function heroMove(e) {
-        document
-            .querySelectorAll(`
+        document.querySelectorAll(`
         .VPHomeHero .name,
         .VPHomeHero .text,
         .VPHomeHero .tagline,
@@ -102,8 +101,10 @@ export function useHeroMove() {
             .forEach((h) => {
             const hd = h;
             const speed = hd.getAttribute('data-speed') || 10;
-            let x = (window.innerWidth - e.pageX * speed) / 100;
-            let y = (window.innerHeight - e.pageY * speed) / 100;
+            const offsetX = (e.pageX - window.innerWidth / 2);
+            const offsetY = (e.pageY - window.innerHeight / 2);
+            let x = offsetX;
+            let y = offsetY;
             switch (hd.className.substring(0, 3).toUpperCase()) {
                 case 'VPF':
                     x /= 8;
@@ -126,8 +127,14 @@ export function useHeroMove() {
                     y /= 1;
                     break;
                 default:
+                    x /= 10;
+                    y /= 10;
                     break;
             }
+
+            x = -x * (speed / 100);
+            y = -y * (speed / 100);
+
             const hds = hd?.style;
             if (hds) {
                 hds.transform = `translateX(${x}px) translateY(${y}px)`;
