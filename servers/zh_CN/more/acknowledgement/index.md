@@ -2,7 +2,7 @@
 
 ## ZUY工作室
 
-![ZUYCraft](/server_icons/zuystlogo.png "ZUYStudio" =40%x40%)
+![ZUYCraft](/server_icons/zuystlogo.png "ZUYStudio" =30%x30%)
 
 [ZUY Studio](https://zuyst.top/)为我们提供了一个网站节点
 
