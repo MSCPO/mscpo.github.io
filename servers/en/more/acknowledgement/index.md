@@ -2,9 +2,9 @@
 
 ## ZUY Studio
 
-![ZUYCraft](/server_icons/ZUYMC.webp "ZUYCraft" =15%x15%)
+![ZUYCraft](/server_icons/zuystlogo.png "ZUYStudio" =30%x30%)
 
-The [ZUYCraft](https://mc.zuyst.top/) provides us with a website node
+The [ZUY Studio](https://zuyst.top/) provides us with a website node
 
 [Minecraft Server Collective Promotion Organization (MSCPO)](https://mscpo.zuyst.top) https://mscpo.zuyst.top
 
