@@ -2,9 +2,9 @@
 
 ## ZUY工作室
 
-![ZUYCraft](/server_icons/ZUYMC.webp "ZUYCraft" =15%x15%)
+![ZUYCraft](/server_icons/zuystlogo.png "ZUYCraft" =15%x15%)
 
-[ZUYCraft](https://mc.zuyst.top/)为我们提供了一个网站节点
+[ZUY Studio](https://zuyst.top/)为我们提供了一个网站节点
 
 [服务器集体宣传组织(MSCPO)](https://mscpo.zuyst.top) https://mscpo.zuyst.top
 
