@@ -2,7 +2,7 @@
 
 ## ZUY Studio
 
-![ZUYCraft](/server_icons/ZUYMC.webp "ZUYCraft" =15%x15%)
+![ZUYCraft](/server_icons/zuystlogo.png "ZUYCraft" =15%x15%)
 
 The [ZUYCraft](https://mc.zuyst.top/) provides us with a website node
 
