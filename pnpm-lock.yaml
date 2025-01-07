@@ -121,8 +121,8 @@ importers:
         specifier: ^3.8.2
         version: 3.8.2(@algolia/client-search@5.19.0)(search-insights@2.17.3)
       '@vueuse/components':
-        specifier: ^12.0.0
-        version: 12.0.0(typescript@4.9.5)
+        specifier: ^12.3.0
+        version: 12.3.0(typescript@4.9.5)
       '@vueuse/core':
         specifier: ^12.0.0
         version: 12.0.0(typescript@4.9.5)
@@ -1683,8 +1683,8 @@ packages:
   '@vue/shared@3.5.13':
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
 
-  '@vueuse/components@12.0.0':
-    resolution: {integrity: sha512-XpOoBXYRuFuUiiq+HsMX6rGzqvcHdKnbT4sbR0FHYxwSGBHO3Zli8pPTZoLRNBGp4CGov7BRCnANEK/1Ch/6tQ==}
+  '@vueuse/components@12.3.0':
+    resolution: {integrity: sha512-Y9/gNLKBrHxS7S4xll70mee/1QiY5GTohZQ4/rjXK050tKalNHttvd9CBuA49v0jn8i348k72znd03Bnz9xq7g==}
 
   '@vueuse/core@11.2.0':
     resolution: {integrity: sha512-JIUwRcOqOWzcdu1dGlfW04kaJhW3EXnnjJJfLTtddJanymTL7lF1C0+dVVZ/siLfc73mWn+cGP1PE1PKPruRSA==}
@@ -5351,10 +5351,10 @@ snapshots:
 
   '@vue/shared@3.5.13': {}
 
-  '@vueuse/components@12.0.0(typescript@4.9.5)':
+  '@vueuse/components@12.3.0(typescript@4.9.5)':
     dependencies:
-      '@vueuse/core': 12.0.0(typescript@4.9.5)
-      '@vueuse/shared': 12.0.0(typescript@4.9.5)
+      '@vueuse/core': 12.3.0(typescript@4.9.5)
+      '@vueuse/shared': 12.3.0(typescript@4.9.5)
       vue: 3.5.13(typescript@4.9.5)
     transitivePeerDependencies:
       - typescript
