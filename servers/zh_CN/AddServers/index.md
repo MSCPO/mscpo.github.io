@@ -45,6 +45,7 @@ QQ 群组：[[加入 MSCPO集宣组织 | 一群]](https://qm.qq.com/cgi-bin/qm/q
 
 ::: info 举个栗子（示范格式）
 [Test_Server.md](https://github.com/MSCPO/mscpo.github.io/blob/main/servers/zh_CN/servers/Test_Server.md)
+
 [内建页面：Test Server | 测试服务器](https://mscpo.netlify.app/servers/Test_Server.html)
 :::
 
