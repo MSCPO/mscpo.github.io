@@ -60,13 +60,13 @@ const combinedServers = [
 
 // Fisher–Yates shuffle
 const shuffledServers = (): Server[] => {
-  const serversCopy = [...combinedServers]
+  const serversCopy = [...combinedServers];
   for (let i = serversCopy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [serversCopy[i], serversCopy[j]] = [serversCopy[j], serversCopy[i]];
   }
-  return serversCopy
-}
+  return serversCopy;
+};
 
 const gridKey = ref(0)
 const searchQuery = ref('')

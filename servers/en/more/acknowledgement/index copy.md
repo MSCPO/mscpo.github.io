@@ -323,19 +323,15 @@ features:
     linkText: 'QQ群 870645787'
 ---
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted } from 'vue';
 onMounted(() => {
-  const elements = Array.from(document.querySelectorAll('div.VPFeatures .container .items .item'));
   const parent = document.querySelector('div.VPFeatures .container .items');
+  if (!parent) return;
+  const elements = Array.from(parent.children);
   for (let i = elements.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    const temp = elements[i];
-    elements[i] = elements[j];
-    elements[j] = temp;
-    parent.innerHTML = '';
-    elements.forEach(element => {
-      parent.appendChild(element);
-    });
+    parent.insertBefore(elements[j], elements[i]);
+    parent.insertBefore(elements[i], elements[j + 1] || null);
   }
-})
+});
 </script>
