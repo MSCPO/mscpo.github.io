@@ -75,7 +75,7 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+  - type: checkboxes
     id: is_member
     attributes:
       label: 'Is your server a member of the MSCPO organization?'
