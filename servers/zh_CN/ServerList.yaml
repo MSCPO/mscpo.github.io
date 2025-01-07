@@ -155,7 +155,7 @@
     2b 你好我的朋友
     2t 我不知道该说什么
   link: http://2b2t.run:81/
-  is_member: false
+  is_member: true
   auth_mode: offline
 
 - name: MCIC
