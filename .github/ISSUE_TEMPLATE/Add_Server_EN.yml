@@ -1,6 +1,6 @@
 name: '[EN]Add Server Card to Homepage'
-description: 'We only need some essential information about your server. Note: Applications not properly submitted as prompted may be ignored or closed.'
-title: '[Add Server]: '
+description: 'We only need some essential information about your server. Note: Applications not submitted correctly according to the prompts may be ignored or closed.'
+title: '[Add Server]: Enter server name here..'
 labels: ["Submit", "Lang:EN"]
 body:
   - type: markdown
@@ -14,15 +14,24 @@ body:
     attributes:
       label: 'Server Name'
       description: 'What is your server called?'
-      placeholder: 'ex. Minecraft Server'
+      placeholder: 'e.g. Minecraft Server'
+    validations:
+      required: true
+
+  - type: input
+    id: ip
+    attributes:
+      label: 'Server Address'
+      description: 'What is your server address?'
+      placeholder: 'e.g. mc.testserver.com:25565'
     validations:
       required: true
 
   - type: textarea
     id: server-motd
     attributes:
-      label: 'Server Description'
-      description: 'Describe your server in a few words, ideally within 50 characters.'
+      label: 'Your Server Description'
+      description: 'Briefly describe your server. It is advisable to keep it within 50 characters.'
       placeholder: 'Server Description'
     validations:
       required: true
@@ -53,12 +62,34 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: auth_mode
+    attributes:
+      label: 'Authentication Method'
+      description: 'Choose from offline (offline server), yggdrasil (external login), official (official server)'
+      options:
+        - 'offline'
+        - 'yggdrasil'
+        - 'official'
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: is_member
+    attributes:
+      label: 'Is your server a member of the MSCPO organization?'
+      description: 'If your server is a member of MSCPO, the server card will be labeled with "Certified Server"'
+      options:
+        - label: 'Is your server a member of the MSCPO organization?'
+          required: false
+
   - type: textarea
     id: server-version
     attributes:
       label: 'Specific Client Version'
-      description: 'The version of the client'
-      placeholder: 'ex. 1.8.2-1.20.4'
+      description: 'Client version'
+      placeholder: 'e.g. 1.8.2-1.20.4'
     validations:
       required: true
 
@@ -66,7 +97,7 @@ body:
     id: server-link
     attributes:
       label: 'Server Promotion Link'
-      description: 'The promotion link for your server, which can be the server website (promotion page), server promotion video link, or server group chat link for server card link redirection'
+      description: 'Server promotion link, which can be the server official website (promotion page), server promotion video link, or server group chat entry link, used for server card link redirection'
       placeholder: 'https://'
     validations:
       required: true
@@ -74,8 +105,8 @@ body:
   - type: textarea
     id: server-icon
     attributes:
-      label: 'Server Icon Link'
-      description: 'The link to your server icon (optional)'
+      label: 'Your Server Icon Link'
+      description: 'Your server icon link (optional)'
       placeholder: 'https://'
     validations:
       required: false
