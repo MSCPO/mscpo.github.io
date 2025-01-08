@@ -751,3 +751,24 @@
   link: https://qm.qq.com/q/XJDFzvJEMm
   is_member: true
   auth_mode: offline
+
+- name: 永恒世界
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.12.2
+  desc: |
+    主要mod（100+）
+    结婚系统--工会系统--
+    [科技类Mod]:拔刀 工业2 AE2 热力 龙之研究 通用机器 沉浸工程 BC管道 BC建筑 热力膨胀 末影核心
+    环境科技 通量网络 重力装甲
+    [魔法类Mod]:神秘时代6 禁忌魔法 神秘工匠 植物魔法 星辉魔法
+    [探索类Mod]: 更多生物群系 更多怪物群系 多元化下届地形 腐化之地 虚无世界
+    [爆肝类Mod]: 无尽贪婪 潘马斯农场
+    [实用类Mod]: 更多箱子 加速火把 时装工坊 匠魂 懒人厨房 更多实用设备 女仆 盖亚魔典3
+    [附属类Mod]:工业升级附属 AE2附属 植物魔法附属 神秘时代4附属 龙之研究附属
+    快来加入永恒世界大家庭愉快的玩耍吧在这里不仅可以体验到科技魔法的快感还会不定时举办各种小游戏运动会如PVP 射箭 跑酷 等等
+  link: https://yhsjmc.nqfactory.club/
+  ip: mc8.rhymc.com:45009
+  is_member: true
+  auth_mode: offline
