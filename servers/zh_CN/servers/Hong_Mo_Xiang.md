@@ -96,7 +96,3 @@ Minecraft版本: 1.20.1
 玩家可以自由选择建设地点
 
 适合喜欢从零开始的玩家
-
-![玩家建筑、可爱小熊](https://s2.loli.net/2024/12/16/64XS3FsNvKhnrju.png)
-
-![主城](https://s2.loli.net/2024/12/16/YE7MiUkIyRofSlm.png)
