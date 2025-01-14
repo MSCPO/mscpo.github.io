@@ -24,12 +24,6 @@
 
 [服务器集体宣传组织(MSCPO)](https://mscpo.dfggmc.top) https://mscpo.dfggmc.top
 
-## 诺仙网络
-
-![诺仙网络](/server_icons/nuoxian_logo.png)
-
-[初梦大陆服务器官网](https://11na.cn)
-
 ## 贡献者
 
 帮助我们添加服务器的贡献者们
