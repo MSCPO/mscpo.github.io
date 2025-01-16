@@ -14,7 +14,7 @@ is_member: false
 auth_mode: offline
 hide: false
 ---
-# Test Server | 测试服务器
+# Wiper生电PVP服务器
 
 ### 您的服务器描述
 
