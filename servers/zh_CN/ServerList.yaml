@@ -773,3 +773,83 @@
   ip: mc8.rhymc.com:45009
   is_member: true
   auth_mode: offline
+
+- name: SyServer
+  icon:
+    src: /server_icons/sy.png
+  type: Java
+  version: 1.20.1
+  desc: |
+    服务器官方QQ群群号：250904271
+    服务器开创于2024-08-20
+    服务器官网：www.SyServer.asia或www.SyServer.us.kg
+    主世界和下界有死亡不掉落，末地没有死亡不掉落
+    Discord：https://discord.gg/6A5GvGWr
+    -------------------
+    SyServer (Java版)：
+    IP：syserver.asia
+    备用IP：syserver.us.kg
+    版本：1.20.1（最佳进入版本）或更高的版本
+    服务器工单系统：https://www.wjx.cn/vm/OKKoqmg.aspx#
+  link: https://www.SyServer.asia/
+  ip: syserver.asia
+  is_member: true
+  auth_mode: offline
+
+- name: TNTMC
+  icon:
+    src: /server_icons/tntmc.png
+  type: Java
+  version: 1.21.1
+  desc: |
+    ——————————————————
+    【现已更新至 1.21.1 版本】
+    进服后，大家一起玩就是一个大家庭啦！(´-ω-`)
+    🌟无需正版账号也能轻松加入🌟
+    服务器硬件配置：
+    物理机配置：i9-13900K 24核32线程，128GB内存，1TB固态硬盘
+    提供实用功能：圈地保护、COI查询、防熊机制等
+    任何问题都可以找管理员，我们会积极解决！
+    服务器IP地址：
+    MC.TNTMC.CC
+    核心玩法：
+    纯净生存、PVP对抗、建筑创作、养老玩法等
+    时装系统、生成电力、红石工程
+    本服禁止使用矿透工具
+    更多特色：
+    无限跑图，超大视距，流畅体验
+    快速加入QQ群925058935，尽享所有精彩内容！
+    ——————————————————
+  link: https://www.bilibili.com/video/BV16KczeKExp/?share_source=copy_web&vd_source=082c0eed257c3edb3a58d3a703319082
+  ip: mc.tntmc.cc
+  is_member: false
+  auth_mode: offline
+
+- name: 天幻岛
+  icon:
+    src: /server_icon/tianhuandao.jpg
+  type: Java
+  version: 1.12.2
+  desc: |
+    ——————————————————
+    【现已更新至 1.21.1 版本】
+    进服后，大家一起玩就是一个大家庭啦！(´-ω-`)
+    🌟无需正版账号也能轻松加入🌟
+    服务器硬件配置：
+    物理机配置：i9-13900K 24核32线程，128GB内存，1TB固态硬盘
+    提供实用功能：圈地保护、COI查询、防熊机制等
+    任何问题都可以找管理员，我们会积极解决！
+    服务器IP地址：
+    MC.TNTMC.CC
+    核心玩法：
+    纯净生存、PVP对抗、建筑创作、养老玩法等
+    时装系统、生成电力、红石工程
+    本服禁止使用矿透工具
+    更多特色：
+    无限跑图，超大视距，流畅体验
+    快速加入QQ群925058935，尽享所有精彩内容！
+    ——————————————————
+  link: https://www.bilibili.com/video/BV16KczeKExp/?share_source=copy_web&vd_source=082c0eed257c3edb3a58d3a703319082
+  ip: mc.tntmc.cc
+  is_member: true
+  auth_mode: offline
