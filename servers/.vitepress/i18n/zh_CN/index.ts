@@ -48,7 +48,6 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
         text: "友情链接",
         items: [
           { text: "MCJPG", link: "https://mcjpg.org/" },
-          { text: "初梦大陆官网", link: "https://11na.cn/" },
           {
             text: "开服文档",
             items: [
