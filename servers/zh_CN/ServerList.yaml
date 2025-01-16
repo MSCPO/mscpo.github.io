@@ -631,20 +631,6 @@
   is_member: true
   auth_mode: offline
 
-- name: 'Hypixel'
-  icon:
-    src: /server_icons/Hypixel.png
-  type: Java
-  version: 1.7.10-1.21
-  desc: |
-    多种原创小游戏 原创地图 原创玩法 尽在Hypixel！
-    我们拥有优秀的反作弊 大量忠实玩家 乐于助人的客服
-    快来进入Hypixel 步入成功之路！
-  link: https://hypixel.net
-  ip: mc.hypixel.net
-  is_member: false
-  auth_mode: official
-
 - name: '红溪花'
   icon:
     src: /logo.webp
