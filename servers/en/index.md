@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: alt
       text: Contact us
-      link: mailto:ushio_noa@mail.ru
+      link: mailto:ushio_noa@disroot.org
     - theme: alt
       text: Join our player community
       link: https://discord.gg/hygPY8Kryv
