@@ -23,7 +23,7 @@
     "@arco-design/web-vue": "^2.56.3",
     "@mdit/plugin-img-size": "^0.14.0",
     "@vueuse/core": "^12.4.0",
-    "alova": "^3.2.7",
+    "alova": "^3.2.8",
     "busuanzi.pure.js": "^1.0.3",
     "fast-glob": "^3.3.3",
     "nanoid": "3.3.8",

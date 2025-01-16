@@ -24,8 +24,8 @@ importers:
         specifier: ^12.4.0
         version: 12.4.0(typescript@4.9.5)
       alova:
-        specifier: ^3.2.7
-        version: 3.2.7
+        specifier: ^3.2.8
+        version: 3.2.8
       busuanzi.pure.js:
         specifier: ^1.0.3
         version: 1.0.3
@@ -1834,8 +1834,8 @@ packages:
     resolution: {integrity: sha512-aYjI4WLamMxbhdJ2QAA99VbDCJOGzMOdT2agh57bi40n86ufkhZSIAf6mkocr7NmtBLtwCnSHvD5NJ+Ky5elWw==}
     engines: {node: '>= 14.0.0'}
 
-  alova@3.2.7:
-    resolution: {integrity: sha512-V0ePERLfCg0/60f/OFbwufG7djA/uzNjSBcxXmnVZAqGIzVXaSWKe44oNE48ZiuNwsWZUfP0pc36wv9XWVQOyA==}
+  alova@3.2.8:
+    resolution: {integrity: sha512-BCNcyBiRxvsAhSWsN65C9DHOX8lv6H7IdK4Aa8GHQOE0sYm/FAsCUJswBGfYUdHwrVrT9LJgiIFfk5LMz3BWyQ==}
     engines: {node: '>= 18.0.0'}
 
   ansi-align@3.0.1:
@@ -5541,7 +5541,7 @@ snapshots:
       '@algolia/requester-fetch': 5.14.2
       '@algolia/requester-node-http': 5.14.2
 
-  alova@3.2.7:
+  alova@3.2.8:
     dependencies:
       '@alova/shared': 1.1.2
       rate-limiter-flexible: 5.0.4
