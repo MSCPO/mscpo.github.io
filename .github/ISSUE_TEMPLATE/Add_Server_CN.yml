@@ -1,6 +1,6 @@
 name: '[CN]添加服务器卡片到主页'
 description: '我们只需要服务器的一些必要信息，注意: 未正确根据提示发送申请可能会被忽略或关闭.'
-title: '[添加服务器]: '
+title: '[添加服务器]: 此处填写服务器名称..'
 labels: ["Submit", "Lang:CN"]
 body:
   - type: markdown
@@ -15,6 +15,15 @@ body:
       label: '服务器名称'
       description: '您的服务器叫什么？'
       placeholder: 'ex. Minecraft服务器'
+    validations:
+      required: true
+
+  - type: input
+    id: ip
+    attributes:
+      label: '服务器地址'
+      description: '您的服务器地址是什么？'
+      placeholder: 'ex. mc.testserver.com:25565'
     validations:
       required: true
 
@@ -41,6 +50,19 @@ body:
       required: true
 
   - type: dropdown
+    id: Language
+    attributes:
+      label: '语言'
+      description: '服务器语言'
+      options:
+        - 'zh_CN'
+        - 'en'
+        - 'ru'
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
     id: auth_mode
     attributes:
       label: '认证方式'
@@ -61,19 +83,6 @@ body:
       options:
         - label: 服务器是否加入了MSCPO组织
           required: false
-
-  - type: dropdown
-    id: Language
-    attributes:
-      label: '语言'
-      description: '服务器语言'
-      options:
-        - 'zh_CN'
-        - 'en'
-        - 'ru'
-      default: 0
-    validations:
-      required: true
 
   - type: textarea
     id: server-version

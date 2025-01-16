@@ -73,4 +73,9 @@ const playlist = [
     author: 'MSCPO',
     file: '/Hygeia(Remix).mp3',
   },
+  {
+    name: 'DJ Got Us Fall In Love',
+    author: 'Usher / Pitbull',
+    file: '/DJ_Got_Us_Fall_In_Love.mp3',
+  }
 ]
