@@ -6,7 +6,9 @@
 
 [ZUY Studio](https://zuyst.top/)为我们提供了一个网站节点
 
-[服务器集体宣传组织(MSCPO)](https://mscpo.zuyst.top) https://mscpo.zuyst.top
+[服务器集体宣传组织(MSCPO)](https://mscpo.zuyst.top) 
+
+https://mscpo.zuyst.top
 
 ## MFT服务器联盟
 
@@ -14,7 +16,11 @@
 
 [MFT服务器联盟](https://mc.mscaome.top/)为我们提供了一个网站节点
 
-[服务器集体宣传组织(MSCPO)](https://mscpo.mscaome.top) https://mscpo.mscaome.top
+[服务器集体宣传组织(MSCPO)](https://mscpo.mscaome.top) 
+
+https://mscpo.netlify.app
+
+https://mscpo.mscaome.top
 
 ## 花枫工作室
 
@@ -22,13 +28,21 @@
 
 [花枫工作室](https://studio.dfggmc.top/)为我们提供了一个网站节点
 
-[服务器集体宣传组织(MSCPO)](https://mscpo.dfggmc.top) https://mscpo.dfggmc.top
+[服务器集体宣传组织(MSCPO)](https://mscpo.top) 
+
+https://mscpo.top
+
+https://mscpo.dfggmc.top
+
+https://mscpo.flmp.xyz
+
+https://mscpo.flmp.studio
 
 ## 贡献者
 
 帮助我们添加服务器的贡献者们
 
-<a href="https://github.com/MSCPO/ServerDocumentation/graphs/contributors">
+<a href="https://github.com/MSCPO/mscpo.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MSCPO/mscpo.github.io" alt="Contributors"/>
 </a>
 
