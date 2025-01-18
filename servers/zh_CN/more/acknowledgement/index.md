@@ -10,6 +10,8 @@
 
 https://mscpo.zuyst.top
 
+https://mscpo.hypergryph.us.kg
+
 ## MFT服务器联盟
 
 ![MFT服务器联盟](/server_icons/MA_CAT.ico)
@@ -37,6 +39,28 @@ https://mscpo.dfggmc.top
 https://mscpo.flmp.xyz
 
 https://mscpo.flmp.studio
+
+## DNPHINTI
+
+![DNPHINTI](/server_icons/PixelMine.jpg)
+
+[DNPHINTI](https://qm.qq.com/q/Rq68hoEyEE)为我们提供了一个MSCPO發布頁
+
+[MSCPO發布頁](https://mscpo.dnphinti.top) 
+
+https://mscpo.dnphinti.top
+
+## Nebula
+
+![Nebula](/server_icons/nebula.png)
+
+[Nebula](https://www.eternalstarmc.com)为我们提供了一个网站节点
+
+[服务器集体宣传组织(MSCPO)](https://mscpo.etstmc.cn) 
+
+https://mscpo.etstmc.cn
+
+https://mscpo.2b2t.run
 
 ## 贡献者
 
