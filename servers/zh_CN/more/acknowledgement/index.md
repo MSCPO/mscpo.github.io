@@ -54,7 +54,7 @@ https://mscpo.dnphinti.top
 
 ![Nebula](/server_icons/nebula.png)
 
-[Nebula](https://www.eternalstarmc.com)为我们提供了一个网站节点
+[Nebula](https://www.eternalstarmc.com)为我们提供了两个域名
 
 [服务器集体宣传组织(MSCPO)](https://mscpo.etstmc.cn) 
 
