@@ -26,7 +26,7 @@ https://mscpo.mscaome.top
 
 ## 花枫工作室
 
-![花枫工作室](/server_icons/DFGG_Logo.webp)
+![花枫工作室](/server_icons/DFGG_Logo.webp "FLMPStudio" =30%x30%)
 
 [花枫工作室](https://studio.dfggmc.top/)为我们提供了一个网站节点
 
@@ -42,7 +42,7 @@ https://mscpo.flmp.studio
 
 ## DNPHINTI
 
-![DNPHINTI](/server_icons/PixelMine.jpg)
+![DNPHINTI](/server_icons/PixelMine.jpg "DNPHINTI" =30%x30%)
 
 [DNPHINTI](https://qm.qq.com/q/Rq68hoEyEE)为我们提供了一个MSCPO發布頁
 
@@ -52,7 +52,7 @@ https://mscpo.dnphinti.top
 
 ## Nebula
 
-![Nebula](/server_icons/nebula.png)
+![Nebula](/server_icons/nebula.png "Nebula" =30%x30%)
 
 [Nebula](https://www.eternalstarmc.com)为我们提供了两个域名
 
