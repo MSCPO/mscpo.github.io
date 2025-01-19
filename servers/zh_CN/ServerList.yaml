@@ -904,3 +904,25 @@
   ip: mc-sc.zxwmr.top
   is_member: true
   auth_mode: offline
+
+- name: '2B2T.LTD'
+  icon:
+    src: /server_icons/2b2tltd.png
+  type: Java
+  version: 1.21
+  desc: |
+    2B2T.LTD原版生存服务器
+    目前版本1.21跟随官方大版本更新
+    地址2B2T.LTD
+    /本服务器无任何规则
+    /在这里你可以做任何你想做的事情
+    /死亡标记
+    /好友传送
+    /强大的反作弊
+    /支持非正版玩家
+    /支持离线玩家使用皮肤
+    交流群850051470
+  link: https://qm.qq.com/q/iOrBFfYiru
+  ip: 2b2t.ltd
+  is_member: true
+  auth_mode: offline
