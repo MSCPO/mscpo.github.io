@@ -870,3 +870,19 @@
   ip: rpg.lobbytech.online
   is_member: false
   auth_mode: offline
+
+- name: '如月倾城'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.21.4
+  desc: |
+    服务器版本:1.21.4 开荒时间:2025.1.17 仅支持这个版本进入此服
+    服务器类型:生存
+    开服至今已八年之久了，每次换挡可保留地皮世界，以便保存玩家们的努力
+    会持续进行更新，慢慢拓展
+    特色:副本 模型 特殊附魔 姿势 基础 地皮等
+  link: https://www.bilibili.com/video/BV18r421s7qF/
+  ip: mc.ruyue2025.top
+  is_member: true
+  auth_mode: offline
