@@ -886,3 +886,20 @@
   ip: mc.ruyue2025.top
   is_member: true
   auth_mode: offline
+
+- name: '紫萱'
+  icon:
+    src: /logo.webp
+  type: Geyser
+  version: 1.7.x-1.20.1
+  desc: |
+    Minecraft 紫萱
+    服务器公益
+    1.7.x-1.20.1，互通服（基岩默认使用最新版）
+    官网：https://server.zxwmr.top
+    mc-sc.zxwmr.top（基岩版使用zx-be.zxwmr.top 端口24552）
+    QQ群：376916718
+  link: https://server.zxwmr.top
+  ip: mc-sc.zxwmr.top
+  is_member: true
+  auth_mode: offline
