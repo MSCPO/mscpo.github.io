@@ -840,3 +840,33 @@
   ip: mc.tntmc.cc
   is_member: true
   auth_mode: offline
+
+- name: 'PotatoZoo'
+  icon:
+    src: /server_icons/potatozoo.png
+  type: Java
+  version: 1.16.5
+  desc: |
+    PotatoZoo是一个开放的Minecraft服务器
+    我们在不修改原版机制的前提下添加了些许新的内容
+  link: https://potatozoo.us.kg
+  ip: potatozoo.2m.pub
+  is_member: true
+  auth_mode: offline
+
+- name: '宇宙边际'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.11.2
+  desc: |
+    一个超多玩法的我的世界RPG服务器
+    各种副本等你来挑战
+    超爽战斗体验，你可以通过模组、技能、装备、首饰等提高自己的战斗力
+    服务器内还有超好玩的小游戏，福利多多
+    你还可以建造自己的商店
+    或者在全球商店交易各种道具！
+  link: https://b23.tv/fd9ELQI
+  ip: rpg.lobbytech.online
+  is_member: false
+  auth_mode: offline
