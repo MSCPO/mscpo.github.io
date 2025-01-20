@@ -27,7 +27,7 @@
     "busuanzi.pure.js": "^1.0.3",
     "fast-glob": "^3.3.3",
     "nanoid": "3.3.8",
-    "pathe": "^2.0.0",
+    "pathe": "^2.0.2",
     "prettier": "^3.4.2",
     "search-insights": "^2.17.3",
     "vite-plugin-compression": "^0.5.1",
