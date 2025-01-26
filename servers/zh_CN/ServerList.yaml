@@ -998,3 +998,14 @@
   link: https://qm.qq.com/q/2PiVTrfWvK
   is_member: false
   auth_mode: yggdrasil
+
+- name: 'Creepix'
+  icon:
+    src: /server_icons/creepix.png
+  type: Java
+  version: 1.12.2-1.18.1
+  desc: |
+    公益生存圈地服，加了一点rpg插件，超级好玩，玩家也很友好，没有熊孩子
+  link: https://www.bilibili.com/video/BV18bFAeDEo5
+  is_member: true
+  auth_mode: offline
