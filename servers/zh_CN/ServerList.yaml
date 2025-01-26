@@ -960,7 +960,7 @@
   is_member: true
   auth_mode: offline
 
-- title: '星光StarShine'
+- name: '星光StarShine'
   icon:
     src: /logo.webp
   type: Geyser
@@ -976,7 +976,7 @@
   is_member: true
   auth_mode: yggdrasil
 
-- title: '随机配方'
+- name: '随机配方'
   icon:
     src: /logo.webp
   type: Java
@@ -988,7 +988,7 @@
   is_member: false
   auth_mode: offline
 
-- title: 'Sparkpixel Server'
+- name: 'Sparkpixel Server'
   icon:
     src: /logo.webp
   type: Java
