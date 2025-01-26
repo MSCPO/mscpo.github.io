@@ -23,7 +23,7 @@ Languages：[English](README_EN.md);中文
 2. 修改 `servers/zh_CN/ServerList.yaml` 添加
 
 ``` yaml
-- title: example
+- name: example
   icon:
     src: /server_icons/example.jpg
   type: Java/Geyser/Bedrock
