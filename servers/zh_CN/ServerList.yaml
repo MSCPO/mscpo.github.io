@@ -959,3 +959,17 @@
   ip: xraymc.top
   is_member: true
   auth_mode: offline
+
+- title: '星光StarShine'
+  type: Geyser
+  version: 1.9.1 - Lastest
+  desc: |
+    互通插件生存服务器
+    死亡不掉落:主世界✓下界✓末地×
+    主城含有一个物品不太全的商店，服务器带传送，领地，商店等插件，目前主玩法为生存，自由探索，后续尝试打算改群组服尝试以添加一些小游戏，进服请加群！
+    官网：www.8bc.top
+    玩家交流群：237099407
+  link: https://www.8bc.top
+  ip: mc.8bc.top:26665
+  is_member: true
+  auth_mode: yggdrasil
