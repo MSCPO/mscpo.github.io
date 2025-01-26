@@ -962,7 +962,7 @@
 
 - name: '星光StarShine'
   icon:
-    src: /logo.webp
+    src: /server_icons/StarShine.png
   type: Geyser
   version: 1.9.1 以上
   desc: |
