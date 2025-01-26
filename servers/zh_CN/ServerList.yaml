@@ -961,8 +961,10 @@
   auth_mode: offline
 
 - title: '星光StarShine'
+  icon:
+    src: /logo.webp
   type: Geyser
-  version: 1.9.1 - Lastest
+  version: 1.9.1 以上
   desc: |
     互通插件生存服务器
     死亡不掉落:主世界✓下界✓末地×
@@ -972,4 +974,27 @@
   link: https://www.8bc.top
   ip: mc.8bc.top:26665
   is_member: true
+  auth_mode: yggdrasil
+
+- title: '随机配方'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.20.1
+  desc: |
+    小服务器，希望来点人一起玩玩，所有合成配方为随机态，原版客户端可进。
+  link: https://pd.qq.com/s/9mboaoc0c?businessType=5
+  ip: play.simpfun.cn:21034
+  is_member: false
+  auth_mode: offline
+
+- title: 'Sparkpixel Server'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: Forge 1.20.1
+  desc: |
+    一个mtr与机械动力并存的创造服务器(正版+外置)
+  link: https://qm.qq.com/q/2PiVTrfWvK
+  is_member: false
   auth_mode: yggdrasil
