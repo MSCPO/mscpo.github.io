@@ -1009,3 +1009,37 @@
   link: https://www.bilibili.com/video/BV18bFAeDEo5
   is_member: true
   auth_mode: offline
+
+- name: '方块树'
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.20.1
+  desc: |
+    你是否因为还没找到一个和谐的服务器而烦恼？你是否因为还没找到一个满意的服务器而痛苦？你是否因为繁琐的开荒而痛苦？
+    那就来方块树！
+    探索无尽的自由生存世界，RPG与魔改粘液的奇妙碰撞，
+    海量原创内容等你来发掘。
+    和谐交友，休闲养老，
+    冒险与福利齐飞！
+    多年经营，稳定可靠，
+    让你畅享真正的开荒乐趣！
+    这不只是游戏，
+    更是一个共同成长的家园！
+    加入我们，开启开启超级海岛之旅！
+  link: https://www.bilibili.com/video/BV1HVfkY3E58
+  ip: mc.playfks.world
+  is_member: false
+  auth_mode: offline
+
+- name: '摸鱼小屋'
+  icon:
+    src: /logo.webp
+  type: Geyser
+  version: 1.19 - 1.21.4
+  desc: |
+    高配置生电生存/RPG/小游戏服，飞行和建材商店对基建很友好。rpg剧情适合喜欢战斗探索的玩家
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=toX73erqhl6hdGGcy2ralxAq7FmnhPJq&authKey=v8adrigBE0SSb6kpDXNGSzmGI2dJREULDhapMMvzFVKrXAXLM%2Bn7PrJq0E1EWLyV&noverify=0&group_code=167693035
+  ip: moyuxiaowu.org:35129
+  is_member: false
+  auth_mode: offline
