@@ -42,7 +42,8 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
     },
 
     nav: [
-      { text: "成员服", link: "/" },
+      { text: "首页", link: "/" },
+      { text: "找服玩", link: "/ServerClassification/" },
       { text: "添加服务器", link: "/AddServers/" },
       {
         text: "友情链接",
