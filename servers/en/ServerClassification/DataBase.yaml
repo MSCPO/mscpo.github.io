@@ -9,18 +9,15 @@
   items:
     - title: OPCraft
       icon: /server_icons/DFGG_Logo.webp
-      desc: A server where everyone without rules has administrator rights
       link: https://op.dfggmc.top/
 
 - title: Creative server
   items:
     - title: FLMP Server
       icon: /server_icons/DFGG_Logo.webp
-      desc: Minecraft: Java version 1.21 creative architecture-based server
       link: https://dfggmc.top/
     - title: OPCraft
       icon: /server_icons/DFGG_Logo.webp
-      desc: A server where everyone without rules has administrator rights
       link: https://op.dfggmc.top/
 
 - title: PvP server
@@ -39,5 +36,4 @@
   items:
     - title: OPCraft
       icon: /server_icons/DFGG_Logo.webp
-      desc: A server where everyone without rules has administrator rights
       link: https://op.dfggmc.top/
