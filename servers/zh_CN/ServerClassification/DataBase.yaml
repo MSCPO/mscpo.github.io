@@ -23,53 +23,10 @@
       icon: /server_icons/PixelMine.jpg
       desc: 欢迎来到 PixelMine！我们致力于打造一个公平、公正的游戏环境。混合模组端、丰富插件与多样化模组，为你带来沉浸式游戏体验。搭载完善的反作弊系统，守护每一位热爱游戏的玩家。加入我们，一起享受乐趣，维护秩序，共创精彩世界！
       link: https://qm.qq.com/q/Rq68hoEyEE
-    - title: Yangixel
-      icon: /server_icons/yangixel.png
-      desc: 做为一个mc服务器我们集成了多元素开放式的游玩方式在这个服务器中你很自由可以随心所欲的创造也可以与朋友来上一次激情的PVP这正是我们想要看到的希望yangixel可以为您带来好的游玩体验
-      link: https://yangixel.cn/
-    - title: 红溪花
-      icon: /logo.webp
-      desc: 这是一个温馨和谐的服务器，提供了稳定流畅的体验，自从2024开服以来我们努力创建一个环境良好更公平公正的游戏氛围，希望与更多的玩家们一起度过了愉快的时光,在这里的日子将会是你值得回忆的美好。我们保证不做影响平衡、破坏公平的行为。服务器暂时处于一周目开荒阶段，欢迎玩家提出意见或者举报违规行为，请大家自觉遵守游戏规则。
-      link: https://www.redbf.top/
-    - title: PepperCraft
-      icon: /logo.webp
-      desc: 一个“基于原版，忠于原版”，尝试将PVP、生存、生电等玩家融合的原版生存服务器。
-      link: https://bili2233.cn/1cEPwN1
-    - title: 我的世界FOX服务器联盟
-      icon: /server_icons/foxserver.png
-      desc: 一个热爱创新来自于MC的服务器联盟集群
-      link: https://www.mc.sccc.top/
     - title: ArchiveCraft
       icon: /logo.webp
       desc: 这是一个以碧蓝档案为主题，总力战为主要玩法，有剧情的mod服务器.想在mc打总力战？您来对地方了// 其实总力战还在做啊咕咕
       link: https://acms.us.kg
-    - title: SyServer
-      icon: /server_icons/sy.png
-      desc: 服务器官方QQ群群号：250904271服务器开创于2024-08-20服务器官网：www.SyServer.asia或www.SyServer.us.kg主世界和下界有死亡不掉落，末地没有死亡不掉落Discord：https://discord.gg/6A5GvGWr-------------------SyServer (Java版)：IP：syserver.asia备用IP：syserver.us.kg版本：1.20.1（最佳进入版本）或更高的版本服务器工单系统：https://www.wjx.cn/vm/OKKoqmg.aspx#
-      link: https://www.SyServer.asia/
-    - title: 天幻岛
-      icon: /server_icon/tianhuandao.jpg
-      desc: 进服后，大家一起玩就是一个大家庭啦！(´-ω-`)
-      link: https://www.bilibili.com/video/BV16KczeKExp/
-    - title: PotatoZoo
-      icon: /server_icons/potatozoo.png
-      desc: PotatoZoo是一个开放的Minecraft服务器,我们在不修改原版机制的前提下添加了些许新的内容
-      link: https://potatozoo.us.kg
-    - title: 如月倾城
-      icon: /logo.webp
-      desc: 服务器版本:1.21.4 开荒时间:2025.1.17 仅支持这个版本进入此服
-      link: https://www.bilibili.com/video/BV18r421s7qF/
-    - title: 紫萱
-      icon: /logo.webp
-      desc: Minecraft紫萱服务器公益1.7.x-1.20.1，互通服（基岩默认使用最新版）官网：https://server.zxwmr.topmc-sc.zxwmr.top（基岩版使用zx-be.zxwmr.top端口24552）QQ群：376916718商务合作或反馈请直接发送邮件至xiaohuo_6@qq.com
-      link: https://server.zxwmr.top
-    - title: 2B2T.LTD
-      icon: /server_icons/2b2tltd.png
-      link: https://qm.qq.com/q/iOrBFfYiru
-    - title: XRayMC
-      icon: /server_icons/xraymc.jpg
-      desc: XRayMC群组服务器致力于为玩家提供一个充满创意与挑战的世界。我们使用指令+插件的方式构建服务器框架，有建筑专区、跑酷、指令测试等子服务器和玩法还有许多彩蛋等待发掘，欢迎各位玩家加入我们的大家庭=)
-      link: https://qm.qq.com/q/lA6CQJTTiM
     - title: 星光StarShine
       icon: /server_icons/StarShine.png
       desc: 互通插件生存服务器
@@ -78,10 +35,6 @@
       icon: /server_icons/DFGG_Logo.webp
       desc: 无规则全员OP不回档服务器
       link: https://op.dfggmc.top/
-    - title: Mondra
-      icon: /logo.webp
-      desc: 这是一个无规则服务器，且你拥有op权限。因此你可以在服务器中干任何你想干的事。
-      link: https://qm.qq.com/q/XJDFzvJEMm
 
 - title: 创造型服务器
   items:
@@ -93,10 +46,6 @@
       icon: '/server_icons/DFGG_Logo.webp'
       desc: 无规则全员OP不回档服务器
       link: 'https://op.dfggmc.top/'
-    - title: Mondra
-      icon: '/logo.webp'
-      desc: 这是一个无规则服务器，且你拥有op权限。因此你可以在服务器中干任何你想干的事。
-      link: 'https://qm.qq.com/q/XJDFzvJEMm'
 
 - title: PvP服务器
   items:
@@ -104,20 +53,6 @@
       icon: /server_icons/EternalStar.webp
       desc: 群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）EternalStar旨在给玩家更好的游戏体验，即使我们曾经遇到过无数困难，但我们没有就此离去，在开始时我们甚至无法保证服务器正常连接，但现在我们已经拥有了强大的网络供应和顶流的服务器EternalStar欢迎您！愿美丽的繁星永远照耀着你
       link: https://eternalstarmc.com:442/
-    - title: Yangixel
-      icon: /server_icons/yangixel.png
-      desc: 做为一个mc服务器我们集成了多元素开放式的游玩方式 在这个服务器中你很自由可以随心所欲的创造也可以与朋友来上一次激情的PVP这正是我们想要看到的希望yangixel可以为您带来好的游玩体验
-      link: https://yangixel.cn/
-    - title: PepperCraft
-      icon: /logo.webp
-      desc: 一个“基于原版，忠于原版”，尝试将PVP、生存、生电等玩家融合的原版生存服务器。
-      link: https://bili2233.cn/1cEPwN1
-    - title: 永恒世界
-      icon: /logo.webp
-      link: https://yhsjmc.nqfactory.club/
-    - title: 天幻岛
-      icon: /server_icon/tianhuandao.jpg
-      link: https://www.bilibili.com/video/BV16KczeKExp/
 
 - title: 小游戏服务器
   items:
