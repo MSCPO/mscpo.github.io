@@ -1044,7 +1044,7 @@
   is_member: false
   auth_mode: offline
 
-  - name: '凌天高质量无规则互通服务器'
+- name: 凌天高质量无规则互通服务器
   icon:
     src: /server_icons/lty.jpg
   type: Bedrock
