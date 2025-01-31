@@ -31,7 +31,7 @@ desc: |
     玩家可以自由选择建设地点
     适合喜欢从零开始的玩家
 ip: 60.215.128.117:39413
-is_member: true
+is_member: false
 auth_mode: offline
 hide: false
 ---
