@@ -144,5 +144,9 @@ Minecraft集体宣传组织(MSCPO) 花枫工作室代表: [花枫工作室]团�
 :::
 
 ::: timeline 2025-01-19
-[Minecraft集体宣传组织第三期宣传片](https://share.hntv.tv/news/1/1880894353087758337) [Minecraft集体宣传组织第四期宣传片](https://share.hntv.tv/news/1/1880900096635514882) 发布
+[Minecraft集体宣传组织第三期宣传片](https://share.hntv.tv/news/1/1880894353087758337) [Minecraft集体宣传组织第四期宣传片](https://share.hntv.tv/news/1/1880900096635514882) [Minecraft集体宣传组织第五期宣传片](https://share.hntv.tv/news/1/1880937265025073153) [Minecraft集体宣传组织第六期宣传片](https://www.bilibili.com/video/BV1s1w6eHER8/?share_source=copy_web&vd_source=45b02ca892951a6b76fc1a8df3a071ba) 发布
+:::
+
+::: timeline 2025-01-22
+[Minecraft集体宣传组织第七期宣传片](https://www.bilibili.com/video/BV14vfbYUEoC/?share_source=copy_web&vd_source=45b02ca892951a6b76fc1a8df3a071ba) 发布
 :::
