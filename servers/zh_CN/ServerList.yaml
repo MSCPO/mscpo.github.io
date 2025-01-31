@@ -1043,3 +1043,14 @@
   ip: moyuxiaowu.org:35129
   is_member: false
   auth_mode: offline
+
+  - name: 凌天高质量无规则互通服务器
+  icon:
+    src: /server_icons/lty.jpg
+  type: Bedrock
+  version: 1.21.4
+  desc: 无规则高质量生存服，【无神犬】【高质量】【基岩版】
+  ip: 2b2t.bil.pw:20387
+  link: 
+  is_member: true
+  auth_mode: offline
