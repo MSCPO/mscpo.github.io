@@ -28,7 +28,7 @@
     共产猫服，地毯端生电，基于原版创新，引领先进生产力。明灯·Alethea 为小型群组服，主打沉浸式生存，特色玩法如趣味生电与粘液科技（测试）。自由未来(Minecraft Free Future)为城建类创造服，尚在发展阶段，无白名单限制。
   link: https://mc.mscaome.top/
   ip: aomemsc.giize.com
-  is_member: false
+  is_member: true
   auth_mode: offline
 
 - name: ZUYCraft服务器
@@ -583,7 +583,7 @@
   desc: | 
     疯狂网←的实践地
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JytRbqy92zBe02FgCbqenxEr0yEgJUj1&authKey=z6mQH13JfqUpODVeR%2FjSzW9yqxGbP790IpP4WIV1OfTDCKfZAgfjQ9UYuTYn6%2FKE&noverify=0&group_code=1005199022
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: 'SNR无规则服务器'
@@ -675,7 +675,7 @@
     欢迎来到NCloudNetwork，一起创造和探险！
   link: https://qm.qq.com/q/TN6hntPmcE
   ip: ncn.nitrodev.asia
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: 'PepperCraft'
@@ -687,7 +687,7 @@
     一个“基于原版，忠于原版”，尝试将PVP、生存、生电等玩家融合的原版生存服务器。
   link: https://bili2233.cn/1cEPwN1
   ip: je.pcraft.eu.org
-  is_member: true
+  is_member: false
   auth_mode: official
 
 - name: '我的世界FOX服务器联盟'
@@ -699,19 +699,8 @@
     一个热爱创新来自于MC的服务器联盟集群
   link: https://www.mc.sccc.top/
   ip: mc.sccc.top
-  is_member: true
+  is_member: false
   auth_mode: offline
-
-- name: '维和服区'
-  icon:
-    src: /logo.webp
-  type: Geyser
-  version: 1.0
-  desc: |
-    维和服区”，英文为“peace-keeping The server joint organization”，简称PKSJO.致力于搭建服务器与玩家之间的桥梁，是拥有近300位成员，20+网易/国际认证服务器的组织。群号：961931878
-  link: https://qm.qq.com/q/SCaLylTGsS
-  is_member: true
-  auth_mode: official
 
 - name: 'ArchiveCraft'
   icon:
@@ -737,7 +726,7 @@
     Nothing is impossible,
     Just you want to do.
   link: https://qm.qq.com/q/XJDFzvJEMm
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: 永恒世界
@@ -758,7 +747,7 @@
     快来加入永恒世界大家庭愉快的玩耍吧在这里不仅可以体验到科技魔法的快感还会不定时举办各种小游戏运动会如PVP 射箭 跑酷 等等
   link: https://yhsjmc.nqfactory.club/
   ip: mc8.rhymc.com:45009
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: SyServer
@@ -780,7 +769,7 @@
     服务器工单系统：https://www.wjx.cn/vm/OKKoqmg.aspx#
   link: https://www.SyServer.asia/
   ip: syserver.asia
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: TNTMC
@@ -838,7 +827,7 @@
     ——————————————————
   link: https://www.bilibili.com/video/BV16KczeKExp/?share_source=copy_web&vd_source=082c0eed257c3edb3a58d3a703319082
   ip: mc.tntmc.cc
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: 'PotatoZoo'
@@ -851,7 +840,7 @@
     我们在不修改原版机制的前提下添加了些许新的内容
   link: https://potatozoo.us.kg
   ip: potatozoo.2m.pub
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: '宇宙边际'
@@ -884,7 +873,7 @@
     特色:副本 模型 特殊附魔 姿势 基础 地皮等
   link: https://www.bilibili.com/video/BV18r421s7qF/
   ip: mc.ruyue2025.top
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: '紫萱'
@@ -902,7 +891,7 @@
     商务合作或反馈请直接发送邮件至xiaohuo_6@qq.com
   link: https://server.zxwmr.top
   ip: mc-sc.zxwmr.top
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: '2B2T.LTD'
@@ -924,7 +913,7 @@
     交流群850051470
   link: https://qm.qq.com/q/iOrBFfYiru
   ip: 2b2t.ltd
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: '雪花小镇'
@@ -945,7 +934,7 @@
     欢迎加入雪花小镇，服务器长期开放，永不关服。
     服务器已经累计开服一年，在这里，可能你会觉得无法融入了，开荒很久了，但是服务器采用跨服数据互通的方式为了容纳更多的玩家，将生存区和资源区分开处理，资源区不定期更新，并且都带有战利品箱子mod，此mod会让野外生成的战利品每个人都能开出道具来，互相独立不影响，并且配备有独立庄园系统，一个50X50大小的独特世界，无人打扰，并且还有一个独立的创造服大区，此区域虽不和其他区域互通，但是能随便体验各种mod的内容，生存区适合建立家园。
   link: https://qm.qq.com/q/PfHGXzmoCe
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: 'XRayMC'
@@ -957,7 +946,7 @@
     XRayMC 群组服务器致力于为玩家提供一个充满创意与挑战的世界。我们使用指令+插件的方式构建服务器框架，有建筑专区、跑酷、指令测试 等子服务器和玩法还有许多彩蛋等待发掘，欢迎各位玩家加入我们的大家庭=)
   link: https://qm.qq.com/q/lA6CQJTTiM
   ip: xraymc.top
-  is_member: true
+  is_member: false
   auth_mode: offline
 
 - name: '星光StarShine'
@@ -1052,5 +1041,5 @@
   desc: 无规则高质量生存服，【无神犬】【高质量】【基岩版】
   ip: 2b2t.bil.pw:20387
   link: https://qm.qq.com/q/EWg2O8Cxe8
-  is_member: true
+  is_member: false
   auth_mode: offline
