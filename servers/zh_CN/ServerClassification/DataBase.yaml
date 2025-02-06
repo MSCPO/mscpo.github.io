@@ -1,0 +1,69 @@
+###########################
+##      MSCPO Website      ##
+##Classification DataBase  ##
+##     Format: Yaml        ##
+##    Language: zh_CN      ##
+###########################
+
+- title: 生存型服务器
+  items:
+    - title: MFT服务器联盟（互通）
+      icon: https://mc.mscaome.top/images/favicon.ico
+      desc: 共产猫服，地毯端生电，基于原版创新，引领先进生产力。明灯·Alethea 为小型群组服，主打沉浸式生存，特色玩法如趣味生电与粘液科技（测试）。自由未来(Minecraft Free Future)为城建类创造服，尚在发展阶段，无白名单限制。
+      link: https://mc.mscaome.top/
+    - title: ZUYCraft服务器（基岩）
+      icon: /server_icons/ZUYMC.webp
+      desc: 这是一个基岩版的生存建筑服务器！轻触屏幕，心中的梦想在虚拟的土地上逐渐成形；在这片建筑天地里，和我们一起：筑梦于虚拟
+      link: https://mc.zuyst.top
+    - title: EternalStar（Java）
+      icon: /server_icons/EternalStar.webp
+      desc: 群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）EternalStar旨在给玩家更好的游戏体验，即使我们曾经遇到过无数困难，但我们没有就此离去，在开始时我们甚至无法保证服务器正常连接，但现在我们已经拥有了强大的网络供应和顶流的服务器EternalStar欢迎您！愿美丽的繁星永远照耀着你
+      link: https://eternalstarmc.com:442/
+    - title: PixelMine
+      icon: /server_icons/PixelMine.jpg
+      desc: 欢迎来到 PixelMine！我们致力于打造一个公平、公正的游戏环境。混合模组端、丰富插件与多样化模组，为你带来沉浸式游戏体验。搭载完善的反作弊系统，守护每一位热爱游戏的玩家。加入我们，一起享受乐趣，维护秩序，共创精彩世界！
+      link: https://qm.qq.com/q/Rq68hoEyEE
+    - title: ArchiveCraft
+      icon: /logo.webp
+      desc: 这是一个以碧蓝档案为主题，总力战为主要玩法，有剧情的mod服务器.想在mc打总力战？您来对地方了// 其实总力战还在做啊咕咕
+      link: https://acms.us.kg
+    - title: 星光StarShine
+      icon: /server_icons/StarShine.png
+      desc: 互通插件生存服务器
+      link: https://www.8bc.top
+    - title: OPCraft
+      icon: /server_icons/DFGG_Logo.webp
+      desc: 无规则全员OP不回档服务器
+      link: https://op.dfggmc.top/
+
+- title: 创造型服务器
+  items:
+    - title: 花枫服务器
+      icon: '/server_icons/DFGG_Logo.webp'
+      desc: 1.21创造建筑服务器
+      link: 'https://dfggmc.top/'
+    - title: OPCraft
+      icon: '/server_icons/DFGG_Logo.webp'
+      desc: 无规则全员OP不回档服务器
+      link: 'https://op.dfggmc.top/'
+
+- title: PvP服务器
+  items:
+    - title: EternalStar
+      icon: /server_icons/EternalStar.webp
+      desc: 群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）EternalStar旨在给玩家更好的游戏体验，即使我们曾经遇到过无数困难，但我们没有就此离去，在开始时我们甚至无法保证服务器正常连接，但现在我们已经拥有了强大的网络供应和顶流的服务器EternalStar欢迎您！愿美丽的繁星永远照耀着你
+      link: https://eternalstarmc.com:442/
+
+- title: 小游戏服务器
+  items:
+    - title: EternalStar
+      icon: '/server_icons/EternalStar.webp'
+      desc: 群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）EternalStar旨在给玩家更好的游戏体验，即使我们曾经遇到过无数困难，但我们没有就此离去，在开始时我们甚至无法保证服务器正常连接，但现在我们已经拥有了强大的网络供应和顶流的服务器EternalStar欢迎您！愿美丽的繁星永远照耀着你
+      link: 'https://eternalstarmc.com:442/'
+
+- title: 其他服务器
+  items:
+    - title: OPCraft
+      icon: '/server_icons/DFGG_Logo.webp'
+      desc: 无规则全员OP不回档服务器
+      link: 'https://op.dfggmc.top/'

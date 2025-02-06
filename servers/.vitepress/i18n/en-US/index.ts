@@ -16,6 +16,7 @@ export const en = defineConfigWithTheme<VuetomThemeConfig>({
     siteTitle: 'MSCPO',
     nav: [
       { text: "Members' Servers", link: "/en/" },
+      { text: "Server Classification", link: "/en/ServerClassification/" },
       { text: "Add a Server", link: "/en/AddServers/" },
       {
         text: "More",
@@ -28,7 +29,7 @@ export const en = defineConfigWithTheme<VuetomThemeConfig>({
     ],
     footer: {
       message: 'Minecraft Server Collective Promotion Organization',
-      copyright: '- Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a> -<br>Site visits: <span id="busuanzi_value_site_pv"></span> | Unique visitors: <span id="busuanzi_value_site_uv"></span>'
+      copyright: '- Copyright © 2024-present <a href="http://mscpo.top/">MSCPO</a> -<br>Site visits: <span id="busuanzi_value_site_pv"></span> | Unique visitors: <span id="busuanzi_value_site_uv"></span>'
     },
     lastUpdatedText: "Last updated",
     search: {

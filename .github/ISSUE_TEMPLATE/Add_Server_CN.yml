@@ -78,7 +78,7 @@ body:
   - type: checkboxes
     id: is_member
     attributes:
-      label: 服务器是否加入了MSCPO组织
+      label: 服务器是否加入了MSCPO组织（需在服务器群聊或宣传网页中注明MSCPO,具有明确的指向MSCPO的链接）
       description: 服务器是否加入了MSCPO组织，如果是MSCPO的成员，服务器卡片将添加“认证服务器”标签
       options:
         - label: 服务器是否加入了MSCPO组织

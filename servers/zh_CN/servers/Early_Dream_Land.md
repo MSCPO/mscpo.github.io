@@ -10,7 +10,7 @@ desc: |
     采用自搭建皮肤站结合Yggdrasil API，实现便捷注册登录、自定义皮肤与披风。
 # link: https://qm.qq.com/q/KibwzxV2cE 这个东西对于自建页面来说不需要！！！
 ip: mc.11na.cn
-is_member: true
+is_member: false
 auth_mode: yggdrasil
 hide: false
 ---
