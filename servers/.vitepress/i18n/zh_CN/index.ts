@@ -50,6 +50,7 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
         items: [
           { text: "MCJPG", link: "https://mcjpg.org/" },
           { text: "MC导航网", link: "https://www.mcicp.com/nav/" },
+          { text: "和谐论坛", link: "https://bbs.hxit.top/" },
           {
             text: "开服文档",
             items: [
