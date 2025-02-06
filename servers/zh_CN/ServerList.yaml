@@ -16,6 +16,10 @@
 #   ip: aomemsc.giize.com # (可选)这是服务器的IP地址，添加后可以将服务器状态显示在服务器卡片上
 #   is_member: false # (可选)服务器是否加入了MSCPO组织
 #   auth_mode: offline # (可选)这是服务器的认证方式，可选offline(离线服务器)，yggdrasil(外置登录)，official(正版服务器)
+#   tags:
+#     - 生电 # (可选)这是服务器的标签，按照 Yaml 数组语法填写
+#     - 创造
+#     - 猫娘 # ?!
 
 - name: MFT服务器联盟
   icon:
@@ -23,13 +27,20 @@
   type: Geyser
   version: 1.20.1
   desc: |
-    版本：Java | 1.20.4(明灯生存)
+    版本：Java | 1.20.1(共产猫服)
     版本：Java | 1.20.1(自由未来)
     共产猫服，地毯端生电，基于原版创新，引领先进生产力。明灯·Alethea 为小型群组服，主打沉浸式生存，特色玩法如趣味生电与粘液科技（测试）。自由未来(Minecraft Free Future)为城建类创造服，尚在发展阶段，无白名单限制。
   link: https://mc.mscaome.top/
   ip: aomemsc.giize.com
   is_member: false
   auth_mode: offline
+  tags: 
+    - 生电
+    - 创造
+    - 生电
+    - 创造
+    - 生电
+    - 创造
 
 - name: ZUYCraft服务器
   icon:

@@ -14,17 +14,19 @@ import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import vitepressMusic from 'vitepress-plugin-music'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
-import NavList from './components/Nav/NavList.vue'
-import ServerList from './components/ServerCard/ServerList.vue'
+import ServerList from 'vitepress-theme-mscpo/dist/doc/components/ServerCard/ServerList.vue'
+import NavList from 'vitepress-theme-mscpo/dist/doc/components/Nav/NavList.vue'
+import ServerPage from './components/ServerPage/ServerPage.vue'
 
 if (inBrowser)
-  import('./components/hooks/pwa')
+  import('vitepress-theme-mscpo/dist/doc/components/hooks/pwa')
 
 export default {
   ...VuetomTheme,
   enhanceApp({ app, router }) {
     // Register the global component
     app.component('NavList', NavList)
+    app.component('ServerPage', ServerPage)
     app.component('ServerList', ServerList)
     app.use(ArcoVue)
     app.use(ArcoVueIcon)

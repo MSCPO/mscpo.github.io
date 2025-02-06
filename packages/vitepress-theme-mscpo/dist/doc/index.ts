@@ -4,6 +4,7 @@ import vitepressTheme from 'vitepress/theme';
 import '../styles/index.scss';
 import '../styles/rewrite/index.scss';
 import VTLayout from './components/VTLayout.vue';
+import ServerList from './components/ServerCard/ServerList.vue'
 const DocsTheme = {
     ...vitepressTheme,
     Layout: VTLayout,

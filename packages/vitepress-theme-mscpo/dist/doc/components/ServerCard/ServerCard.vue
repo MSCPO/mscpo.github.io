@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue'
+import { marked } from 'marked'
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
 import { ref, computed, watch } from "vue"
@@ -51,6 +52,7 @@ const serverinfo = defineProps<{
   ip?: string
   is_member?: boolean
   auth_mode?: 'official' | 'yggdrasil' | 'offline'
+  tags?: Array<string>
   status: Promise<StatusResponse>
 }>()
 
@@ -72,6 +74,9 @@ const i18nlang = computed(() => {
           yggdrasil_desc: "外置登录要求玩家使用第三方正版验证服务器，使用第三方账户进行登录，具有正版的游玩体验。",
           offline: "离线服",
           offline_desc: "离线服务器无正版验证，允许玩家直接加入服务器。"
+        },
+        tags: {
+          click: "筛选标签："
         }
       }
     case 'en':
@@ -90,6 +95,9 @@ const i18nlang = computed(() => {
           yggdrasil_desc: "External login requires players to use a third-party legitimate verification server, log in with a third-party account, and have a genuine gaming experience.",
           offline: "Offline",
           offline_desc: "Offline servers do not have genuine authentication, allowing players to directly join the server."
+        },
+        tags: {
+          click: "筛选标签：" // 待翻译
         }
       }
     case 'ru':
@@ -108,6 +116,9 @@ const i18nlang = computed(() => {
           yggdrasil_desc: "Внешний вход требует, чтобы игрок использовал сторонний аутентификационный сервер, использовал сторонний аккаунт для входа в систему и имел оригинальный игровой опыт.",
           offline: "Оффлайн",
           offline_desc: "Оффлайн - сервер не имеет аутентификации, что позволяет игрокам напрямую присоединяться к серверу."
+        },
+        tags: {
+          click: "筛选标签：" // 待翻译
         }
       }
     default:
@@ -126,6 +137,9 @@ const i18nlang = computed(() => {
           yggdrasil_desc: "External login requires players to use a third-party legitimate verification server, log in with a third-party account, and have a genuine gaming experience.",
           offline: "Offline",
           offline_desc: "Offline servers do not have genuine authentication, allowing players to directly join the server."
+        },
+        tags: {
+          click: "筛选标签：" // 待翻译
         }
       }
   }
@@ -175,17 +189,19 @@ const openUrl = (url: string | undefined) => {
     <article class="box" :class="[serverinfo.type]" @click="playSound">
       <div class="box-header" :title="serverinfo.name">
         <div v-if="typeof serverinfo.icon === 'object' && serverinfo.icon.wrap" class="icon">
-          <VPImage class="icon" :image="serverinfo.icon" :alt="serverinfo.icon.alt" :height="serverinfo.icon.height || 48"
-            :width="serverinfo.icon.width || 48" style="margin: 0;max-height: 48px;max-width: 48px;" />
+          <VPImage class="icon" :image="serverinfo.icon" :alt="serverinfo.icon.alt"
+            :height="serverinfo.icon.height || 48" :width="serverinfo.icon.width || 48"
+            style="margin: 0;max-height: 48px;max-width: 48px;" />
         </div>
-        <VPImage v-else-if="typeof serverinfo.icon === 'object'" class="icon" :image="serverinfo.icon" :alt="serverinfo.icon.alt"
-          :height="serverinfo.icon.height || 48" :width="serverinfo.icon.width || 48"
+        <VPImage v-else-if="typeof serverinfo.icon === 'object'" class="icon" :image="serverinfo.icon"
+          :alt="serverinfo.icon.alt" :height="serverinfo.icon.height || 48" :width="serverinfo.icon.width || 48"
           style="margin: 0; margin-right: 0.5rem;max-height: 48px;max-width: 48px;" />
         <div v-else-if="serverinfo.icon" class="icon" v-html="serverinfo.icon"></div>
         <div class="info-container">
           <h4 class="ServerName" v-text="serverinfo.name" />
-          <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="serverinfo.ip" class="ServerVersion"
-              :style="{ 'color': status_color }" v-html="status_text" v-show="server_status()"></a></a>
+          <a class="ServerVersion">{{ serverinfo.type }} {{ serverinfo.version }} <a v-if="serverinfo.ip"
+              class="ServerVersion" :style="{ 'color': status_color }" v-html="status_text"
+              v-show="server_status()"></a></a>
           <a-tooltip>
             <template #content>
               <p v-text="i18nlang.copied_click" />
@@ -222,10 +238,13 @@ const openUrl = (url: string | undefined) => {
             <a-tooltip v-if="serverinfo.auth_mode == 'yggdrasil'" :content="i18nlang.auth_mode.yggdrasil_desc">
               <a-tag color="blue" v-text="i18nlang.auth_mode.yggdrasil"></a-tag>
             </a-tooltip>
+            <a-tooltip v-for="tag in serverinfo.tags" v-if="serverinfo.tags" :content="i18nlang.tags.click + tag" @click.stop="copy(serverinfo.ip)">
+              <a-tag> {{ tag }}</a-tag>
+            </a-tooltip>
           </a-space>
-          <p v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>') : ''"></p>
+          <div v-html="marked(serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>') : '')"></div>
         </template>
-        <p class="desc" v-html="serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>') : ''"></p>
+        <div class="desc" v-html="marked(serverinfo.desc ? serverinfo.desc.replace(/\n/g, '<br>') : '')"></div>
       </a-tooltip>
       <a-space wrap>
         <a-tooltip v-if="serverinfo.is_member" :content="i18nlang.is_member_desc">
@@ -244,6 +263,9 @@ const openUrl = (url: string | undefined) => {
         </a-tooltip>
         <a-tooltip v-if="serverinfo.auth_mode == 'yggdrasil'" :content="i18nlang.auth_mode.yggdrasil_desc">
           <a-tag color="blue" v-text="i18nlang.auth_mode.yggdrasil"></a-tag>
+        </a-tooltip>
+        <a-tooltip v-for="tag in serverinfo.tags" v-if="serverinfo.tags" :content="i18nlang.tags.click + tag" @click.stop="copy(serverinfo.ip)">
+          <a-tag> {{ tag }}</a-tag>
         </a-tooltip>
       </a-space>
     </article>
@@ -300,13 +322,12 @@ const openUrl = (url: string | undefined) => {
 
     .desc {
       display: -webkit-box;
-      -webkit-line-clamp: 5;
+      line-clamp: 5;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
       flex-grow: 1;
       margin: calc(var(--m-nav-box-gap) - 2px) 0 0;
-      line-height: 1.5;
       font-size: 12px;
       color: white;
     }

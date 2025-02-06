@@ -4,20 +4,20 @@
   "description": "A Vitepress Theme",
   "type": "module",
   "packageManager": "pnpm@7.9.0",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "main": "./dist/index.ts",
+  "module": "./dist/index.ts",
   "private":"true",
   "types": "./types/index.d.ts",
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.ts"
     },
     "./dist/*": "./dist/*",
     "./package.json": "./package.json",
     "./docs": {
       "types": "./docs.d.ts",
-      "default": "./dist/doc/index.js"
+      "default": "./dist/doc/index.ts"
     }
   },
   "scripts": {

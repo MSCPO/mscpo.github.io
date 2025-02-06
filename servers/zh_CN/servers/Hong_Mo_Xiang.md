@@ -1,4 +1,5 @@
 ---
+layout: ServerPage
 name: 红魔乡
 icon:
   src: /logo.webp

@@ -29,6 +29,7 @@ interface ServerInfo {
     ip?: string
     is_member?: boolean
     auth_mode?: 'official' | 'yggdrasil' | 'offline'
+    tags?: Array<string>
     hide?: boolean
 }
 
@@ -53,7 +54,7 @@ export default createContentLoader("*/servers/*.md", {
                 return null
             }
 
-            const { name, type, desc, icon, link, linkText, version, ip, is_member, auth_mode, hide } = frontmatter
+            const { name, type, desc, icon, link, linkText, version, ip, is_member, auth_mode, tags, hide } = frontmatter
 
             if (hide === true) {
                 console.log(now, `[SCS:INFO] Server hidden: ${url}`);
@@ -82,6 +83,7 @@ export default createContentLoader("*/servers/*.md", {
                     version,
                     is_member,
                     auth_mode,
+                    tags,
                 },
             } as Server
         }).filter((server): server is Server => server !== null)

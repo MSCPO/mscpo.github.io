@@ -41,6 +41,7 @@ type Server = {
   ip?: string
   is_member?: boolean
   auth_mode?: 'official' | 'yggdrasil' | 'offline'
+  tags?: Array<string>
 }
 
 type Servers = Server[]
@@ -274,7 +275,7 @@ async function checkStatus(ip: string): Promise<StatusResponse> {
           <template #default="{ item }">
             <div class="item">
               <ServerCard :icon="item.icon" :name="item.name" :desc="item.desc" :type="item.type" :link="item.link"
-                :version="item.version" :ip="item.ip" :is_member="item.is_member" :auth_mode="item.auth_mode"
+                :version="item.version" :ip="item.ip" :is_member="item.is_member" :auth_mode="item.auth_mode" :tags="item.tags"
                 :status="checkStatus(item.ip)" />
             </div>
           </template>
