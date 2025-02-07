@@ -1054,3 +1054,14 @@
   link: https://qm.qq.com/q/EWg2O8Cxe8
   is_member: false
   auth_mode: offline
+
+- name: 柳昏花暝
+  icon:
+    src: /server_icons/柳昏花暝.png
+  type: Geyser
+  version: 1.21
+  desc: 生存群，禁止恶意破坏或攻击其他玩家
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=rBoeiqrZLieLZXaRHhHj0gOK30UC8JOe&authKey=K26ndnXovRdkCrJp8J2LhiO4GjXyJkRtQaR3c%2Bl%2FaMyUSZ1U2v0cAZxf0EsTF7ih&noverify=0&group_code=1022546158
+  ip: play.simpfun.cn:21332
+  is_member: true
+  auth_mode: offline
