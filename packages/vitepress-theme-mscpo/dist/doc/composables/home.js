@@ -96,6 +96,7 @@ export function useHeroMove() {
         .VPHomeHero .text,
         .VPHomeHero .tagline,
         .VPHomeHero .VPButton,
+        .VPHome .VPHeroLogo,
         .VPHome .VPHomeFeatures
       `)
             .forEach((h) => {
