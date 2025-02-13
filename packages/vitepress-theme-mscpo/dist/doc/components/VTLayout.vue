@@ -51,7 +51,7 @@ const localeMap = {
 };
 
 const arcoLocale = computed(() => {
-  return localeMap[localeIndex.value] || enUS; // 默认返回 zhCN
+  return localeMap[localeIndex.value] || enUS
 });
 
 const pageBgEnable = theme.value.pageBgEnable || true

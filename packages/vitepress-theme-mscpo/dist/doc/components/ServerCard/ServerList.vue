@@ -299,7 +299,7 @@ interface StatusResponse {
 async function checkStatus(ip: string): Promise<StatusResponse> {
   if (ip != null) {
     try {
-      const response = await alova.Get<StatusResponse>(`https://mcstat.mcskin.cn/api/status/${ip}`, {
+      const response = await alova.Get<StatusResponse>(`https://v2.mscpo.giize.com/?ip=${ip}`, {
         shareRequest: true
       })
       if (response.online) {
