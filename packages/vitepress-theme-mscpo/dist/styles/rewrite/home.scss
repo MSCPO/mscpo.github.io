@@ -30,16 +30,19 @@
     .container {
       .main {
         text-align: center;
-
-        .name {
-          color: transparent;
-          background: linear-gradient(to right, #32defd, rgb(247 69 152));
-          max-width: 100%;
-          -webkit-background-clip: text;
-
-          &:hover {
-            -webkit-animation: Glow 1.5s ease infinite alternate;
-            animation: Glow 1.5s ease infinite alternate;
+        .heading {
+          flex-direction: row;
+          justify-content: center;
+          .name {
+            color: transparent;
+            background: linear-gradient(to right, #32defd, rgb(247 69 152));
+            max-width: 100%;
+            -webkit-background-clip: text;
+  
+            &:hover {
+              -webkit-animation: Glow 1.5s ease infinite alternate;
+              animation: Glow 1.5s ease infinite alternate;
+            }
           }
         }
 

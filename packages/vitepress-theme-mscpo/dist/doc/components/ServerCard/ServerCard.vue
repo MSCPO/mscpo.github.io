@@ -245,7 +245,7 @@ const tagClick = (tag: string) => {
             <a-tooltip v-if="serverinfo.auth_mode == 'yggdrasil'" :content="i18nlang.auth_mode.yggdrasil_desc">
               <a-tag color="blue" v-text="i18nlang.auth_mode.yggdrasil"></a-tag>
             </a-tooltip>
-            <a-tooltip v-for="tag in serverinfo.tags" v-if="serverinfo.tags" :content="i18nlang.tags.click + tag" @click.stop="copy(serverinfo.ip)">
+            <a-tooltip v-for="tag in serverinfo.tags" v-if="serverinfo.tags" :content="i18nlang.tags.click + tag" @click.stop="tagClick(tag)">
               <a-tag> {{ tag }}</a-tag>
             </a-tooltip>
           </a-space>
@@ -290,13 +290,8 @@ const tagClick = (tag: string) => {
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: var(--m-nav-box-gap);
     height: 100%;
     color: var(--vp-c-text-1);
-
-    &.has-badge {
-      padding-top: calc(var(--m-nav-box-gap) + 2px);
-    }
 
     &-header {
       display: flex;
@@ -334,7 +329,6 @@ const tagClick = (tag: string) => {
       overflow: hidden;
       text-overflow: ellipsis;
       flex-grow: 1;
-      margin: calc(var(--m-nav-box-gap) - 2px) 0 0;
       font-size: 12px;
       color: white;
     }

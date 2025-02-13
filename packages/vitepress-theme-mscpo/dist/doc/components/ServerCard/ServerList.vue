@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import GridList, { RequestFunc } from './ServerItem.vue'
 import ServerCard from './ServerCard.vue'
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { useData } from 'vitepress'
 import SoundFiles from 'vitepress/dist/client/theme-default/sounds/button.mp3'
 import { createAlova } from 'alova';
@@ -13,6 +13,8 @@ import { data } from '../hooks/servers.data'
 const { localeIndex } = useData()
 const currentLang = localeIndex.value === 'root' ? 'zh_CN' : localeIndex.value;
 const Page_Server_Data = data.filter((server) => server.lang === currentLang);
+
+const audio = new Audio(SoundFiles)
 
 type Server = {
   icon?:
@@ -59,6 +61,35 @@ const combinedServers = [
   ...props.servers,
 ];
 
+const filterStatus = ref("")
+
+const allTags = combinedServers.flatMap(server => server.tags).filter(tag => tag !== null && tag !== undefined);
+const uniqueTags = Array.from(new Set(allTags));
+const uniqueTagsData = uniqueTags.map(tag => ({
+  value: tag,
+  label: tag
+}))
+
+let SelectedTags = ref<string[]>([]);
+
+const tag = (context: string) => {
+  SelectedTags.value = [context]
+  refreshServers()
+}
+
+let displayfilter = ref(false)
+
+const displayfilterswitch = () => {
+  audio.play()
+  displayfilter.value = !displayfilter.value
+}
+
+const filterbutton = () => {
+  audio.play()
+  refreshServers()
+  displayfilter.value = false
+}
+
 // Fisher–Yates shuffle
 const shuffledServers = (): Server[] => {
   const serversCopy = [...combinedServers];
@@ -72,19 +103,38 @@ const shuffledServers = (): Server[] => {
 const gridKey = ref(0)
 const searchQuery = ref('')
 
+const StrictTag = ref(false)
+
+const filterclickbutton = () => {
+  audio.play()
+  servertype.value = ""
+  SelectedTags.value = []
+  StrictTag.value = false
+}
+
 // Fetch servers function for pagination and filtering
 const fetchServers: RequestFunc<Server> = async ({ page, limit }) => {
   const start = (page - 1) * limit
   const end = start + limit
 
   const filteredServers = shuffledServers().filter(server => {
-    const matchesType = selectedValue.value ? server.type === selectedValue.value : true;
+    const serverTags = server.tags ?? [];
+    const serverTagsResult = () => {
+      if (StrictTag.value) {
+        return SelectedTags.value.every(tag => serverTags.includes(tag));
+      } else {
+        return SelectedTags.value.some(tag => serverTags.includes(tag));
+      }
+    }
+    const matchesType = servertype.value ? server.type === servertype.value : true;
     const matchesSearch =
       server.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
       (server.desc && server.desc.toLowerCase().includes(searchQuery.value.toLowerCase()));
     const matchesMember = is_member_option.value ? server.is_member === true : true;
+    const matchesTag = SelectedTags.value.length === 0 ||
+      serverTagsResult();
 
-    return matchesType && matchesSearch && matchesMember;
+    return matchesType && matchesSearch && matchesMember && matchesTag;
   });
 
   const paginatedServers = filteredServers.slice(start, end)
@@ -95,45 +145,67 @@ const fetchServers: RequestFunc<Server> = async ({ page, limit }) => {
   }
 }
 
-const refreshServers = () => {
+const refreshServers = async () => {
   gridKey.value++
-  const audio = new Audio(SoundFiles)
   audio.play()
 }
 
+watch(
+  () => displayfilter.value,
+  () => {
+    if (displayfilter.value) {
+      filterStatus.value = "success"
+    } else {
+      if (JSON.stringify(SelectedTags.value) != '[]' || servertype.value != "") {
+        filterStatus.value = "success"
+      } else {
+        filterStatus.value = ""
+      }
+    }
+  },
+  { deep: true }
+)
+
+// Language Part
 const i18nlang = computed(() => {
   switch (localeIndex.value) {
     case 'root':
       return {
-        empty: "暂无服务器数据",
+        empty: "QAQ~ 暂无服务器数据",
         loading: "加载中...",
-        noMore: "没有更多服务器",
+        noMore: "QAQ~ 没有更多服务器",
         search: {
           placeholder: "搜索服务器...",
           button: "检索并刷新"
         },
-        select: {
+        filter: {
           placeholder: "平台",
+          tags: "标签",
           options: {
             Java: 'Java',
             Bedrock: '基岩',
             Geyser: '互通',
             Netease: '网易',
           },
+          StrictTag: '严格模式',
+          TagSelectTitle: ['待选标签', '已选标签'],
+          filter: '筛选',
+          filterclean: '清除',
           width: 80
         },
         is_member: "只看成员服"
       }
     case 'en':
       return {
-        empty: "No server data",
+        empty: "QAQ~ No server data",
         loading: "Loading...",
-        noMore: "No more servers",
+        noMore: "QAQ~ No more servers",
         search: {
           placeholder: "Search servers...",
           button: "Search"
         },
-        select: {
+        filter: {
+          tags: "Tags",
           placeholder: "Type",
           options: {
             Java: 'Java',
@@ -141,20 +213,25 @@ const i18nlang = computed(() => {
             Geyser: 'Geyser',
             Netease: 'Netease',
           },
+          StrictTag: 'Strict Mode',
+          TagSelectTitle: ['No label selected', 'Selected tags'],
+          filter: 'Filter',
+          filterclean: 'Clean',
           width: 130
         },
         is_member: "Member server"
       }
     case 'ru':
       return {
-        empty: "Нет данных о серверах",
+        empty: "QAQ~ Нет данных о серверах",
         loading: "Загрузка...",
-        noMore: "Нет новых серверов",
+        noMore: "QAQ~ Нет новых серверов",
         search: {
           placeholder: "Поисковый сервер...",
           button: "Поиск"
         },
-        select: {
+        filter: {
+          tags: "Tags", // 待翻译 Not translated!
           placeholder: "Тип",
           options: {
             Java: 'Java',
@@ -162,20 +239,25 @@ const i18nlang = computed(() => {
             Geyser: 'Geyser',
             Netease: 'Netease',
           },
+          StrictTag: 'Strict Mode', // 待翻译 Not translated!
+          TagSelectTitle: ['No label selected', 'Selected tags'], // 待翻译 Not translated!
+          filter: 'Filter', // 待翻译 Not translated!
+          filterclean: 'Clean', // 待翻译 Not translated!
           width: 130
         },
         is_member: "Смотреть только одежду"
       }
     default:
       return {
-        empty: "No server data",
+        empty: "QAQ~ No server data",
         loading: "Loading...",
-        noMore: "No more servers",
+        noMore: "QAQ~ No more servers",
         search: {
           placeholder: "Search servers...",
           button: "Search"
         },
-        select: {
+        filter: {
+          tags: "Tags",
           placeholder: "Type",
           options: {
             Java: 'Java',
@@ -183,6 +265,10 @@ const i18nlang = computed(() => {
             Geyser: 'Geyser',
             Netease: 'Netease',
           },
+          StrictTag: 'Strict Mode',
+          TagSelectTitle: ['No label selected', 'Selected tags'],
+          filter: 'Filter',
+          filterclean: 'Clean',
           width: 130
         },
         is_member: "Member server"
@@ -190,28 +276,9 @@ const i18nlang = computed(() => {
   }
 });
 
-const options = ref([
-  {
-    label: i18nlang.value.select.options.Java,
-    value: 'Java'
-  },
-  {
-    label: i18nlang.value.select.options.Bedrock,
-    value: 'Bedrock'
-  },
-  {
-    label: i18nlang.value.select.options.Geyser,
-    value: 'Geyser'
-  },
-  {
-    label: i18nlang.value.select.options.Netease,
-    value: 'Netease'
-  }
-])
-const selectedValue = ref('')
+const servertype = ref('')
 
 const is_member_option = ref(false);
-
 
 const alova = createAlova({
   requestAdapter: adapterFetch(),
@@ -246,20 +313,17 @@ async function checkStatus(ip: string): Promise<StatusResponse> {
   }
   return { online: false }
 }
-
-let tagText = ref("")
-
-const tag = (context) => {
-  tagText.value = context
-}
 </script>
 
 <template>
   <div class="container VPHomeFeatures">
-    <div class="select-option">
+    <div class="search">
       <a-input-group>
-        <a-select :options="options" v-model="selectedValue" :label="i18nlang.select.placeholder" @change="refreshServers"
-          :style="{ width: '90px' }" :placeholder="i18nlang.select.placeholder" allow-clear />
+        <a-button type="primary" :status="filterStatus" @click="displayfilterswitch">
+          <template #icon>
+            <icon-filter />
+          </template>
+        </a-button>
         <a-input-search @search="refreshServers" :style="{ width: '80%' }" v-model="searchQuery"
           :placeholder="i18nlang.search.placeholder" search-button>
           <template #button-icon>
@@ -272,17 +336,35 @@ const tag = (context) => {
       </a-input-group>
       <a-checkbox v-model="is_member_option" @change="refreshServers"><span style="color: white"
           v-text="i18nlang.is_member"></span></a-checkbox>
+      <div v-if="displayfilter" class="search-filters">
+        {{ i18nlang.filter.placeholder }}:
+        <a-radio-group type="button" v-model="servertype" @change="audio.play()">
+          <a-radio value="Java">{{ i18nlang.filter.options.Java }}</a-radio>
+          <a-radio value="Geyser">{{ i18nlang.filter.options.Geyser }}</a-radio>
+          <a-radio value="Bedrock">{{ i18nlang.filter.options.Bedrock }}</a-radio>
+          <a-radio value="Netease">{{ i18nlang.filter.options.Netease }}</a-radio>
+        </a-radio-group>
+        <br>
+        {{ i18nlang.filter.tags }}:
+        <a-checkbox v-model="StrictTag" @change="audio.play()"><span v-text="i18nlang.filter.StrictTag"></span></a-checkbox>
+        <a-transfer :data="uniqueTagsData" v-model="SelectedTags" :style="{ 'max-width': '360px', width: '100%' }" simple
+          :title="i18nlang.filter.TagSelectTitle" @change="audio.play()" show-search />
+        <br>
+        <div style="float: right; display: flex; gap: 5px;">
+          <a-button @click="filterclickbutton" v-text="i18nlang.filter.filterclean"></a-button>
+          <a-button type="primary" @click="filterbutton" v-text="i18nlang.filter.filter"></a-button>
+        </div>
+      </div>
     </div>
     <br>
     <div class="server-cards">
       <ClientOnly>
-        <GridList :key="gridKey" :request="fetchServers" :column-gap="20" :row-gap="20" :limit="100"
-          class="items">
+        <GridList :key="gridKey" :request="fetchServers" :column-gap="20" :row-gap="20" :limit="100" class="items">
           <template #default="{ item }">
             <div class="item">
               <ServerCard :icon="item.icon" :name="item.name" :desc="item.desc" :type="item.type" :link="item.link"
-                :version="item.version" :ip="item.ip" :is_member="item.is_member" :auth_mode="item.auth_mode" :tags="item.tags"
-                :status="checkStatus(item.ip)" @tag-click="tag" />
+                :version="item.version" :ip="item.ip" :is_member="item.is_member" :auth_mode="item.auth_mode"
+                :tags="item.tags" :status="checkStatus(item.ip)" @tag-click="tag" />
             </div>
           </template>
           <template #empty>
@@ -308,12 +390,24 @@ const tag = (context) => {
 
   .server-cards {
     height: 100vh;
-  }
+  };
 
-  ;
-
-  .select-option {
+  .search {
+    margin: -8px;
     background: linear-gradient(to right, rgba(149, 255, 11, 0.188), rgba(223, 7, 108, 0.164));
+
+    .search-filters {
+      z-index: 1;
+      max-width: 360px;
+      background-color: var(--vp-nav-bg-color);
+      position: absolute;
+      border-radius: 2px;
+      padding: 0.5rem;
+
+      @media screen and (max-width: 400px) {
+        width: 100%;
+      }
+    }
   }
 }
 

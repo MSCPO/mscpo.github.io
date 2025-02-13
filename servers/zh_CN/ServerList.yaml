@@ -34,11 +34,7 @@
   ip: aomemsc.giize.com
   is_member: true
   auth_mode: offline
-  tags: 
-    - 生电
-    - 创造
-    - 生电
-    - 创造
+  tags:
     - 生电
     - 创造
 
@@ -51,6 +47,8 @@
   link: https://mc.zuyst.top
   is_member: true
   auth_mode: official
+  tags:
+    - 生存
 
 - name: CHLcraft 1.21纯净生存服
   icon:
@@ -61,6 +59,11 @@
   link: https://qm.qq.com/q/MYyW731OUu
   is_member: false
   auth_mode: offline
+  tags:
+    - 摸鱼养老
+    - 建筑
+    - 社交
+    - 生存
 
 - name: AncientBC
   icon:
@@ -71,6 +74,11 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=r4Iu4wC53j0UUxxa5ANc0qIu_hYtk4vn&authKey=FSsA4Kh4BHqJlH8MzKieRS%2Fv4cp3rJHDF5sp1mSpALYVctxdP5IBCQpDEz1ZwHSD&noverify=0&group_code=681032398
   is_member: false
   auth_mode: official
+  tags:
+    - 生电
+    - 摸鱼养老
+    - 建筑
+    - 友好
 
 - name: 福渊大陆
   icon:
@@ -81,6 +89,9 @@
   link: https://fhy1234.framer.media/FuWorld
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 纯净
 
 - name: LZDCraft
   icon:
@@ -91,6 +102,9 @@
   link: https://www.lzdcraft.top/
   is_member: false
   auth_mode: offline
+  tags:
+    - 纯净
+    - 生存
 
 - name: 江南社会主义人民共和国 服务器
   icon:
@@ -101,6 +115,8 @@
   link: https://qm.qq.com/q/SunGAv7AMs
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
 - name: 新浪潮服务器（未来 2098）
   icon:
@@ -111,6 +127,9 @@
   link: https://qm.qq.com/q/6uychCQhZ6
   is_member: false
   auth_mode: offline
+  tags:
+    - 城建
+    - 创造
 
 - name: MCODW 服务器
   icon:
@@ -121,6 +140,9 @@
   link: https://mcyouxi.asia/
   is_member: false
   auth_mode: offline
+  tags:
+    - 生电
+    - 粘液科技
 
 - name: EternalStar (永恒星)
   icon:
@@ -136,6 +158,10 @@
   ip: eternalstarmc.com
   is_member: true
   auth_mode: offline
+  tags:
+    - 纯净
+    - 小游戏
+    - 角色扮演
 
 - name: HappyDog
   icon:
@@ -146,6 +172,8 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XMDbSMq5gMVGTESYHiBOQB80SoYJA7U4&authKey=qRhuSkFIxpfQc9CYs4MnfidRNI2cOcrT1HqoJbVV7%2BujhsywsYPx8Kv0NzuCitxd&noverify=0&group_code=192088919
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
 - name: DustServer（尘埃聚落）
   icon:
@@ -156,6 +184,8 @@
   link: http://smalldust.流萤.love/
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
 - name: 2b2t.run
   icon:
@@ -170,6 +200,10 @@
   ip: 2b2t.run
   is_member: true
   auth_mode: offline
+  tags:
+    - 无规则
+    - 生存
+    - 类2B2T
 
 - name: MCIC
   icon:
@@ -180,6 +214,8 @@
   link: https://qm.qq.com/q/6DsL9DkN3O
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
 - name: EMP-Tfir(薪火重燃)
   icon:
@@ -194,6 +230,9 @@
   link: https://www.empmc.cn
   is_member: false
   auth_mode: offline
+  tags:
+    - 摸鱼养老
+    - 生存
 
 - name: 星梦缘
   icon:
@@ -206,6 +245,10 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RvnIElsqnnLFumZna--bcq2_heD_tL_b&authKey=7ukvB881FlPlB6%2FkPR8QL%2BihosPQy%2Fk5B4HsEGHekkmZ7sDPOgj6qFkI8Hl6MALH&noverify=0&group_code=925356827
   is_member: false
   auth_mode: offline
+  tags:
+    - 摸鱼养老
+    - 生存
+    - 红石
 
 - name: Pixelverse 像素宇宙
   icon:
@@ -216,6 +259,10 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TECOnBn_yGy7C6NW6wxcFgCrUyd6fLLk&authKey=MWFWALPTlQ%2FQylWzDy6GOiSfLyGMu7lVhM%2BBhgXei3IAI96x6lHaNOVa3vUu%2BOBn&noverify=0&group_code=931753287
   is_member: false
   auth_mode: offline
+  tags:
+    - 角色扮演
+    - 摸鱼养老
+    - 生存
 
 - name: 清凉一夏
   icon:
@@ -226,6 +273,8 @@
   link: https://qm.qq.com/q/rPOJ7UH8uk
   is_member: false
   auth_mode: offline
+  tags:
+    - 宝可梦
 
 - name: 沫之生存
   icon:
@@ -236,6 +285,11 @@
   link: https://www.bilibili.com/video/BV1vw4m1a7cZ
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 摸鱼养老
+    - 群组
+    - 模组Mod
 
 - name: 青琉淩光联合服务器
   icon:
@@ -246,6 +300,11 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ignijPtlWjH2oE17VE5gb2TN9m8lFDdL&authKey=RvbJDW7%2BXKMOH8CZnlz4VPoHdJYJ6OFwUY34v84XUqJqWLzq2hN2LMBwiCsZRv%2F4&noverify=0&group_code=577706597
   is_member: false
   auth_mode: offline
+  tags:
+    - 群组
+    - 生存
+    - 建筑
+    - 城建
 
 - name: MCSC服务器联合体
   icon:
@@ -256,6 +315,8 @@
   link: https://qm.qq.com/q/x9dqg3CZ5o
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
 - name: Badboys Network
   icon:
@@ -266,6 +327,9 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RmJf0KFZTkzdAwuzoxnuhz198qCwa7Xk&authKey=ILEmRIZnwstZrZVU%2FIDj%2F7habPR1C%2BQ6BtESsAJ76RRK%2FFNQPzjvWv0QYZzv6jJs&noverify=0&group_code=373311963
   is_member: false
   auth_mode: offline
+  tags:
+    - 群组
+    - 小游戏
 
 - name: 花枫服务器
   icon:
@@ -277,6 +341,9 @@
   ip: play.flmp.studio
   is_member: true
   auth_mode: offline
+  tags:
+    - 纯净
+    - 生存
 
 - name: 斯卡林特联邦共和国
   icon:
@@ -292,6 +359,9 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Rp1OKxxY1RVGfa4t7Vxz1VNsCI5EJ50_&authKey=P%2BzUEKkB929PsH5sLzCDRvN6a25azkJ%2B2%2Fv8RG9NCpa8ZZ7ntmiCWQsA32HVzh5X&noverify=0&group_code=786517417
   is_member: false
   auth_mode: offline
+  tags:
+    - 城建
+    - 角色扮演
 
 - name: mcdogserver
   icon:
@@ -302,6 +372,8 @@
   link: https://www.mcdogserver.top/
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
 - name: tycat
   icon:
@@ -314,6 +386,9 @@
   link: https://qm.qq.com/q/QLRQms1xKy
   is_member: false
   auth_mode: offline
+  tags:
+    - 纯净
+    - 生存
 
 - name: 星梦桃源
   icon:
@@ -324,6 +399,11 @@
   link: https://xingmengtaoyuan.zeabur.app/
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 生电
+    - 红石
+    - 建筑
 
 - name: 极承魔域RPG
   icon:
@@ -337,8 +417,11 @@
   link: http://mc7.cloudcatc.com:1102/
   is_member: false
   auth_mode: offline
+  tags:
+    - 空岛
+    - 角色扮演
 
-- name: '[铸币柳]树怪的铁道服务器'
+- name: "[铸币柳]树怪的铁道服务器"
   icon:
     src: /server_icons/树怪的铁道.webp
   type: Java
@@ -347,8 +430,11 @@
   link: https://qm.qq.com/q/IlLpUBApG0
   is_member: false
   auth_mode: offline
+  tags:
+    - 机械动力
+    - 模组Mod
 
-- name: '云边咖啡馆'
+- name: "云边咖啡馆"
   icon:
     src: /server_icons/云边咖啡馆.webp
   type: Java
@@ -359,8 +445,11 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CpJiYEnLGnyBpia8YbABuJac0JD_86NO&authKey=3D22Wvj7EWN6gj%2FUViNInlQWLA2otMF9Q%2FnhNclBMOS6m5PJ1nmaHoYX35VxWNGV&noverify=0&group_code=674547299
   is_member: false
   auth_mode: offline
+  tags:
+    - 摸鱼养老
+    - 生存
 
-- name: 'U-EPTM.'
+- name: "U-EPTM."
   icon:
     src: /logo2.webp
   type: Java
@@ -369,8 +458,12 @@
   link: https://mc.u-eptm.us.kg/
   is_member: false
   auth_mode: offline
+  tags:
+    - 无规则
+    - 类2B2T
+    - 生存
 
-- name: 'TACS/茶水晶服务器'
+- name: "TACS/茶水晶服务器"
   icon:
     src: /server_icons/tacserver.webp
   type: Java
@@ -381,8 +474,12 @@
   link: https://www.tacserver.top
   is_member: false
   auth_mode: offline
+  tags:
+    - 摸鱼养老
+    - 生电
+    - 建筑
 
-- name: 'MTRpixel'
+- name: "MTRpixel"
   icon:
     src: https://img.picui.cn/free/2024/08/30/66d11033a9db9.png
   type: Java
@@ -394,10 +491,13 @@
   link: https://www.bilibili.com/video/BV126s5euEtd?t=80.7
   is_member: false
   auth_mode: offline
+  tags:
+    - 模组Mod
+    - 城建
 
-- name: '冰原宝可梦服务器'
+- name: "冰原宝可梦服务器"
   icon:
-    src: '/server_icons/冰原宝可梦.webp'
+    src: "/server_icons/冰原宝可梦.webp"
   type: Java
   version: 1.12.2
   desc: |
@@ -409,8 +509,10 @@
   link: https://qm.qq.com/q/n67PqqaBLU
   is_member: false
   auth_mode: offline
+  tags:
+    - 宝可梦
 
-- name: 'MrFat服务器'
+- name: "MrFat服务器"
   icon:
     src: https://www.mrfat.us/img/favicon.png
   type: Geyser
@@ -421,10 +523,12 @@
   link: https://www.mrfat.us/
   is_member: false
   auth_mode: offline
+  tags:
+    - 宅文化
 
-- name: '信仰天域'
+- name: "信仰天域"
   icon:
-    src: '/server_icons/信仰天域.webp'
+    src: "/server_icons/信仰天域.webp"
   type: Geyser
   version: 1.20.1
   desc: |
@@ -432,10 +536,15 @@
   link: https://qm.qq.com/q/DeqGT9L692
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 灾变
+    - 农夫乐事
+    - 怀旧向
 
-- name: '猫娘乐园'
+- name: "猫娘乐园"
   icon:
-    src: '/server_icons/猫娘乐园.webp'
+    src: "/server_icons/猫娘乐园.webp"
   type: Java
   version: 1.12.x
   desc: |
@@ -445,8 +554,12 @@
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JpckQwkEOoRU-YQUniZCoxVdwZNS_QrG&authKey=WsAoDeU6fmEgHEszYMiAwCliTS2RaTOt%2FOBuLthlE98Pw4a0WLtOrVvX%2F7XuoJKc&noverify=0&group_code=261483972
   is_member: false
   auth_mode: official
+  tags:
+    - 生存
+    - 工业
+    - 林业
 
-- name: '方块宝可梦'
+- name: "方块宝可梦"
   icon:
     src: /logo.webp
   type: Java
@@ -460,8 +573,10 @@
   link: https://qm.qq.com/q/ZFcs1HVcye
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
-- name: '一个养老服务器'
+- name: "一个养老服务器"
   icon:
     src: /logo.webp
   type: Java
@@ -477,8 +592,11 @@
   link: https://pan.baidu.com/s/1OIFTuNsOScRIIlDPIQgzZA
   is_member: false
   auth_mode: offline
+  tags:
+    - 摸鱼养老
+    - 原版
 
-- name: 'M3inPE0.14'
+- name: "M3inPE0.14"
   icon:
     src: /logo.webp
   type: Bedrock
@@ -491,8 +609,11 @@
   link: http://154.12.36.160/
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 怀旧向
 
-- name: 'Lucky clover幸运的四叶草🍀'
+- name: "Lucky clover幸运的四叶草🍀"
   icon:
     src: /server_icons/Lucky_clover.webp
   type: Bedrock
@@ -503,8 +624,10 @@
   link: https://pro.luckyclover.us.kg
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
-- name: 'WTFXXJ'
+- name: "WTFXXJ"
   icon:
     src: /server_icons/WTFXXJ.webp
   type: Java
@@ -516,122 +639,154 @@
   link: https://www.wtfxxj.top/
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
-- name: 'RBS'
+- name: "RBS"
   icon:
     src: /logo.webp
   type: Geyser
   version: 1.21.1
-  desc: | 
+  desc: |
     RBS 差不多就是Redstone building server的简写。
     一个生电服务器。很小，人数上限5，人爆了需要排队。
     目前人数较少（都开学了呀）。我们是互通，但Java优先，我们的互通更新也较慢。
   link: https://qm.qq.com/q/ry88nCQDrU
   is_member: false
   auth_mode: offline
+  tags:
+    - 生电
 
-- name: '自由无政府JE服务器'
+- name: "自由无政府JE服务器"
   icon:
     src: /server_icons/自由无政府JE服务器.webp
   type: Java
   version: 1.21
-  desc: | 
+  desc: |
     这是一个无政府服务器，没有特殊情况24小时在线，这里虽然是无政府生存服务器，但是很安全（反作弊做的肯定到位），离线/正版均可，最大15人。
   link: https://qm.qq.com/q/7vuLWVUCQM
   is_member: false
   auth_mode: offline
+  tags:
+    - 无规则
+    - 生存
 
-- name: 'minecraft synthesize survive(MSS)'
+- name: "minecraft synthesize survive(MSS)"
   icon:
     src: /server_icons/minecraft_synthesize_survive.webp
   type: Geyser
   version: 1.21.1
-  desc: | 
+  desc: |
     paper插件互通服务器，内已添加粘液科技、连锁挖矿、等价交换，船新未开荒
   link: https://qm.qq.com/q/zROUGLpQxa
   is_member: false
   auth_mode: offline
+  tags:
+    - 粘液科技
+    - 连锁挖矿
+    - 等价交换
 
-- name: 'Lie-downCraft'
+- name: "Lie-downCraft"
   icon:
     src: /server_icons/Lie-downCraft.webp
   type: Java
   version: 1.20.1
-  desc: | 
+  desc: |
     一个原版服务器，主要研究生存红石电路和建筑，为在现代化快节奏社会中忙碌的人提供一个休息自己灵魂，放松自己的地方 这是一个自由的，开放的，包容的原版Minecraft生存服务器，在这里你可以尽情创造，与大家一起建造超级工程，研究红石机器，又或者和基友搞基，在Minecraft的世界中尽情探险。
   link: http://homea350ti.top:3000/
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 红石
+    - 建筑
 
-- name: 'OASIS绿洲起源'
+- name: "OASIS绿洲起源"
   icon:
     src: /server_icons/oasis.png
   type: Java
   version: 1.20.4
-  desc: | 
+  desc: |
     原版可生电，难度较大，怪物加强，限制生产力保持趣味性的服务器
   link: https://www.mczfw.cn/server/2474.html
   is_member: false
   auth_mode: offline
+  tags:
+    - 生电
+    - 高难度
 
-- name: 'OPCraft'
+- name: "OPCraft"
   icon:
     src: /server_icons/DFGG_Logo.webp
   type: Java
   version: 1.7-1.21
-  desc: | 
+  desc: |
     无规则全员OP不回档服务器
   link: https://op.dfggmc.top/
   ip: play.flmp.studio:20255
   is_member: true
   auth_mode: offline
+  tags:
+    - 全员OP
+    - 不回档
 
-- name: '瑞典人民共和国'
+- name: "瑞典人民共和国"
   icon:
     src: /server_icons/rdrmghg.jpg
   type: Java
   version: 1.18.2
-  desc: | 
+  desc: |
     疯狂网←的实践地
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JytRbqy92zBe02FgCbqenxEr0yEgJUj1&authKey=z6mQH13JfqUpODVeR%2FjSzW9yqxGbP790IpP4WIV1OfTDCKfZAgfjQ9UYuTYn6%2FKE&noverify=0&group_code=1005199022
   is_member: false
   auth_mode: offline
+  tags:
+    - 角色扮演
 
-- name: 'SNR无规则服务器'
+- name: "SNR无规则服务器"
   icon:
     src: /logo.webp
   type: Java
   version: 1.20.1
-  desc: | 
+  desc: |
     SNR是一个没有规则没有秩序的服务器，在这里玩家可以做任何想做的事情，并且不禁用坚持与努力，在这个混乱的服务器生存下去，你可以建造基地建立组织（虽然现在服务器才刚开，一点也不混乱），本服为免费服务器，正版离线玩家均可加入，非常原汁原味只有账号和皮肤插件 服务器版本： 1.20.4（目前只支持这一个版本，以后会更新） 一些实用指令： 注册/reg 输入密码 再次输入密码 登录/l 输入密码 更改皮肤/skin 正版玩家id
   link: https://qm.qq.com/q/2YQEUoWZIA
   is_member: false
   auth_mode: offline
+  tags:
+    - 无规则
+    - 生存
 
-- name: 'PixelMine'
+- name: "PixelMine"
   icon:
     src: /server_icons/PixelMine.jpg
   type: Java
   version: 1.20.1
   ip: play.dnphinti.top
-  desc: | 
+  desc: |
     欢迎来到 PixelMine！我们致力于打造一个公平、公正的游戏环境。混合模组端、丰富插件与多样化模组，为你带来沉浸式游戏体验。搭载完善的反作弊系统，守护每一位热爱游戏的玩家。加入我们，一起享受乐趣，维护秩序，共创精彩世界！
   link: https://qm.qq.com/q/Rq68hoEyEE
   is_member: true
   auth_mode: offline
+  tags:
+    - 模组Mod
+    - 生存
 
-- name: '樱花宝可梦'
+- name: "樱花宝可梦"
   icon:
     src: /server_icons/sakura-poke.png
   type: Java
   version: 1.20.2
-  desc: | 
+  desc: |
     樱花宝可梦 开放世界 自由冒险世界 Q群号1090409628
   link: https://qm.qq.com/q/aXtGejlOaA
   is_member: false
   auth_mode: offline
+  tags:
+    - 宝可梦
+    - 开放世界
 
-- name: 'Yangixel'
+- name: "Yangixel"
   icon:
     src: /server_icons/yangixel.png
   type: Java
@@ -642,8 +797,11 @@
   ip: play.yangixel.cn
   is_member: true
   auth_mode: offline
+  tags:
+    - 生存
+    - PVP
 
-- name: '红溪花'
+- name: "红溪花"
   icon:
     src: /logo.webp
   type: Java
@@ -653,8 +811,11 @@
   link: https://www.redbf.top/
   is_member: true
   auth_mode: offline
+  tags:
+    - 生存
+    - 摸鱼养老
 
-- name: 'Starry Isles空岛生存'
+- name: "Starry Isles空岛生存"
   icon:
     src: /logo.webp
   type: Bedrock
@@ -667,8 +828,11 @@
   link: http://www.starry-isles.run.place/
   is_member: false
   auth_mode: official
+  tags:
+    - 空岛
+    - 生存
 
-- name: 'NCloudNetwork'
+- name: "NCloudNetwork"
   icon:
     src: /logo.webp
   type: Java
@@ -688,8 +852,12 @@
   ip: ncn.nitrodev.asia
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 创造
+    - 小游戏
 
-- name: 'PepperCraft'
+- name: "PepperCraft"
   icon:
     src: /logo.webp
   type: Java
@@ -700,8 +868,12 @@
   ip: je.pcraft.eu.org
   is_member: false
   auth_mode: official
+  tags:
+    - 纯净
+    - 生存
+    - 生电
 
-- name: '我的世界FOX服务器联盟'
+- name: "我的世界FOX服务器联盟"
   icon:
     src: /server_icons/foxserver.png
   type: Java
@@ -712,8 +884,10 @@
   ip: mc.sccc.top
   is_member: false
   auth_mode: offline
+  tags:
+    - 群组
 
-- name: 'ArchiveCraft'
+- name: "ArchiveCraft"
   icon:
     src: /logo.webp
   type: Java
@@ -726,8 +900,10 @@
   ip: lcf.ac.acms.us.kg
   is_member: true
   auth_mode: yggdrasil
+  tags:
+    - 模组Mod
 
-- name: 'Mondra'
+- name: "Mondra"
   icon:
     src: /logo.webp
   type: Java
@@ -739,6 +915,9 @@
   link: https://qm.qq.com/q/XJDFzvJEMm
   is_member: false
   auth_mode: offline
+  tags:
+    - 无规则
+    - 全员OP
 
 - name: 永恒世界
   icon:
@@ -760,6 +939,11 @@
   ip: mc8.rhymc.com:45009
   is_member: false
   auth_mode: offline
+  tags:
+    - 模组Mod
+    - 科技
+    - 魔法
+    - 探索
 
 - name: SyServer
   icon:
@@ -782,6 +966,8 @@
   ip: syserver.asia
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
 - name: TNTMC
   icon:
@@ -811,6 +997,13 @@
   ip: mc.tntmc.cc
   is_member: false
   auth_mode: offline
+  tags:
+    - 纯净
+    - 生存
+    - PVP
+    - 建筑
+    - 红石
+    - 摸鱼养老
 
 - name: 天幻岛
   icon:
@@ -840,8 +1033,15 @@
   ip: mc.tntmc.cc
   is_member: false
   auth_mode: offline
+  tags:
+    - 纯净
+    - 生存
+    - PVP
+    - 建筑
+    - 红石
+    - 摸鱼养老
 
-- name: 'PotatoZoo'
+- name: "PotatoZoo"
   icon:
     src: /server_icons/potatozoo.png
   type: Java
@@ -853,8 +1053,10 @@
   ip: potatozoo.2m.pub
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
-- name: '宇宙边际'
+- name: "宇宙边际"
   icon:
     src: /logo.webp
   type: Java
@@ -870,8 +1072,12 @@
   ip: rpg.lobbytech.online
   is_member: false
   auth_mode: offline
+  tags:
+    - 角色扮演
+    - 模组Mod
+    - 小游戏
 
-- name: '如月倾城'
+- name: "如月倾城"
   icon:
     src: /logo.webp
   type: Java
@@ -886,8 +1092,12 @@
   ip: mc.ruyue2025.top
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 冒险
+    - 角色扮演
 
-- name: '紫萱'
+- name: "紫萱"
   icon:
     src: /logo.webp
   type: Geyser
@@ -904,8 +1114,10 @@
   ip: mc-sc.zxwmr.top
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
 
-- name: '2B2T.LTD'
+- name: "2B2T.LTD"
   icon:
     src: /server_icons/2b2tltd.png
   type: Java
@@ -926,8 +1138,11 @@
   ip: 2b2t.ltd
   is_member: false
   auth_mode: offline
+  tags:
+    - 无规则
+    - 生存
 
-- name: '雪花小镇'
+- name: "雪花小镇"
   icon:
     src: /logo.webp
   type: Java
@@ -947,8 +1162,14 @@
   link: https://qm.qq.com/q/PfHGXzmoCe
   is_member: false
   auth_mode: offline
+  tags:
+    - 模组Mod
+    - 探索
+    - 摸鱼养老
+    - 交友
+    - 角色扮演
 
-- name: 'XRayMC'
+- name: "XRayMC"
   icon:
     src: /server_icons/xraymc.jpg
   type: Java
@@ -959,8 +1180,13 @@
   ip: xraymc.top
   is_member: false
   auth_mode: offline
+  tags:
+    - 群组
+    - 建筑
+    - 跑酷
+    - 指令
 
-- name: '星光StarShine'
+- name: "星光StarShine"
   icon:
     src: /server_icons/StarShine.png
   type: Geyser
@@ -975,8 +1201,10 @@
   ip: mc.8bc.top:26665
   is_member: true
   auth_mode: yggdrasil
+  tags:
+    - 生存
 
-- name: '随机配方'
+- name: "随机配方"
   icon:
     src: /logo.webp
   type: Java
@@ -987,8 +1215,11 @@
   ip: play.simpfun.cn:21034
   is_member: false
   auth_mode: offline
+  tags:
+    - 随机合成
+    - 生存
 
-- name: 'Sparkpixel Server'
+- name: "Sparkpixel Server"
   icon:
     src: /logo.webp
   type: Java
@@ -998,8 +1229,12 @@
   link: https://qm.qq.com/q/2PiVTrfWvK
   is_member: false
   auth_mode: yggdrasil
+  tags:
+    - 创造
+    - 模组Mod
+    - 机械动力
 
-- name: 'Creepix'
+- name: "Creepix"
   icon:
     src: /server_icons/creepix.png
   type: Java
@@ -1009,8 +1244,11 @@
   link: https://www.bilibili.com/video/BV18bFAeDEo5
   is_member: true
   auth_mode: offline
+  tags:
+    - 生存
+    - 角色扮演
 
-- name: '方块树'
+- name: "方块树"
   icon:
     src: /logo.webp
   type: Java
@@ -1031,8 +1269,11 @@
   ip: mc.playfks.world
   is_member: false
   auth_mode: offline
+  tags:
+    - 生存
+    - 和谐
 
-- name: '摸鱼小屋'
+- name: "摸鱼小屋"
   icon:
     src: /logo.webp
   type: Geyser
@@ -1043,6 +1284,10 @@
   ip: moyuxiaowu.org:35129
   is_member: false
   auth_mode: offline
+  tags:
+    - 角色扮演
+    - 生存
+    - 小游戏
 
 - name: 凌天高质量无规则互通服务器
   icon:
@@ -1054,14 +1299,19 @@
   link: https://qm.qq.com/q/EWg2O8Cxe8
   is_member: false
   auth_mode: offline
+  tags:
+    - 无规则
+    - 生存
 
 - name: 柳昏花暝
   icon:
     src: /server_icons/柳昏花暝.png
   type: Geyser
   version: 1.21
-  desc: 生存群，禁止恶意破坏或攻击其他玩家
+  desc: 生存，禁止恶意破坏或攻击其他玩家
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=rBoeiqrZLieLZXaRHhHj0gOK30UC8JOe&authKey=K26ndnXovRdkCrJp8J2LhiO4GjXyJkRtQaR3c%2Bl%2FaMyUSZ1U2v0cAZxf0EsTF7ih&noverify=0&group_code=1022546158
   ip: play.simpfun.cn:21332
   is_member: true
   auth_mode: offline
+  tags:
+    - 生存
