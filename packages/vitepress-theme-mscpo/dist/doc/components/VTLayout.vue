@@ -59,14 +59,6 @@ const pageBgOpacity = theme.value.pageBgOpacity || 0.8
 
 const logoSrc = `${base}${logoImg}`.replaceAll('//', '/')
 
-watch(isDark, async () => {
-  if (isDark.value) {
-    document.body.setAttribute('arco-theme', 'dark')
-  } else {
-    document.body.removeAttribute('arco-theme')
-  }
-}, { immediate: true })
-
 const renderHomeBg = () => {
   const domStyle = document.documentElement.style
   // 首页闪烁动画样式设置
@@ -98,6 +90,13 @@ const getBrowserWidth = function () {
 };
 
 onMounted(() => {
+  watch(isDark, async () => {
+    if (isDark.value) {
+      document.body.setAttribute('arco-theme', 'dark')
+    } else {
+      document.body.removeAttribute('arco-theme')
+    }
+  }, { immediate: true })
   renderHomeBg()
   if (getBrowserWidth()) {
     if (parallaxEnable) window.addEventListener('mousemove', heroMove)
