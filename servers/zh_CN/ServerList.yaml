@@ -49,6 +49,8 @@
   auth_mode: official
   tags:
     - 生存
+    - 建筑
+    - 原汁原味
 
 - name: CHLcraft 1.21纯净生存服
   icon:
