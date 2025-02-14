@@ -337,13 +337,18 @@
   type: Geyser
   version: 1.7-1.21
   desc: 1.21纯生存服务器
-  link: https://dfggmc.top/
-  ip: play.flmp.studio
+  link: https://mc.flmp.uk/
+  ip: play.flmp.uk
   is_member: true
   auth_mode: offline
   tags:
-    - 纯净
-    - 生存
+    - 创造
+    - 建筑
+    - 友好
+    - 社交
+    - 和谐
+    - 原版
+    - 城建
 
 - name: 斯卡林特联邦共和国
   icon:
@@ -722,13 +727,14 @@
   version: 1.7-1.21
   desc: |
     无规则全员OP不回档服务器
-  link: https://op.dfggmc.top/
-  ip: play.flmp.studio:20255
+  link: https://op.flmp.uk/
+  ip: play.flmp.uk:20255
   is_member: true
   auth_mode: offline
   tags:
     - 全员OP
     - 不回档
+    - 无规则
 
 - name: "瑞典人民共和国"
   icon:
@@ -1311,6 +1317,28 @@
   desc: 生存，禁止恶意破坏或攻击其他玩家
   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=rBoeiqrZLieLZXaRHhHj0gOK30UC8JOe&authKey=K26ndnXovRdkCrJp8J2LhiO4GjXyJkRtQaR3c%2Bl%2FaMyUSZ1U2v0cAZxf0EsTF7ih&noverify=0&group_code=1022546158
   ip: play.simpfun.cn:21332
+  is_member: true
+  auth_mode: offline
+  tags:
+    - 生存
+
+- name: ZRP我的世界生存服务器
+  icon:
+    src: /server_icons/logo.webp
+  type: Java
+  version: 1.16.5
+  desc: 版本 java1.16.5IP:play.simpfun.cn:10440
+        服务器种子123456
+        注册 /register 密码 密码
+        登录 /l 密码
+        传送 /tpa 玩家名
+        同意传送 /tpaccept
+        出生点20×20无法破坏
+        已开启死亡不掉落
+        允许矿透，不允许恶意破坏和攻击其他玩家
+        为便于交流，希望各位将自己在本群的昵称改为游戏名
+  link: https://qm.qq.com/q/XEcxi8GuAw
+  ip: play.simpfun.cn:10440
   is_member: true
   auth_mode: offline
   tags:
