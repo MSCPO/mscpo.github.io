@@ -39,8 +39,9 @@
     - 创造
 
 - name: ZUYCraft服务器
-  icon:
-    src: /server_icons/ZUYMC.png
+    icon:
+    dark: /server_icons/zuymc_black.png
+    light: /server_icons/zuymc_white.png
   type: Bedrock
   version: 1.21
   desc: 首个在基岩版的提出生存-建筑理念的服务器！运行长达一年，稳定可靠！管理组热情，玩家河蟹，欢迎加入！
