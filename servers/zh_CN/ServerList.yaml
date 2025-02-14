@@ -40,10 +40,10 @@
 
 - name: ZUYCraft服务器
   icon:
-    src: /server_icons/ZUYMC.webp
+    src: /server_icons/ZUYMC.png
   type: Bedrock
   version: 1.21
-  desc: 这是一个基岩版的生存建筑服务器！轻触屏幕，心中的梦想在虚拟的土地上逐渐成形；在这片建筑天地里，和我们一起：筑梦于虚拟，
+  desc: 首个在基岩版的提出生存-建筑理念的服务器！运行长达一年，稳定可靠！管理组热情，玩家河蟹，欢迎加入！
   link: https://mc.zuyst.top
   is_member: true
   auth_mode: official
