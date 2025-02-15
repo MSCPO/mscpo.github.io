@@ -1374,6 +1374,6 @@
   link: https://qxn.world
   ip: nosrv.qxn.world:56000
   is_member: true
-  auth_mode: offline
+  auth_mode: official
   tags:
     - 生存
