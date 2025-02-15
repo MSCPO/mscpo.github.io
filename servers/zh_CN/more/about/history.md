@@ -150,3 +150,7 @@ Minecraft集体宣传组织(MSCPO) 花枫工作室代表: [花枫工作室]团�
 ::: timeline 2025-01-22
 [Minecraft集体宣传组织第七期宣传片](https://www.bilibili.com/video/BV14vfbYUEoC/?share_source=copy_web&vd_source=45b02ca892951a6b76fc1a8df3a071ba) 发布
 :::
+
+::: timeline 2025-02-15
+集宣组织条例（第五版）颁布，废除会长选举制，改为会长固定制，并确定改革组织人员架构，以改善组织办事效率低下问题
+:::
