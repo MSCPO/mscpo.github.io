@@ -1354,7 +1354,7 @@
   version: 1.20.1
   desc: 有白名单加群审核
         群号：254878113
-  link: https://mcdps.mcicp.com
+  link: https://mcicp.com/MCDPS/
   is_member: true
   auth_mode: offline
   tags:
