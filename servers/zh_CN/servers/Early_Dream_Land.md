@@ -8,11 +8,18 @@ desc: |
     自2022年开服以来，初梦大陆（Early Dream Land）始终坚守承诺，致力于为所有玩家提供一个永不跑路、温馨如初的游戏家园。
     在这里，你将能够与朋友共度欢乐时光，共同创造并珍藏那些珍贵的游戏回忆。
     采用自搭建皮肤站结合Yggdrasil API，实现便捷注册登录、自定义皮肤与披风。
-# link: https://qm.qq.com/q/KibwzxV2cE 这个东西对于自建页面来说不需要！！！
+# link: https://qm.qq.com/q/KibwzxV2cE
 ip: mc.11na.cn
-is_member: false
+is_member: true
 auth_mode: yggdrasil
 hide: false
+tags:
+    - 群组
+    - 摸鱼养老
+    - 休闲
+    - 生电
+    - 粘液科技
+    - 小游戏
 ---
 
 # 初梦大陆 - Early Dream Land
