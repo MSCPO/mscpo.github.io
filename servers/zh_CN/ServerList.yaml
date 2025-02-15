@@ -336,14 +336,15 @@
 - name: 花枫服务器
   icon:
     src: /server_icons/DFGG_Logo.webp
-  type: Geyser
-  version: 1.7-1.21
-  desc: 1.21纯生存服务器
+  type: Java
+  version: 1.21.1
+  desc: 1.21.1创造建筑服务器和1.12.2生存建筑服务器
   link: https://mc.flmp.uk/
   ip: play.flmp.uk
   is_member: true
   auth_mode: offline
   tags:
+    - 生存
     - 创造
     - 建筑
     - 友好
@@ -1342,6 +1343,37 @@
   link: https://qm.qq.com/q/XEcxi8GuAw
   ip: play.simpfun.cn:10440
   is_member: true
+  auth_mode: offline
+  tags:
+    - 生存
+
+- name: 末影之境
+  icon:
+    src: /server_icons/logo.png
+  type: Java
+  version: 1.20.1
+  desc: 有白名单加群审核
+        群号：254878113
+  link: https://mcdps.mcicp.com
+  is_member: true
+  auth_mode: offline
+  tags:
+    - 生存
+    - 半生电
+
+- name: 千禧年世界
+  icon:
+    src: https://qxn.world/logo.png
+  type: Java
+  version: 1.12.2-1.21.x
+  desc: 欢迎加入千禧年世界v4.5群组服务器
+        Beta1.0
+        目前有生存大区
+        目前有生存区，地皮世界
+        后续更多玩法将会在Beta1.1加回来(
+  link: https://qxn.world
+  ip: nosrv.qxn.world:56000
+  is_member: false
   auth_mode: offline
   tags:
     - 生存
