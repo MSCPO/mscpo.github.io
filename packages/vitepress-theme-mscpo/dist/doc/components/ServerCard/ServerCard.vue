@@ -154,6 +154,7 @@ const playSound = () => {
 const status_color = ref("gray")
 const status_text = ref(i18nlang.value.loading)
 const status_num = ref<string | null>(null)
+const status_icon = ref(serverinfo.icon)
 
 const server_status = async () => {
   try {
@@ -164,20 +165,24 @@ const server_status = async () => {
       if (statusinfo.players != null) {
         status_num.value = `${statusinfo.players.online}/${statusinfo.players.max}`
       }
+      status_icon.value = statusinfo.icon
     } else {
       status_color.value = "red"
       status_text.value = i18nlang.value.offline
       status_num.value = null
+      status_icon.value = serverinfo.icon
     }
   } catch (error) {
     status_color.value = "gray"
     status_text.value = i18nlang.value.loading
     status_num.value = null
+    status_icon.value = serverinfo.icon
   }
 }
 
 watch(() => serverinfo.ip, () => {
   status_num.value = null
+  status_icon.value = serverinfo.icon
 })
 
 const openUrl = (url: string | undefined) => {
@@ -200,7 +205,7 @@ const tagClick = (tag: string) => {
             :height="serverinfo.icon.height || 48" :width="serverinfo.icon.width || 48"
             style="margin: 0;max-height: 48px;max-width: 48px;" />
         </div>
-        <VPImage v-else-if="typeof serverinfo.icon === 'object'" class="icon" :image="serverinfo.icon"
+        <VPImage v-else-if="typeof serverinfo.icon === 'object'" class="icon" :image="status_icon"
           :alt="serverinfo.icon.alt" :height="serverinfo.icon.height || 48" :width="serverinfo.icon.width || 48"
           style="margin: 0; margin-right: 0.5rem;max-height: 48px;max-width: 48px;" />
         <div v-else-if="serverinfo.icon" class="icon" v-html="serverinfo.icon"></div>

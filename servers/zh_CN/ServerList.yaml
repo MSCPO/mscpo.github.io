@@ -7,7 +7,7 @@
 
 # - name: (必选)示例服务器
 #   icon:
-#     src: 图像地址
+#     src: 图像地址(如果有指定IP，优先使用服务器查询得到的服务器图标)
 #   type: Geyser # (必选)这是服务器的类型，可选Java（电脑），Geyser（互通服），Bedrock（基岩版）
 #   version: 1.20.1 # (必选)这是服务器的版本
 #   desc: |
