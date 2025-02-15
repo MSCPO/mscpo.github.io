@@ -1355,7 +1355,7 @@
   desc: 有白名单加群审核
         群号：254878113
   link: https://mcicp.com/MCDPS/
-  is_member: true
+  is_member: false
   auth_mode: offline
   tags:
     - 生存
@@ -1373,7 +1373,7 @@
         后续更多玩法将会在Beta1.1加回来(
   link: https://qxn.world
   ip: nosrv.qxn.world:56000
-  is_member: false
+  is_member: true
   auth_mode: offline
   tags:
     - 生存
