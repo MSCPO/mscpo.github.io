@@ -1377,3 +1377,19 @@
   auth_mode: official
   tags:
     - 生存
+
+- name: 大黑狗服务器
+  icon:
+    src: /server_icons/bigdog.jpg
+  type: Bedrock
+  version: 1.21.5x
+  desc: MC国际基岩服务器
+  link: https://bigdog.jzrxh.work
+  ip: play.jzrxh.work
+  is_member: true
+  auth_mode: official
+  tags:
+    - 生存
+    - 摸鱼养老
+    - 家园
+    - 世界
