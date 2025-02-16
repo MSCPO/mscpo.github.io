@@ -1016,7 +1016,7 @@
 
 - name: 天幻岛
   icon:
-    src: /server_icon/tianhuandao.jpg
+    src: /server_icons/tianhuandao.jpg
   type: Java
   version: 1.12.2
   desc: |
@@ -1327,7 +1327,7 @@
 
 - name: ZRP我的世界生存服务器
   icon:
-    src: /server_icons/logo.webp
+    src: /logo.webp
   type: Java
   version: 1.16.5
   desc: 版本 java1.16.5IP:play.simpfun.cn:10440
@@ -1349,7 +1349,7 @@
 
 - name: 末影之境
   icon:
-    src: /server_icons/logo.png
+    src: /logo.webp
   type: Java
   version: 1.20.1
   desc: 有白名单加群审核
