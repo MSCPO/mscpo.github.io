@@ -1385,7 +1385,7 @@
   version: 1.21.5x
   desc: 欢迎来到MC国际大黑狗服务器！这是一片充满无限可能的方块世界，我们致力于为玩家提供一个自由、公平、充满乐趣的游玩环境。本服分为家园服与世界服，家园服永不换档、世界服会定期换档。
   link: https://bigdog.jzrxh.work
-  ip: play.jzrxh.work
+  ip: play.jzrxh.work:44100
   is_member: true
   auth_mode: official
   tags:
