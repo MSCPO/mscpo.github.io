@@ -59,7 +59,7 @@
     "postcss": "^8.5.1"
   },
   "dependencies": {
-    "@docsearch/css": "^3.8.2",
+    "@docsearch/css": "^3.8.3",
     "@docsearch/js": "^3.8.2",
     "@vueuse/components": "^12.3.0",
     "@vueuse/core": "^12.4.0",
