@@ -22,7 +22,7 @@
     "@ant-design/icons-vue": "^7.0.1",
     "@arco-design/web-vue": "^2.56.3",
     "@mdit/plugin-img-size": "^0.16.0",
-    "@vueuse/core": "^12.4.0",
+    "@vueuse/core": "^12.7.0",
     "alova": "^3.2.7",
     "busuanzi.pure.js": "^1.0.3",
     "fast-glob": "^3.3.3",
