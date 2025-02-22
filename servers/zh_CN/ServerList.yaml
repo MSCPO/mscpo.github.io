@@ -1393,3 +1393,19 @@
     - 摸鱼养老
     - 家园
     - 世界
+
+- name: EggSurvival
+  icon:
+    src: /server_icons/EggSurvival.png
+  type: Geyser
+  version: 1.16-.1.21.4
+  desc: 服务器Q群438338988，服务器装有领地,商店,传送插件
+  link: https://ess.icu
+  ip: mc.ess.icu
+  is_member: true
+  auth_mode: official
+  tags:
+    - 生存
+    - 摸鱼养老
+    - 家园
+    - 世界
