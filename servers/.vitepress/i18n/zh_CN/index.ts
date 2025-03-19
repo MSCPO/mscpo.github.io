@@ -51,6 +51,7 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
           { text: "MCJPG", link: "https://mcjpg.org/" },
           { text: "MC导航网", link: "https://www.mcicp.com/nav/" },
           { text: "和谐论坛", link: "https://bbs.hxit.top/" },
+          { text: "Cuberite Minecraft服务器联盟", link: "https://cmsa.flmp.uk/" },
           {
             text: "开服文档",
             items: [
@@ -67,7 +68,7 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
           { text: "特别鸣谢", link: "/more/acknowledgement/" },
         ]
       },
-      { text: "导航", link: "/nav/" },
+      { text: "前往新站", link: "https://mscpo.crashvibe.cn/" },
     ],
 
     footer: {
