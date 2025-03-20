@@ -1409,3 +1409,17 @@
     - 摸鱼养老
     - 家园
     - 世界
+
+- name: 水月服务器
+  icon:
+    src: /logo.webp
+  type: Java
+  version: 1.8-1.21.4
+  desc: 水月生电服务器,支持刷线机刷沙机等生电机器，拥有良好的生态环境,欢迎你的到来！
+  link: https://qm.qq.com/cgi-bin/qm/qr?k=NuQO7kLBsnk4jQnoQIQdje12KdvxT2tw&jump_from=webapi&authKey=0vM3Kcz17X3TI7xtsVb/69p1i/6tbp8SPSmi96w9eVH2cbffE/a49W05neqMFUp8
+  ip: play.simpfun.cn:26762
+  is_member: true
+  auth_mode: official
+  tags:
+    - 生存
+    - 生电
