@@ -54,20 +54,6 @@ Languages：[English](README_EN.md);中文
 3. (可选)如果你需要显示服务器图标，请在 `servers/public/server_icons/` 目录下添加图标
 4. push 到你的仓库，然后提交 pull request。
 
-## 特别鸣谢
-
-## ZUY工作室
-
-[ZUYCraft](https://mc.zuyst.top/)为我们提供了一个网站节点
-
-[服务器集体宣传组织(MSCPO)](https://mscpo.zuyst.top) https://mscpo.zuyst.top
-
-### MFT服务器联盟
-
-[MFT服务器联盟](https://mc.mscaome.top/)为我们提供了一个网站节点
-
-[服务器集体宣传组织(MSCPO)](https://mscpo.mscaome.top) https://mscpo.mscaome.top
-
 ### 项目信息
 
 ![Alt](https://repobeats.axiom.co/api/embed/40f1d6f2bafcf731a005ddad0f4a0178ce8e6c46.svg "Repobeats analytics image")
