@@ -1423,3 +1423,17 @@
   tags:
     - 生存
     - 生电
+
+- name: 枫叶源AutumnCraft
+  icon:
+    src: /server_icons/AutumnCraft.jpg
+  type: Java
+  version: Forge1.20.1
+  desc: 一个公益ATM9服务器+拔刀剑，版本1.20.1。跟进ATM官方更新，日均在线5-13人。
+  link: https://official.autumncraft.icu
+  ip: mc.autumncraft.icu
+  is_member: true
+  auth_mode: official
+  tags:
+    - 拔刀剑
+    - ATM9
