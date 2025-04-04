@@ -73,6 +73,6 @@ For example:
 
 Contributors who helped us add servers
 
-[![Contributors](https://contrib.rocks/image?repo=MSCPO/mscpo.github.io)](https://github.com/MSCPO/ServerDocumentation/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=MSCPO/mscpo.github.io)](https://github.com/MSCPO/mscpo.github.io/graphs/contributors)
 
 > Respect to all the participants above!
