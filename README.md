@@ -62,7 +62,7 @@ Languages：[English](README_EN.md);中文
 
 帮助我们添加服务器的贡献者们
 
-<a href="https://github.com/MSCPO/ServerDocumentation/graphs/contributors">
+<a href="https://github.com/MSCPO/mscpo.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MSCPO/mscpo.github.io" alt="Contributors"/>
 </a>
 
