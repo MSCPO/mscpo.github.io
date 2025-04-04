@@ -21,23 +21,6 @@
 #     - 创造
 #     - 猫娘 # ?!
 
-- name: MFT服务器联盟
-  icon:
-    src: https://mc.mscaome.top/images/favicon.ico
-  type: Geyser
-  version: 1.20.1
-  desc: |
-    版本：Java | 1.20.1(共产猫服)
-    版本：Java | 1.20.1(自由未来)
-    共产猫服，地毯端生电，基于原版创新，引领先进生产力。明灯·Alethea 为小型群组服，主打沉浸式生存，特色玩法如趣味生电与粘液科技（测试）。自由未来(Minecraft Free Future)为城建类创造服，尚在发展阶段，无白名单限制。
-  link: https://mc.mscaome.top/
-  ip: aomemsc.giize.com
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 生电
-    - 创造
-
 - name: ZUYCraft服务器
   icon: 
     src: /server_icons/zuymc_black.png
@@ -723,35 +706,6 @@
     - 生电
     - 高难度
 
-- name: "OPCraft"
-  icon:
-    src: /server_icons/DFGG_Logo.webp
-  type: Java
-  version: 1.7-1.21
-  desc: |
-    无规则全员OP不回档服务器
-  link: https://op.flmp.uk/
-  ip: play.flmp.uk:20255
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 全员OP
-    - 不回档
-    - 无规则
-
-- name: "瑞典人民共和国"
-  icon:
-    src: /server_icons/rdrmghg.jpg
-  type: Java
-  version: 1.18.2
-  desc: |
-    疯狂网←的实践地
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JytRbqy92zBe02FgCbqenxEr0yEgJUj1&authKey=z6mQH13JfqUpODVeR%2FjSzW9yqxGbP790IpP4WIV1OfTDCKfZAgfjQ9UYuTYn6%2FKE&noverify=0&group_code=1005199022
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 角色扮演
-
 - name: "SNR无规则服务器"
   icon:
     src: /logo.webp
@@ -764,21 +718,6 @@
   auth_mode: offline
   tags:
     - 无规则
-    - 生存
-
-- name: "PixelMine"
-  icon:
-    src: /server_icons/PixelMine.jpg
-  type: Java
-  version: 1.20.1
-  ip: play.dnphinti.top
-  desc: |
-    欢迎来到 PixelMine！我们致力于打造一个公平、公正的游戏环境。混合模组端、丰富插件与多样化模组，为你带来沉浸式游戏体验。搭载完善的反作弊系统，守护每一位热爱游戏的玩家。加入我们，一起享受乐趣，维护秩序，共创精彩世界！
-  link: https://qm.qq.com/q/Rq68hoEyEE
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 模组Mod
     - 生存
 
 - name: "樱花宝可梦"
@@ -841,31 +780,6 @@
     - 空岛
     - 生存
 
-- name: "NCloudNetwork"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.21.3
-  desc: |
-    欢迎来到 NCloudNetwork
-    服务器特色：
-    多种模式：生存、创造、迷你游戏，任你选择。
-    定期活动：每周主题活动，赢取奖励。
-    友好社区：加入QQ群975176493，结交新朋友。
-    如何加入：
-    1. 加入QQ群：975176493，申请白名单。
-    2. 下载《我的世界》（Java 1.7-1.21）。
-    3.在多人游戏中输入服务器地址：ncn.nitrodev.asia。
-    欢迎来到NCloudNetwork，一起创造和探险！
-  link: https://qm.qq.com/q/TN6hntPmcE
-  ip: ncn.nitrodev.asia
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 创造
-    - 小游戏
-
 - name: "PepperCraft"
   icon:
     src: /logo.webp
@@ -896,22 +810,6 @@
   tags:
     - 群组
 
-- name: "ArchiveCraft"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    这是一个以碧蓝档案为主题，总力战为主要玩法，有剧情的mod服务器
-    想在mc打总力战？您来对地方了
-    // 其实总力战还在做啊咕咕
-  link: https://acms.us.kg
-  ip: lcf.ac.acms.us.kg
-  is_member: true
-  auth_mode: yggdrasil
-  tags:
-    - 模组Mod
-
 - name: "Mondra"
   icon:
     src: /logo.webp
@@ -928,31 +826,6 @@
     - 无规则
     - 全员OP
 
-- name: 永恒世界
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.12.2
-  desc: |
-    主要mod（100+）
-    结婚系统--工会系统--
-    [科技类Mod]:拔刀 工业2 AE2 热力 龙之研究 通用机器 沉浸工程 BC管道 BC建筑 热力膨胀 末影核心
-    环境科技 通量网络 重力装甲
-    [魔法类Mod]:神秘时代6 禁忌魔法 神秘工匠 植物魔法 星辉魔法
-    [探索类Mod]: 更多生物群系 更多怪物群系 多元化下届地形 腐化之地 虚无世界
-    [爆肝类Mod]: 无尽贪婪 潘马斯农场
-    [实用类Mod]: 更多箱子 加速火把 时装工坊 匠魂 懒人厨房 更多实用设备 女仆 盖亚魔典3
-    [附属类Mod]:工业升级附属 AE2附属 植物魔法附属 神秘时代4附属 龙之研究附属
-    快来加入永恒世界大家庭愉快的玩耍吧在这里不仅可以体验到科技魔法的快感还会不定时举办各种小游戏运动会如PVP 射箭 跑酷 等等
-  link: https://yhsjmc.nqfactory.club/
-  ip: mc8.rhymc.com:45009
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 模组Mod
-    - 科技
-    - 魔法
-    - 探索
 
 - name: SyServer
   icon:
@@ -978,41 +851,6 @@
   tags:
     - 生存
 
-- name: TNTMC
-  icon:
-    src: /server_icons/tntmc.png
-  type: Java
-  version: 1.21.1
-  desc: |
-    ——————————————————
-    【现已更新至 1.21.1 版本】
-    进服后，大家一起玩就是一个大家庭啦！(´-ω-`)
-    🌟无需正版账号也能轻松加入🌟
-    服务器硬件配置：
-    物理机配置：i9-13900K 24核32线程，128GB内存，1TB固态硬盘
-    提供实用功能：圈地保护、COI查询、防熊机制等
-    任何问题都可以找管理员，我们会积极解决！
-    服务器IP地址：
-    MC.TNTMC.CC
-    核心玩法：
-    纯净生存、PVP对抗、建筑创作、养老玩法等
-    时装系统、生成电力、红石工程
-    本服禁止使用矿透工具
-    更多特色：
-    无限跑图，超大视距，流畅体验
-    快速加入QQ群925058935，尽享所有精彩内容！
-    ——————————————————
-  link: https://www.bilibili.com/video/BV16KczeKExp/?share_source=copy_web&vd_source=082c0eed257c3edb3a58d3a703319082
-  ip: mc.tntmc.cc
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 纯净
-    - 生存
-    - PVP
-    - 建筑
-    - 红石
-    - 摸鱼养老
 
 - name: 天幻岛
   icon:
@@ -1065,27 +903,6 @@
   tags:
     - 生存
 
-- name: "宇宙边际"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.11.2
-  desc: |
-    一个超多玩法的我的世界RPG服务器
-    各种副本等你来挑战
-    超爽战斗体验，你可以通过模组、技能、装备、首饰等提高自己的战斗力
-    服务器内还有超好玩的小游戏，福利多多
-    你还可以建造自己的商店
-    或者在全球商店交易各种道具！
-  link: https://b23.tv/fd9ELQI
-  ip: rpg.lobbytech.online
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 角色扮演
-    - 模组Mod
-    - 小游戏
-
 - name: "如月倾城"
   icon:
     src: /logo.webp
@@ -1105,51 +922,6 @@
     - 生存
     - 冒险
     - 角色扮演
-
-- name: "紫萱"
-  icon:
-    src: /logo.webp
-  type: Geyser
-  version: 1.7.x-1.20.1
-  desc: |
-    Minecraft 紫萱
-    服务器公益
-    1.7.x-1.20.1，互通服（基岩默认使用最新版）
-    官网：https://server.zxwmr.top
-    mc-sc.zxwmr.top（基岩版使用zx-be.zxwmr.top 端口24552）
-    QQ群：376916718
-    商务合作或反馈请直接发送邮件至xiaohuo_6@qq.com
-  link: https://server.zxwmr.top
-  ip: mc-sc.zxwmr.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: "2B2T.LTD"
-  icon:
-    src: /server_icons/2b2tltd.png
-  type: Java
-  version: 1.21
-  desc: |
-    2B2T.LTD原版生存服务器
-    目前版本1.21跟随官方大版本更新
-    地址2B2T.LTD
-    /本服务器无任何规则
-    /在这里你可以做任何你想做的事情
-    /死亡标记
-    /好友传送
-    /强大的反作弊
-    /支持非正版玩家
-    /支持离线玩家使用皮肤
-    交流群850051470
-  link: https://qm.qq.com/q/iOrBFfYiru
-  ip: 2b2t.ltd
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 生存
 
 - name: "雪花小镇"
   icon:
@@ -1213,21 +985,6 @@
   tags:
     - 生存
 
-- name: "随机配方"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    小服务器，希望来点人一起玩玩，所有合成配方为随机态，原版客户端可进。
-  link: https://pd.qq.com/s/9mboaoc0c?businessType=5
-  ip: play.simpfun.cn:21034
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 随机合成
-    - 生存
-
 - name: "Sparkpixel Server"
   icon:
     src: /logo.webp
@@ -1281,36 +1038,6 @@
   tags:
     - 生存
     - 和谐
-
-- name: "摸鱼小屋"
-  icon:
-    src: /logo.webp
-  type: Geyser
-  version: 1.19 - 1.21.4
-  desc: |
-    高配置生电生存/RPG/小游戏服，飞行和建材商店对基建很友好。rpg剧情适合喜欢战斗探索的玩家
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=toX73erqhl6hdGGcy2ralxAq7FmnhPJq&authKey=v8adrigBE0SSb6kpDXNGSzmGI2dJREULDhapMMvzFVKrXAXLM%2Bn7PrJq0E1EWLyV&noverify=0&group_code=167693035
-  ip: moyuxiaowu.org:35129
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 角色扮演
-    - 生存
-    - 小游戏
-
-- name: 凌天高质量无规则互通服务器
-  icon:
-    src: /server_icons/lty.jpg
-  type: Bedrock
-  version: 1.21.4
-  desc: 无规则高质量生存服，【无神犬】【高质量】【基岩版】
-  ip: 2b2t.bil.pw:20387
-  link: https://qm.qq.com/q/EWg2O8Cxe8
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 生存
 
 - name: 柳昏花暝
   icon:
