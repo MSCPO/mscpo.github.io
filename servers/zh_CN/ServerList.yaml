@@ -1160,7 +1160,7 @@
   link: https://official.autumncraft.icu
   ip: mc.autumncraft.icu
   is_member: true
-  auth_mode: official
+  auth_mode: yggdrasil
   tags:
     - 拔刀剑
     - ATM9
