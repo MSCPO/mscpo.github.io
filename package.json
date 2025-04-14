@@ -18,7 +18,7 @@
     "server:compress": "node ./servers/.vitepress/comporess.js"
   },
   "dependencies": {
-    "@algolia/client-search": "^5.19.0",
+    "@algolia/client-search": "^5.23.4",
     "@ant-design/icons-vue": "^7.0.1",
     "@arco-design/web-vue": "^2.56.3",
     "@mdit/plugin-img-size": "^0.16.0",
