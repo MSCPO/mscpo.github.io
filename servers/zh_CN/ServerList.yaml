@@ -1183,3 +1183,17 @@
   tags:
     - 拔刀剑
     - ATM9
+
+
+- name: 麦芒纪元
+  type: Java
+  version: 1.21.4
+  desc: ia端1.21.4原版生存插件服务器，纯生存，养老，pvp，红石，宠物，时装，公益服，高版本
+  link: https://www.bilibili.com/video/BV1PH5Wz4ETB
+  ip: mc.mmjy1.top:54003
+  is_member: true
+  auth_mode: offline
+  tags:
+    - 养老
+    - 生存
+    - 红石
