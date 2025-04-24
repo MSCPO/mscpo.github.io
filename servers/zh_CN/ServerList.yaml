@@ -1210,3 +1210,16 @@
     - RPG
     - 角色扮演
     - 空岛生存
+
+- name: 3c3u
+  type: Java
+  version: 1.13-1.21.5
+  desc: 无规则,无政府,互通
+  link: https://qm.qq.com/q/jm23Bl61Ms
+  ip: 3c3u.icu
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 无规则
+    - 无政府
+    - 互通
