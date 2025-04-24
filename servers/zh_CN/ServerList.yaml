@@ -1253,3 +1253,21 @@
     - 起床战争
     - 小游戏
     - 多元玩法
+
+- name: Nes
+  type: Java
+  version: 1.21.4
+  desc: |
+    Welcome To Nes 我的世界服务器
+    这是一个无规则养老生存服务器。
+    - 服务器内有登录插件。
+    - 有时可能会出现网络故障。
+    - 如发现问题请及时联系管理员或服主。
+  link: https://b23.tv/iKtpGDA
+  ip: play.resserver.xyz:15090
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 无规则
+    - 养老
+    - 生存
