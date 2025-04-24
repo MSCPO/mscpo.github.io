@@ -1271,3 +1271,21 @@
     - 无规则
     - 养老
     - 生存
+
+- name: 星辰服
+  type: Bedrock
+  version: 1.21.50-1.21.73
+  desc: |
+    生存玩法服务器，拥有领地、公会、传送、市场、地图画、连锁挖矿等多种插件功能，
+    并支持群服互通。工作日活跃人数≤10人，节假日高峰可达20+。
+    本服为纯公益服务器，无氪金内容、不强制赞助。
+    交流群：379155972
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=P_vd2rfqVgrEoW-rxFeYjknP5JeZSm7V&authKey=LJPsJU7%2BuIP%2F29e1UPeaNQsnzEySlldGNHUFrjjKNwJJHax4ykI6SHwXnRlYH4JI&noverify=0&group_code=424653409
+  ip: mcbe.top:19132
+  is_member: false
+  auth_mode: official
+  tags:
+    - 生存
+    - 群服互通
+    - 纯公益
+    - 多功能插件
