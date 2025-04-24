@@ -1,4 +1,4 @@
-name: '[CN]添加服务器卡片到主页'
+name: '添加服务器卡片到主页'
 description: '我们只需要服务器的一些必要信息，注意: 未正确根据提示发送申请可能会被忽略或关闭.'
 title: '[添加服务器]: 此处填写服务器名称..'
 labels: ["Submit", "Lang:CN"]
@@ -45,19 +45,6 @@ body:
         - 'Java'
         - '基岩'
         - '互通'
-      default: 0
-    validations:
-      required: true
-
-  - type: dropdown
-    id: Language
-    attributes:
-      label: '语言'
-      description: '服务器语言'
-      options:
-        - 'zh_CN'
-        - 'en'
-        - 'ru'
       default: 0
     validations:
       required: true

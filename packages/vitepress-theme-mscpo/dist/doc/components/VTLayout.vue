@@ -11,17 +11,6 @@ import {
 
 import zhCN from '@arco-design/web-vue/lib/locale/lang/zh-cn';
 import enUS from '@arco-design/web-vue/lib/locale/lang/en-us';
-import ruRU from '@arco-design/web-vue/lib/locale/lang/ru-ru';
-import esES from '@arco-design/web-vue/lib/locale/lang/es-es';
-import jaJP from '@arco-design/web-vue/lib/locale/lang/ja-jp';
-import idID from '@arco-design/web-vue/lib/locale/lang/id-id';
-import frFR from '@arco-design/web-vue/lib/locale/lang/fr-fr';
-import ptPT from '@arco-design/web-vue/lib/locale/lang/pt-pt';
-import deDE from '@arco-design/web-vue/lib/locale/lang/de-de';
-import koKR from '@arco-design/web-vue/lib/locale/lang/ko-kr';
-import itIT from '@arco-design/web-vue/lib/locale/lang/it-it';
-import thTH from '@arco-design/web-vue/lib/locale/lang/th-th';
-import viVN from '@arco-design/web-vue/lib/locale/lang/vi-vn';
 
 const { Layout } = DefaultTheme
 // const route = useRoute()
@@ -36,18 +25,6 @@ const { parallaxEnable, heroMove } = useHeroMove()
 const localeMap = {
   root: zhCN,
   zh_CN: zhCN,
-  en: enUS,
-  ru: ruRU,
-  es: esES,
-  ja: jaJP,
-  id: idID,
-  fr: frFR,
-  pt: ptPT,
-  de: deDE,
-  ko: koKR,
-  it: itIT,
-  th: thTH,
-  vi: viVN
 };
 
 const arcoLocale = computed(() => {
