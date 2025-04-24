@@ -1197,3 +1197,16 @@
     - 养老
     - 生存
     - 红石
+
+- name: Sunisland
+  type: Java
+  version: 1.20.4-1.21.4
+  desc: PG与空岛生存相结合 致力于制作原创内容的充满想象力的世界。
+  link: https://qm.qq.com/q/HX4dY2r52G
+  ip: na.sunisland.top
+  is_member: false
+  auth_mode: offline
+  tags:
+    - RPG
+    - 角色扮演
+    - 空岛生存
