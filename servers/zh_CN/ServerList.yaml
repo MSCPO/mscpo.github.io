@@ -22,7 +22,7 @@
 #     - 猫娘 # ?!
 
 - name: ZUYCraft服务器
-  icon: 
+  icon:
     src: /server_icons/zuymc_black.png
   type: Bedrock
   version: 1.21
@@ -770,8 +770,8 @@
   version: 1.21.50
   desc: |
     Minecraft基岩版1.21.5x服务器
-    地址: starry-isles.run.place 
-    备用b.starry-isles.run.place 
+    地址: starry-isles.run.place
+    备用b.starry-isles.run.place
     端口请进入官网查看
   link: http://www.starry-isles.run.place/
   is_member: false
@@ -826,7 +826,6 @@
     - 无规则
     - 全员OP
 
-
 - name: SyServer
   icon:
     src: /server_icons/sy.png
@@ -850,7 +849,6 @@
   auth_mode: offline
   tags:
     - 生存
-
 
 - name: 天幻岛
   icon:
@@ -1077,15 +1075,15 @@
   type: Java
   version: 1.16.5
   desc: 版本 java1.16.5IP:play.simpfun.cn:10440
-        服务器种子123456
-        注册 /register 密码 密码
-        登录 /l 密码
-        传送 /tpa 玩家名
-        同意传送 /tpaccept
-        出生点20×20无法破坏
-        已开启死亡不掉落
-        允许矿透，不允许恶意破坏和攻击其他玩家
-        为便于交流，希望各位将自己在本群的昵称改为游戏名
+    服务器种子123456
+    注册 /register 密码 密码
+    登录 /l 密码
+    传送 /tpa 玩家名
+    同意传送 /tpaccept
+    出生点20×20无法破坏
+    已开启死亡不掉落
+    允许矿透，不允许恶意破坏和攻击其他玩家
+    为便于交流，希望各位将自己在本群的昵称改为游戏名
   link: https://qm.qq.com/q/XEcxi8GuAw
   ip: play.simpfun.cn:10440
   is_member: true
@@ -1099,7 +1097,7 @@
   type: Java
   version: 1.20.1
   desc: 有白名单加群审核
-        群号：254878113
+    群号：254878113
   link: https://mcicp.com/MCDPS/
   is_member: false
   auth_mode: offline
@@ -1113,10 +1111,10 @@
   type: Java
   version: 1.12.2-1.21.x
   desc: 欢迎加入千禧年世界v4.5群组服务器
-        Beta1.0
-        目前有生存大区
-        目前有生存区，地皮世界
-        后续更多玩法将会在Beta1.1加回来(
+    Beta1.0
+    目前有生存大区
+    目前有生存区，地皮世界
+    后续更多玩法将会在Beta1.1加回来(
   link: https://qxn.world
   ip: nosrv.qxn.world:56000
   is_member: true
@@ -1184,7 +1182,6 @@
     - 拔刀剑
     - ATM9
 
-
 - name: 麦芒纪元
   type: Java
   version: 1.21.4
@@ -1223,3 +1220,16 @@
     - 无规则
     - 无政府
     - 互通
+
+- name: 工业国际
+  type: Java
+  version: 1.20.1
+  desc: 以黄铜协奏曲整合包为核心的模组服
+  link: https://qm.qq.com/q/KE8TpgMeUo
+  ip: vat-n69.mutong1.com:21146
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 模组服
+    - 黄铜协奏曲
+    - 工业
