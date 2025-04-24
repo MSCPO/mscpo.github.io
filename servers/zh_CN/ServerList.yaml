@@ -1233,3 +1233,23 @@
     - 模组服
     - 黄铜协奏曲
     - 工业
+
+- name: H2OMC水立方
+  type: Java
+  version: 1.8-1.21
+  desc: |
+    H2OMC水立方是一个支持Java/基岩/网页版三端互通的高性能服务器，前身为Pigcraft与Sheepixel。
+    - Pigcraft宣传视频：https://b23.tv/YK236iI
+    - Sheepixel宣传视频：https://b23.tv/CxWyMsk
+    - MC百科页面：https://play.mcmod.cn/sv20187755.html
+    - 官方网站：https://h2omc.cn/
+    服务器采用双英特尔6154 CPU与256GB内存，保证低延迟与流畅体验，假期高峰支持50人同时在线。
+  link: https://h2omc.cn/
+  ip: mc.h2omc.cn
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 三端互通
+    - 起床战争
+    - 小游戏
+    - 多元玩法
