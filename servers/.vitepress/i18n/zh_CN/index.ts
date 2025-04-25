@@ -7,7 +7,7 @@ import type { VuetomThemeConfig } from 'vitepress-theme-mscpo'
 export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
   title: '服务器集体宣传组织',
   lastUpdated: true,
-  description: 'Minecraft服务器集体宣传组织 (MSCPO)-一个致力于我的世界服务器宣传和技术交流的新兴组织',
+  description: 'Minecraft服务器集体宣传组织 (MSCPO)-汇聚优质服务器，为玩家和服主搭建桥梁',
   lang: 'zh-CN',
   themeConfig: {
     siteTitle: '服务器集体宣传组织',
@@ -78,7 +78,7 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
     ],
 
     footer: {
-      message: 'Minecraft Server Collective Promotion Organization | Minecraft集体宣传组织',
+      message: 'Minecraft Server Collective Promotion Organization | Minecraft服务器集体宣传组织',
       copyright: '- Copyright © 2024-present <a href="http://mscpo.top/">MSCPO</a> -<br><a href="https://mcicp.com/index.php?search=2025000002">MCICP备2025000002号</a><br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人次'
     },
     // DEV !!!
