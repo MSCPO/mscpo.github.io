@@ -1397,3 +1397,16 @@
   tags:
     - 模组服
     - 生存
+
+- name: ShellTurtle服务器
+  type: Java
+  version: 1.8.x-1.21.x
+  desc: |
+    欢迎来到 ShellTurtle服务器，一个专为追求轻松、闲适游戏体验的玩家打造的养老休闲 MC 服务器！
+  link: https://www.shellturtle.top
+  ip: mc.shellturtle.top
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 养老
+    - 生存
