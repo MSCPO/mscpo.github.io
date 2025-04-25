@@ -5,21 +5,18 @@
 ##    Language: zh_CN    ##
 ###########################
 
-# - name: (必选)示例服务器
-#   icon:
-#     src: 图像地址(如果有指定IP，优先使用服务器查询得到的服务器图标)
-#   type: Geyser # (必选)这是服务器的类型，可选Java（电脑），Geyser（互通服），Bedrock（基岩版）
-#   version: 1.20.1 # (必选)这是服务器的版本
-#   desc: |
-#         (必选)这是服务器的描述
-#   link: https://mc.mscaome.top/
-#   ip: aomemsc.giize.com # (可选)这是服务器的IP地址，添加后可以将服务器状态显示在服务器卡片上
-#   is_member: false # (可选)服务器是否加入了MSCPO组织
-#   auth_mode: offline # (可选)这是服务器的认证方式，可选offline(离线服务器)，yggdrasil(外置登录)，official(正版服务器)
+# - name: 小丘服务器
+#   icon：🤤
+#   type: Bedrock
+#   version: 1.21.2
+#   desc: 原版生存服，长期运行，致力于打造一个开放、休闲的原版生存服务器
+#   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=abV6SQqn74Ri88BwlDfs45DMr9IlX1QW&authKey=Dj8B2TYPTyah8m8xMEHVk6dHWL1x%2FdE%2FlkzIykTCv%2BdS2FYC4Xp3EaSk4z1og3%2BK&noverify=0&group_code=789047395
+#   is_member: true
+#   auth_mode: official
 #   tags:
-#     - 生电 # (可选)这是服务器的标签，按照 Yaml 数组语法填写
-#     - 创造
-#     - 猫娘 # ?!
+#     - 生存
+#     - 开放
+#     - 休闲
 
 - name: ZUYCraft服务器
   icon:
