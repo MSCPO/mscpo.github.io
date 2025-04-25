@@ -1349,3 +1349,19 @@
     - 建筑
     - 生电
     - 养老
+
+- name: 屯人服
+  type: Java
+  version: 1.21.X
+  desc: |
+    生存 + More，将想法变为可能！
+    10+人专业团队护航生存体验！
+    加入体验，即可开始！
+  link: https://qm.qq.com/q/w9gXicxpEQ
+  ip: trf.506521.xyz
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 生存
+    - 团队运营
+    - 创意玩法
