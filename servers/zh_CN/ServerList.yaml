@@ -1334,3 +1334,18 @@
     - 魔法
     - 复刻
     - 纯公益
+
+- name: 燎原火
+  type: Bedrock
+  version: 1.21.72
+  desc: |
+    燎原火—Minecraft基岩版养老服务器，拥有和谐的玩家生态。
+    在这里，无论是生电、建筑、探险，甚至是只会种田的小白，都能找到归属感。
+  link: https://liaoyuanhuo.mysxl.cn
+  ip: Play.simpfun.cn:23948
+  is_member: false
+  auth_mode: official
+  tags:
+    - 建筑
+    - 生电
+    - 养老
