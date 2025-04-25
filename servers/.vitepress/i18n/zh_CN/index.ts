@@ -46,6 +46,13 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
       { text: "找服玩", link: "/ServerClassification/" },
       { text: "添加服务器", link: "/AddServers/" },
       {
+        text: "合作伙伴",
+        items: [
+          { text: "维和服区", link: "https://qm.qq.com/q/ftRMUc1ztm" },
+          { text: "Cuberite Minecraft服务器联盟", link: "https://cmsa.flmp.uk/" }
+        ]
+      },
+      {
         text: "友情链接",
         items: [
           { text: "MCJPG", link: "https://mcjpg.org/" },
@@ -73,7 +80,7 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
 
     footer: {
       message: 'Minecraft Server Collective Promotion Organization | Minecraft集体宣传组织',
-      copyright: '- Copyright © 2024-present <a href="http://mscpo.netlify.app/">MSCPO</a> -<br><a href="https://mcicp.com/index.php?search=2025000002">MCICP备2025000002号</a><br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人次'
+      copyright: '- Copyright © 2024-present <a href="http://mscpo.top/">MSCPO</a> -<br><a href="https://mcicp.com/index.php?search=2025000002">MCICP备2025000002号</a><br>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人次'
     },
     // DEV !!!
     sidebar: {
