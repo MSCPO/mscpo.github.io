@@ -1303,3 +1303,17 @@
   tags:
     - 生电
     - 公益
+
+- name: FTX
+  type: Java
+  version: 1.8.2~1.21.4
+  desc: |
+    FTX生存服务器，支持多个版本，可建筑可生电，欢迎加入！
+  link: https://b23.tv/xF0ptza
+  ip: ftx.moliym.top
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 建筑
+    - 生电
+    - 多版本
