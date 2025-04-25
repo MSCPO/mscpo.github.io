@@ -1,5 +1,31 @@
-servers/.vitepress/cache/
-servers/.vitepress/dist/
-node_modules/
-package-lock.json
-packages/*/node_modules/
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.production
+!.env.development
+!.env.example
+
+.vercel
+
+.wrangler
