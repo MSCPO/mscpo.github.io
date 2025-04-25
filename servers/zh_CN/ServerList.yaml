@@ -1384,3 +1384,16 @@
     - 插件
     - 白名单
     - 互通
+
+- name: YouZiCraft
+  type: Java
+  version: 1.20.1
+  desc: |
+    YouZiCraft 于 2024 年 12 月开服，目前为 Java 模组服，已稳定运营 4 个月。
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=gSbisWjP47qQJjwoMJKHjj8ZuLozcf3E&authKey=Fy1JrB7R5mwwR65iyIelfD%2BCR2PtrtFMhptMWQCjOLhSocsAcKDx8WB2%2B6OT26KR&noverify=0&group_code=1020909749
+  ip: play.youzicraft.com
+  is_member: false
+  auth_mode: official
+  tags:
+    - 模组服
+    - 生存
