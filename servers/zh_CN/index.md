@@ -3,8 +3,8 @@ layout: home
 title: 服务器集体宣传组织|MC联机服务器列表
 hero:
   name: 服务器集体宣传组织
-  tagline: Minecraft服务器集体宣传组织(MSCPO)是一个致力于我的世界服务器宣传和技术交流的新兴组织
-  floattitle: MSCPO 中国
+  tagline: 汇聚优质服务器，为玩家和服主搭建桥梁
+  floattitle: MSCPO
   actions:
     - theme: alt
       text: 加入社区群组（QQ）
