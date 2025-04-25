@@ -1289,3 +1289,17 @@
     - 群服互通
     - 纯公益
     - 多功能插件
+
+- name: ZSI帧春依梦
+  type: Java
+  version: 1.21.1
+  desc: |
+    我们是一个基于 Folia 分支 Luminol 的免费生电服务器。
+    拥有自己的官方网站：www.tcping.fun
+  link: https://www.tcping.fun/home
+  ip: Love.tcping.fun
+  is_member: false
+  auth_mode: official
+  tags:
+    - 生电
+    - 公益
