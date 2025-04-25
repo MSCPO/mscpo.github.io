@@ -1317,3 +1317,20 @@
     - 建筑
     - 生电
     - 多版本
+
+- name: 工业奇缘
+  type: Java
+  version: 1.7.10
+  desc: |
+    经典的工业、RPG、神秘魔法等玩法服务器。
+    复刻7年前麦块火热时期的服务器，纯公益为爱发电！
+  link: http://ys.hu-tao.xyz/
+  ip: ys.mihyou.fun
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 工业
+    - RPG
+    - 魔法
+    - 复刻
+    - 纯公益
