@@ -1450,3 +1450,17 @@
     - 航海
     - 战争系统
     - 真实物理
+
+- name: 小丘服务器
+  type: Bedrock
+  version: 1.21.2
+  desc: 基岩原版生存服，长期运行，致力于打造一个开放、和谐的原版生存服务器
+  link:
+  ip: h1.getmc.cn:30000
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 原版生存
+    - 基岩版
+    - 长期运行
+    - 和谐社区
