@@ -43,7 +43,7 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
 
     nav: [
       { text: "首页", link: "/" },
-      { text: "找服玩", link: "https://mscpo.crashvibe.cn/" },
+      { text: "服务器列表", link: "https://mscpo.crashvibe.cn/" },
       { text: "添加服务器", link: "/AddServers/" },
       {
         text: "合作伙伴",
