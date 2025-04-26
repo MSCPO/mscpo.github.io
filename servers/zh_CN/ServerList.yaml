@@ -1432,3 +1432,21 @@
     - 互通
     - 公平
     - 高性能
+
+- name: 航纪元
+  type: Java
+  version: 1.18.2
+  desc: |
+    航纪元是一个以机械动力与瓦尔基里为核心的航海主题模组服务器。
+    - 玩法自由：支持正常生存与战争系统共存
+    - 模组丰富：包括真实物理等大量模组，增强游戏可玩性
+    - 面向热爱冒险与工业科技题材的玩家群体
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=m5emAoh9pymtEM7SU1aqwiO0snlB5bHi&authKey=mdggIRefjnZUjwbloRqbybl%2BkEydvdAcjbrs5VLgiA0AFoJ1yxQjBI%2BCPv9wiHTg&noverify=0&group_code=338783792
+  ip: cn-zj-nb-1.lcf.im:36231
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 模组生存
+    - 航海
+    - 战争系统
+    - 真实物理

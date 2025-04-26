@@ -1,5 +1,5 @@
 name: "添加服务器卡片到主页"
-description: "我们只需要服务器的一些必要信息，注意: 未正确根据提示发送申请可能会被忽略或关闭."
+description: "我们只需要服务器的一些必要信息，注意: 申请的前提是加入我们的交流群方便联系 225728079"
 title: "[添加服务器]: 此处填写服务器名称.."
 labels: ["提交"]
 body:
@@ -88,12 +88,3 @@ body:
       placeholder: "https://"
     validations:
       required: true
-
-  - type: textarea
-    id: server-icon
-    attributes:
-      label: "您的服务器图标链接"
-      description: "您的服务器图标链接（可选）"
-      placeholder: "https://"
-    validations:
-      required: false
