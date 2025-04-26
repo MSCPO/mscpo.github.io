@@ -1412,8 +1412,8 @@
     - 生存
 
 - name: 🌴像素绿洲 | PixelOasis
-  type: 互通
-  version: Java 1.8+ / 基岩 最新版
+  type: Java
+  version: 1.21.x
   desc: |
     像素绿洲是一个支持 Java 与基岩互通的原版生存服务器，倡导自由、公平与合作。
     - 玩法：原版生存，少量优化支持生电
