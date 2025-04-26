@@ -1410,3 +1410,25 @@
   tags:
     - 养老
     - 生存
+
+- name: 🌴像素绿洲 | PixelOasis
+  type: 互通
+  version: Java 1.8+ / 基岩 最新版
+  desc: |
+    像素绿洲是一个支持 Java 与基岩互通的原版生存服务器，倡导自由、公平与合作。
+    - 玩法：原版生存，少量优化支持生电
+    - 社区理念：鼓励分享与尊重劳动成果，严禁作弊
+    - 配置：Ryzen 9 9950X / 64G 内存，运行流畅
+    - Java 地址：mc.pixeloasis.cn
+    - 基岩地址：bedrock.pixeloasis.cn:19132
+    - QQ 审核群：489201668（必加）
+    - 正版登录服务器，支持 JAVA 1.8+ / 基岩最新版
+  link: https://www.bilibili.com/video/BV1ncZXYKEbT
+  ip: mc.pixeloasis.cn / bedrock.pixeloasis.cn:19132
+  is_member: false
+  auth_mode: official
+  tags:
+    - 原版生存
+    - 互通
+    - 公平
+    - 高性能
