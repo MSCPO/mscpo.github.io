@@ -12,9 +12,6 @@ hero:
     - theme: alt
       text: 加入社区群组（云湖）
       link: https://yhfx.jwznb.com/share?key=ZyP7jKb8Pxtq&ts=1745033291
-    - theme: alt
-      text: 加入服主群
-      link: https://qm.qq.com/q/QGwqtKSnIK
     - theme: brand
       text: 添加服务器
       link: /AddServers/
