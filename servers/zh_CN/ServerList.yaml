@@ -1446,3 +1446,26 @@
     - 基岩版
     - 长期运行
     - 和谐社区
+
+- name: XK生电
+  type: Java
+  version: 1.20.1
+  desc: |
+    Minecraft 星空服务器，支持1.20.1版本进入，需正版账号。
+    →→→→→【加入我们】←←←←←
+    QQ群：622952247，IP地址进群即可获取
+    →→→→→【服务器特色】←←←←←
+    - 基于1.20.1 Fabric，极致生电体验
+    - 添加carpet与bbor，无改动红石，不限生电
+    - 增加人性化合成表
+    - /player 1 tp 实现假人远程tp
+    - 共同发展，服主与玩家同乐
+    →→→→→【服务器进度】←←←←←
+    开荒中！
+  link: http://xingkongmc.fun
+  ip: server.xingkongmc.fun
+  is_member: false
+  auth_mode: official
+  tags:
+    - 生电
+    - 开荒
