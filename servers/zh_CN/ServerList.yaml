@@ -1488,3 +1488,18 @@
     - 懒狗服
     - 自由玩法
     - CCE
+
+- name: 往颜料灌纸
+  type: Java
+  version: 1.20.1
+  desc: |
+    养老、探索、冒险，需要正版账号。
+    企鹅群：881468671
+  link: https://qxlqxl.com
+  ip: mc14.rhymc.com:30047
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 养老
+    - 探索
+    - 冒险
