@@ -1503,3 +1503,25 @@
     - 养老
     - 探索
     - 冒险
+
+- name: ONE BLOCK
+  type: Java
+  version: 1.16.5
+  desc: |
+    社会模拟 - 海贼人生 - 抒写神话
+    ONE_BLOCK怒海航路是以海贼王为背景核心的多模组社会模拟服务器。
+    - 拥有大量原创玩法，并对模组进行了优化与联动。
+    - 可在超大地图上宣言领土，建立联邦，发动战争。
+    - 挑战原创BOSS，体验原创武器与装备锻造。
+    欢迎加入这个属于你的海贼世界！
+    QQ群：1042302515
+    KOOK频道：https://kook.vip/KCQRJn
+  link: https://kook.vip/KCQRJn
+  ip: 122.246.0.236:54888
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 社会模拟
+    - 海贼王
+    - 战争系统
+    - 原创玩法
