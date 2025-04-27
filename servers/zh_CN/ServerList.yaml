@@ -1543,3 +1543,17 @@
     - 瓦尔基里
     - 工业科技
     - 载具对战
+
+- name: 跑路服
+  type: Java
+  version: 1.13-1.21.4
+  desc: 以小游戏为主体的大型群组服务器，拥有非常多的趣味玩法
+  link: https://nav.pueh.cn
+  ip: mc.run:25565
+  is_member: false
+  auth_mode: yggdrasil
+  tags:
+    - 小游戏
+    - 群组服
+    - 趣味玩法
+    - 多端互通
