@@ -1469,3 +1469,22 @@
   tags:
     - 生电
     - 开荒
+
+- name: ABS
+  type: Java
+  version: 1.20.1
+  desc: |
+    1.20.1懒狗生电服，MCDR-fabric_carpet端。
+    - 可以飞，死亡不掉落
+    - 支持打印机、矿透、TP
+    - 有CCE更抑盒，强大附魔
+    - 合成器移植，快捷潜影盒等功能
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XvJOUGYudccRFl4Fj4FQ5Tpw0Ll4G0M7&authKey=SY9C0OcJ5gwqi8ZVDbHtxjMEHnJcop%2B5F7HX4V5km5Vehmz9tExjGU1y0HMcmht8&noverify=0&group_code=1030820019
+  ip: abs-mc.cn
+  is_member: false
+  auth_mode: official
+  tags:
+    - 生电
+    - 懒狗服
+    - 自由玩法
+    - CCE
