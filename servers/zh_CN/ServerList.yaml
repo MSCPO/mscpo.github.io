@@ -1525,3 +1525,21 @@
     - 海贼王
     - 战争系统
     - 原创玩法
+
+- name: 航纪元
+  type: Java
+  version: 1.18.2
+  desc: |
+    一个以机械动力和瓦尔基里为基础的服务器。
+    - 多种多样的玩法，体验机械动力工厂的乐趣。
+    - 使用瓦尔基里载具与他人切磋。
+    - 搭载上百个模组，丰富你的游戏体验。
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=m5emAoh9pymtEM7SU1aqwiO0snlB5bHi&authKey=mdggIRefjnZUjwbloRqbybl%2BkEydvdAcjbrs5VLgiA0AFoJ1yxQjBI%2BCPv9wiHTg&noverify=0&group_code=338783792
+  ip: cn-sh-2.lcf.im:56099
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 机械动力
+    - 瓦尔基里
+    - 工业科技
+    - 载具对战
