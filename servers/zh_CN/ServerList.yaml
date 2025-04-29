@@ -1311,7 +1311,7 @@
     FTX生存服务器，支持多个版本，可建筑可生电，欢迎加入！
   link: https://b23.tv/xF0ptza
   ip: ftx.moliym.top
-  is_member: false
+  is_member: true
   auth_mode: offline
   tags:
     - 建筑
