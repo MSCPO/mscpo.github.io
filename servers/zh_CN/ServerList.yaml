@@ -1188,7 +1188,7 @@
   desc: ia端1.21.4原版生存插件服务器，纯生存，养老，pvp，红石，宠物，时装，公益服，高版本
   link: https://www.bilibili.com/video/BV1PH5Wz4ETB
   ip: mc.mmjy1.top:54003
-  is_member: true
+  is_member: false
   auth_mode: offline
   tags:
     - 养老
