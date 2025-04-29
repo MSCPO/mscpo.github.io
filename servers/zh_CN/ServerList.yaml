@@ -1116,7 +1116,7 @@
     目前有生存区，地皮世界
     后续更多玩法将会在Beta1.1加回来(
   link: https://qxn.world
-  ip: nosrv.qxn.world:56000
+  ip: play.qxn.world
   is_member: true
   auth_mode: official
   tags:
@@ -1144,7 +1144,7 @@
   type: Geyser
   version: 1.16-.1.21.4
   desc: 服务器Q群438338988，服务器装有领地,商店,传送插件
-  link: https://ess.icu
+  link: https://eggmc.top/
   ip: mc.ess.icu
   is_member: true
   auth_mode: official
@@ -1162,7 +1162,7 @@
   desc: 水月生电服务器,支持刷线机刷沙机等生电机器，拥有良好的生态环境,欢迎你的到来！
   link: https://qm.qq.com/cgi-bin/qm/qr?k=NuQO7kLBsnk4jQnoQIQdje12KdvxT2tw&jump_from=webapi&authKey=0vM3Kcz17X3TI7xtsVb/69p1i/6tbp8SPSmi96w9eVH2cbffE/a49W05neqMFUp8
   ip: play.simpfun.cn:26762
-  is_member: true
+  is_member: false
   auth_mode: official
   tags:
     - 生存
@@ -1201,7 +1201,7 @@
   desc: PG与空岛生存相结合 致力于制作原创内容的充满想象力的世界。
   link: https://qm.qq.com/q/HX4dY2r52G
   ip: na.sunisland.top
-  is_member: false
+  is_member: true
   auth_mode: offline
   tags:
     - RPG
@@ -1298,7 +1298,7 @@
     拥有自己的官方网站：www.tcping.fun
   link: https://www.tcping.fun/home
   ip: Love.tcping.fun
-  is_member: false
+  is_member: true
   auth_mode: official
   tags:
     - 生电
@@ -1550,7 +1550,7 @@
   desc: 以小游戏为主体的大型群组服务器，拥有非常多的趣味玩法
   link: https://nav.pueh.cn
   ip: mc.run:25565
-  is_member: false
+  is_member: true
   auth_mode: yggdrasil
   tags:
     - 小游戏
