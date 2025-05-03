@@ -1608,3 +1608,21 @@
     - 生存插件
     - 高中生团队
     - 自由生存
+
+- name: FluxCraft
+  type: Java
+  version: 1.20.6
+  desc: |
+    互通服务器，离线、安全、稳定，一款史诗级别的服务器。
+    - 支持全新地形、古城、地狱、末地。
+    - 还原原版特性：高版本刷线机、0T催熟、共享村民折扣。
+    - 红石优化但不过度，不是“烂红石”。
+  link: https://www.bilibili.com/video/BV1VjFheYEha
+  ip: mcloud.xin
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 互通
+    - 原版优化
+    - 红石友好
+    - 生存
