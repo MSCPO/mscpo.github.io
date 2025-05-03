@@ -1640,3 +1640,14 @@
   auth_mode: official
   tags:
       - 动态剧情
+
+- name: 海之韵RPG生存互通服务器
+  type: Java
+  version: 1.18.2-1.20.4
+  desc: |
+    欢迎来到海之韵 RPG 原版生存 MC 服务器！这里还原纯粹生存乐趣，丰富资源、神秘探险，等你开启方块世界新旅程！
+  link: https://qm.qq.com/q/Hh4xrOkwYo
+  ip: sb.bccfdea.com:25565
+  is_member: false
+  auth_mode: offline
+  tags:
