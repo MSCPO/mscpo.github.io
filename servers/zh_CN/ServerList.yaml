@@ -1557,3 +1557,19 @@
     - 群组服
     - 趣味玩法
     - 多端互通
+
+- name: 云の梦
+  type: Java
+  version: 1.21.4
+  desc: |
+    云の梦是一个开放的养老公益服务器，紧跟版本步伐，目前已经四周目啦！
+    运营商不跑我不跑，快来和腐竹一起打造一个我们的世界吧
+  link: https://qm.qq.com/q/P235yMGtWi
+  ip: 103.116.247.44:65535
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 养老
+    - 公益
+    - 生存
+    - 四周目
