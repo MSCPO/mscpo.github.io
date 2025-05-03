@@ -1628,3 +1628,15 @@
   tags:
       - MOD
       - 伪装和欺诈
+      
+- name: Ink Snow 墨雪殿
+  type: Java
+  version: Forge 1.20.1
+  desc: |
+    墨雪殿是以多线叙事生存为核心的沉浸式Minecraft服务器，玩家将扮演角色，挑战动态剧情与硬核生存，通过生存发展、对抗环境异变、抉择阵营命运来发展服务器的命运。服务器支持玩家共创支线剧情，打造永不重复的史诗冒险。​​
+  link: https://qm.qq.com/q/FJiUUhOVaK
+  ip: game.spawnmc.xyz:3300
+  is_member: false
+  auth_mode: official
+  tags:
+      - 动态剧情
