@@ -1587,3 +1587,24 @@
   tags:
     - 公益服
     - 生存
+
+- name: 日暮里
+  type: Java
+  version: 1.21.X
+  desc: |
+    无政府服务器，整合了多种有助生存的插件：
+    - 墓碑
+    - 安全交易
+    - 坐
+    - TPA
+    - 高级登录
+    由一支高中生管理团队运营，致力于自由与可控并存的体验。
+  link: https://hgmenu.xyz
+  ip: rimuli.club
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 无政府
+    - 生存插件
+    - 高中生团队
+    - 自由生存
