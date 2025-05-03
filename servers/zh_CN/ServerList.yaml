@@ -1573,3 +1573,17 @@
     - 公益
     - 生存
     - 四周目
+
+- name: 天际服
+  type: Java
+  version: 1.21.4
+  desc: |
+    天际服是一个致力于打造温馨友善 Minecraft 公益生存服社区，采用正版验证 + 公益免费的模式，确保游戏环境公平和谐。
+    拥有大量黑名单样本和反作弊机制，能够从根源杜绝影响游戏体验的情况。
+  link: https://jq.qq.com/?_wv=1027&k=ZHIBqXTe
+  ip: 233.ci
+  is_member: false
+  auth_mode: official
+  tags:
+    - 公益服
+    - 生存
