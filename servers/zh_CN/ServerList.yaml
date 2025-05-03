@@ -1612,3 +1612,19 @@
     - 原版优化
     - 红石友好
     - 生存
+
+- name: The Fool From FW
+  type: Java
+  version: Forge 1.20.1
+  desc: |
+    The Fool From PFWs 是一个隶属于PFWs游戏服务器部的JAVA非原版服务器
+    - 服务器主题：伪装和欺诈。
+    - 核心玩法：变身、交易、遗物和愚者仪式。
+    - 最终目的：欺骗敌对势力，愚弄身边朋友，亦或者欺骗自己
+  link: https://qm.qq.com/q/cSNQuLjQaI
+  ip: mcs.pfws.work:60000
+  is_member: false
+  auth_mode: official
+  tags:
+      - MOD
+      - 伪装和欺诈
