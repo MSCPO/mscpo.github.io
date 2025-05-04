@@ -1667,3 +1667,19 @@
     - 快捷潜影箱
     - 死亡不掉落
     - 高性能
+
+- name: 春夏之梦-第七空间
+  type: Java
+  version: 1.7-1.21
+  desc: 春夏之梦-第七空间 是一款融合战斗、生存、副本、剧情与RPG要素的大型多玩法服务器，支持多端登录、自由发展、挑战副本、探索彩蛋，致力于打造一个长期稳定、充满乐趣与创意的和谐世界。
+  link: https://www.mcd7.cn
+  ip: mcd7.cn
+  is_member: false
+  auth_mode: offline
+  tags:
+    - RPG
+    - 多玩法
+    - 生存
+    - 副本
+    - 彩蛋探索
+    - 和谐社区
