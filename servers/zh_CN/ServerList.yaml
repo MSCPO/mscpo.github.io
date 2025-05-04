@@ -1760,3 +1760,17 @@
     - 生存
     - 生电
     - 养老
+
+- name: X_Star Network
+  type: Java
+  version: 1.8.2-1.21.5
+  desc: 粘液生存、小游戏、起床战争兼备的玩家交流社区
+  link: https://play.mcmod.cn/sv20188110.html
+  ip: mc.tbedu.top:25565
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 粘液生存
+    - 小游戏
+    - 起床战争
+    - 玩家社区
