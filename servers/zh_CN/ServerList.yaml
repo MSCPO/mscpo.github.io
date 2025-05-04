@@ -1741,3 +1741,22 @@
     - 公益服
     - 生存
     - 小世界
+
+- name: 风绘之境
+  type: Java
+  version: 1.21.4
+  desc: |
+    一个基于 Leaves 的离线互通生存服，拥有 gsit、tpa 等功能。
+    支持生存、生电、养老，致力于打造一个综合性、多元化的友好社区服务器。
+    - 官网：https://mikufun.top
+    - 文档：https://docs.mikufun.top
+    - 宣传视频：https://b23.tv/VyKbBh9
+  link: https://mikufun.top
+  ip: mcs.mikufun.top
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 互通
+    - 生存
+    - 生电
+    - 养老
