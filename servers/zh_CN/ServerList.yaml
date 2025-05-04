@@ -1829,3 +1829,19 @@
     - 生电
     - 无氪金
     - 休闲
+
+- name: ASITM光棱域
+  type: Bedrock
+  version: 1.21.6X（推荐1.21.61）
+  desc: 一个基岩版的多人生存服，可以交友、娱乐、生电、建筑、养老的服务器
+  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Hg3lLoGu3dlLJpx2zzA3ao3h-AtDt_uA&authKey=2y8HLYlznmmmN%2BiV3gt6PIVkhboZ11m20YTF07Z3xLf6SBnuk15bufujNfzI703Q&noverify=0&group_code=639984851
+  ip: frp-mom.com:37248
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 生存
+    - 娱乐
+    - 交友
+    - 生电
+    - 建筑
+    - 养老
