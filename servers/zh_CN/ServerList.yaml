@@ -1791,3 +1791,41 @@
     - 小游戏
     - 多端互通
     - 长期运营
+
+- name: CAL秋叶可乐二服
+  type: Java
+  version: 1.21.x
+  desc: |
+    CAL秋叶可乐·二服☀1.21.X原版休闲生存
+    群号：759293273（加群成为一般玩家♥）
+    leaves端♢带插件♡离线可进
+    民主集中制✿一般玩家有权参与管理
+
+    ★我们服没有服主！广大玩家就是服务器的主人！
+    宗旨：“包容·求同·快乐”✨
+    简介：“离线·休闲·民主”💫
+    原则：“为了玩家、适应发展”⚡️
+
+    ⭐️全中国最完善的管理组织体系！
+    最先锋的管理纲领🌙
+    最完善的规章条例☄
+    最详细的历史记载☁️
+
+    【可乐服简史】https://docs.qq.com/doc/DUFFHbmVOV3N2V1Rn
+    【规章总集】https://docs.qq.com/doc/DUFBxck9CSWVteVdU
+
+    支持生电、自带假人、民主管理、永不跑路
+    无正版验证、死亡不掉落、基础插件齐全
+    不用氪金也能肝到称号和飞行，服内还能点歌！
+
+  link: https://www.bilibili.com/video/BV1WwGdzkEBE
+  ip: play.simpfun.cn:18502
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 原版生存
+    - 民主管理
+    - 离线支持
+    - 生电
+    - 无氪金
+    - 休闲
