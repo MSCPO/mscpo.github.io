@@ -1683,3 +1683,21 @@
     - 副本
     - 彩蛋探索
     - 和谐社区
+
+- name: The New World
+  type: Bedrock
+  version: 1.21.51
+  desc: |
+    基岩版服务器（LL服务端），大杂烩玩法，既有RPG也有神话建筑、枪械等内容，并不定期添加新Addon。
+    玩法包含生存、探索、建筑、比赛、枪械等但不限于。服务器无白名单，欢迎加入。
+  link: https://www.mc.sccc.top/
+  ip: mc.pfws.work:19000
+  is_member: false
+  auth_mode: offline
+  tags:
+    - RPG
+    - 枪械
+    - 神话建筑
+    - 多样玩法
+    - 生存
+    - 探索
