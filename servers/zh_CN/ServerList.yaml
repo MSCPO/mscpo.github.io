@@ -1626,9 +1626,9 @@
   is_member: false
   auth_mode: official
   tags:
-      - MOD
-      - 伪装和欺诈
-      
+    - MOD
+    - 伪装和欺诈
+
 - name: Ink Snow 墨雪殿
   type: Java
   version: Forge 1.20.1
@@ -1639,7 +1639,7 @@
   is_member: false
   auth_mode: official
   tags:
-      - 动态剧情
+    - 动态剧情
 
 - name: 海之韵RPG生存互通服务器
   type: Java
@@ -1651,3 +1651,19 @@
   is_member: false
   auth_mode: offline
   tags:
+    - 生存
+
+- name: NexusNest
+  type: Java
+  version: 1.21/1.21.1 Fabric
+  desc: 纯净生电服，查熊、回档、地毯全家桶、快捷潜影箱等模组齐全，性能强悍，开启死亡不掉落，RTP，TPA
+  link: https://nexusnest.xn--7zrz5l98h2rnhw9b.top/
+  ip: frp-hen.com:46607
+  is_member: true
+  auth_mode: official
+  tags:
+    - 纯净生电
+    - 地毯模组
+    - 快捷潜影箱
+    - 死亡不掉落
+    - 高性能
