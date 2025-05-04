@@ -1727,3 +1727,17 @@
     - 模组
     - 互通
     - 安全防熊
+
+- name: StingCraft
+  type: Java
+  version: 1.20.4
+  desc: StingCraft：公益服务器，无需正版。主打粘液科技生存，还能创建自己的小世界。
+  link: https://www.bilibili.com/video/BV1AWVJz1EyH/
+  ip: mc.stingcraft.cn:25565
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 粘液科技
+    - 公益服
+    - 生存
+    - 小世界
