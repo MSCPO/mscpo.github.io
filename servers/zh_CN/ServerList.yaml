@@ -1879,3 +1879,17 @@
     - 建筑
     - 探索
     - 福瑞文化
+
+- name: 清玄服务器
+  type: Bedrock
+  version: 1.21.7
+  desc: 生存半公益服务器，现在刚开没多久，还没多少人，你的加入对我们非常重要！
+  link: https://b23.tv/nbnvlGv
+  ip: play.simpfun.cn:29525
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 生存
+    - 半公益
+    - 新服
+    - 基岩版
