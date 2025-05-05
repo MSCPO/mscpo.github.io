@@ -1907,3 +1907,20 @@
     - 生电
     - 红石科技
     - 自动化
+
+- name: 月星林
+  type: Java
+  version: 1.13-1.21.5
+  desc: |
+    欢迎来到月星林MC服务器！咱家机器杠杠的，卡顿？不存在的！
+    版本从1.13到最新1.21.5全支持，想怀旧就怀旧，想尝鲜就尝鲜。
+    游玩一分钱都不用充，但大家想赞助也欢迎，专属福利给你安排上，但绝对公平不破坏平衡！
+    腐竹在线陪玩，带你探索服务器的无限可能~
+  link: https://www.bilibili.com/video/BV1w6FYeREYE/
+  ip: mc.game.hixinghai.top
+  is_member: false
+  auth_mode: official
+  tags:
+    - 公平平衡
+    - 腐竹陪玩
+    - 高性能
