@@ -1893,3 +1893,17 @@
     - 半公益
     - 新服
     - 基岩版
+
+- name: Minema
+  type: Java
+  version: 1.7.8-1.21.4
+  desc: 纯净生存+红石科技，专注生电玩法！自由探索、自动化建造，活跃社区，24小时在线。加入我们，挑战极限，创造奇迹！
+  link: https://www.minema.top/index.php/2025/05/03/hello-world/
+  ip: 150.138.77.119:20148
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 纯净生存
+    - 生电
+    - 红石科技
+    - 自动化
