@@ -1845,3 +1845,16 @@
     - 生电
     - 建筑
     - 养老
+
+- name: PixelMine
+  type: Java
+  version: 1.20.1
+  desc: 我们使用Mohist混合端 插件齐全 mod持续更新
+  link: https://qm.qq.com/q/hEWo6DB9Kg
+  ip: 150.138.77.119:26552
+  is_member: true
+  auth_mode: offline
+  tags:
+    - 生存
+    - Mod
+    - 插件
