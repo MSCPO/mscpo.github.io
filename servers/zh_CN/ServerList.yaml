@@ -1633,7 +1633,7 @@
   type: Java
   version: Forge 1.20.1
   desc: |
-    墨雪殿是以多线叙事生存为核心的沉浸式Minecraft服务器，玩家将扮演角色，挑战动态剧情与硬核生存，通过生存发展、对抗环境异变、抉择阵营命运来发展服务器的命运。服务器支持玩家共创支线剧情，打造永不重复的史诗冒险。​​
+    墨雪殿是以多线叙事生存为核心的沉浸式Minecraft服务器，玩家将扮演角色，挑战动态剧情与硬核生存，通过生存发展、对抗环境异变、抉择阵营命运来发展服务器的命运。服务器支持玩家共创支线剧情，打造永不重复的史诗冒险。
   link: https://qm.qq.com/q/FJiUUhOVaK
   ip: game.spawnmc.xyz:3300
   is_member: false
@@ -1858,3 +1858,24 @@
     - 生存
     - Mod
     - 插件
+
+- name: Changed MC
+  type: Java
+  version: 1.18.2
+  desc: |
+    【福瑞生电之旅】Java版 | 2024年7月开服，融合Changed兽化模组×硬核红石科技！
+    9.1GB存档铭刻80+玩家足迹，这里有「LW_XB」建造的自动化奇迹，也有指令翻车却温情满满的成长故事。
+    轻量小服重启运营，生电/建筑/探索三线并行，毛茸茸奇幻世界等你重塑！低门槛零压力，主城钟声为新旧旅人长鸣。
+    - B站关注：@好好的时间2
+    - QQ交流群：1023145196
+  link: https://cn-fire.kesug.com/?i=1#services
+  ip: cn_fire.2m.pub
+  is_member: false
+  auth_mode: offline
+  tags:
+    - Changed
+    - 生电
+    - 红石科技
+    - 建筑
+    - 探索
+    - 福瑞文化
