@@ -1910,3 +1910,21 @@
     - 公平平衡
     - 腐竹陪玩
     - 高性能
+
+- name: FFS 永恒落英
+  type: Java
+  version: 1.20.1
+  desc: |
+    落英服（FFS，全称：永恒落英服务器）于2025年11月22日正式开设。
+    一服主要模组包含机械动力、瓦尔基里、乐事、tacz 以及多种遗迹与地形模组。
+    管理制度文档： https://docs.qq.com/doc/DQ0Zwd1V0YWhyT0Vt
+  link: https://qm.qq.com/cgi-bin/qm/qr?k=lEsZimmoQ668f1V8XNMoOFvrAM5J1OPC&jump_from=webapi&authKey=paayygIXqR4CPAyu2UPvBUsKrR5p9aDPglvyFNUu8dEmqAS01JVMmaqd4wvnfJUj
+  ip: play.simpfun.cn:11487
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 机械动力
+    - 瓦尔基里
+    - 遗迹模组
+    - 多模组
+    - 生存
