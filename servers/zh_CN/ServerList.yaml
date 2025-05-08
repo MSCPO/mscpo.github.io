@@ -1928,3 +1928,33 @@
     - 遗迹模组
     - 多模组
     - 生存
+
+- name: 神圣国度
+  type: Java
+  version: 1.20.1
+  desc: |
+    钓鱼/挖掘/伐木三大成长线，八大世界自由穿梭。
+    - 伐木暴击掉落珍稀木材，挖矿触发隐藏矿脉彩蛋，每项技能均有专属特效。
+    - 12+职业自由转职，四大商店主导经济体系。
+    - 独创物品认主系统，绑定物品不掉落。
+    - 公会科技树系统：支持群体传送、资源共享等扩展功能。
+    - 钓鱼竞赛全服排行，赢取限定渔夫帽🏆。
+    - 隐藏剧情：古老石碑触发秘境探险🗿。
+    - 会员特权系统（当前暂未开放）。
+    - 宣传链接：
+        - Minebbs: https://www.minebbs.com/threads/minecraft.36283/
+        - QQ群: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=EFzXhAyssNRKirBgnb3BPj-PqBw_w2hq&authKey=9jRdcQ8w9WA4gsz2WMbUZhF41HUm01COpLfY9w7LMIoafozI5nQUfq4njLAKRpoU&noverify=0&group_code=1045923011
+        - B站视频: https://www.bilibili.com/video/BV1JpVPzcEDz
+  link: https://www.minebbs.com/threads/minecraft.36283/
+  ip: fantasydream.club:11451
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 生存
+    - 技能系统
+    - 职业系统
+    - 公会科技
+    - 探险
+    - 钓鱼
+    - 经济
+    - 剧情服务器
