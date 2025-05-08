@@ -1932,11 +1932,14 @@
 - name: 2B2T.BEST
   type: Java
   version: 1.21.4
-  desc: 致力于打造最好的无规则服务器！无规则MC的终极答案，性能与混沌的完美平衡！
+  desc: |
+    致力于打造最好的无规则服务器！无规则MC的终极答案，性能与混沌的完美平衡！
+    无规则 轻反作弊 不禁飞行 真正的无规则！
+    正版玩家自动登录，离线玩家用户名需包含中文方可进入！
   link: https://qm.qq.com/q/qnCs3wThNQ
   ip: 2b2t.best
   is_member: false
-  auth_mode: official
+  auth_mode: offline
   tags:
     - 生存
     - PVP
