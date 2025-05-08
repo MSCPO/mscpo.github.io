@@ -1928,3 +1928,18 @@
     - 遗迹模组
     - 多模组
     - 生存
+
+- name: 2B2T.BEST
+  type: Java
+  version: 1.21.4
+  desc: 致力于打造最好的无规则服务器！无规则MC的终极答案，性能与混沌的完美平衡！
+  link: https://qm.qq.com/q/qnCs3wThNQ
+  ip: 2b2t.best
+  is_member: false
+  auth_mode: official
+  tags:
+    - 生存
+    - PVP
+    - 无规则
+    - 无政府
+    - 生电
