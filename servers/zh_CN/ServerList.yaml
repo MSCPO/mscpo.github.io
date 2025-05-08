@@ -1958,3 +1958,23 @@
     - 钓鱼
     - 经济
     - 剧情服务器
+
+- name: SScarft
+  type: Java
+  version: 1.8–1.21.x
+  desc: |
+    「SScarft」插件 | RPG | 生电 | 建筑 —— Java 基岩互通服务器。
+    在这里你能品味丰富的 RPG 内容，也能欣赏到他人的精美建筑，
+    更可以使用群友们设计的自动化机器，尽情发挥你的创造力，构建属于你的一方天地。
+    - RPG 插件：EliteMobs、MythicMobs
+  link: https://b23.tv/euFAlXH
+  ip: mc.zuaza.top
+  is_member: false
+  auth_mode: offline
+  tags:
+    - RPG
+    - 生电
+    - 建筑
+    - 插件服
+    - 互通
+    - 创造力
