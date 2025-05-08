@@ -1978,3 +1978,21 @@
     - 插件服
     - 互通
     - 创造力
+
+- name: XYYH（XYYhome）
+  type: Java
+  version: 1.21.1
+  desc: |
+    neoforge正版机械动力服务端。
+    可以慢慢学习如何玩机械动力，也可以花费精力去探索世界。
+    因为没有插件所以打开了正版进行约束。
+    平常服主自己会在B站直播，目前也在学习如何使用机械动力。
+    客户端整体为自行整合，目前算是XYYH的三周目包。
+    本服务器为☁️租服，7x24小时开放。
+  link: https://qm.qq.com/q/sD4qYpqj72
+  ip: i9-08.mcstory.cc:59984
+  is_member: false
+  auth_mode: official
+  tags:
+    - 机械动力
+    - 生存
