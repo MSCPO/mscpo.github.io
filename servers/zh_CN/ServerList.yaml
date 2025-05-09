@@ -2017,3 +2017,29 @@
     - 养老
     - 建筑
     - 永久周目
+
+- name: HTS
+  type: Bedrock
+  version: 1.21.50-1.21.71
+  desc: |
+    基岩版没有好生存服？HTS服务器欢迎你！
+    HTS 是一个基岩版生存社区，拥有丰富实用的功能：
+    - 领地保护
+    - 玩家传送
+    - 商店系统
+    - 网页地图 / 商店 / 日志
+    - 连锁采集
+    - 群服互通
+    - 工会系统
+    更多内容，等你探索！
+    QQ群：556227648
+  link: https://bbs.htsmc.top
+  ip: mc.htsmc.top:32065
+  is_member: false
+  auth_mode: official
+  tags:
+    - 生存
+    - 社区
+    - 功能丰富
+    - 网页地图
+    - 群服互通
