@@ -1996,3 +1996,24 @@
   tags:
     - 机械动力
     - 生存
+
+- name: 湖光计划_Luminake.cc
+  type: Java
+  version: 1.21.4
+  desc: |
+    1.21.4版本的leaves端原版生电服务器，欢迎生电、建筑、养老休闲玩家游玩。
+    三周目定为永久周目，已稳定运行一个月，十分重视存档备份！
+    我们尽最大努力为您在日新月异的互联网上保存一份回忆…
+    - 游玩地址：happy.awacode.top:35361
+    - 宣传页：https://afdian.com/a/torchlake?tab=home
+    - QQ群：742772392
+  link: https://afdian.com/a/torchlake?tab=home
+  ip: luck.awacode.top:8699
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 生电
+    - 原版
+    - 养老
+    - 建筑
+    - 永久周目
