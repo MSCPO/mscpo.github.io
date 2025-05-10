@@ -49,7 +49,9 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
         text: "合作伙伴",
         items: [
           { text: "维和服区", link: "https://qm.qq.com/q/ftRMUc1ztm" },
-          { text: "Cuberite Minecraft服务器联盟", link: "https://cmsa.flmp.uk/" }
+          { text: "Cuberite Minecraft服务器联盟", link: "https://cmsa.flmp.uk/" },
+          { text: "我的世界FOX服务器联盟", link: "https://www.mc.sccc.top/" },
+          { text: "沧澜联合公社", link: "https://qm.qq.com/q/oOu3jKU6Ws/" }
         ]
       },
       {
@@ -60,7 +62,6 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
           { text: "和谐论坛", link: "https://bbs.hxit.top/" },
           { text: "Cuberite Minecraft服务器联盟", link: "https://cmsa.flmp.uk/" },
           { text: "我的世界FOX服务器联盟", link: "https://www.mc.sccc.top/" },
-          { text: "沧澜联合公社", link: "https://qm.qq.com/q/oOu3jKU6Ws/" },
           {
             text: "开服文档",
             items: [
