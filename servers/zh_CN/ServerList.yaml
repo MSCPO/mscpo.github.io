@@ -2043,3 +2043,23 @@
     - 功能丰富
     - 网页地图
     - 群服互通
+
+- name: CHAOS SMP
+  type: Java
+  version: 1.20.4-1.21.4
+  desc: |
+    一个禁止作弊的公益无政府服务器。
+    - 支持 Java/基岩互通，版本范围 1.20.4-1.21.4。
+    - 无正版验证，有白名单机制（群号：624324072）。
+    - 公益运营，严格禁止作弊。
+    - 详情介绍：https://www.bilibili.com/read/cv12798731
+  link: https://www.bilibili.com/video/BV1nu411n7CB/
+  ip: chaos-smp.cn
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 无政府
+    - 公益
+    - 禁止作弊
+    - 白名单
+    - 互通服
