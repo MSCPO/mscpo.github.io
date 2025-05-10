@@ -59,6 +59,8 @@ export const zh_CN = defineConfigWithTheme<VuetomThemeConfig>({
           { text: "MC导航网", link: "https://www.mcicp.com/nav/" },
           { text: "和谐论坛", link: "https://bbs.hxit.top/" },
           { text: "Cuberite Minecraft服务器联盟", link: "https://cmsa.flmp.uk/" },
+          { text: "我的世界FOX服务器联盟", link: "https://www.mc.sccc.top/" },
+          { text: "沧澜联合公社", link: "https://qm.qq.com/q/oOu3jKU6Ws/" },
           {
             text: "开服文档",
             items: [
