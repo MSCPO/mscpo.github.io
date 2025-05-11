@@ -2063,3 +2063,25 @@
     - 禁止作弊
     - 白名单
     - 互通服
+
+- name: HMY
+  type: Java
+  version: 1.21
+  desc: |
+    🏡【HMY服务器】——温馨养老，建筑自由！
+    🌿 原版纯净环境，无强制肝，无花里胡哨
+    🧱 主打建筑、探索、慢节奏生活
+    🔥 长期在线，稳定运营，适合养老、慢慢建造的小伙伴！
+    📢 加入我们：QQ群 621349568
+    【玩法标签】原版纯净 / 生存养老 / 建筑创作 / 氛围社区
+    一起在方块的世界里慢慢生活吧！🎈
+  link: https://www.bilibili.com/video/BV12ALZzhE6f
+  ip: hmy2.cn:25565
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 原版纯净
+    - 生存养老
+    - 建筑创作
+    - 氛围社区
+    - 多端互通
