@@ -2085,3 +2085,25 @@
     - 建筑创作
     - 氛围社区
     - 多端互通
+
+- name: Ocean Network
+  icon:
+    src: http://oceanserver.top/static/image/icon.png
+  type: Geyser
+  version: 1.8.9-1.21.5
+  desc: |
+    这是一个长期开放的原版纯净高版本生存服务器 
+    保留了原汁原味的体验,仅有基础玩法经济等插件
+    我们保证不做影响平衡、破坏公平或偏袒其他玩家
+    无需担心服内出现OP滥用权限恶意破坏等恶劣行为
+    QQ群：1001915089
+  link: https://oceannetwork.top
+  ip: mc.oceannetwork.top
+  is_member: false
+  auth_mode: official
+  tags:
+    - 生存
+    - 社区
+    - 功能丰富
+    - 网页地图
+    - 群服互通
