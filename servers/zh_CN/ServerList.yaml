@@ -2085,3 +2085,15 @@
     - 建筑创作
     - 氛围社区
     - 多端互通
+
+ - name: FunTocraft
+   type: Bedrock
+   version: 1.21.5x-1.21.8x
+   desc: |
+         服务器有完善的插件，还有各种模组等待您来游玩！
+   link: https://www.tobecraft.xyz/
+   ip: mc.tobecraft.xyz:25766
+   is_member: true 
+   auth_mode: offline
+   tags:
+     - 生存
