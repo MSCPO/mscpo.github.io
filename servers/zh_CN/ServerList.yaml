@@ -2093,7 +2093,7 @@
     服务器有完善的插件，还有各种模组等待您来游玩！
    link: https://www.tobecraft.xyz/
    ip: mc.tobecraft.xyz:25766
-   is_member: true 
+   is_member: false 
    auth_mode: offline
    tags:
     - 生存
