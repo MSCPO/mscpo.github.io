@@ -2086,31 +2086,31 @@
     - 氛围社区
     - 多端互通
 
- - name: FunTocraft
+- name: FunTocraft
    type: Bedrock
    version: 1.21.5x-1.21.8x
    desc: |
-         服务器有完善的插件，还有各种模组等待您来游玩！
+    服务器有完善的插件，还有各种模组等待您来游玩！
    link: https://www.tobecraft.xyz/
    ip: mc.tobecraft.xyz:25766
    is_member: true 
    auth_mode: offline
    tags:
-     - 生存
+    - 生存
      
- - name: 效率25
-   type: Java
-   version: 1.20.1
-   desc: |
-     这是一个生存服务器，服务器内加入了多种拟真枪械。
-     真实的换弹动作加上真实后坐力还原，给您带来较为的体验。
-     高级的主城、优秀的地图，给您带来一场真实的战斗体验。
-     无限弹药，让您打到爽。
-     0氪金0充值，人人平等，好体验。
-   link: xiaolv25.ainiya.xyz
-   ip: k1.ungc.com.cn:22792
-   is_member: false
-   auth_mode: offline
-   tags:
-     - 枪战
-     - 生存
+- name: 效率25
+  type: Java
+  version: 1.20.1
+  desc: |
+    这是一个生存服务器，服务器内加入了多种拟真枪械。
+    真实的换弹动作加上真实后坐力还原，给您带来较为的体验。
+    高级的主城、优秀的地图，给您带来一场真实的战斗体验。
+    无限弹药，让您打到爽。
+    0氪金0充值，人人平等，好体验。
+  link: xiaolv25.ainiya.xyz
+  ip: k1.ungc.com.cn:22792
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 枪战
+    - 生存
