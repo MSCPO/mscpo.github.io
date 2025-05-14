@@ -2114,3 +2114,17 @@
   tags:
     - 枪战
     - 生存
+
+- name: 星光轨交创造服
+  type: Java
+  version: 1.20.1
+  desc: |
+    以地铁建造和城市建筑为核心的创造服务器，主打低限制、城建的创造玩法，装有MTR模组，worldedit，一些mtr衍生模组等，您的建筑了署名创作，突出您的贡献。纯公益，本地服务器，数据安全保障，新人凭个人历史建筑图即可加入共创，较低门槛，欢迎加入。
+  link: https://www.bilibili.com/video/BV1zZV3zJEnH
+  ip: mtr.8bc.top
+  is_member: true
+  auth_mode: offline
+  tags:
+    - 轨道交通
+    - 城建
+    - 创造
