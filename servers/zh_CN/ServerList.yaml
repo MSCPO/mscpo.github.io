@@ -2087,15 +2087,15 @@
     - 多端互通
 
 - name: FunTocraft
-   type: Bedrock
-   version: 1.21.5x-1.21.8x
-   desc: |
+  type: Bedrock
+  version: 1.21.5x-1.21.8x
+  desc: |
     服务器有完善的插件，还有各种模组等待您来游玩！
-   link: https://www.tobecraft.xyz/
-   ip: mc.tobecraft.xyz:25766
-   is_member: false 
-   auth_mode: offline
-   tags:
+  link: https://www.tobecraft.xyz/
+  ip: mc.tobecraft.xyz:25766
+  is_member: false 
+  auth_mode: offline
+  tags:
     - 生存
      
 - name: 效率25
