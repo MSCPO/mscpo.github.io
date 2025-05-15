@@ -2128,3 +2128,22 @@
     - 轨道交通
     - 城建
     - 创造
+
+- name: 依易云
+  type: Java
+  version: 1.21.4
+  desc: |
+    我们的服务器是围绕着粘液科技走的
+    有着丰富的扩展
+    纯公益服务器（不收捐助，游戏内外进群均不收费）
+    服务器高配16h64g内存 久玩不卡
+    享受真正的快乐 纯正插件生存服务器 加有反作弊 防止破坏服务器内游戏平衡
+    保证积极更新服务器 服务器有任何bug和问题会立即修复
+  link: https://qun.qq.com/universal-share/share?ac=1&authKey=zCScGdfvQELhhzA1dp1rOndCeGeg1o%2Bfa1LkREKnNTUNig%2FSguaF05SiP2Qcy4QZ&busi_data=eyJncm91cENvZGUiOiI2NDY4ODIzOTIiLCJ0b2tlbiI6InhvOVpQYnh5T0ZhS0RjQUZuSzRtZlBwKzNvSFVpSkJRdzFhYk9lUWVpOTZxRHdwL25ibjl5ZjdLbnNwOGJhbTUiLCJ1aW4iOiIxNDg1MDQzNjUxIn0%3D&data=bMAbbx5wCLltAgIG8Lfi5_BT80wNwISTejL7i4CbZQkrhJsBfaa1iXCRoSMX5yuVmQVAMQpaO7BiDAOhWZFmcQ&svctype=4&tempid=h5_group_info
+  ip: 192.140.173.221:25565
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 粘液科技
+    - 生存
+    - 公益
