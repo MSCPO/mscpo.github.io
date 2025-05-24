@@ -21,6 +21,24 @@
 #     - 创造
 #     - 猫娘 # ?!
 
+- name: 方块无界 Limitless Blocks
+  icon:
+    src: none
+  type: Geyser
+  version: 1.21.4
+  desc: |
+    方块无界(Limitless Blocks)是一个主打无限创造及自由建造和合作探索的我的世界服务器，适合喜欢发挥想象力的玩家。我们珍视玩家的劳动成果，我们承诺长期运营，并有备份机制保障玩家建筑成果安全。服务器官网：https://lb.jscity.top（请加入QQ群以获取服务器IP地址）
+  link: https://qun.qq.com/universal-share/share?ac=1&authKey=T29%2FYp3cml1FkOsnehWRHpqIvQi8GTgisca%2BjRXSQbtyl6mko7qAXVva8HiUzsqH&busi_data=eyJncm91cENvZGUiOiIxMDI3OTYxOTQ3IiwidG9rZW4iOiJWVGxzVktCU3Ria1R1QTBCbXhiN3BPR1h4UU1YT3dFRGdORGxTRjhaYkdqRDNQNWUvenJnbWRWUnVBSTFyQXRGIiwidWluIjoiMzIwNTAxNDA5OSJ9&data=48h-xE5Niz1ZGF48LEfq_la_unV4XxylvukGG0ZHfnRZmn9xwQfN23hk01T4apt7q81kYYwTy4FNfQhAAlhnFQ&svctype=4&tempid=h5_group_info
+  ip: ""
+  is_member: true
+  auth_mode: official
+  tags:
+    - 生存
+    - 创造
+    - 自由切换
+    - 纯净
+
+
 - name: ZUYCraft服务器
   icon:
     src: /server_icons/zuymc_black.png
