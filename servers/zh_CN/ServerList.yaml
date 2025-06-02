@@ -2149,7 +2149,7 @@
     - 领地系统
     - 公测开启
 
-- name: (必选)示例服务器
+- name: StarCity Ink 服务器
   icon:
     src: https://sc.minecraft.website/logo/open.png
   type: Bedrock 
