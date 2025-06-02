@@ -2148,3 +2148,22 @@
     - 经济系统
     - 领地系统
     - 公测开启
+
+- name: (必选)示例服务器
+  icon:
+    src: https://sc.minecraft.website/logo/open.png
+  type: Bedrock 
+  version: 1.21.60-最新正式版 
+  desc: |
+        我们的第一款发行版服务器在 2022 年 7 月 23 日开放。
+        这是一个插件生存服务器，欢迎您来体验。
+  link: https://sc.minecraft.website/
+  ip: starcity.ink 
+  is_member: false 
+  auth_mode: offline 
+  tags:
+      - 原版生存
+      - 生存养老
+      - 经济系统
+      - 领地系统
+      - 网页地图
