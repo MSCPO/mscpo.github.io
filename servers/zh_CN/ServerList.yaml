@@ -745,28 +745,28 @@
   ip: play.yangixel.cn
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 生存
     - PVP
 
 - name: "红溪花"
   icon:
     src: /logo.webp
-  type: Java
+  输入: Java
   version: 1.20.1
   desc: |
     这是一个温馨和谐的服务器，提供了稳定流畅的体验，自从2024开服以来我们努力创建一个环境良好更公平公正的游戏氛围，希望与更多的玩家们一起度过了愉快的时光,在这里的日子将会是你值得回忆的美好。我们保证不做影响平衡、破坏公平的行为。服务器暂时处于一周目开荒阶段，欢迎玩家提出意见或者举报违规行为，请大家自觉遵守游戏规则。
   link: https://www.redbf.top/
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 生存
     - 摸鱼养老
 
 - name: "Starry Isles空岛生存"
   icon:
     src: /logo.webp
-  type: Bedrock
+  输入: Bedrock
   version: 1.21.50
   desc: |
     Minecraft基岩版1.21.5x服务器
@@ -776,14 +776,14 @@
   link: http://www.starry-isles.run.place/
   is_member: false
   auth_mode: official
-  tags:
+  标签:
     - 空岛
     - 生存
 
 - name: "PepperCraft"
   icon:
     src: /logo.webp
-  type: Java
+  输入: Java
   version: 1.19-1.21.4
   desc: |
     一个“基于原版，忠于原版”，尝试将PVP、生存、生电等玩家融合的原版生存服务器。
@@ -791,7 +791,7 @@
   ip: pepper.ltd
   is_member: false
   auth_mode: official
-  tags:
+  标签:
     - 纯净
     - 生存
     - 生电
@@ -807,13 +807,13 @@
   ip: mc.sccc.top
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 群组
 
 - name: "Mondra"
   icon:
     src: /logo.webp
-  type: Java
+  输入: Java
   version: 1.21
   desc: |
     这是一个无规则服务器，且你拥有op权限。因此你可以在服务器中干任何你想干的事。
@@ -822,14 +822,14 @@
   link: https://qm.qq.com/q/XJDFzvJEMm
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 无规则
     - 全员OP
 
 - name: SyServer
   icon:
     src: /server_icons/sy.png
-  type: Java
+  输入: Java
   version: 1.20.1
   desc: |
     服务器官方QQ群群号：250904271
@@ -847,13 +847,13 @@
   ip: syserver.asia
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 生存
 
 - name: 天幻岛
   icon:
     src: /server_icons/tianhuandao.jpg
-  type: Java
+  输入: Java
   version: 1.12.2
   desc: |
     ——————————————————
@@ -878,7 +878,7 @@
   ip: mc.tntmc.cc
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 纯净
     - 生存
     - PVP
@@ -889,7 +889,7 @@
 - name: "PotatoZoo"
   icon:
     src: /server_icons/potatozoo.png
-  type: Java
+  输入: Java
   version: 1.16.5
   desc: |
     PotatoZoo是一个开放的Minecraft服务器
@@ -1291,7 +1291,7 @@
     - 多功能插件
 
 - name: ZSI帧春依梦
-  type: Java
+  输入: Java
   version: 1.21.1
   desc: |
     我们是一个基于 Folia 分支 Luminol 的免费生电服务器。
@@ -1300,12 +1300,12 @@
   ip: Love.tcping.fun
   is_member: true
   auth_mode: official
-  tags:
+  标签:
     - 生电
     - 公益
 
 - name: FTX
-  type: Java
+  输入: Java
   version: 1.8.2~1.21.4
   desc: |
     FTX生存服务器，支持多个版本，可建筑可生电，欢迎加入！
@@ -1313,13 +1313,13 @@
   ip: ftx.moliym.top
   is_member: true
   auth_mode: offline
-  tags:
+  标签:
     - 建筑
     - 生电
     - 多版本
 
 - name: 工业奇缘
-  type: Java
+  输入: Java
   version: 1.7.10
   desc: |
     经典的工业、RPG、神秘魔法等玩法服务器。
@@ -1328,7 +1328,7 @@
   ip: ys.mihyou.fun
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 工业
     - RPG
     - 魔法
@@ -1336,7 +1336,7 @@
     - 纯公益
 
 - name: 燎原火
-  type: Bedrock
+  输入: Bedrock
   version: 1.21.72
   desc: |
     燎原火—Minecraft基岩版养老服务器，拥有和谐的玩家生态。
@@ -1345,13 +1345,13 @@
   ip: play.simpfun.cn:23948
   is_member: true
   auth_mode: official
-  tags:
+  标签:
     - 建筑
     - 生电
     - 养老
 
 - name: 喜欢喝果汁の公上一璇
-  type: Java
+  输入: Java
   version: 1.9-1.21.5（Java）/ 1.21.60+（基岩）
   desc: |
     [喜欢喝果汁の公上一璇服] 是一款刺激的生存冒险服务器，融合原版玩法与丰富插件内容。
@@ -1361,7 +1361,7 @@
   ip: aft521.top
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 生存
     - 冒险
     - 原版增强
@@ -1370,7 +1370,7 @@
     - 互通
 
 - name: YouZiCraft
-  type: Java
+  输入: Java
   version: 1.20.1
   desc: |
     YouZiCraft 于 2024 年 12 月开服，目前为 Java 模组服，已稳定运营 4 个月。
@@ -1378,7 +1378,7 @@
   ip: play.youzicraft.com
   is_member: false
   auth_mode: official
-  tags:
+  标签:
     - 模组服
     - 生存
 
@@ -1575,7 +1575,7 @@
 - name: 日暮里
   icon:
     src: /server_icons/hgmenu.png
-  type: Java
+  输入: Java
   version: 1.21.X
   desc: |
     无政府服务器，整合了多种有助生存的插件：
@@ -1589,7 +1589,7 @@
   ip: rimuli.club
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 无政府
     - 生存插件
     - 高中生团队
@@ -1607,14 +1607,14 @@
   ip: mcloud.xin
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 互通
     - 原版优化
     - 红石友好
     - 生存
 
 - name: The Fool From FW
-  type: Java
+  输入: Java
   version: Forge 1.20.1
   desc: |
     The Fool From PFWs 是一个隶属于PFWs游戏服务器部的JAVA非原版服务器
@@ -1625,12 +1625,12 @@
   ip: mcs.pfws.work:60000
   is_member: false
   auth_mode: official
-  tags:
+  标签:
     - MOD
     - 伪装和欺诈
 
 - name: Ink Snow 墨雪殿
-  type: Java
+  输入: Java
   version: Forge 1.20.1
   desc: |
     墨雪殿是以多线叙事生存为核心的沉浸式Minecraft服务器，玩家将扮演角色，挑战动态剧情与硬核生存，通过生存发展、对抗环境异变、抉择阵营命运来发展服务器的命运。服务器支持玩家共创支线剧情，打造永不重复的史诗冒险。
@@ -1638,11 +1638,11 @@
   ip: game.spawnmc.xyz:3300
   is_member: false
   auth_mode: official
-  tags:
+  标签:
     - 动态剧情
 
 - name: 海之韵RPG生存互通服务器
-  type: Java
+  输入: Java
   version: 1.18.2-1.20.4
   desc: |
     欢迎来到海之韵 RPG 原版生存 MC 服务器！这里还原纯粹生存乐趣，丰富资源、神秘探险，等你开启方块世界新旅程！
@@ -1650,11 +1650,11 @@
   ip: sb.bccfdea.com:25565
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 生存
 
 - name: NexusNest
-  type: Java
+  输入: Java
   version: 1.21/1.21.1 Fabric
   desc: 纯净生电服，查熊、回档、地毯全家桶、快捷潜影箱等模组齐全，性能强悍，开启死亡不掉落，RTP，TPA
   link: https://nexusnest.xn--7zrz5l98h2rnhw9b.top/
@@ -1743,7 +1743,7 @@
     - 小世界
 
 - name: 风绘之境
-  type: Java
+  输入: Java
   version: 1.21.4
   desc: |
     一个基于 Leaves 的离线互通生存服，拥有 gsit、tpa 等功能。
@@ -1755,28 +1755,28 @@
   ip: mcs.mikufun.top
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 互通
     - 生存
     - 生电
     - 养老
 
 - name: X_Star Network
-  type: Java
+  输入: Java
   version: 1.8.2-1.21.5
   desc: 粘液生存、小游戏、起床战争兼备的玩家交流社区
   link: https://play.mcmod.cn/sv20188110.html
   ip: mc.tbedu.top:25565
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 粘液生存
     - 小游戏
     - 起床战争
     - 玩家社区
 
 - name: 晨羽服务器
-  type: Java
+  输入: Java
   version: 1.8-1.21.x
   desc: |
     晨羽服务器是一个以生存为主、兼具小游戏的服务器，拥有2年历史，提供丰富玩法和便捷功能。
@@ -1786,14 +1786,14 @@
   ip: mc.chenyumcs.cn
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 生存
     - 小游戏
     - 多端互通
     - 长期运营
 
 - name: CAL秋叶可乐二服
-  type: Java
+  输入: Java
   version: 1.21.x
   desc: |
     CAL秋叶可乐·二服☀1.21.X原版休闲生存
@@ -1822,7 +1822,7 @@
   ip: play.simpfun.cn:18502
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 原版生存
     - 民主管理
     - 离线支持
@@ -2045,7 +2045,7 @@
     - 群服互通
 
 - name: CHAOS SMP
-  type: Java
+  输入: Java
   version: 1.20.4-1.21.4
   desc: |
     一个禁止作弊的公益无政府服务器。
@@ -2057,7 +2057,7 @@
   ip: chaos-smp.cn
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 无政府
     - 公益
     - 禁止作弊
@@ -2065,7 +2065,7 @@
     - 互通服
 
 - name: HMY
-  type: Java
+  输入: Java
   version: 1.21
   desc: |
     🏡【HMY服务器】——温馨养老，建筑自由！
@@ -2087,7 +2087,7 @@
     - 多端互通
 
 - name: FunTocraft
-  type: Bedrock
+  输入: Bedrock
   version: 1.21.5x-1.21.8x
   desc: |
     服务器有完善的插件，还有各种模组等待您来游玩！
@@ -2095,11 +2095,11 @@
   ip: mc.tobecraft.xyz:25766
   is_member: false
   auth_mode: offline
-  tags:
+  标签:
     - 生存
 
 - name: 星光轨交创造服
-  type: Java
+  输入: Java
   version: 1.20.1
   desc: |
     以地铁建造和城市建筑为核心的创造服务器，主打低限制、城建的创造玩法，装有MTR模组，worldedit，一些mtr衍生模组等，您的建筑了署名创作，突出您的贡献。纯公益，本地服务器，数据安全保障，新人凭个人历史建筑图即可加入共创，较低门槛，欢迎加入。
@@ -2107,13 +2107,13 @@
   ip: mtr.8bc.top
   is_member: true
   auth_mode: offline
-  tags:
+  标签:
     - 轨道交通
     - 城建
     - 创造
 
 - name: 依易云
-  type: Java
+  输入: Java
   version: 1.21.4
   desc: |
     我们的服务器是围绕着粘液科技走的
@@ -2132,7 +2132,7 @@
     - 公益
 
 - name: 紫萱
-  type: Java
+  输入: Java
   version: 1.16.5-1.20.1
   desc: |
     Minecraft 紫萱是一个公开测试于2024/02/24，05/25正式公开的生存服务器。
@@ -2148,3 +2148,21 @@
     - 经济系统
     - 领地系统
     - 公测开启
+
+- name: 方块落日酒馆
+  type: Java
+  version: 1.8.X-1.21.X
+  desc: 
+    我们承诺玩家是要放置在服务器发展首位的。
+    纯公益，家里云。
+    虽然不跑路，但是没办法第一时间解释服务器关闭的原因。
+    当然我们没有那么高难度的审核
+    希望能友好对待每一位玩家
+  link: https://qm.qq.com/q/tLPL3sqHCg
+  ip: https://play.gowinblog.dpdns.org/
+  is_member: false
+  auth_mode: offline
+  标签:
+    - 生存
+    - 公益
+    - 管理友好
