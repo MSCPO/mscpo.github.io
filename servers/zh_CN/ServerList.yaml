@@ -2151,7 +2151,7 @@
 
 - name: 悠哉世界（Youzai World）
   icon:
-    src: /server_icons/icon_fill.jpg
+    src: /server_icons/YouzaiWorldBG.webp
   type: Bedrock
   version: 1.21.114
   desc: 欢迎来到悠哉世界，一个充满创意与冒险的 Minecraft 基岩版服务器。从2025年6月开服至今，为各位基岩版玩家提供良好的生存体验！
