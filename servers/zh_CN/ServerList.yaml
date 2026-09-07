@@ -2148,3 +2148,19 @@
     - 经济系统
     - 领地系统
     - 公测开启
+
+- name: 咖啡物语
+  type: Java
+  version: 26.2
+  desc: |
+   简简单单生存，简简单单生活，一切从简，微氪金（但未完成）公测中。。欢迎光临
+  link: https://rpo-nb.cn
+  ip: play.rpo-nb.cn
+  is_member: false
+  auth_mode: official
+  tags:
+    - 原版生存
+    - 公测中
+    - 正版服务器
+    - 一切从简
+  
